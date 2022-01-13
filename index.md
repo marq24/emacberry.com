@@ -3,21 +3,21 @@ layout: default
 ---
 
 Welcome to the year 2022 - Blackberry&copy; legacy apps are finally history - so all the emacberry apps you might know (FileScout, LittleBrother, Iconify or TOMPlayer) are history as well... really all apps? No of course **not** all! - There is one that have survived... 
-# [![GPSLogger II Icon](/img/gpsl/app-icon.png) GPSLogger II - your AIO solution](/gpslogger)
+# [![GPSLogger II Icon](/assets/img/gpsl/app-icon.png) GPSLogger II - your AIO solution](/gpslogger)
 > 100% free - **no** in app advertisements, **no** pro version, **no server side tracking** of any data
 
 GPSLogger II is a pretty straightforward app that can record your GPS based location over the time... but there is plenty more that the app can do for you get all details at the [GPSLogger II](/gpslogger) app page - including the docs and a FAQ.
 ## Download via Google Play
-[![GooglePlay](/img/google-play-badge_en.png)](https://play.google.com/store/apps/details?id=com.emacberry.gpslogger)
+[![GooglePlay](/assets/img/google-play-badge_en.png)](https://play.google.com/store/apps/details?id=com.emacberry.gpslogger)
 
 [https://play.google.com/store/apps/details?id=com.emacberry.gpslogger](https://play.google.com/store/apps/details?id=com.emacberry.gpslogger)
 ## Download via amazon appstore
-[![amazon appstore](/img/amazon-appstore-badge-en-black.png)](https://www.amazon.com/gp/product/B00L9GLGGQ)
+[![amazon appstore](/assets/img/amazon-appstore-badge-en-black.png)](https://www.amazon.com/gp/product/B00L9GLGGQ)
 
 [https://www.amazon.com/gp/product/B00L9GLGGQ](https://www.amazon.com/gp/product/B00L9GLGGQ)
 
 ---
-# [![UUID0xFD6FTracerIcon](/img/uuid/app-icon.png) UUID0xFD6FTracer](https://github.com/marq24/UUID0xFD6FTracer)
+# [![UUID0xFD6FTracerIcon](/assets/img/uuid/app-icon.png) UUID0xFD6FTracer](https://github.com/marq24/UUID0xFD6FTracer)
 
 > My personal little humble contribution to contain the COVID 19 pandemic
 
@@ -25,11 +25,11 @@ The main purpose of the app is to scan your current environment for active devic
 
 [UUID0xFD6FTracer is OpenSource and you find it at GitHub](https://github.com/marq24/UUID0xFD6FTracer) - feel free to contribute!
 ## Download via F-Droid
-[![F-Droid appstore](/img/get_it_on_f-droid.png)](https://f-droid.org/app/com.emacberry.uuid0xfd6fscan)
+[![F-Droid appstore](/assets/img/get_it_on_f-droid.png)](https://f-droid.org/app/com.emacberry.uuid0xfd6fscan)
 
 [https://f-droid.org/app/com.emacberry.uuid0xfd6fscan](https://f-droid.org/app/com.emacberry.uuid0xfd6fscan)
 
 ## Download via  amazon appstore
-[![amazon appstore](/img/amazon-appstore-badge-en-black.png)](https://www.amazon.com/gp/product/B08CY7JY1P)
+[![amazon appstore](/assets/img/amazon-appstore-badge-en-black.png)](https://www.amazon.com/gp/product/B08CY7JY1P)
 
 [https://www.amazon.com/gp/product/B08CY7JY1P](https://www.amazon.com/gp/product/B08CY7JY1P)
