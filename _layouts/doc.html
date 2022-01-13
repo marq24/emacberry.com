@@ -1,0 +1,21 @@
+---
+layout: wide
+---
+<!--section class="docs"-->
+  <div class="grid">
+    {% include docs_contents_mobile.html -%}
+    <div class="unit four-fifths">
+      <!--article-->
+        <div class="improve right hide-on-mobiles">
+          <a data-proofer-ignore href="https://github.com/jekyll/jekyll/edit/master/docs/{{ page.path }}"><i class="fa fa-pencil"></i> &nbsp;Improve this page</a>
+        </div>
+        {%- if page.title -%}
+        <h1 class="post-title"><a href="{{ page.url }}">{{ page.title }}</a></h1>
+        {%- endif -%}
+        {{ content | markdownify }}</p>
+      <!--/article-->
+    </div>
+    {% include docs_contents.html -%}
+    <div class="clear"></div>
+  </div>
+<!--/section-->

@@ -1,0 +1,10 @@
+- title: Getting Started
+  docs:
+    - link: /gpsl/docs/01intro/
+    - link: /gpsl/docs/02overview/
+- title: Build
+  docs:
+    - link: /gpsl/docs/03navigation/
+- title: TESTING
+  docs:
+    - link: /gpsl/docs/04dummy/

@@ -1,0 +1,115 @@
+title: emacberrry.com
+author:
+  name: Matthias Marquardt
+  email: support@emacberry.com
+
+description: > # this means to ignore newlines until "show_excerpts:"
+  Providing alternative android applications and services (maps & routing) for free.
+  My little humble contribution to the world - after the world has been very generous to me.
+
+show_excerpts: true # set to true to show excerpts on the homepage
+
+# Minima date format
+# refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
+minima:
+  skin: classic # solarized-dark | solarized | dark | classic
+
+  date_format: "%b %-d, %Y"
+
+  # generate social links in footer
+  social_links:
+    twitter: marquardt24
+    github: marq24
+    facebook: marquardt24
+    # devto: jekyll
+    # dribbble: jekyll
+    # flickr:   jekyll
+    # instagram: jekyll
+    # linkedin: jekyll
+    # pinterest: jekyll
+    # youtube: jekyll
+    # youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
+    # youtube_channel_name: CloudCannon
+    # telegram: jekyll
+    # googleplus: +jekyll
+    # microdotblog: jekyll
+    # keybase: jekyll
+
+    # Mastodon instances
+    # mastodon:
+    # - username: jekyll
+    #   instance: example.com
+    # - username: jekyll2
+    #   instance: example.com
+
+    # GitLab instances
+    # gitlab:
+    # - username: jekyll
+    #   instance: example.com
+    # - username: jekyll2
+    #   instance: example.com
+
+# If you want to link only specific pages in your header, uncomment
+# this and add the path to the pages in order as they should show up
+header_pages:
+  - news.md
+  - gpslogger.md
+  - gpsl2man.md
+  - map.md
+  - forum.md
+  - about.md
+
+collections:
+  docs:
+    permalink: "/gpsl/:collection/:path/"
+    output: true
+
+defaults:
+  - scope:
+      path: _docs
+      type: docs
+    values:
+      layout: doc
+
+# Build settings
+#theme: minima
+remote_theme: jekyll/minima
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-remote-theme
+  - jekyll-admin
+
+# marq24 RUN settings
+port: 8085
+host: 192.168.1.200
+incremental: FALSE
+livereload: TRUE
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+exclude:
+  - .idea/
+  - website.emacberry.com.iml
+  - __misc/
+  - .gitignore
+  - readme.md
+  - LICENSE
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
