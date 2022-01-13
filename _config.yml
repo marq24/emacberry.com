@@ -80,7 +80,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-remote-theme
-  - jekyll-admin
+#  - jekyll-admin
 
 # marq24 RUN settings
 port: 8085

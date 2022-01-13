@@ -23,9 +23,15 @@ not use or redistribute the Software for such purposes.
 No guarantee is made for accuracy or reliability for any purpose whatsoever.
 
 ---
+## You are invited to contribute to this manual
+In the past I have used a total different approach to create & work on websites - with the use of
+[jekyll](https://github.com/jekyll/jekyll) I hope it will become easier to participate in the creation process of this
+manual. You will find on top of every page a _<i class="fa fa-pencil"></i> Improve this page_ link that will bring you
+to the public GitHub repository.
+
 ## Version
 2022/01/13
 
-### Limitations
+### Current Limitations
 Please understand, that this documentation is currently (01/2022) WIP. I'll do my best in order to update the manual 
 over time - we will see how long I am motivated - the good news is, that everybody has the possibility
