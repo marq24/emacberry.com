@@ -101,9 +101,10 @@ livereload: TRUE
 exclude:
   - .idea/
   - website.emacberry.com.iml
+  - zzz.md
   - __misc/
   - .gitignore
-  - readme.md
+  - README.md
   - LICENSE
 #   - .sass-cache/
 #   - .jekyll-cache/
