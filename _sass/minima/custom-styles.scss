@@ -26,9 +26,16 @@
 }
 
 @media screen and (max-width: 568px) {
+  .shot {
+    width: 100% !important;
+    padding-right: unset;
+    padding-bottom: $spacing-unit/2;
+  }
+
   .show-on-mobiles {
     display: block !important;
   }
+
   a .show-on-mobiles {
     display: inline !important;
   }
@@ -107,6 +114,21 @@ aside {
 
   @media screen and (min-width: $on-large) {
     max-width: calc(#{$content-width * 1.6} - (#{$spacing-unit} * 2));
+    padding-right: $spacing-unit;
+    padding-left: $spacing-unit;
+  }
+}
+
+.wrapper-full {
+  max-width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: $spacing-unit / 2;
+  padding-left: $spacing-unit / 2;
+  @extend %clearfix;
+
+  @media screen and (min-width: $on-large) {
+    max-width: 100%;
     padding-right: $spacing-unit;
     padding-left: $spacing-unit;
   }
