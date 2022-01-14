@@ -1,11 +1,13 @@
 ---
-layout: page
+layout: product
 title: GPSLogger II
 permalink: /gpslogger.html
+app-icon: /assets/img/gpsl/app-icon.png
 ---
-GPSLogger II is a pretty straightforward application – it records your physical movement on your BlackBerry® device over
-time. The recorded information includes, beside your actual location data in WGS84, the elevation, your speed and some
-additional data. You can select between imperial, metric or nautical units.
+<span class="shot">![shot1](/assets/img/gpsl/Screenshot_1642149089_50.png)</span> GPSLogger II is a pretty straightforward 
+application – it records your physical movement on your BlackBerry® device over time. The recorded information includes,
+beside your actual location data in WGS84, the elevation, your speed and some additional data. You can select between
+imperial, metric or nautical units.
 
 The location information can be displayed on a plain canvas or GPSLogger II can make use of BlackBerryMaps (if
 installed) to display your movement on a map. Please note when you make use of BlackBerry Maps that this can imply

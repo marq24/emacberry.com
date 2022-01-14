@@ -30,7 +30,7 @@ No guarantee is made for accuracy or reliability for any purpose whatsoever.
 
 In the past I have used a total different approach to create & work on websites - by make use of 
 [Jekyll](https://github.com/jekyll/jekyll) I hope it will become easier to participate in the creation process of this
-manual. You will find on top of every page a _<i class="fa fa-pencil"></i> Improve this page_ link that will bring you
+manual. You will find on top of every page a _<i class="fa-solid fa-pen-to-square"></i>&nbsp;Improve this page_ link that will bring you
 to the public GitHub repository.
 
 ## Current Limitations

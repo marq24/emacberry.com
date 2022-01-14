@@ -19,7 +19,7 @@ GPSLogger II is a pretty straightforward app that can record your GPS based loca
 ---
 # [![UUID0xFD6FTracerIcon](/assets/img/uuid/app-icon.png) UUID0xFD6FTracer](https://github.com/marq24/UUID0xFD6FTracer)
 
-> My personal little humble contribution to contain the COVID 19 pandemic
+> My personal little humble contribution to contain the COVID 19 pandemic <i class="fa-solid fa-shield-virus"></i>
 
 The main purpose of the app is to scan your current environment for active devices running an application that make use of Google's & Apple's Exposure Notification Framework (like the German CoronaWarnApp) or the TousAntiCovid (France) App (which is not based on the framework - but use a similar technology to trace randomized anonymous contact information).
 
