@@ -2,11 +2,11 @@
   <select onchange="if (this.value) window.location.href=this.value">
     <option value="">Navigate the docs…</option>
     {% for section in site.data.docs_nav -%}
-    <optgroup label="{{ section.title }}">
+    <optgroup label="{{ section.title | strip_html }}">
     {%- for item in section.docs -%}
       {% assign p = site.docs | where: "url", item.link | first %}
       <option value="{{ p.url | relative_url }}">
-        {{- p.menu_name | default: p.title -}}
+        {{- p.menu-title | default: p.title -}}
       </option>
     {%- endfor %}
     </optgroup>

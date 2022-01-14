@@ -103,6 +103,7 @@ exclude:
   - website.emacberry.com.iml
   - zzz.md
   - __misc/
+  - assets/img/gpsl/src
   - .gitignore
   - README.md
   - LICENSE
