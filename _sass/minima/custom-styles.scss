@@ -13,7 +13,7 @@ h1, h2 {
 .shot {
   float: left;
   width: 33.33333%;
-  padding-right: $spacing-unit/2;
+  padding-right: $spacing-unit;
 
   @media screen and (max-width: 568px) {
     width: 100% !important;

@@ -1,6 +1,70 @@
 ---
-title: <i class="fa-solid fa-arrows-rotate"></i> Autostart/stop
+title: <i class="fa-solid fa-arrows-rotate"></i> Auto-START / Auto-STOP logging
 menu-title: <i class="fa-solid fa-arrows-rotate"></i>&nbsp;Auto start/stop
 ---
 # Overview
-# 
+With GPSLogger II it is possible to automatically start and end logging based on the current location - The simple use
+case is, that when I am leaving my home typically I don't want to start the recording manually every single time - and
+same aplies when I am returning - GPSLogger 'knows' where I am and that I am at home - so then simply stop logging cause
+the changes that I want to log any further are IMHO very limited.
+
+Another use case is a loaded navigation path - so there are reasons WHY you have loaded a path? - right? - Yes -
+typically you want to follow this path and it's IMHO pretty reasonable to record this as well - so once you load a
+navigation path the start and end location of this navigation path will be also considered as auto START and END
+locations.
+
+The open question for you as user is, WHEN does logging start - and when does logging end.
+
+# Requirements
+- Enabled & active GPS
+- GPSLogger app must be started (can be sent into the background - you might like to activate the **AutoStart on boot**
+  option)
+- <i class="fa-solid fa-toggle-on"></i> General Settings > AutoRecording & AutoPause > Auto-START Logging
+<br/>**or**<br/>
+- <i class="fa-solid fa-toggle-on"></i> General Settings > AutoRecording & AutoPause > Auto-STOP Logging
+- At least one location in the LocationManager that is configured for Auto-START/STOP
+
+# Configure  AUTO-Start & AUTO-Stop Locations
+The central point of add/enable AUTO-Logging locations is the 'LocationManager' - you can select any existing location
+and press the <i class="fa-solid fa-circle-chevron-down"></i> **more** icon and then choose the 
+**Use for AutoStart/Stop** from the context menu. Please note that once a location have been selected as AutoStart/Stop
+location you can not edit the name or even delete it from the LocationManager. If you want to alter or delete it you
+have to remove it from the AutoStart/Stop Location list first. This can be simply done by selecting 'Remove for
+AutoStart/Stop' from the context menu in the LocationManager.
+
+I am fully aware, that adding new locations in the LocationManager itself can be quite a hassle - so with the new build
+of GPSLogger II I have implemented some new/additional ways to add new locations:
+
+1. Open any previously recorded path - navigate to the location you want to save via the regular navigation arrows -
+   open the context menu and select **Save Location**
+2. In the Map view you can touch & hold at any position of the map to open the context menu - there you have the option
+   to **add a new Location** - that then can be accessed from the LocationManager
+3. Open the GoogleMaps application - place a marker "anywhere" by tap and hold at the position till a marker appears -
+   by tabbing again on the marker itself some details for this marker will be shown - including some actions like 
+   _save_, _label_, _download_ or _share_ - select the **share** action and from the list of available
+   apps select GPSLogger II - after this is done it takes a short while (you need to be online btw) and the
+   LocationManager should list you the new location within GPSLogger II.
+
+# Theory of operation
+Once enabled in the General-Settings-Section the AUTO.Start & AUTO Stop locations will be rendered with different
+colored cycles on the map screens where each cycle have a certain meaning:
+
+<span class="shot">![shot1](/assets/img/gpsl/auto-start-stop-ranges.png)</span>
+
+- The RED-colored cycle (20m radius) is the AUTO-STOP cycle - as soon as you are in the red cycle the logging (if it's
+  running) will be stopped. Please note that there are some additional restrictions for the auto stop logging: a) when
+  you are auto logging a navigation path, then the logging distance have to be at least 75% of the navigation path b)
+  when you make use of a AutoStart/Log location the logging distance have to be at least 1km.
+
+- The BLUE-colored cycle (15m radius) is the initial trigger of the AUTO-START process - the logging will **only**
+  automatically start when you are in the blue cycle. With other words you need to be inside the blue cycle in order
+  that the auto start logging code for this location will be activated.
+
+- The GREEN-colored cycle (50m radius) is the AUTO-Start range - once you are outside of the green cycle (and this
+  location have been activated by being in the blue cycle before) the recording will be automatically started.
+
+So to sum up - 1'st be in range of the blue cycle (activate) - 2'nd move out of the green cycle to start logging - 3'rd
+entering the red cycle to stop logging.
+
+Personally I make use of the start logging & stop logging Audio Notifications to be 100% sure that my cycling tours will
+be recorded.
