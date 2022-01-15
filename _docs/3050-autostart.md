@@ -23,6 +23,8 @@ The open question for you as user is, WHEN does logging start - and when does lo
 <br/>**or**<br/>
 - <i class="fa-solid fa-toggle-on"></i> General Settings > AutoRecording & AutoPause > Auto-STOP Logging
 - At least one location in the LocationManager that is configured for Auto-START/STOP
+<br/>**or**<br/>
+- A loaded navigation path
 
 # Configure  AUTO-Start & AUTO-Stop Locations
 The central point of add/enable AUTO-Logging locations is the 'LocationManager' - you can select any existing location

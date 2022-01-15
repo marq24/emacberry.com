@@ -5,14 +5,14 @@ menu-title: <i class="fa-solid fa-layer-group"></i>&nbsp;OpenStreetMap
 >supported by [Mapsforge & VTM](http://mapsforge.org/)
 
 # Overview
-With the new build of GPSLogger II you will find a new "OpenMapData Provider" called '**OpenStreetMap (Offline)**' - you
+With the new build of GPSLogger II you will find a new "OpenMapData Provider" called **OpenStreetMap (Offline)** - you
 will find it at the end of the map provider list. Once you have selected the OpenStreetMap Offline provider the new map
-source is active... **but** you could configure it.
+source is active... **but** you could/should configure it.
 
 As always in GPSLogger II a new feature will bring some additional options via the Settings - for the OpenStreetMap
 Offline maps you will find the new section **Offline OpenStreetMap Settings** which allows you to adjust the rendering
-of the offline OpenStreetMap data... **but** before you will be able to use the full power of the new feature **you will
-need to download map data files to your device first!**.
+of the offline OpenStreetMap data... **but** before you will be able to use the full power of the new feature you will
+**need** to download *.map data files **to your device first!**.
 
 # OSM Mapsforge Format
 There exist multiple different file formats to store OpenStreetMap map data (OSM XML, PBF Format, o5m, OSM JSON or
@@ -20,18 +20,18 @@ Level0L to name a few) - For various reasons these file types are not usable for
 [Mapsforge 'map' format](http://www.mapsforge.org/) is the choice to use OSM data on a mobile device. Converting
 the data is not an easy task - and even more important take some time to complete. I have spent the complete weekend to
 load the OSM-Data for GERMANY in a PostgresSQL running on my notebook. Lucky enough there are different sources where
-you can download converted (& additional enriched) map files for your mobile device. Cause of the file size this data is
-not included in GPSLogger II - you need to download one or multiple map files to your device in order to use this new
-feature of GPSLogger II.
+you can download converted (& additional enriched) *.map files for your mobile device. Cause of the file size this data
+is not included in GPSLogger II - you need to download one or multiple *.map files to your device in order to use this
+new feature of GPSLogger II.
 
-At the following URL's you can download Mapsforge map files:
+At the following URL's you can download Mapsforge *.map files:
 - [http://www.openandromaps.org/downloads](http://www.openandromaps.org/downloads)
   <br/>An excellent source for enriched OSM data - included altitudes - great for hiking or mountain-biking
  
 - [http://download.mapsforge.org/](http://download.mapsforge.org/)
 
-# Download map files from your android device/browser
-> Direct download link support for openandromaps map files in GPSLogger
+# Download *.map files with your Android device/browser
+> Direct download link support for openandromaps *.map files in GPSLogger
 
 On your android device - open the following link
 [https://www.openandromaps.org/downloads](https://www.openandromaps.org/downloads) **or** select one more specific
@@ -49,8 +49,8 @@ region from the list:
 Once you have opened one of the download section, scroll down to the region/country you would like to download and then
 press the 'download button' with the text '**Karten/Map+Poi**'
 
-Please note: **You can download multiple map files - they will be combined in the app (as more map files you
-install as more device memory is required - which could lead to app instabilities at the end)**
+Please note: You can download **multiple** *.map files - they will **be combined** in the app (as more *.map files you
+install as more device memory is required - which could lead to app instabilities at the end).
 
 Once you pressed the download button, your android device should present you with a dialog that allow you to select an
 app, that should handle this download - and (if everything went right) GPSLogger II should be listed as app, that can
@@ -64,14 +64,14 @@ GPSLogger is already coming with two (build-in) themes.
 IF your device does not show a dialog (to let you select the app that should process the download) after the
 download-button on the openandromaps website, please see this [FAQ](../1900faq/#openopenandro).
 
-# Download map files elsewhere
-You can of course download the map files on any other device (including your PC or Mac) - the Links are the same - but
+# Download *.map files elsewhere
+You can of course download the *.map files on any other device (including your PC or Mac) - the Links are the same - but
 you need to extract the maps manually and copy the files over to your andpriod device and place them at a location that
 is readable for GPSLogger.
 
 With the latest changes in Android 11 this process can get quite complicated - since there are only a few places where
 you can store files on your device that are readable by applications like GPSLogger. This makes it almost impossible to
-share map files across multiple applications.
+share *.map files across multiple applications.
 
 ## Map & Theme file location on your mobile device
 > NEED TO be REVISED (cause of Android 11 restrictions)
@@ -82,8 +82,8 @@ _On BlackBerry10 this folder typically can be found here: '/misc/android' - when
 WiFi-Share function then the folder should be: /media/misc/android/osm_
 
 ### osm/maps
-store your downloaded map files in this folder on your device - please be so kind and restart GPSLogger II in order that
-the new maps will be included for rendering the map tiles
+store your downloaded *.map files in this folder on your device - please be so kind and restart GPSLogger II in order
+that the new maps will be included for rendering the map tiles
 
 ### osm/themes
 If you want to use additional/external rendering themes store them in the 'osm/themes' folder - make sure that all
@@ -105,9 +105,9 @@ adjusted (enlarged) - but this is a very small modification and all credits goes
  
 As 'always' - GPSLogger II allowes you to specify alternative locations for the 'maps' and 'themes' - to change the
 folders you need to open the '**Offline OpenStreenMapping Settings**' from the applications Settings menu and press
-the **Browse...** button and navigate to the folder that is containing your map files (or theme xml files). E.g. when
+the **Browse...** button and navigate to the folder that is containing your *.map files (or theme xml files). E.g. when
 you have a removable SDCard it can make sense to download the map data via a PC/MAC and then copy the data over to the
-SD-Card (instead of downloading the map files via your mobile device)
+SD-Card (instead of downloading the *.map files via your mobile device)
 
 Typically, you found an external SDCard in the **/storage** folder of your device - where your external SD-Card have
 some sort of cryptic name like 'BAC8-1217'
