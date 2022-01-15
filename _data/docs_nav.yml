@@ -3,6 +3,9 @@
     - link: /gpsl/docs/1000-intro/
     - link: /gpsl/docs/1100-data/
     - link: /gpsl/docs/1200-views/
+    - link: /gpsl/docs/1500-pathman/
+    - link: /gpsl/docs/1600-locman/
+    - link: /gpsl/docs/1900-faq/
 
 - title: <i class="fa-solid fa-map"></i> Maps & Routing
   docs:
@@ -14,13 +17,19 @@
 
 - title: <i class="fa-solid fa-hand-spock"></i> Extended Functions
   docs:
-    - link: /gpsl/docs/3000-audioalerts/
+    - link: /gpsl/docs/3000-sensors/
+    - link: /gpsl/docs/3010-audioalerts/
+    - link: /gpsl/docs/3050-autostart/
     - link: /gpsl/docs/3100-emergency/
+    - link: /gpsl/docs/3150-multiviews/
+    - link: /gpsl/docs/3190-mightmode/
     - link: /gpsl/docs/3200-happywife/
     - link: /gpsl/docs/3300-climb/
     - link: /gpsl/docs/3400-geocache/
-    - link: /gpsl/docs/3500-mightmode/
-    - link: /gpsl/docs/3600-tasker/
+    - link: /gpsl/docs/3600-di2/
+    - link: /gpsl/docs/3700-treadmill/
+    - link: /gpsl/docs/3800-rowing/
+    - link: /gpsl/docs/3900-tasker/
 
 - title: <i class="fa-solid fa-shield-virus"></i> Covid19-Extras
   docs:
@@ -33,12 +42,6 @@
     - link: /gpsl/docs/5100-share/
     - link: /gpsl/docs/5200-strava/
     - link: /gpsl/docs/5300-backup/
-
-- title: <i class="fa-solid fa-signal"></i> External Sensors
-  docs:
-    - link: /gpsl/docs/7000-sensors/
-    - link: /gpsl/docs/7100-indoor/
-    - link: /gpsl/docs/7200-di2/
 
 - title: <i class="fa-solid fa-gear"></i> Settings
   docs:

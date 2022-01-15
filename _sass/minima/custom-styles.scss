@@ -6,6 +6,10 @@
 .right { float: right; }
 .left { float: left; }
 
+h1, h2 {
+  clear: both;
+}
+
 .shot {
   float: left;
   width: 33.33333%;

@@ -2,6 +2,10 @@ AddHandler application/x-httpd-ea-php74 .php .html .htm
 ErrorDocument 404 /404.html
 
 RewriteEngine on
+redirect 301 /map.html https://maps.emac.de/
+redirect 301 /forum.html https://forum.emacberry.com/viewforum.php?f=206
+
+redirect 301 /gpsl/faq.html /gpsl/docs/1900-faq/
 redirect 301 /gpsl/nav/nav001.html /gpsl/docs/2500-offroadnav/#-intro
 redirect 301 /gpsl/nav/nav002.html /gpsl/docs/2500-offroadnav/#-best-practise
 

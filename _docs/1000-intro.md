@@ -2,6 +2,8 @@
 title: <i class="fa-solid fa-star-of-life"></i>&nbsp;Initial Setup
 ---
 ## 01
+> Personally I use GPSLogger as bike computer replacement - and so I want to use it mainly hands free
+
 <span class="shot">![shot1](/assets/img/gpsl/Screenshot_1642147035_50.png)</span>
 <span class="shot">![shot1](/assets/img/gpsl/Screenshot_1642147060_50.png)</span>
 <span class="shot">![shot1](/assets/img/gpsl/Screenshot_1642147087_50.png)</span>

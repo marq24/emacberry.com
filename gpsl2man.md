@@ -1,11 +1,16 @@
 ---
 title: GPSLogger II Manual
+sub-title: An introduction to the features that have been implemented since 2009
 menu-title: Docs
 layout: doc
 permalink: gpsl/gpslogger_05user_manual.html
 ---
 
 ---
+> Please be so kind and have in mind that GPSLogger II have a long history - features that have been initially developed
+> have been adjusted over time - so there is always the chance that this documentation is outdated at certain areas - if
+> you come across such a section please let us know (or simply fork the project on GitHub, make the adjustments and
+> create a pull request - TIA!).
 
 # DISCLAIMER
 

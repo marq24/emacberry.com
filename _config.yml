@@ -8,8 +8,9 @@ description: > # this means to ignore newlines until "show_excerpts:"
   My little humble contribution to the world - after the world has been very generous to me.
 
 show_excerpts: true # set to true to show excerpts on the homepage
+excerpt_separator: <!--more-->
 
-manual-version: 2022/01/14
+manual-version: 2022/01/15
 
 # Minima date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
@@ -107,6 +108,7 @@ exclude:
   - .gitignore
   - README.md
   - LICENSE
+  - _posts/2022-01-12-welcome-to-jekyll.markdown
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/
