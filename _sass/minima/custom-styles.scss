@@ -170,3 +170,9 @@ aside {
   /* Support for IE. */
   font-feature-settings: 'liga';
 }
+
+@media (prefers-color-scheme: dark) {
+  img {
+    filter: brightness(.8) contrast(1.2);
+  }
+}
