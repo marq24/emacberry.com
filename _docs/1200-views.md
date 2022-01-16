@@ -1,7 +1,7 @@
 ---
 title: <i class="fa-solid fa-mobile-screen-button"></i> User Interface & Views
 menu-title: <i class="fa-solid fa-mobile-screen-button"></i>&nbsp;GUI & Views
-xxl: what
+menu-mobile: GUI & Views
 ---
 # GUI - Graphical User Interface
 
@@ -27,4 +27,4 @@ xxl: what
 ## Climb View
 ## MultiView I-IV
 ## BTLE-Beacon View
-<span class="shot">![shot1](/assets/img/gpsl/view-btle-beacons.png)</span>
+<span class="shot">![view-btle-beacons](/assets/img/gpsl/view-btle-beacons.png)</span>

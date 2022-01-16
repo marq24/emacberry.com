@@ -19,9 +19,9 @@ The open question for you as user is, WHEN does logging start - and when does lo
 - Enabled & active GPS
 - GPSLogger app must be started (can be sent into the background - you might like to activate the **AutoStart on boot**
   option)
-- <i class="fa-solid fa-toggle-on"></i> General Settings > AutoRecording & AutoPause > Auto-START Logging
+- General Settings > AutoRecording & AutoPause > Auto-START Logging <i class="fa-solid fa-toggle-on"></i>
 <br/>**or**<br/>
-- <i class="fa-solid fa-toggle-on"></i> General Settings > AutoRecording & AutoPause > Auto-STOP Logging
+- General Settings > AutoRecording & AutoPause > Auto-STOP Logging <i class="fa-solid fa-toggle-on"></i>
 - At least one location in the LocationManager that is configured for Auto-START/STOP
 <br/>**or**<br/>
 - A loaded navigation path
@@ -51,7 +51,7 @@ of GPSLogger II I have implemented some new/additional ways to add new locations
 Once enabled in the General-Settings-Section the AUTO.Start & AUTO Stop locations will be rendered with different
 colored cycles on the map screens where each cycle have a certain meaning:
 
-<span class="shot">![shot1](/assets/img/gpsl/auto-start-stop-ranges.png)</span>
+<span class="shot">![auto-start-stop-ranges](/assets/img/gpsl/auto-start-stop-ranges.png)</span>
 
 - The RED-colored cycle (20m radius) is the AUTO-STOP cycle - as soon as you are in the red cycle the logging (if it's
   running) will be stopped. Please note that there are some additional restrictions for the auto stop logging: a) when
@@ -64,6 +64,7 @@ colored cycles on the map screens where each cycle have a certain meaning:
 
 - The GREEN-colored cycle (50m radius) is the AUTO-Start range - once you are outside of the green cycle (and this
   location have been activated by being in the blue cycle before) the recording will be automatically started.
+<br class="shot-end"/>
 
 So to sum up - 1'st be in range of the blue cycle (activate) - 2'nd move out of the green cycle to start logging - 3'rd
 entering the red cycle to stop logging.

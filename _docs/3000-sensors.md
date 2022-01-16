@@ -1,9 +1,10 @@
 ---
-title: <i class="fa-solid fa-signal"></i> External Sensors
-menu-title: <i class="fa-solid fa-signal"></i>&nbsp;External Sensors
+title: <span class="material-icons">sensors</span> External Sensors
+menu-title: <span class="material-icons">sensors</span>&nbsp;External Sensors
+menu-mobile: External Sensors
 ---
 #  <i class="fa-brands fa-bluetooth"></i> Bluetooth & ANT+
-
+bbb <span class="material-icons">sensors</span> aaa
 # Overview
 # <i class="fa-brands fa-bluetooth"></i> Bluetooth / BluethoothLE
 ## <i class="fa-solid fa-arrow-rotate-left"></i> Cadence

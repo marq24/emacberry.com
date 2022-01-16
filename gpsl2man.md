@@ -5,15 +5,14 @@ menu-title: Docs
 layout: doc
 permalink: gpsl/gpslogger_05user_manual.html
 ---
-
----
 > Please be so kind and have in mind that GPSLogger II have a long history - features that have been initially developed
 > have been adjusted over time - so there is always the chance that this documentation is outdated at certain areas - if
 > you come across such a section please let us know (or simply fork the project on GitHub, make the adjustments and
 > create a pull request - TIA!).
 
-# DISCLAIMER
+---
 
+# DISCLAIMER
 This software is provided **AS IS**, without a warranty of any kind. ALL EXPRESS OR IMPLIED CONDITIONS, REPRESENTATIONS
 AND WARRANTIES, INCLUDING ANY IMPLIED WARRANTY OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE OR NON-INFRINGEMENT,
 ARE HEREBY EXCLUDED. emacberry.com AND ITS LICENSORS SHALL NOT BE LIABLE FOR ANY DAMAGES SUFFERED BY LICENSEE AS A
@@ -32,13 +31,11 @@ No guarantee is made for accuracy or reliability for any purpose whatsoever.
 ---
 
 ## You are invited to contribute to this manual
-
 In the past I have used a total different approach to create & work on websites - by make use of 
 [Jekyll](https://github.com/jekyll/jekyll) I hope it will become easier to participate in the creation process of this
 manual. You will find on top of every page a _<i class="fa-solid fa-pen-to-square"></i>&nbsp;Improve this page_ link that will bring you
 to the public GitHub repository.
 
 ## Current Limitations
-
 Please understand, that this documentation is currently (01/2022) WIP. I'll do my best in order to update the manual
 over time - we will see how long I am motivated - the good news is, that everybody has the possibility

@@ -6,3 +6,5 @@ _site
 .jekyll-cache
 .jekyll-metadata
 vendor
+/assets/webfonts/_not_used/
+/assets/img/gpsl/inapp/

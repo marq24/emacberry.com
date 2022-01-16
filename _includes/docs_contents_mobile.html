@@ -6,7 +6,7 @@
     {%- for item in section.docs -%}
       {% assign p = site.docs | where: "url", item.link | first %}
       <option value="{{ p.url | relative_url }}">
-        {{- p.menu-title | default: p.title -}}
+        {{- p.menu-mobile | p.menu-title | default: p.title -}}
       </option>
     {%- endfor %}
     </optgroup>

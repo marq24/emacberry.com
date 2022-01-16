@@ -17,21 +17,21 @@ BluetoothLE Beacon Scanner feature.
 # Requirement
 - Enabled Bluetooth
 - Using Bluetooth you need to grand the permission to access the device location
-- <i class="fa-solid fa-toggle-on"></i> General Settings > UUID Beacon Scanner
+- General Settings > UUID Beacon Scanner <i class="fa-solid fa-toggle-on"></i>
 - **Start logging** - this is really essential - the app only start to display detected BluetoothLE beacons while you
   record (or if you have loaded a previously recorded path)
-- <i class="fa-solid fa-toggle-on"></i> [_Optional_] Beacon View: Appearance & Startup > Available View configuration... > BTLE Beacon  
-- <i class="fa-solid fa-square-check"></i> [_Optional_] Appearance & Startup > Map & Path View Settings... > Show BTE-Beacons   
+- [_Optional_] Beacon View: Appearance & Startup > Available View configuration... > BTLE Beacon <i class="fa-solid fa-toggle-on"></i>  
+- [_Optional_] Appearance & Startup > Map & Path View Settings... > Show BTE-Beacons <i class="fa-solid fa-square-check"></i>   
 
 # BTLE-Beacon View
 The build in UUID Beacon Scanner have a dedicated view in order to display the number of beacons in range over time.
 See [View Documentation](../1200-views/#btle-beacon-view) for details.
 
 # Stored location information
-<span class="shot">![shot1](/assets/img/gpsl/btle-beacons-on-map.png)</span> For GPSLogger II it's not possible to
-detect the exact position of a BluetoothLE beacon - so each time GPSLogger detects a new BTLE beacon **your** current
-position will be associated with the beacon. So just to be precise: the app does not store the location of any BTLE
-beacon - the app stores your location where a beacon was detected for the first time!
+<span class="shot">![btle-beacons-on-map](/assets/img/gpsl/btle-beacons-on-map.png)</span> For GPSLogger II it's not
+possible to detect the exact position of a BluetoothLE beacon - so each time GPSLogger detects a new BTLE beacon
+**your** current position will be associated with the beacon. So just to be precise: the app does not store the location
+of any BTLE beacon - the app stores your location where a beacon was detected for the first time!
 
 When you continue to move and the beacon is moving with you, the location information stored in GPSLogger will **not**
 be updated for this specific beacon!

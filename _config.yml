@@ -105,6 +105,8 @@ exclude:
   - zzz.md
   - __misc/
   - assets/img/gpsl/src
+  - assets/img/gpsl/inapp
+  - assets/webfonts/_not_used/
   - .gitignore
   - README.md
   - LICENSE
