@@ -26,6 +26,14 @@ br.shot-end {
   clear: left;
 }
 
+span.btn img {
+  vertical-align: top;
+  height: 1.6em;
+  margin-right: -0.1em;
+  margin-left: -0.1em;
+  /* border: 1px solid red; */
+}
+
 *, *:before, *:after {
     box-sizing: inherit;
 }
@@ -141,7 +149,7 @@ aside {
   font-family: 'Material Icons';
   font-weight: normal;
   font-style: normal;
-  font-size: 160%;  /* Preferred icon size */
+  font-size: 120%;  /* Preferred icon size */
   display: inline-block;
   line-height: 1;
   text-transform: none;
@@ -149,7 +157,7 @@ aside {
   word-wrap: normal;
   white-space: nowrap;
   direction: ltr;
-  vertical-align: text-top;
+  vertical-align: text-bottom;
 
   /* Support for all WebKit browsers. */
   -webkit-font-smoothing: antialiased;

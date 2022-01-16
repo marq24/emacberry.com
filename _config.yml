@@ -15,7 +15,7 @@ manual-version: 2022/01/15
 # Minima date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
 minima:
-  skin: classic # solarized-dark | solarized | dark | classic
+  skin: dark # solarized-dark | solarized | dark | classic
 
   date_format: "%b %-d, %Y"
 
