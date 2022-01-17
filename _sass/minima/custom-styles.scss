@@ -14,11 +14,11 @@ h1, h2 {
   float: left;
   width: 33.33333%;
   padding-right: $spacing-unit;
+  padding-bottom: $spacing-unit/2;
 
   @media screen and (max-width: 568px) {
     width: 100% !important;
     padding-right: unset;
-    padding-bottom: $spacing-unit/2;
   }
 }
 

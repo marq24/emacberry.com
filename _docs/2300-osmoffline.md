@@ -33,6 +33,19 @@ At the following URL's you can download Mapsforge *.map files:
 # Download *.map files with your Android device/browser
 > Direct download link support for openandromaps *.map files in GPSLogger
 
+## <span class="material-icons">info</span> Important if you use Android 11 (or higher)
+I really love Google for all the changes that have been introduced with Android 11 (SDK 30). Not only that you are no
+longer able to read/save data in the file system - also using your app with web-links have been massively limited. 
+Even if I understand the reasons for these changes - it making things that has been convenient for the users some sort
+of complicated.
+> In order to be able to open download links from openandromaps with GPSLogger (using Android 11 or higher) you **need
+> to enable the link URL's in the OS application Settings section**. (Open by default > Links to open in this app) So
+> please enable/add:
+- download.openandromaps.org
+- ftp.gwdg.de
+> 
+> see [FAQ: Using Weblinks in Android 11](../1900-faq/#weblinks-sdk30) for details
+
 On your android device - open the following link
 [https://www.openandromaps.org/downloads](https://www.openandromaps.org/downloads) **or** select one more specific
 region from the list:
@@ -62,7 +75,8 @@ Please note, that openandromaps site stated, that you need to install a Render T
 GPSLogger is already coming with two (build-in) themes.
 
 IF your device does not show a dialog (to let you select the app that should process the download) after the
-download-button on the openandromaps website, please see this [FAQ](../1900faq/#openopenandro).
+download-button on the openandromaps website, please see this
+[FAQ: Troubleshoot opening openandromaps.org web links...](../1900-faq/#openopenandro).
 
 # Download *.map files elsewhere
 You can of course download the *.map files on any other device (including your PC or Mac) - the Links are the same - but

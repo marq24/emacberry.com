@@ -3,20 +3,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     {%- seo -%}
-    <!--
-    <link id="theme1" rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
-    <link id="theme2" rel="stylesheet alternate" href="{{ "/assets/css/style2.css" | relative_url }}">
-    -->
+    <link id="themeLight" rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
+    <link id="themeDark" rel="stylesheet alternate" href="{{ "/assets/css/style2.css" | relative_url }}">
     <script>
-        let themeToUse = sessionStorage.getItem('theme');
-        if(!themeToUse){
-            if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-                themeToUse = 'dark';
-            }else{
-                themeToUse = 'light';
-            }
-        }
-        let themeLight = document.createElement("link");
+        /*let themeLight = document.createElement("link");
         themeLight.setAttribute("id", "theme1");
         if (themeToUse === 'dark') {
             themeLight.setAttribute("rel", "stylesheet alternate");
@@ -34,29 +24,49 @@
             themeDark.setAttribute("rel", "stylesheet alternate");
         }
         themeDark.setAttribute("href", "{{ "/assets/css/style2.css" | relative_url }}");
-        document.head.appendChild(themeDark);
+        document.head.appendChild(themeDark);*/
 
-        //let themeLight = document.getElementById('theme1');
-        //let themeDark = document.getElementById('theme2');
-        //setTheme(themeToUse);
+        let themeToUse = '';
+        let themeLight = document.getElementById('themeLight');
+        let themeDark = document.getElementById('themeDark');
+        setTheme(getTheme());
+
+        function getTheme(){
+            try {
+                themeToUse = sessionStorage.getItem('theme');
+            } catch (err) {
+                console.log(err);
+            }
+            if(!themeToUse){
+                if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+                    themeToUse = 'dark';
+                }else{
+                    themeToUse = 'light';
+                }
+            }
+            return themeToUse;
+        }
 
         function setTheme(theme){
             if(theme === 'dark'){
                 themeDark.setAttribute('rel', 'stylesheet');
                 themeLight.setAttribute('rel', 'stylesheet alternate');
-                sessionStorage.setItem('theme', 'dark');
             }else {
                 themeLight.setAttribute('rel', 'stylesheet');
                 themeDark.setAttribute('rel', 'stylesheet alternate');
-                sessionStorage.setItem('theme', 'light');
             }
+            themeToUse = theme;
+            setTimeout(() =>{
+                try {
+                    sessionStorage.setItem('theme', theme);
+                } catch(err) { console.log(err);}
+            }, 0);
             return false;
         }
 
         function toggleTheme(){
-            let oldTheme = sessionStorage.getItem('theme');
             let newTheme;
-            if(oldTheme === 'dark'){
+            if(getTheme() === 'dark'){
                 newTheme = 'light';
             } else {
                 newTheme = 'dark';
@@ -68,18 +78,18 @@
 
         function setThemeIcon(theme){
             let toggleButton = document.getElementById('mToggle');
-            if(toggleButton){
+            if(!theme || !toggleButton) {
+                setTimeout(() => setThemeIcon(getTheme()), 100);
+            } else {
                 if(theme === "dark") {
                     toggleButton.classList.replace("fa-moon", "fa-sun");
                 }else{
                     toggleButton.classList.replace("fa-sun", "fa-moon");
                 }
-            }else{
-                setTimeout(() => setThemeIcon(theme), 0);
             }
             return false;
         }
-        window.onload = setThemeIcon(sessionStorage.getItem('theme'));
+        window.onload = setThemeIcon(getTheme());
     </script>
     {%- feed_meta -%}
     {%- if jekyll.environment == 'production' and site.google_analytics -%}

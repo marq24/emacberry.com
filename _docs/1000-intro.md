@@ -19,6 +19,12 @@ lore ipsum lore ipsum lore ipsum lore ipsum lore ipsum lore ipsum lore ipsum lor
 ## Permissions
 ### Location
 
+# Registered Weblinks {#reg-weblinks}
+Support for direct download of *.map files (zips) from openandromaps.org
+- download.openandromaps.org
+- ftp.gwdg.de
+
+
 ## Wizards
 ### <i class="fa-brands fa-bluetooth"></i> BTLE Beacon Scanner <i class="fa-solid fa-shield-virus"></i>
 see [Indoor Equipment - Treadmill](../7100-indoor/#-treadmill)
