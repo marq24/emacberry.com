@@ -1,4 +1,4 @@
-- title: <i class="fa-solid fa-arrow-right"></i> Getting Started
+- title: <i class="fa-solid fa-arrow-right fa-fw"></i> Getting Started
   docs:
     - link: /gpsl/docs/1000-intro/
     - link: /gpsl/docs/1100-data/
@@ -7,7 +7,7 @@
     - link: /gpsl/docs/1600-locman/
     - link: /gpsl/docs/1900-faq/
 
-- title: <i class="fa-solid fa-map"></i> Maps & Routing
+- title: <i class="fa-solid fa-map fa-fw"></i> Maps & Routing
   docs:
     - link: /gpsl/docs/2200-openmapdata/
     - link: /gpsl/docs/2300-osmoffline/
@@ -15,7 +15,7 @@
     - link: /gpsl/docs/2500-offroadnav/
     - link: /gpsl/docs/2600-routeplan/
 
-- title: <i class="fa-solid fa-hand-spock"></i> Extended Functions
+- title: <i class="fa-solid fa-hand-spock fa-fw"></i> Extended Functions
   docs:
     - link: /gpsl/docs/3000-sensors/
     - link: /gpsl/docs/3010-audioalerts/
@@ -30,19 +30,20 @@
     - link: /gpsl/docs/3700-treadmill/
     - link: /gpsl/docs/3800-rowing/
     - link: /gpsl/docs/3900-tasker/
+    - link: /gpsl/docs/3950-multipref/
 
-- title: <i class="fa-solid fa-shield-virus"></i> Covid19-Extras
+- title: <i class="fa-solid fa-shield-virus fa-fw"></i> Covid19-Extras
   docs:
     - link: /gpsl/docs/4000-btlescanner/
     - link: /gpsl/docs/4100-15kradius/
 
-- title: <i class="fa-solid fa-download"></i> Access your Data
+- title: <i class="fa-solid fa-download fa-fw"></i> Access your Data
   docs:
     - link: /gpsl/docs/5000-export/
     - link: /gpsl/docs/5100-share/
     - link: /gpsl/docs/5200-strava/
     - link: /gpsl/docs/5300-backup/
 
-- title: <i class="fa-solid fa-gear"></i> Settings
+- title: <i class="fa-solid fa-gear fa-fw"></i> Settings
   docs:
     - link: /gpsl/docs/8000-general/
