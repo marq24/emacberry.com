@@ -1,6 +1,6 @@
 ---
 title: <i class="fa-solid fa-layer-group"></i> Offline OpenStreetMap Data
-menu-title: <i class="fa-solid fa-layer-group"></i>&nbsp;OpenStreetMap
+menu-title: <i class="fa-solid fa-layer-group fa-fw"></i>&nbsp;OpenStreetMap
 ---
 >supported by [Mapsforge & VTM](http://mapsforge.org/)
 

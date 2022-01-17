@@ -1,6 +1,6 @@
 ---
 title: <i class="fa-solid fa-route"></i> Turn by Turn Navigation
-menu-title: <i class="fa-solid fa-route"></i>&nbsp;Navigation
+menu-title: <i class="fa-solid fa-route fa-fw"></i>&nbsp;Navigation
 ---
 # Overview
 # Requirements

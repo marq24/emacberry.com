@@ -1,6 +1,6 @@
 ---
 title: <i class="fa-solid fa-mobile-screen-button"></i> User Interface & Views
-menu-title: <i class="fa-solid fa-mobile-screen-button"></i>&nbsp;GUI & Views
+menu-title: <i class="fa-solid fa-mobile-screen-button fa-fw"></i>&nbsp;GUI & Views
 menu-mobile: GUI & Views
 ---
 # GUI - Graphical User Interface

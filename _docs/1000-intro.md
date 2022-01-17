@@ -1,5 +1,5 @@
 ---
-title: <i class="fa-solid fa-star-of-life"></i>&nbsp;Initial Setup
+title: <i class="fa-solid fa-star-of-life fa-fw"></i>&nbsp;Initial Setup
 menu-mobile: Initial Setup
 ---
 ## 01

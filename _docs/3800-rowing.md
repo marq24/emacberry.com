@@ -1,5 +1,5 @@
 ---
-title: <span class="material-icons">rowing</span> Rowing Machine
+title: "<span class='material-icons fa-fw' style='width: 1.042em;'>rowing</span>&nbsp;Rowing Machine"
 menu-mobile: Rowing Machine
 ---
 At the 28'th of July finally my Concept2/PM5 rowing machine arrived - so I had to start with implementing the Fitness

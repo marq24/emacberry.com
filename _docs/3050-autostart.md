@@ -1,6 +1,6 @@
 ---
 title: <i class="fa-solid fa-arrows-rotate"></i> Auto-START / Auto-STOP logging
-menu-title: <i class="fa-solid fa-arrows-rotate"></i>&nbsp;Auto start/stop
+menu-title: <i class="fa-solid fa-arrows-rotate fa-fw"></i>&nbsp;Auto start/stop
 ---
 # Overview
 With GPSLogger II it is possible to automatically start and end logging based on the current location - The simple use

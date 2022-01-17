@@ -1,7 +1,7 @@
 ---
 title: <i class="fa-brands fa-bluetooth"></i> Build in UUID Beacon Scanner
 sub-title: Don't call it UUID0xFD6FTracer
-menu-title: <i class="fa-brands fa-bluetooth"></i>&nbsp;UUID Beacon Scanner
+menu-title: <i class="fa-brands fa-bluetooth fa-fw"></i>&nbsp;UUID Beacon Scanner
 ---
 # Overview
 Google is extremely restrictive when it comes to apps in PlayStore that use the words 'COVID19' or 'pandemic' - I have

@@ -1,6 +1,6 @@
 ---
 title: <i class="fa-brands fa-bluetooth"></i> Bluetooth & ANT+ Sensors
-menu-title: <i class="fa-brands fa-bluetooth"></i>&nbsp;Bluetooth & ANT+
+menu-title: <i class="fa-brands fa-bluetooth fa-fw"></i>&nbsp;Bluetooth & ANT+
 ---
 # Overview
 # <i class="fa-brands fa-bluetooth"></i> Bluetooth / BluethoothLE

@@ -1,6 +1,6 @@
 ---
 title: <i class="fa-solid fa-paper-plane"></i> Plan a Route
-menu-title: <i class="fa-solid fa-paper-plane"></i>&nbsp;Planing (Website)
+menu-title: <i class="fa-solid fa-paper-plane fa-fw"></i>&nbsp;Planing (Website)
 ---
 > (forked from [openrouteservice.org](openrouteservice.org))
 

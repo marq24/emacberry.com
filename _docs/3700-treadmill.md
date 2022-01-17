@@ -1,5 +1,5 @@
 ---
-title: <i class="fa-solid fa-person-running"></i> Treadmill
+title: <i class="fa-solid fa-person-running fa-fw"></i> Treadmill
 ---
 
 # Overview
