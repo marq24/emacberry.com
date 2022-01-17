@@ -6,37 +6,18 @@
     <link id="themeLight" rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
     <link id="themeDark" rel="stylesheet alternate" href="{{ "/assets/css/style2.css" | relative_url }}">
     <script>
-        /*let themeLight = document.createElement("link");
-        themeLight.setAttribute("id", "theme1");
-        if (themeToUse === 'dark') {
-            themeLight.setAttribute("rel", "stylesheet alternate");
-        }else{
-            themeLight.setAttribute("rel", "stylesheet");
-        }
-        themeLight.setAttribute("href", "{{ "/assets/css/style.css" | relative_url }}");
-        document.head.appendChild(themeLight);
-
-        let themeDark = document.createElement("link");
-        themeDark.setAttribute("id", "theme2");
-        if (themeToUse === 'dark') {
-            themeDark.setAttribute("rel", "stylesheet");
-        }else{
-            themeDark.setAttribute("rel", "stylesheet alternate");
-        }
-        themeDark.setAttribute("href", "{{ "/assets/css/style2.css" | relative_url }}");
-        document.head.appendChild(themeDark);*/
-
-        let themeToUse = '';
+        let themeToUse = null;
         let themeLight = document.getElementById('themeLight');
         let themeDark = document.getElementById('themeDark');
         setTheme(getTheme());
 
         function getTheme(){
-            try {
+            // WE DON'T want to use ANY kind of cookies/tracking...
+            /* try {
                 themeToUse = sessionStorage.getItem('theme');
             } catch (err) {
                 console.log(err);
-            }
+            }*/
             if(!themeToUse){
                 if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
                     themeToUse = 'dark';
@@ -56,11 +37,12 @@
                 themeDark.setAttribute('rel', 'stylesheet alternate');
             }
             themeToUse = theme;
-            setTimeout(() =>{
+            // WE DON'T want to use ANY kind of cookies/tracking...
+            /*setTimeout(() =>{
                 try {
                     sessionStorage.setItem('theme', theme);
                 } catch(err) { console.log(err);}
-            }, 0);
+            }, 0);*/
             return false;
         }
 
