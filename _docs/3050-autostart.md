@@ -1,6 +1,6 @@
 ---
 title: <i class="fa-solid fa-arrows-rotate"></i> Auto-START / Auto-STOP logging
-menu-title: <i class="fa-solid fa-arrows-rotate fa-fw"></i>&nbsp;Auto start/stop
+menu-title: <i class="fa-solid fa-arrows-rotate fa-fw"></i>&nbsp;Auto START/STOP
 ---
 # Overview
 

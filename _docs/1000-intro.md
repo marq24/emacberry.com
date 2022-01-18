@@ -1,6 +1,6 @@
 ---
 title: <i class="fa-solid fa-star-of-life fa-fw"></i>&nbsp;Introduction & Initial Setup
-menu-title: <i class="fa-solid fa-star-of-life fa-fw"></i>&nbsp;Intro & Initial Setup
+menu-title: <i class="fa-solid fa-star-of-life fa-fw"></i>&nbsp;Start
 menu-mobile: Introduction & initial Setup
 ---
 
