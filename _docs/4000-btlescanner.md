@@ -1,6 +1,6 @@
 ---
 title: <i class="fa-brands fa-bluetooth"></i> Build in UUID Beacon Scanner
-sub-title: Don't call it UUID0xFD6FTracer
+sub-title: Don't call this UUID0xFD6FTracer!
 menu-title: <i class="fa-brands fa-bluetooth fa-fw"></i>&nbsp;Beacon Scanner
 ---
 # Overview
@@ -10,9 +10,9 @@ PlayStore - but it has always been removed after a short while for (IMHO) silly 
 via app the [FDroid-Store](https://f-droid.org/app/com.emacberry.uuid0xfd6fscan) and
 [Amazon AppStore](https://www.amazon.com/gp/product/B08CY7JY1P).
 
-While the UUID0xFD6FTracer app is just showing you the current situation you might like to be able to record the number
-of BluetoothLE beacons (with a specific UUID) around you over time. This can be done with GPSLogger II and the enabled
-BluetoothLE Beacon Scanner feature.
+While the UUID0xFD6FTracer app is showing you the current situation you might like to be able to record the number
+of visible BluetoothLE beacons (with a specific UUID) around you over time. This can be archived by enabling the
+BluetoothLE Beacon Scanner feature of GPSLogger II.
 
 # Requirement
 - Enabled Bluetooth
