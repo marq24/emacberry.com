@@ -1,7 +1,7 @@
 ---
 title: <i class="fa-brands fa-bluetooth"></i> Build in UUID Beacon Scanner
 sub-title: Don't call it UUID0xFD6FTracer
-menu-title: <i class="fa-brands fa-bluetooth fa-fw"></i>&nbsp;UUID Beacon Scanner
+menu-title: <i class="fa-brands fa-bluetooth fa-fw"></i>&nbsp;Beacon Scanner
 ---
 # Overview
 Google is extremely restrictive when it comes to apps in PlayStore that use the words 'COVID19' or 'pandemic' - I have
@@ -38,7 +38,7 @@ be updated for this specific beacon!
 
 When there are more than a single beacon at a location the app will render an additional number on the map-marker 
 
-# Export of recorded beacon data
+# Export of recorded beacon data {#export}
 When you record beacon data you probably want to do something with it - Since none of the standard file formats is
 supporting this type of data (at least I am not aware of) - the app offers a simple CSV Export.
 
