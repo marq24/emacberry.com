@@ -38,6 +38,8 @@ see [Indoor Equipment - Rowing Machine](../7100-indoor/#-rowing-machine)
 ### <i class="fa-solid fa-gears"></i> Shimano Di2 Setup
 see [Shimano Di2 Support](../7200-di2/)
 ## 02
+<span class="shot">![disable-battery-optimization](/assets/img/gpsl/backg001.png)</span>
+
 <span class="shot">![shot1](/assets/img/gpsl/Screenshot_1642148288_50.png)</span>
 <span class="shot">![shot1](/assets/img/gpsl/Screenshot_1642148295_50.png)</span>
 lore ipsum lore ipsum lore ipsum lore ipsum lore ipsum lore ipsum lore ipsum lore ipsum lore ipsum lore ipsum lore ipsum
