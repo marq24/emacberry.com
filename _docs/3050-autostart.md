@@ -3,10 +3,11 @@ title: <i class="fa-solid fa-arrows-rotate"></i> Auto-START / Auto-STOP logging
 menu-title: <i class="fa-solid fa-arrows-rotate fa-fw"></i>&nbsp;Auto start/stop
 ---
 # Overview
+
 With GPSLogger II it is possible to automatically start and end logging based on the current location - The simple use
 case is, that when I am leaving my home typically I don't want to start the recording manually every single time - and
-same aplies when I am returning - GPSLogger 'knows' where I am and that I am at home - so then simply stop logging cause
-the changes that I want to log any further are IMHO very limited.
+same applies when I am returning - GPSLogger 'knows' where I am and that I am at home - so then simply stop logging
+cause the changes that I want to log any further are IMHO very limited.
 
 Another use case is a loaded navigation path - so there are reasons WHY you have loaded a path? - right? - Yes -
 typically you want to follow this path and it's IMHO pretty reasonable to record this as well - so once you load a
@@ -25,6 +26,9 @@ The open question for you as user is, WHEN does logging start - and when does lo
 - At least one location in the LocationManager that is configured for Auto-START/STOP
 <br/>**or**<br/>
 - A loaded navigation path
+- **If** you have configured an Auto-START/STOP location GPSLogger will always launch it's
+  [Background-Service](../1100-data/#service) when you start the application and keep the service up and running till
+  you will terminate the app by selecting **EXIT** from the menu (or use the **EXIT** action of the sticky notification).
 
 # Configure  AUTO-Start & AUTO-Stop Locations
 The central point of add/enable AUTO-Logging locations is the 'LocationManager' - you can select any existing location

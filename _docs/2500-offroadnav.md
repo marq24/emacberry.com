@@ -4,12 +4,13 @@ menu-title:  <i class="fa-solid fa-diamond-turn-right fa-fw"></i>&nbsp;Offroad
 ---
 
 # Overview
-> THIS HAS TO BE REVIEWED - specially BlackBerry KeyboardShortCuts and other stuff...  
+
+> THIS HAS TO BE REVIEWED - specially BlackBerry KeyboardShortCuts and other stuff...
 
 First you have to know, that GPSLogger II supports two different ways to guide you to a certain place. In one of the
-modes you will be guided directly into the direction of a previously recorded location
-(Location-Mode) in the second one you will be guided along a previously loaded path (Path-Mode). It is very important
-that you understand the core difference between both cases.
+modes you will be guided directly into the direction of a previously recorded location (Location-Mode) in the second one
+you will be guided along a previously loaded path (Path-Mode). It is very important that you understand the core
+difference between both cases.
 
 ## Location-Mode \[Geocaching\]
 
@@ -40,12 +41,12 @@ want to follow it in the same direction (so you are currently at location A and 
 
 For the proper functionality of the outdoor navigation in GPSLogger II two settings in the options dialog have been
 introduced which have a major influence on the behaviour of the navigation software. If you have understood the concept
-how outdoor navigation is working in GPSLogger II you can adjust these two values 'When Waypoint is reached' & 
+how outdoor navigation is working in GPSLogger II you can adjust these two values 'When Waypoint is reached' &
 'Distance to next Waypoint' to your likings. In this documentation it is assumed the following (default) values are
 present:
 
-- When Waypoint is reached: 15m/50 ft
-- Distance to next Waypoint: 250m/820 ft
+- When Waypoint is reached: 15m/50&nbsp;ft
+- Distance to next Waypoint: 250m/820&nbsp;ft
 
 Please note that you do not have to be in logging mode in order to use the outdoor navigation function of GPSLogger II.
 
@@ -53,10 +54,10 @@ Please note that you do not have to be in logging mode in order to use the outdo
 
 2. Select the path you would like to follow
 
-3. Select **&nbsp;Load NaviPath**
+3. Select **&nbsp;Load NaviPath&nbsp;**
    (key shortcut: [N])<br /> If you are at location B and want to go to location A, then you have to select
-   **&nbsp;Load inverted NaviPath** (key shortcut: [SHIFT]+[N])
- 
+   **&nbsp;Load inverted NaviPath&nbsp;** (key shortcut: [SHIFT]+[N])
+
 4. GPSlogger will now calculate the nearest Waypoint (on the loaded Path) from your current location – this Waypoint
    becomes the first location, to which GPSLogger II will be guiding you (pointing towards the direction in the
    direction view).<br/><br/>
@@ -68,25 +69,25 @@ Please note that you do not have to be in logging mode in order to use the outdo
    Please note additionally that it could happen, that the next waypoint will not be calculated correctly (reported by a
    user) in this case please make use of the [SHIFT]+[R] key shortcut in order to rerun the "find the closest point on
    the path to your current location and calculate the next waypoint.
- 
+
 5. Now you should move towards the direction GPSLogger II is pointing to. Please have in mind (depending on your
    physical start location) that GPSLogger II cannot take any natural barriers like buildings or rivers into account. It
    will be assumed you are already quite close to one of the locations that are along the path.
- 
+
 6. When the distance between your current location and the point to which GPSLogger II is pointing at the moment is less
    than 15m/50&nbsp;ft (depending on your 'When Waypoint is reached' setting) the current waypoint is considered as
-   reached and the next waypoint to reach will be automatically calculated and will be set as the new location to
-   reach.
- 
+   reached and the next waypoint to reach will be automatically calculated and will be set as the new location to reach.
+
 7. Now you are in a loop of step 6) until you reach the final/last location (waypoint) that is recorded on the path, and
    you should then finally have reached your final destination.<br/><br/>
    Depending on your sample interval GPSLogger II will change the color of the path from light grey to dark grey when
    GPSLogger II believes you are on the path. "_Being on the path_" means, that you reached consequently the calculated
    locations. Once GPSLogger II is in this mode only waypoint that are ahead in the navigation path will be considered
-   as possible next waypoints. You can reset this behavior by using the [SHIFT]+[R] shortcut key or selecting 
-   **&nbsp;Reset Navigation** from the menu.
+   as possible next waypoints. You can reset this behavior by using the [SHIFT]+[R] shortcut key or selecting
+   **&nbsp;Reset Navigation&nbsp;** from the menu.
 
 ### How GPSLogger II will calculate the next waypoint?
+
 Once you have reached (or are close to) the location to which GPSLogger II has guided you, the _next_ waypoint will be
 calculated automatically. Therefore, GPSLogger II will "look ahead" in the loaded navigation path and calculates to each
 waypoint the distance from your current location – once the distance of a waypoint is greater than 250m/820&nbsp;ft
@@ -98,24 +99,27 @@ path – it is more that the application will find the next point (on the path) 
 current location and take this point as the _next_ waypoint.
 
 ### What happens, if you do not reach a waypoint?
+
 If you have a too small 'When Waypoint is reached' setting, or you have to go an alternative route (e.g. because of an
 obstacle) it could happen, that you do not reach the waypoint to which GPSLogger II is trying to guide you too.
 
 In this case GPSLogger II is able to detect, that you are actually moving away from the target (instead of approaching
 it) and the nearest waypoint on the path will be calculated again automatically which could take few moments. Once the
-calculation is finished you will be directed to the new location. If this autocorrection fails then there are
-additional menu items that could be used to get back on your way.
+calculation is finished you will be directed to the new location. If this autocorrection fails then there are additional
+menu items that could be used to get back on your way.
 
 ### Additional Menu Options / Key shortcuts while navigating outdoors
-- **&nbsp;Reset Navigation**
+
+- **&nbsp;Reset Navigation&nbsp;**
   [SHIFT]+[R]<br />When you press space GPSLogger II falls back to it's start procedure of the outdoor navigation - The
   nearest location in the path will be calculated and the nearest by location will be your next target. You will notice,
   that the color of the path path is changing again to light grey and GPSLogger II will consider all locations in the
   path again as possible next waypoints.
-- **&nbsp;Next Waypoint (+)**
+- **&nbsp;Next Waypoint (+)&nbsp;**
   [SPACE]<br />
 
 ## Outdoor navigation challenges
+
 When you are using outdoor navigation there is a big difference compared to street navigation or also called Turn by
 Turn navigation. In street navigation you can rely on edge calculations and relations. Outdoors you do not have any kind
 of edge model that could be used. This difference causes an issue you might encounter when you like to start a round
@@ -146,11 +150,12 @@ current location – in the example you are hopefully much closer to X<sub>4</su
 finally.
 
 So when you are on a round trip that has a common start and end point, then expect some problems concerning the
-direction on which you will be guided. Once you will leave the common part GPSLogger II will autocorrect its next
-target location, and you should be finally on the right way.
+direction on which you will be guided. Once you will leave the common part GPSLogger II will autocorrect its next target
+location, and you should be finally on the right way.
 <br class="shot-end">
 
 ## Benefits of logging while navigating
+
 Even if you do not have to run the logger while you are following another path it can have some benefits. When you are
 using the outdoor navigation function of GPSLogger II you will have in the Timing-View and in the direction view
 additional information about the distance along the path between your current position and the final end point and
@@ -158,16 +163,17 @@ depending on your current speed the estimated time of arrival
 (ETA).
 
 Calculating the ETA based on the current speed only can be quite inaccurate. When you are actually logging GPSLogger II
-can use your average speed to calculate the ETA - in most of the cases this will be way more accurate. But there is
-more - when the ETA will be calculated based on the average speed then you will see an additional up/down arrow behind
-the ETA. This arrow depends on your current speed compared to the average speed - when you are actually faster than the
+can use your average speed to calculate the ETA - in most of the cases this will be way more accurate. But there is more
+- when the ETA will be calculated based on the average speed then you will see an additional up/down arrow behind the
+ETA. This arrow depends on your current speed compared to the average speed - when you are actually faster than the
 current average speed, then the calculated ETA will be finally smaller and vice versa.
 
 ## Special function in logging mode: 'Bring me Back (route)'
+
 This function will take the recorded path, invert it and load it automatically as navigation path. Now instantly the
 pointer (in direction mode) guides you to the last waypoint instantly (in the specified distance). Once you have reached
 that point the application will calculate automatically the waypoint before that - that continues until you reach the
 origin (start point).
 
-So this is a macro function for the manual steps: Stop logging
-(& save path), open Path-Manager, select path & finally 'Load inverted NaviPath'. 
+So this is a macro function for the manual steps: Stop logging (& save path), open Path-Manager, select path & finally '
+Load inverted NaviPath'. 
