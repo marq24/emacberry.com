@@ -10,14 +10,13 @@ Import & export  - exchange files - see also the integrated eMail options (for y
 With Android 11 / SDK30 (and the Google Play Store requirement to support SDK30 since November 2021) it has become
 quite complicated to export files.
 
-I fully can understand the motivation from Google behind the changes with SDK30 - but it makes it quite
-complicated for existing users to understand, why it's no longer possible what have been so convenient in the
-past few years. The general train of thought is, that Apps should only be able to access their on files and
-directories. This situation is quite similar to iOS - with the only difference that the iOS users are used to
-this since the first day.
+I can fully understand the motivation from Google behind the changes with SDK30 - but it makes it quite complicated for
+existing users to understand, why it's no longer possible what have been so convenient in the past few years. The
+general train of thought is, that Apps should only be able to access their on files and directories. This situation is
+quite similar to iOS - with the only difference that the iOS users are used to this since the first day.
 
-Nevertheless, I stop whining here - I just felt the need to explain the reasons behind the exporting/importing
-changes - and that I did not had the intention to ruin your life when I released GPSLogger 2.0.0.195.
+Nevertheless, I stop whining here - I just felt the need to explain the reasons behind the exporting/importing changes -
+and that I did not had the intention to ruin your life when I released GPSLogger 2.0.0.195.
 
 # Access exported files in the **share** folder
 As just stated in the general notes it had become quite difficult for a normal app like GPSLogger to get read/write
@@ -64,8 +63,34 @@ If you don't have an additional external SD-Card (probably in most of the cases)
 effect for the export functionality**.
 
 So ok now let's have a look at the different application version, but one final note before that, the different folder
-locations have the \[_storage_root\] in common. The location of this _storage_root_[^1] can varray from device to device
+locations have the \[_storage_root_\] in common. The location of this _storage_root_[^1] can varray from device to device
 from manufacture to manufacture (and obviously from the external storage that you have configured).
+
+## Since GPSLogger v2.0.0.204
+
+`[storage_root]/Android/media/com.emacberry.gpslogger/share`
+
+This folder should be accessible from other applications (like file-managers or email clients). **BUT**
+<i class="fa-solid fa-warning"></i> Important to know - this folder, and it's complete content will be removed when you
+are uninstalling the application from your device.
+
+## Between v2.0.0.195 and v2.0.0.204
+
+This becomes hopefully obsolete quite soon - between November 2021 and February 2022 a suboptimal version of GPSLogger
+was released.
+
+`[storage_root]/Android/data/com.emacberry.gpslogger/files/share`
+
+Unfortunately this folder is only accessible by GPSLogger itself and very few others apps (excluding Googles own _Files_
+application). You can access this folder for sure, by connecting your phone via a USB cable with your PC/Mac and then
+browse into the folder with the Explorer/Finder.
+
+You might be able to access this folder with an app that is listed in _OS Settings > Apps > Special app access > All
+files access_ apps. But even then, there is no guarantee that an app with this special right will show you the content
+of the `[storage_root]/Android/data/` folder or any of its children.
+
+<i class="fa-solid fa-warning"></i> Important to know - this folder, and it's complete content will be removed when you
+are uninstalling the application from your device.
 
 ## Before GPSLogger v2.0.0.195
 
@@ -74,33 +99,8 @@ from manufacture to manufacture (and obviously from the external storage that yo
 **Big sigh** that was just so easy and convenient to use - but it's no longer possible for an application to read or
 write in such global folders.
 
-This folder would not be removed when you are uninstalling the application from your device.
-
-## Since GPSLogger v2.0.0.204
-
-`[storage_root]/Android/media/com.emacberry.gpslogger/share`
-
-This folder should be accessible from other applications (like file-managers or email clients)
-
-**BUT** - Important to know - this folder, and it's complete content will be removed when you are uninstalling the
-application from your device.
-
-## Between v2.0.0.195 and v2.0.0.204
-This becomes hopefully obsolete quite soon - between November 2021 and February 2022 a suboptimal version of GPSLogger
-was released.
-
-`[storage_root]/Android/data/com.emacberry.gpslogger/files/share`
-
-Unfortunately this folder is only accessible by GPSLogger itself and very few others apps (excluding Googles own _Files_
-application). You can access this folder by connecting your phone via a USB cable with your PC/Mac and then browse into
-the folder with the Explorer/Finder.
-
-You need an app that is enabled in the list of _OS Settings > Apps > Special app access > All files access_ apps. But
-even then, there is no guarantee an app with this special right will show you the content of
-the `[storage_root]/Android/data/` folder or any of the children in this folder.
-
-Important to know - this folder, and it's complete content will be removed when you are uninstalling the application
-from your device.
+This folder will not be removed when you are uninstalling the application from your device. That was one of the reasons
+why it was so convenient to use.
 
 ## File formats {#formats}
 
@@ -125,9 +125,9 @@ from your device.
 ---
 [^1]: The actual location on your device of the _storage_root_ can vary from device to device - please find here some 
       examples (but have in mind that are **just** examples):
-      - `\sdcard\`
-      - `\storage\emulated\`
-      - `\storage\self\primary\`
-      - `\storage\E5B1-1917\` (a _real_ external SD-Card)
-      - `\mnt\sdcard\`
-      - `\misc\android\` (e.g. used on BlackBerry 10)
+      - `/sdcard/`
+      - `/storage/emulated/`
+      - `/storage/self\primary/`
+      - `/storage/E5B1-1917/` (a _real_ external SD-Card)
+      - `/mnt/sdcard/`
+      - `/misc/android/` (e.g. used on BlackBerry 10)

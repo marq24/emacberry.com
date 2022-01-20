@@ -120,10 +120,11 @@ Probably you are right - Google started a long time ago with the _don't be evil_
 a while ago and hopefully in the meantime we are all aware, that we are paying for all the _free_ Google services with
 our privacy.
 
-**I as developer take your privacy extremely seriously, GPSLogger II is not collecting in the background any data from
-you - of course the app logs your location and save this data on your device - BUT YOU ARE THE ONLY ONE who has control
-what will happen with this data. Of course when you make use of the export/share functionality this date will be exposed
-to 3'rd party - but that's always YOUR decision.**
+> **I, as developer take your privacy extremely seriously, GPSLogger II is not collecting any data from you (not in the
+> background nor in the foreground). Of course the app logs your location and save this data on your device.**
+>
+> **YOU ARE THE ONLY ONE who has the full control what will happen with this data. Of course when you make use of the
+> export/share functionality this data will be exposed to 3'rd party - but that's always YOUR decision.**
 
 [See also the formal Privacy Policy of GPSLogger II](https://www.emacberry.com/pp/pp2.html) - Please note, that the only
 reason why _Personal data_ is accessed by the app is in order to be able to send eMails (in your name) for supporting
