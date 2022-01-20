@@ -33,6 +33,7 @@ menu-mobile: Introduction & initial Setup
 | <i class="fa-solid fa-toggle-off fa-fw"></i> | Indicates a setting/option in the application settings has to be disabled |
 | <i class="fa-solid fa-square-check fa-fw"> | Indicates a setting/option in the application settings has to be checked |
 | <i class="fa-solid fa-square fa-fw"></i> | Indicates a setting/option in the application settings has to be un-checked |
+| ABC > XYZ | In the application settings/section with the name **_ABC_** select item/section/setting **_XYZ_** |
 
 # Initial Setup
 
@@ -112,3 +113,27 @@ see [Shimano Di2 Support](../7200-di2/)
 
 <span class="shot">![shot1](/assets/img/gpsl/Screenshot_1642148288_50.png)</span>
 <span class="shot">![shot1](/assets/img/gpsl/Screenshot_1642148295_50.png)</span>
+
+## Why the app is free - what's my motivation - There has to be a catch! {#motivation}
+
+Probably you are right - Google started a long time ago with the _don't be evil_ slogan... but that changed IMHO quite 
+a while ago and hopefully in the meantime we are all aware, that we are paying for all the _free_ Google services with
+our privacy.
+
+**I as developer take your privacy extremely seriously, GPSLogger II is not collecting in the background any data from
+you - of course the app logs your location and save this data on your device - BUT YOU ARE THE ONLY ONE who has control
+what will happen with this data. Of course when you make use of the export/share functionality this date will be exposed
+to 3'rd party - but that's always YOUR decision.**
+
+[See also the formal Privacy Policy of GPSLogger II](https://www.emacberry.com/pp/pp2.html) - Please note, that the only
+reason why _Personal data_ is accessed by the app is in order to be able to send eMails (in your name) for supporting
+features like _EmergencyAlerts_, _HappyPartner_ or _(SimplifiedExportVia)Email_.
+
+### My motivation
+
+I started my career in the 90' as developer - over time I moved into a management role. Developing is really just a
+hobby for me, and it's that _back to your roots_ feeling that drives me. Also, I don't want to lose the connection to
+the craftsmanship of software development & architecture. So I do earn my money with something different from trying to
+sell your data, and I do not rely on a large user base. For me, it's enough when some people around the globe find
+GPSLogger useful. And as already stated - _I am happy to give something back to the world (since life have been very
+generous to me)_.

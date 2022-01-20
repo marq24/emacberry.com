@@ -48,3 +48,7 @@
 - title: <i class="fa-solid fa-gear fa-fw"></i> Settings
   docs:
     - link: /gpsl/docs/8000-general/
+
+- title: <i class="fa-solid fa-circle-info fa-fw"></i> Appendix
+  docs:
+    - link: /gpsl/docs/9990-glossary/

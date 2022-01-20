@@ -1,7 +1,7 @@
 ---
-title: <i class="fa-solid fa-location-dot"></i> Location Manager
+title: <i class="fa-solid fa-location-dot"></i> LocationManager
 sub-title: Manage & access your locations (*.gpp-files)
-menu-title: <i class="fa-solid fa-location-dot fa-fw"></i>&nbsp;Location Manager
+menu-title: <i class="fa-solid fa-location-dot fa-fw"></i>&nbsp;LocationManager
 ---
 # Overview
 the Location Manager mainly works exactly like the Path Manager - probably the main reason why you would like to access

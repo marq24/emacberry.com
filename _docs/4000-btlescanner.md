@@ -50,8 +50,3 @@ You find this Export in the PathManager.
 
 The file will then be stored in the default **share** folder of the app - if you need help accessing exported data on
 your device please see: [access GPSLogger files](../5000-export/#access-exported-files-in-the-share-folder)
-
-#### Glossary
-- BLTE: BluetoothLE
-- beacon: BluetoothLE beacon
-- CSV: comma seperated values
