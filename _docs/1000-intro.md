@@ -28,6 +28,7 @@ menu-mobile: Introduction & initial Setup
 ## Used Symbols
 
 | <span class="material-icons fa-fw">info</span> | Information |
+| <i class="fa-solid fa-hand-point-up fa-fw"></i> | Hint / Tip |
 | <i class="fa-solid fa-warning fa-fw"></i> | Warning \| Caution \| Danger |
 | <i class="fa-solid fa-toggle-on fa-fw"></i> | Indicates a setting/option in the application settings has to be enabled |
 | <i class="fa-solid fa-toggle-off fa-fw"></i> | Indicates a setting/option in the application settings has to be disabled |

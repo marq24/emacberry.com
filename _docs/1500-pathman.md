@@ -37,7 +37,7 @@ in order to force a synchronization of the database with the filesystem.
 ## Filter
 ### Show all
 ### Show imported only
-### Show recorde only
+### Show recorded only
 
 # Information shown per path
 1. Thumbnail

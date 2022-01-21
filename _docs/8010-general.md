@@ -1,13 +1,17 @@
 ---
-title: General Settings
+title: Appearance & Startup
+sub-title: GPS-Sensor Settings, Additional Sensors & Recording Settings
 ---
 # Overview
+
 # Prioritized Background Activity <i class="fa-solid fa-toggle-off">
+
 # GPS-Sensor & Smoothing Settings... {#gps-settings}
 ## GPS-Signal Required <i class="fa-solid fa-toggle-off">
 ## Save NMEA Data <i class="fa-solid fa-toggle-off">
 ## Overwrite GPS-Speed <i class="fa-solid fa-toggle-off">
 ## Path-Smoothing
+
 ## GPS update interval
 - As fast as possible
 - Every 1 second
@@ -28,7 +32,7 @@ title: General Settings
 # Additional Sensors...
 ## more...
 
-# AutoRecording & AutoPause...
+# AutoRecording & AutoPause... {#autopause}
 ## more2
 ## more3
 
