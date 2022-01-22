@@ -55,6 +55,7 @@
             }
             setTheme(newTheme);
             setThemeIcon(newTheme);
+            ensureMobileNavMenuIsCollapsed();
             return false;
         }
 
@@ -71,6 +72,18 @@
             }
             return false;
         }
+
+        function ensureMobileNavMenuIsCollapsed() {
+            try {
+                let navMenu = document.getElementById('nav-trigger');
+                if (navMenu && navMenu.checked) {
+                    navMenu.checked = false;
+                }
+            } catch (err) {
+                console.log(err);
+            }
+        }
+
         window.onload = setThemeIcon(getTheme());
     </script>
     {%- feed_meta -%}
