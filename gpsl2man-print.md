@@ -26,12 +26,10 @@ No guarantee is made for accuracy or reliability for any purpose whatsoever.
 ---
 
 {% for doc in site.docs %}
-<!--h2><a href="{{ doc.url }}">{{ doc.name }} - {{ doc.position }}</a></h2-->
-  <!--hr/>
-  collection: {{ doc.collection}}
-  <br/>path: {{ doc.path}}
-  <br/>rel_path: {{ doc.relative_path}}
-  <br/>url: {{ doc.url}}
-  <br/>date: {{ doc.date}}-->
-  <p>{{ doc.content | markdownify }}</p>
+    {%- if doc.sub-title -%}
+    <h1 class="post-title">{{ doc.title }}<br/><span style="font-size: 50%">{{ doc.sub-title }}</span></h1>
+    {%- else if doc.title -%}
+    <h1 class="post-title">{{ doc.title }}</h1>
+    {%- endif -%}
+    <p>{{ doc.content | markdownify }}</p>
 {% endfor %}
