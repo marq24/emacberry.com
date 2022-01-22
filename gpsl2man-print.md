@@ -32,6 +32,6 @@ No guarantee is made for accuracy or reliability for any purpose whatsoever.
     {%- else if doc.title -%}
 <h1 class="post-title">{{ doc.title }}</h1>
     {%- endif -%}
-<p>{{ doc.content | markdownify }}</p>
+<p>{{ doc.content | markdownify | replace: 'href="..', 'noref="..' | replace: 'href="#', 'noref="#' }}</p>
 ---
 {% endfor -%}
