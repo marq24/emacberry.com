@@ -5,7 +5,7 @@ menu-title:  <i class="fa-solid fa-diamond-turn-right fa-fw"></i>&nbsp;Offroad
 
 # Overview
 
-> THIS HAS TO BE REVIEWED - specially BlackBerry KeyboardShortCuts and other stuff...
+> THIS HAS TO BE REVIEWED...
 
 First you have to know, that GPSLogger II supports two different ways to guide you to a certain place. In one of the
 modes you will be guided directly into the direction of a previously recorded location (Location-Mode) in the second one
@@ -50,13 +50,13 @@ present:
 
 Please note that you do not have to be in logging mode in order to use the outdoor navigation function of GPSLogger II.
 
-1. Start GPSLogger II and open the Path-Manager (key shortcut: [SHIFT]+[M])
+1. Start GPSLogger II and open the Path-Manager
 
 2. Select the path you would like to follow
 
-3. Select **&nbsp;Load NaviPath&nbsp;**
-   (key shortcut: [N])<br /> If you are at location B and want to go to location A, then you have to select
-   **&nbsp;Load inverted NaviPath&nbsp;** (key shortcut: [SHIFT]+[N])
+3. Select **&nbsp;Load NaviPath**<br/>
+   **or** (if you are at location B and want to go to location A, then you have to select)<br/>
+   **Load inverted NaviPath**
 
 4. GPSlogger will now calculate the nearest Waypoint (on the loaded Path) from your current location – this Waypoint
    becomes the first location, to which GPSLogger II will be guiding you (pointing towards the direction in the
@@ -67,26 +67,27 @@ Please note that you do not have to be in logging mode in order to use the outdo
    to calculate the course please switch to the path view because this provides you also a good orientation in which
    direction you have to go (use also the ZOOM IN function in this case).<br/><br/>
    Please note additionally that it could happen, that the next waypoint will not be calculated correctly (reported by a
-   user) in this case please make use of the [SHIFT]+[R] key shortcut in order to rerun the "find the closest point on
-   the path to your current location and calculate the next waypoint.
+   user) in this case please make use of the <span class="btn">![button-rec](/assets/img/gpsl/button-resetnav.png)</span>
+   **Reset Navigation** overlay button. in order to rerun the "find the closest point on the path to your current
+   location and calculate the next waypoint.
 
-5. Now you should move towards the direction GPSLogger II is pointing to. Please have in mind (depending on your
+6. Now you should move towards the direction GPSLogger II is pointing to. Please have in mind (depending on your
    physical start location) that GPSLogger II cannot take any natural barriers like buildings or rivers into account. It
    will be assumed you are already quite close to one of the locations that are along the path.
 
-6. When the distance between your current location and the point to which GPSLogger II is pointing at the moment is less
+7. When the distance between your current location and the point to which GPSLogger II is pointing at the moment is less
    than 15m/50&nbsp;ft (depending on your 'When Waypoint is reached' setting) the current waypoint is considered as
    reached and the next waypoint to reach will be automatically calculated and will be set as the new location to reach.
 
-7. Now you are in a loop of step 6) until you reach the final/last location (waypoint) that is recorded on the path, and
+8. Now you are in a loop of step 6) until you reach the final/last location (waypoint) that is recorded on the path, and
    you should then finally have reached your final destination.<br/><br/>
    Depending on your sample interval GPSLogger II will change the color of the path from light grey to dark grey when
    GPSLogger II believes you are on the path. "_Being on the path_" means, that you reached consequently the calculated
    locations. Once GPSLogger II is in this mode only waypoint that are ahead in the navigation path will be considered
-   as possible next waypoints. You can reset this behavior by using the [SHIFT]+[R] shortcut key or selecting
-   **&nbsp;Reset Navigation&nbsp;** from the menu.
+   as possible next waypoints. You can reset this behavior by using the 
+   <span class="btn">![button-rec](/assets/img/gpsl/button-resetnav.png)</span> **Reset Navigation** overlay button.
 
-### How GPSLogger II will calculate the next waypoint?
+### How GPSLogger II will calculate the next waypoint? {#nextwaypoint}
 
 Once you have reached (or are close to) the location to which GPSLogger II has guided you, the _next_ waypoint will be
 calculated automatically. Therefore, GPSLogger II will "look ahead" in the loaded navigation path and calculates to each
@@ -108,15 +109,12 @@ it) and the nearest waypoint on the path will be calculated again automatically 
 calculation is finished you will be directed to the new location. If this autocorrection fails then there are additional
 menu items that could be used to get back on your way.
 
-### Additional Menu Options / Key shortcuts while navigating outdoors
+### Additional Overlay Buttons
 
-- **&nbsp;Reset Navigation&nbsp;**
-  [SHIFT]+[R]<br />When you press space GPSLogger II falls back to it's start procedure of the outdoor navigation - The
-  nearest location in the path will be calculated and the nearest by location will be your next target. You will notice,
-  that the color of the path path is changing again to light grey and GPSLogger II will consider all locations in the
-  path again as possible next waypoints.
-- **&nbsp;Next Waypoint (+)&nbsp;**
-  [SPACE]<br />
+| Icon | Description |
+| --- | --- |
+| <span class="btn">![button-rec](/assets/img/gpsl/button-resetnav.png)</span> | **Reset Navigation**<br/>When you press space GPSLogger II falls back to it's start procedure of the outdoor navigation The nearest location in the path will be calculated and the nearest by location will be your next target. You will notice, that the color of the path is changing again to light grey and GPSLogger II will consider all locations in the path again as possible next waypoints. |
+| <span class="btn">![button-rec](/assets/img/gpsl/button-nextwp.png)</span> | **Next Waypoint (+)**<br />Calculating the next possible waypoint based on your current location. |
 
 ## Outdoor navigation challenges
 

@@ -1,9 +1,7 @@
 ---
-title: Appearance & Startup
+title: General Settings
 sub-title: GPS-Sensor Settings, Additional Sensors & Recording Settings
 ---
-# Overview
-
 # Prioritized Background Activity <i class="fa-solid fa-toggle-off">
 
 # GPS-Sensor & Smoothing Settings... {#gps-settings}
