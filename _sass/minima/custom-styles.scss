@@ -17,7 +17,7 @@ h1, h2 {
   padding-top: $spacing-unit/4;
   padding-bottom: $spacing-unit/2;
 
-  @media screen and (max-width: 568px) {
+  @media screen and (max-width: $on-medium) {
     width: 100% !important;
     padding-right: unset;
   }
@@ -29,7 +29,7 @@ br.shot-end {
 
 span.btn img {
   vertical-align: top;
-  height: 1.6em;
+  width: 1.6em;
   margin-right: -0.1em;
   margin-left: -0.1em;
   /* border: 1px solid red; */
@@ -48,7 +48,7 @@ span.btn img {
   display: none;
 }
 
-@media screen and (max-width: 568px) {
+@media screen and (max-width: $on-medium) {
   .show-on-mobiles {
     display: block !important;
   }
