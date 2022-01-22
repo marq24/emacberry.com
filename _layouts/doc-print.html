@@ -1,0 +1,19 @@
+---
+layout: full
+---
+<!--section class="docs"-->
+<div class="grid">
+    <div class="unit">
+        <!--article-->
+        {%- if page.sub-title -%}
+        <h1 class="post-title"><a href="{{ page.url }}">{{ page.title }}</a><br/><span style="font-size: 50%">{{ page.sub-title }}</span></h1>
+        {%- else if page.title -%}
+        <h1 class="post-title"><a href="{{ page.url }}">{{ page.title }}</a></h1>
+        {%- endif -%}
+        {{ content | markdownify }}
+        <div class="right" style="font-size: 12px;"><i>Version: {{ site.manual-version }}</i></div>
+        <!--/article-->
+    </div>
+    <div class="clear"></div>
+</div>
+<!--/section-->

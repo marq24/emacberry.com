@@ -6,6 +6,9 @@ menu-title: <i class="fa-solid fa-envelope fa-fw"></i>&nbsp;Export & eMail
 # Overview
 Import & export  - exchange files - see also the integrated eMail options (for your convienience) 
 
+# Requirements
+- File System related Permissions: _WRITE_EXTERNAL_STORAGE_ & _READ_EXTERNAL_STORAGE_
+
 # Some General Notes
 With Android 11 / SDK30 (and the Google Play Store requirement to support SDK30 since November 2021) it has become
 quite complicated to export files.
@@ -127,7 +130,7 @@ why it was so convenient to use.
       examples (but have in mind that are **just** examples):
       - `/sdcard/`
       - `/storage/emulated/`
-      - `/storage/self\primary/`
+      - `/storage/self/primary/`
       - `/storage/E5B1-1917/` (a _real_ external SD-Card)
       - `/mnt/sdcard/`
       - `/misc/android/` (e.g. used on BlackBerry 10)

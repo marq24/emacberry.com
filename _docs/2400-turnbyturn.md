@@ -9,12 +9,24 @@ The app makes use of the **online** routing engine [openrouteservice.org](https:
 One of the reasons why GPSLogger makes use of openrouteservice.org is simply because I had the change to be part of the
 development team and contributed the current active road bike profile (beside some other internal core things).
 
-When creating a route with openrouteservice.org the route could be directly imported into GPSLogger (as JSON) and when
-the route is [loaded as navigation path (from PathManager)](../1500-pathman/#navipath)
+You have multiple options to start the TurnByTurn navigation function in GPSLogger:
+- When creating a route with openrouteservice.org the route could be exported as JSON and then directly imported into 
+  GPSLogger (as alternative you can 'beam' the route to emacberry.com backend and import the route from PathManager)
+- A path that **has TurnInfo** could be [loaded as (reverse) navigation path (from PathManager)](../1500-pathman/#navipath)
+- You can touch & hold any point on the map and then select from the popup-menu the item
+  <i class="fa-solid fa-diamond-turn-right"></i> _Directions..._
+- When you are recording, you can select from the application main menu the item _Bring me Back_ which will start a
+  routing request back to your staring location 
 
-Details about how to plan
+Details about [how to plan a route can be found in the Plan a Route Section](../2600-routeplan/)
 
 # Requirements
-Temporary online connection
+- Temporary online connection to request routing data from the routing-service.
+<br/>**or**<br/> 
+- A Path in PathManager that is marked with the **has TurnInfo** addon
+
+Once the navigation path (your planed route) is loaded the application does not need the online connection any longer.
+But if you leave the planed route by (xxx m), then the application will try to find the shortest way back to the initial
+planed route - for this type of _Detour-Routing-Requests_ GPSLogger requires an online connection.
 
 # Other stuff

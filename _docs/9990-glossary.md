@@ -1,7 +1,7 @@
 ---
 title: <i class="fa-solid fa-book"></i> Glossary
 sub-title: Used acronyms
-menu-title: <i class="fa-solid fa-book"></i>&nbsp;Glossary
+menu-title: <i class="fa-solid fa-book fa-fw"></i>&nbsp;Glossary
 ---
 
 | beacon | BluetoothLE beacon |

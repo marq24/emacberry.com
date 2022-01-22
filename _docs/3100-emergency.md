@@ -11,11 +11,7 @@ this account to the recipient(s).
 > new** feature of an automated emergency call where the latitude and longitude coordinates will be submitted as
 > text-to-speech seams to be ridiculous. Yes it's nice, that you watch will make an automated call (if you are not able
 > to do so) - but the watch needs either an eSIM or a paired phone (in range) and obviously the same restriction as for
-> the GPSLogger II Emergency Alert function applies: the device needs to be online (it will not work without a
-> network connection).
-
-Please note that the notifications will be **only send when GPSLogger II is in logging mode** - if you stop logging (or
-enter the pause mode) **no alert's will be sent**.
+> the GPSLogger II Emergency Alert function applies: the device needs to be online (a network connection is mandatory).
 
 # Requirements
 - [Configured eMail account](../8140-email/)
@@ -32,13 +28,16 @@ enter the pause mode) **no alert's will be sent**.
 When you are using GPSLogger to record your movement, then it seems to be some sort of natural that the app is able to 
 realized when you have stopped moving. This currently be archived by using your settings - if you **do not move** the
 specified distance in the specified time, then the app assumes something (serious) has happened and going to send the
-previously configured email to the recipient - the eMail also include the current position, a link to GoogleMap, as well
-as the complete KML file of your activity (so the recipient can see what path you have followed).
+previously configured email to the recipient(s) - the eMail also include the current position, a link to GoogleMap, as
+well as the complete KML file of your activity (so the recipient can see what path you have followed).
 
-> It makes a lot of sense to inform the person (e.g. your partner) who is going to receive this email in advance, that
-> you have configured an application that could send automatically an email in your name, in the case of an emergency.
+Please note that the notifications will be **only send when GPSLogger II is in logging mode** - if you stop logging (or
+enter the pause mode) **no alert's will be sent**.
+
+> It makes a lot of sense to inform the person who is going to receive this email in advance, that you have configured
+> an application that could send automatically an email in your name, in the case of an emergency.
 >
-> **Please take the time and agree on procedure that should be followed once such an email arrives.** 
+> **Please take the time and agree on procedure that should be followed, once such an email arrives.** 
 
 So e.g. when you are hiking, then you have an approximated average speed of 2-3 km/h (0.5 - 0.8 meter per second) - 
 also assuming you make short rests of 2-5minutes in between, then selecting as **time delta** 5 minutes and select a
@@ -46,9 +45,8 @@ also assuming you make short rests of 2-5minutes in between, then selecting as *
 
 <i class="fa-solid fa-hand-point-up"></i> You don't have to focus on calculating your average speed. When not
 moving, your GPS position is jumping around (sometimes just a few meters - sometimes it can be 25 m or more - this
-mainly depends on from the signal quality from the satellites) - if you simply select some sor of maximum jumping
-distance you know from your device, then selecting some more meters than the maximum 'signal tremor' (jitter), should be
-safe enough.
+mainly depends on from the signal quality from the satellites). When you add some meters to this 'signal tremor'
+(jitter) and then use this value ('maximum jumping distance') as _minimum travel distance_ you should be safe. 
 
 > Personally I have configured 75 m - since moving 75 m in 5 minutes means a speed of 0.9 km/h which is doable
 > as average speed on my activities. 
@@ -56,13 +54,22 @@ safe enough.
 <i class="fa-solid fa-warning"></i> When you make use of Auto-PAUSE feature of the application, the app can not send an
 Emergency Alert that is based on a minimal movement calculation.
 
+# Information that an Emergency Alert was sent
+
+<span class="shot">![shot1](/assets/img/gpsl/emergency-sent.png)</span> No matter if you have selected to be able to
+intercept a Emergency Alert or not - once the application have triggered the send process of an Emergency alert to the
+configured recipient(s) that app will show you a none-cancelable dialog like this one here.
+
+**<i class="fa-solid fa-hand-point-up"></i> So when ever you see this dialog it's strongly recommended getting in contact
+with your contacts.**
+
 # Option to intercept the Emergency Alerting
-It will happen for sure, that when you have enabled the _Emergency Alert_ functionality that you will accidentally send
-an eMail cause you make a longer rest and forgot to pause/stop the recording - or you are really moving slow cause of a
-steep climb.
+It can happen, that when you have enabled the _Emergency Alert_ functionality that you will accidentally send an eMail
+cause you make a longer rest and forgot to pause/stop the recording - or you are just moving slower than usual e.g.
+cause of a steep climb.
 
 <span class="shot">![shot1](/assets/img/gpsl/emergency-cancel.png)</span> When
-[<i class="fa-solid fa-toggle-on"></i> Show intercept Dialog](../8150-emergency/) then the app is going to show you for
+[<i class="fa-solid fa-toggle-on"></i> Show intercept Dialog](../8150-emergency/), then the app is going to show you for
 **one minute** an additional dialog and will **play an alert sound** (in an endless loop) in order to make you aware
 that the app is going to send out an Emergency Alert email to your configured recipient(s) shortly.
 
@@ -72,7 +79,7 @@ send out the alert email without further notice.<br class="shot-end">
 
 So by enabling the _Show intercept Dialog_ the Emergency Alert will be delayed by one additional minute.
 
-## Select an Alert Sound
+## Select an Intercept-Alert Sound
 The audio notification will use the configured sound for the 'Pace'-Notification. If you haven't configured on, the
 sound used for the _WayPoint Reached_ Notification will be used.
 
@@ -87,16 +94,18 @@ So the complete fallback chain is
 - Device Settings: DEFAULT RINGTONE Sound
 
 # What you should do, when you have received an Emergency Alert eMail from GPSLogger {#incaseofanemergency}
-OK - you received an Emergency Alert eMail from GPSLogger - this means somebody you know is currently not able to move
-or respond to a alert on his mobile device. The eMail you have received was sent automatically - it's quite reasonable
+OK - you received an Emergency Alert eMail from GPSLogger - this means, somebody you know is currently not able to move
+or respond to an alert on his mobile device. The eMail you have received was sent automatically - it's quite reasonable
 that the person is unconscious and could not make any call for help by himself.
 
-Of curse, you can double-check by give the person a phone call - but don't be surprised if he will not pick up the call.
+Of curse, you can double-check by give the sender ob the eMail a phone call - but don't be surprised if he will not pick
+up the call.
 
-What you should do? Hopefully you have agreed on a procedure to follow with the sender - now is the moment for action.
+What you should do? Hopefully you have agreed on a procedure to follow with the sender - now is the moment for **your**
+action.
 
 With the eMail you have received:
-- A link to Google maps showing the current location of the device caused the alert (a link, like this one)<br/>
+- A link to GoogleMaps showing the current location of the device caused the alert (a link, like this one)<br/>
   [http://maps.google.com/?q=HERE_2022-01-21T12:19:56.167Z@47.39553088,11.22492661&z=12](http://maps.google.com/?q=HERE_2022-01-21T12:19:56.167Z@47.39553088,11.22492661&z=12)<br/>
   \[_clicking on the link will show you the position of the device in GoogleMaps_\]
  
@@ -106,7 +115,7 @@ With the eMail you have received:
 - A KML-File showing you the route your contact have traveled to far (this can be used in order to see what route have
   been taken in order to reach the position where the possible accident has happened).
 
-If you received such an eMail by surprise - and did **not agreed on a procedure** - then you are in a bit of though
+If you received such an eMail by surprise - and did **not agreed on a procedure** - then you are in a bit of tricky
 position.
 
 What just has happened: An application installed on a smartphone, detected that it's owner did not move a certain
@@ -114,7 +123,7 @@ distance in a time defined by the owner of the device. This detection caused an 
 received. 
 
 There is a probability that the sender of the email has had an accident and need help. Unfortunately I am not able to
-give your here any additional advise what would be an appropriate reaction.
+give your here any additional advise what would be **your appropriate reaction**.
 
 > In my GPSLogger Settings I have configured my wife as recipient and agreed with her on the following procedure, **IF**
 > she is ever going to receive such an Emergency Alert email from me, she will do:
