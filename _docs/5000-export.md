@@ -109,7 +109,7 @@ why it was so convenient to use.
 
 ### KML \[Keyhole Markup Language\]
 
-### FIT \[Flexible and Interoperable\]
+### FIT \[Flexible and Interoperable\] {#fit}
 
 ### GPX (v1.0)
 

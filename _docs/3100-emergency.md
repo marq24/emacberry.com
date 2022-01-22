@@ -61,7 +61,7 @@ intercept a Emergency Alert or not - once the application have triggered the sen
 configured recipient(s) that app will show you a none-cancelable dialog like this one here.
 
 **<i class="fa-solid fa-hand-point-up"></i> So when ever you see this dialog it's strongly recommended getting in contact
-with your contacts.**
+with the recipients of the alert eMail.**
 
 # Option to intercept the Emergency Alerting
 It can happen, that when you have enabled the _Emergency Alert_ functionality that you will accidentally send an eMail

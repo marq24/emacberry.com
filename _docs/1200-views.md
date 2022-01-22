@@ -101,7 +101,13 @@ select a different record type (see [How GPSLogger will log your data?](../1100-
 ## Navigation Speed View
 ## Heartrate View (ANT+/BTLE)
 ## Cadence View (ANT+/BTLE)
-## Shifting View (Di2)
+## Shifting View (Di2) {#shifting}
+<span class="shot">![view-shifting](/assets/img/gpsl/view-shifting-di2.png)</span>
+- Large Font Top: Number of front-gear teeth - number of rear-gear teeth
+- Large Font Bottom: resulting gear-ratio
+- Upper right corner: Schematic gear positions
+- Graph: Showing ratio over time
+<br class="shot-end">
 ## Power View (BTLE)
 ## Barometer View
 ## TargetSpeed View
@@ -109,4 +115,6 @@ select a different record type (see [How GPSLogger will log your data?](../1100-
 ## MultiView I-IV
 ## BTLE-Beacon View
 <span class="shot">![view-btle-beacons](/assets/img/gpsl/view-btle-beacons.png)</span>
+- Large Font: Showing current visible beacons 
+- Graph: Showing number of visible beacons over time
 <br class="shot-end">
