@@ -14,8 +14,8 @@ The main application screen consist of:
 
 # The ActionBar
 
-The Toolbar will be only visible when you are in the view-mode of the application - as soon as you start recording the
-actionbar will be hidden, and you can access the  <i class="fa-solid fa-ellipsis-vertical"></i>  main menu via the
+The ActionBar will be only visible when you are in the view-mode of the application - as soon as you start recording the
+_ActionBar_ will be hidden, and you can access the  <i class="fa-solid fa-ellipsis-vertical"></i>  main menu via the
 corresponding overlay button.
 
 If enough space on your display the ActionBar will show (beside the
