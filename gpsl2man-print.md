@@ -1,10 +1,11 @@
 ---
 title: GPSLogger II Manual [<i>PRINT-VERSION</i>]
-sub-title: <b>NOT FOR SALE</b>
+sub-title: <b><i>-NOT FOR SALE / NOT FOR REPRINT -</i></b>
 layout: doc-print
 permalink: gpsl/docs/9999-print/index.html
 ---
 > Before you going to print this manual - please considered if this is necessary - save our environment!  
+
 ---
 
 # DISCLAIMER
@@ -25,11 +26,12 @@ No guarantee is made for accuracy or reliability for any purpose whatsoever.
 
 ---
 
-{% for doc in site.docs %}
+{% for doc in site.docs -%}
     {%- if doc.sub-title -%}
-    <h1 class="post-title">{{ doc.title }}<br/><span style="font-size: 50%">{{ doc.sub-title }}</span></h1>
+<h1 class="post-title">{{ doc.title }}<br/><span style="font-size: 50%">{{ doc.sub-title }}</span></h1>
     {%- else if doc.title -%}
-    <h1 class="post-title">{{ doc.title }}</h1>
+<h1 class="post-title">{{ doc.title }}</h1>
     {%- endif -%}
-    <p>{{ doc.content | markdownify }}</p>
-{% endfor %}
+<p>{{ doc.content | markdownify }}</p>
+---
+{% endfor -%}

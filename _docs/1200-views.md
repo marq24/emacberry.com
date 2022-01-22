@@ -41,14 +41,12 @@ profile name instead of _GPSLogger II_.
 
 The application supports up to three different views be visible at the same time - the main view and two additional
 sub-views. You can:
-- Fully customize which view will be used in each section of the three sections
+- Fully customize which view will be used in each of the three sections
 - **Switch** between available views by **swiping left/right** (on the map view you have to start with the swiping near
   the left/right margin of the map screen)
 - Specify the ratio between the main- and the two sub-views
 - Define, if a sub views should be locked (disable view switching)
 - The two additional views can be enabled/disabled via the main menu (_Show/Hide View 1/2_)
-
-<i class="fa-solid fa-hand-point-up fa-fw"></i> Pinch-to-zoom also supported for Views that support the Zoom function.
 
 All the view configurations can be adjusted in the [Appearance & Startup Settings](../8020-apperance/#statup),
 so that the application will start with the screen layout you prefer.
@@ -82,8 +80,8 @@ select a different record type (see [How GPSLogger will log your data?](../1100-
 | <span class="btn">![button-rec](/assets/img/gpsl/button-omd.png)</span> | Iterate between the different configured [OpenMapData Providers](../2200-openmapdata/) |
 | <span class="btn">![button-rec](/assets/img/gpsl/button-resetpan.png)</span> | Center map on current position (only visible if map view is paned) |
 | <span class="btn">![button-rec](/assets/img/gpsl/button-mflag.png)</span> | Center map on next (navigation) target (only active when a navigation path is loaded) |
-| <span class="btn">![button-rec](/assets/img/gpsl/button-zoomin.png)</span> | Zoom IN (only visible if one of the visible views supporting zoom function) |
-| <span class="btn">![button-rec](/assets/img/gpsl/button-zoomout.png)</span> | Zoom OUT (only visible if one of the visible views supporting zoom function) |
+| <span class="btn">![button-rec](/assets/img/gpsl/button-zoomin.png)</span> | Zoom IN (only visible if one of the visible views supporting zoom function) <i class="fa-solid fa-hand-point-up fa-fw"></i> Pinch-to-zoom is also supported |
+| <span class="btn">![button-rec](/assets/img/gpsl/button-zoomout.png)</span> | Zoom OUT (only visible if one of the visible views supporting zoom function) <i class="fa-solid fa-hand-point-up fa-fw"></i> Pinch-to-zoom is also supported |
 | <span class="btn">![button-rec](/assets/img/gpsl/button-resetnav.png)</span> | Reset Offroad Navigation (only available if a navigation path is loaded that does not contain TurnByTurn instructions) |
 | <span class="btn">![button-rec](/assets/img/gpsl/button-nextwp.png)</span> | [Calculate new next Waypoint](../2500-offroadnav/#nextwaypoint) (only available if a navigation path is loaded that does not contain TurnByTurn instructions) |
 

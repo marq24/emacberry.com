@@ -8,6 +8,7 @@ menu-title: <i class="fa-solid fa-book fa-fw"></i>&nbsp;Glossary
 | BLTE | BluetoothLE |
 | BT | Bluetooth |
 | CSV | Comma seperated values |
+| ETA | Estimated Time of Arrival |
 | FIT | Flexible and Interoperable data Transfer (a file format from Garmin)
 | GPL | GPSLogger II _or_ file extension for path files |
 | GPP | File extension for positions / locations |
