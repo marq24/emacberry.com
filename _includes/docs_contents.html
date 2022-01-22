@@ -8,7 +8,7 @@
         <li {%- if page.url == p.url %} class="current" {%- endif -%}><a href="{{ p.url | relative_url }}">{{- p.menu-title | default: p.title -}}</a></li>
       {%- endfor %}
       {%- if section.title contains 'Appendix' %}
-        <li {%- if page.url == '/gpsl/gpslogger_manual-printversion.html' %} class="current" {%- endif -%}><a href="/gpsl/gpslogger_manual-printversion.html"><i class="fa-solid fa-print fa-fw"></i>&nbsp;Print Version
+        <li {%- if page.url == '/gpsl/docs/9999-print/index.html' %} class="current" {%- endif -%}><a href="/gpsl/docs/9999-print/index.html"><i class="fa-solid fa-print fa-fw"></i>&nbsp;Print Version
         </a></li>
       {%- endif %}
       </ul>

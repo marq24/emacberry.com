@@ -2,7 +2,7 @@
 title: GPSLogger II Manual [<i>PRINT-VERSION</i>]
 sub-title: <b>NOT FOR SALE</b>
 layout: doc-print
-permalink: gpsl/gpslogger_manual-printversion.html
+permalink: gpsl/docs/9999-print/index.html
 ---
 > Before you going to print this manual - please considered if this is necessary - save our environment!  
 ---
