@@ -9,13 +9,13 @@ menu-title: <i class="fa-solid fa-book fa-fw"></i>&nbsp;Glossary
 | BT | Bluetooth |
 | CAD | Cadence - cycling - calculating the Crank Revolutions per minute |
 | CSC | Cycling Speed and Cadence (BluetoothLE) |
-| CSV | Comma seperated values |
+| CSV | File format - Comma seperated values |
 | ETA | Estimated Time of Arrival |
-| FIT | Flexible and Interoperable data Transfer (a file format from Garmin)
+| FIT | File format - Flexible and Interoperable data Transfer (a file format from Garmin)
 | FTMS | [Fitness-Machine-Service Bluetooth Specification](https://www.bluetooth.com/specifications/specs/fitness-machine-service-1-0/) |
-| GPL | GPSLogger II _or_ file extension for path files |
-| GPP | File extension for positions / locations |
-| GPX | GPS exchange format (v1.0 & v1.1) |
+| GPL | GPSLogger II _or_ File format - file extension for path files |
+| GPP | File format - File extension for positions / locations |
+| GPX | File format - GPS exchange format (v1.0 & v1.1) |
 | MSL | Mean Sea Level |
 | NMEA | National Marine Electronics Association [see NMEA 0183](https://en.wikipedia.org/wiki/NMEA_0183) |
 | OMD | [OpenMapData Provider](../2200-openmapdata/) |

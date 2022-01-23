@@ -10,8 +10,8 @@ As already initially mentioned in the [Logged Data Section](../1100-data/#extern
 external sensors. Mainly this feature has been added for my own cycling & running activities, so please understand that
 there might a limitation when it comes to support of specific sensor brands or types.
 
-The implementation base 1:1 on the Protocol specifications (either ANT+ or Bluetooth/BluetoothLE) - so if your sensor is
-supporting the standard implementation of the protocol it should work 🤞 (I'll keep my fingers crossed).
+The implementation base 1:1 on the Protocol specifications (either ANT+ or BluetoothLowEnergy/Bluetooth) - so if your
+sensor is supporting the standard implementation of the protocol, it should work 🤞 (I'll keep my fingers crossed).
 
 # ANT+
 
@@ -41,11 +41,11 @@ Before you be able to connect any ANT+Sensor with GPSLogger need:
 - <i class="fa-solid fa-heart-pulse fa-fw"></i> Heartrate Sensors
 - <i class="fa-solid fa-arrow-rotate-left fa-fw"></i> Cadence / Speed & Cadence Sensors
 
-# <i class="fa-brands fa-bluetooth"></i> BluetoothLE / Bluetooth
+# <i class="fa-brands fa-bluetooth"></i> BluetoothLowEnergy / Bluetooth
 
-In the year 2022 we mainly talk about Bluetooth**LowEnergy** (als known as BTLE or just BLE) Sensors. The probability
-that you buy a _Bluetooth_ Sensor is IMHO quite low. But be aware that a lot of old fitness equipments still use the
-**old 5.3Khz Bluetooth** (and not BTLE) technology. This kind of hardware can't be used with GPSLogger.
+In the year 2022 we mainly talk about Bluetooth**LowEnergy** (als known as BluetoothLE, BTLE or just BLE) Sensors. The
+probability that you buy a _Bluetooth_ Sensor is IMHO quite low. But be aware that a lot of old fitness equipments still
+use the **old 5.3Khz Bluetooth** (and not BTLE) technology. **This kind of hardware can't be used with GPSLogger**.
 
 So if you see the <i class="fa-brands fa-bluetooth"></i> sign printed on your sensor - but it does not work with
 GPSLogger, then the chance is quite high that this is an old device. You might like to double-check with an app like

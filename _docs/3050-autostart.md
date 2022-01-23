@@ -70,8 +70,11 @@ colored cycles on the map screens where each cycle have a certain meaning:
   location have been activated by being in the blue cycle before) the recording will be automatically started.
 <br class="shot-end"/>
 
-So to sum up - 1'st be in range of the blue cycle (activate) - 2'nd move out of the green cycle to start logging - 3'rd
-entering the red cycle to stop logging.
+## So to sum it up
+1. Be in range of the blue cycle (activate)
+2. Move out of the green cycle to start logging
+3. Entering the red cycle (of any configured auto start/stop location) to stop logging.
 
-Personally I make use of the start logging & stop logging Audio Notifications to be 100% sure that my cycling tours will
-be recorded.
+> Personally I make additionally use of the start logging & stop logging event Audio Notifications to be 100% sure that
+> my cycling tours will be automatically recorded as soon as I leave my home or work.
+> [see Audio Notifications](../3010-audioalerts/#events) 

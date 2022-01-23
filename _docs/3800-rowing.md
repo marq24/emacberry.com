@@ -2,17 +2,18 @@
 title: "<span class='material-icons fa-fw' style='width: 1.042em;'>rowing</span>&nbsp;Rowing Machine"
 menu-mobile: Rowing Machine
 ---
-At the 28'th of July finally my Concept2/PM5 rowing machine arrived - so I had to start with implementing the Fitness
-Machine Service (FTMS) Rowing Data Support in my GPSLogger application. Additionally, to this general BTLE standard the
-PM5 supporting a lot of additional data fields \[like DriveLength, DriveTime or for each stroke an individual force
-curve\] which is pretty cool. All this additionally available data will be captured & logged with the App.
+At the 28'th of July finally my Concept2/PM5[^3] rowing machine arrived - so I had to start with implementing the
+Fitness Machine Service (FTMS) Rowing Data Support in my GPSLogger application. Additionally, to this general BTLE
+standard the PM5 supporting a lot of additional data fields \[like DriveLength, DriveTime or for each stroke an
+individual force curve\] which is pretty cool. All this additionally available data will be captured & logged with the
+App.
 
 # Requirements
 - GPSLogger Version 2.0.0.186 (or higher)
 - enabled Bluetooth
 - Rowing Machine supporting BluetoothLE FTMS[^1] that provide Rower-Data[^2]
 <br/>**or**<br/> 
-- A [Concept2](https://www.concept2.com/) with a PM2 (or higher)
+- A [Concept2](https://www.concept2.com/) with a PM2 (or higher)[^3]
 - App bound/paired with your rowing machine
 - \[_Optional_\] bound ANT+/Bluetooth(LE) <i class="fa-solid fa-heart-pulse"></i> HR Sensor with GPSLogger 
 
@@ -78,4 +79,6 @@ ANT+ with the PM5 and use at the same time the sensor with GPSLogger...
 [^1]: FTMS: [Fitness-Machine-Service Bluetooth Specification](https://www.bluetooth.com/specifications/specs/fitness-machine-service-1-0/)
     / [Specification XML](https://www.bluetooth.com/wp-content/uploads/Sitecore-Media-Library/Gatt/Xml/Services/org.bluetooth.service.fitness_machine.xml)
 
-[^2]: [Rower-Data Specification XML](https://www.bluetooth.com/wp-content/uploads/Sitecore-Media-Library/Gatt/Xml/Characteristics/org.bluetooth.characteristic.rower_data.xml)  
+[^2]: [Rower-Data Specification XML](https://www.bluetooth.com/wp-content/uploads/Sitecore-Media-Library/Gatt/Xml/Characteristics/org.bluetooth.characteristic.rower_data.xml)
+
+[^3]: Please note **this is NOT AN ADVERTISEMENT** I just use/own these devices - and I paid the regular price.

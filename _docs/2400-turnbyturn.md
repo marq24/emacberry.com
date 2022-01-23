@@ -27,7 +27,7 @@ Details about [how to plan a route can be found in the Plan a Route Section](../
 - A Path in PathManager that is marked with the **has TurnInfo** addon
 
 Once the navigation path (your planed route) is loaded the application does not need the online connection any longer.
-But if you leave the planed route by (xxx m), then the application will try to find the shortest way back to the initial
-planed route - for this type of _Detour-Routing-Requests_ GPSLogger requires an online connection.
+But if you leave the planed route by (50 m), then the application will try to find the shortest way back to the
+initial planed route - for this type of _Detour-Routing-Requests_ GPSLogger requires an online connection.
 
 # Show next TurnInfo as embedded image
