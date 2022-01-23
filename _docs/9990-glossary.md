@@ -1,15 +1,18 @@
 ---
 title: <i class="fa-solid fa-book"></i> Glossary
-sub-title: Used acronyms
+sub-title: Used acronyms in this manual
 menu-title: <i class="fa-solid fa-book fa-fw"></i>&nbsp;Glossary
 ---
 
 | beacon | BluetoothLE beacon |
-| BLTE | BluetoothLE |
+| BLE, BTLE or BluetoothLE | Bluetooth**LowEnergy** - don't mix that up with _just_ Bluetooth |
 | BT | Bluetooth |
+| CAD | Cadence - cycling - calculating the Crank Revolutions per minute |
+| CSC | Cycling Speed and Cadence (BluetoothLE) |
 | CSV | Comma seperated values |
 | ETA | Estimated Time of Arrival |
 | FIT | Flexible and Interoperable data Transfer (a file format from Garmin)
+| FTMS | [Fitness-Machine-Service Bluetooth Specification](https://www.bluetooth.com/specifications/specs/fitness-machine-service-1-0/) |
 | GPL | GPSLogger II _or_ file extension for path files |
 | GPP | File extension for positions / locations |
 | GPX | GPS exchange format (v1.0 & v1.1) |
@@ -18,5 +21,7 @@ menu-title: <i class="fa-solid fa-book fa-fw"></i>&nbsp;Glossary
 | OMD | [OpenMapData Provider](../2200-openmapdata/) |
 | OSM | OpenStreetMap |
 | SDK | Software Development Kit |
+| TIA | Thanks in advance | 
 | TTS | Text To Speech - Speech Synthesis / Generated Speech (different engines available based on your model & manufacturer) - can be configured in the OS Settings |
 | WGS84 | [World Geodetic System from 1984](https://en.wikipedia.org/wiki/World_Geodetic_System#WGS84) |
+| Y/N | Yes or No |
