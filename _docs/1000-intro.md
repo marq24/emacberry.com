@@ -48,39 +48,59 @@ menu-mobile: Introduction & initial Setup
 
 ## Requested Permissions
 ### Location (& Bluetooth) related
-- ACCESS_COARSE_LOCATION
-- ACCESS_FINE_LOCATION
-- ACCESS_BACKGROUND_LOCATION
-- ACCESS_LOCATION_EXTRA_COMMANDS
+- **ACCESS_COARSE_LOCATION**
+- **ACCESS_FINE_LOCATION**
+- **ACCESS_LOCATION_EXTRA_COMMANDS**
+
+GPSLogger II stores this location data only locally (on your device) and uses this data for local displaying purpose
+exclusively. The data will not be processed in any way further or even processed by backend systems (servers). The
+recorded data only leave your device when you trigger an export. In any case, you remain in control of whom you hand
+over this exported data to.
+
+If you want to share your location with third parties via the app, you have to set this up explicitly in the app
+settings.
+
+- **ACCESS_BACKGROUND_LOCATION**
+
+To ensure a smooth recording of your location history (and the subsequent display in the app), please allow GPSLogger II
+to track your location all the time (even when running in the background).
+
+GPSLogger II will use location in the background to show you your activities (walks, runs or bike rides) on a map.
+
+You can recognize via a fixed (permanent) notification that the  'background location tracking service' is in use. It
+is therefore always transparent for you when the application has access to your location and record data (if you have
+requested to do so).
+
+The recorded location data remain on your device and are not processed further.
 
 ### Connectivity related
-- INTERNET
-- ACCESS_WIFI_STATE
-- ACCESS_NETWORK_STATE
+- **INTERNET**
+- **ACCESS_WIFI_STATE**
+- **ACCESS_NETWORK_STATE**
 
 ### GUI related
-- WAKE_LOCK
-- VIBRATE
+- **WAKE_LOCK**
+- **VIBRATE**
 
 ### File System related
-- WRITE_EXTERNAL_STORAGE
-- READ_EXTERNAL_STORAGE
+- **WRITE_EXTERNAL_STORAGE**
+- **READ_EXTERNAL_STORAGE**
 
 ### Sending eMail related
-- GET_ACCOUNTS
-- USE_CREDENTIALS
+- **GET_ACCOUNTS**
+- **USE_CREDENTIALS**
 
 ### Background/Service/functional related
-- RECEIVE_BOOT_COMPLETED
-- FOREGROUND_SERVICE
-- REQUEST_IGNORE_BATTERY_OPTIMIZATIONS
+- **RECEIVE_BOOT_COMPLETED**
+- **FOREGROUND_SERVICE**
+- **REQUEST_IGNORE_BATTERY_OPTIMIZATIONS**
 
 ### External Sensor / BluetoothLE Beacon Scanner related
-- BLUETOOTH
-- BLUETOOTH_ADMIN
+- **BLUETOOTH**
+- **BLUETOOTH_ADMIN**
 
 ### Other
-- ANSWER_PHONE_CALLS
+- **ANSWER_PHONE_CALLS**
 
 for Di2RemoteControl ONLY
 

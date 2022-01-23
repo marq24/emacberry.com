@@ -59,7 +59,7 @@ on the version of the app you are using as well on the GPSLogger application set
 Ok let's tackle the GPSLogger application settings first.
 
 If your device supports multiple external storages (e.g. the _Emulated external_ **and** an additional SD-Card), then
-you have the opportunity via the application settings > Storage Settings > Storage Location for Path & Map Data to
+you have the opportunity via the Application Settings > Storage Settings > Storage Location for Path & Map Data to
 select the external storage the app should use ([see also External application storage](#ext-storage)).
 
 If you don't have an additional external SD-Card (probably in most of the cases), then this setting **does not have any

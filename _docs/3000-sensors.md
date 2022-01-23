@@ -13,34 +13,6 @@ there might a limitation when it comes to support of specific sensor brands or t
 The implementation base 1:1 on the Protocol specifications (either ANT+ or BluetoothLowEnergy/Bluetooth) - so if your
 sensor is supporting the standard implementation of the protocol, it should work 🤞 (I'll keep my fingers crossed).
 
-# ANT+
-
-The ANT+ protocol is under the control of GARMIN and is **the** standard in the cycling work. Since a couple of years
-the required hardware to be able to receive data from an ANT+ sensor is **not build** any longer into smartphones. Apple
-started withdrawing the support when I can remember correctly with the iPhone 6 (if not earlier) and other hardware
-manufactures have followed the Apple route.
-
-> So IMHO ANT+ is some sort of _dead end_ for smartphones.
-
-Before you be able to connect any ANT+Sensor with GPSLogger need:
-
-- Android Device with build-in ANT+ hardware
-- The manufacture of the device has to **compile valid ANT+ drivers** into his Android OS (for my last phone with
-  build-in ANT+ hardware the manufacture has withdrawn ANT+ support on hardware driver level with his latest OS update)
-
-**Additionally you need to install:**
-- [ANT+ Plugins Service from PlayStore](https://play.google.com/store/apps/details?id=com.dsi.ant.plugins.antplus)
-- [ANT Radio Service from PlayStore](https://play.google.com/store/apps/details?id=com.dsi.ant.service.socket)
-
-> Just a another side note: When I used ANT+ on my phone I ran into serious Wi-Fi-connection issues while my phone was
-> on **roaming** (on vacation) and try to connect to my ANT+ HR Sensor (each time Wi-Fi was turned off). So I have my
-> opinion about the quality concerning the ANT+ drivers (build in Canada) but make your own experience.
-
-## Supported ANT+ Sensors
-
-- <i class="fa-solid fa-heart-pulse fa-fw"></i> Heartrate Sensors
-- <i class="fa-solid fa-arrow-rotate-left fa-fw"></i> Cadence / Speed & Cadence Sensors
-
 # <i class="fa-brands fa-bluetooth"></i> BluetoothLowEnergy / Bluetooth
 
 In the year 2022 we mainly talk about Bluetooth**LowEnergy** (als known as BluetoothLE, BTLE or just BLE) Sensors. The
@@ -187,6 +159,34 @@ your treadmill speed and incline. [see Treadmill Section of this manual](../3700
 
 - [<i class="fa-solid fa-gears fa-fw"></i> Shimano Di2 Shifting Information via EW-WU101 or EW-WU111](../3600-di2/)
 - [<span class="material-icons fa-fw" style="width: 1.042em;">rowing</span> Concept2 PM2+ extended Rowing-Machine Data](../3800-rowing/)
+
+# ANT+
+
+The ANT+ protocol is under the control of GARMIN and is **the** standard in the cycling work. Since a couple of years
+the required hardware to be able to receive data from an ANT+ sensor is **not build** any longer into smartphones. Apple
+started withdrawing the support when I can remember correctly with the iPhone 6 (if not earlier) and other hardware
+manufactures have followed the Apple route.
+
+> IMHO ANT+ have reached a _**dead**_ <i class="fa-solid fa-skull-crossbones"></i> _**end**_ for smartphones.
+
+Before you be able to connect any ANT+Sensor with GPSLogger need:
+
+- Android Device with build-in ANT+ hardware
+- The manufacture of the device has to **compile valid ANT+ drivers** into his Android OS (for my last phone with
+  build-in ANT+ hardware the manufacture has withdrawn ANT+ support on hardware driver level with his latest OS update)
+
+**Additionally you need to install:**
+- [ANT+ Plugins Service from PlayStore](https://play.google.com/store/apps/details?id=com.dsi.ant.plugins.antplus)
+- [ANT Radio Service from PlayStore](https://play.google.com/store/apps/details?id=com.dsi.ant.service.socket)
+
+> Just a another side note: When I used ANT+ on my phone I ran into serious Wi-Fi-connection issues while my phone was
+> on **roaming** (on vacation) and try to connect to my ANT+ HR Sensor (each time Wi-Fi was turned off). So I have my
+> opinion about the quality concerning the ANT+ drivers (build in Canada) but make your own experience.
+
+## Supported ANT+ Sensors
+
+- <i class="fa-solid fa-heart-pulse fa-fw"></i> Heartrate Sensors
+- <i class="fa-solid fa-arrow-rotate-left fa-fw"></i> Cadence / Speed & Cadence Sensors
 
 ---
 [^1]: Please note **this is NOT AN ADVERTISEMENT** I just use/own these devices - and I paid the regular price.
