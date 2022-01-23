@@ -5,7 +5,6 @@ menu-title: <i class="fa-solid fa-mountain fa-fw"></i>&nbsp;Climb View
 # Overview
 #
 
-https://en.wikipedia.org/wiki/VAM_(bicycling)
 
 ````java
 long secondsInClimb = (curActiveClimbObj.vamEndCalcRecord.tStamp - curActiveClimbObj.vamStartCalcRecord.tStamp - curActiveClimbObj.vamTotalDecentDuration) / 1000;
@@ -26,5 +25,11 @@ Current selected minimum altitude difference is: \'%1$s\' (ClimbPro value: %2$s)
 Auto enable Climb View
 When you are approaching a detected climb the Climb-View will be automatically enabled. The selected display is: \'%1$s\'
 
+## VAM {#vam}
+When you record a activity where you have loaded a navigation path **and** the app could extract climb data
+([see Climb View for details](../3300-climb/)) GPSLogger will store (while you are in such a detected climb section)
+multiple VAM data records in order to be able to show your _velocità ascensionale media_ (translated in English to
+mean _average ascent speed_) performance after your activity.
 
+https://en.wikipedia.org/wiki/VAM_(bicycling)
 

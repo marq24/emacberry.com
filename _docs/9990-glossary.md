@@ -23,5 +23,6 @@ menu-title: <i class="fa-solid fa-book fa-fw"></i>&nbsp;Glossary
 | SDK | Software Development Kit |
 | TIA | Thanks in advance | 
 | TTS | Text To Speech - Speech Synthesis / Generated Speech (different engines available based on your model & manufacturer) - can be configured in the OS Settings |
+| VAM | [_velocità ascensionale media_](https://en.wikipedia.org/wiki/VAM_(bicycling)) (translated in English to mean _average ascent speed_) |
 | WGS84 | [World Geodetic System from 1984](https://en.wikipedia.org/wiki/World_Geodetic_System#WGS84) |
 | Y/N | Yes or No |

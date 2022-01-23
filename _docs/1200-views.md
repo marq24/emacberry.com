@@ -111,6 +111,9 @@ select a different record type (see [How GPSLogger will log your data?](../1100-
 ## TargetSpeed View
 ## Climb View
 ## MultiView I-IV
+<span class="shot">![view-multiview](/assets/img/gpsl/view-multiview.png)</span>
+The Details about the [Multi View I - Multi View IV are described in a separate section of this manual](../3150-multiviews/)  
+<br class="shot-end">
 ## BTLE-Beacon View
 <span class="shot">![view-btle-beacons](/assets/img/gpsl/view-btle-beacons.png)</span>
 - Large Font: Showing current visible beacons 
