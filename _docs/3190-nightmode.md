@@ -30,6 +30,7 @@ between default & _Dark_ theme of your Android. Enabling the binding will disabl
 Mode by default.
 
 ## Night Mode ColorScheme
+
 <span class="shot">![view-multiview](/assets/img/gpsl/nightmode-cc.png)</span>
 Since there is not the perfect night mode color, you can choose any RGB-Color the palette of your device is offering.
 Feel free to play around with the color chooser and find your perfect night mode color. 

@@ -111,7 +111,7 @@ action.
 
 With the eMail you have received:
 - A link to GoogleMaps showing the current location of the device caused the alert (a link, like this one)<br/>
-  [http://maps.google.com/?q=HERE_2022-01-21T12:19:56.167Z@47.39553088,11.22492661&z=12](http://maps.google.com/?q=HERE_2022-01-21T12:19:56.167Z@47.39553088,11.22492661&z=12)<br/>
+  [https://maps.google.com/?q=HERE_2022-01-21T12:19:56.167Z@47.39553088,11.22492661&z=12](https://maps.google.com/?q=HERE_2022-01-21T12:19:56.167Z@47.39553088,11.22492661&z=12)<br/>
   \[_clicking on the link will show you the position of the device in GoogleMaps_\]
  
 - The location as plain text in Latitude/Longitude format (like this example)<br/>

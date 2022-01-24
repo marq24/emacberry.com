@@ -1,0 +1,91 @@
+---
+title: <i class="fa-solid fa-location-arrow"></i> Live Location Sharing
+sub-title: + <i class="fa-solid fa-face-smile-beam"></i> HappyPartner - HappyLife
+menu-title: <i class="fa-solid fa-location-arrow fa-fw"></i>&nbsp;Live Sharing
+---
+# Introduction
+
+With GPSLogger it's possible to frequently share your live location with others. Who is going to be able to access your
+location is totally up to you. The app does **not offer an additional backend-service** which is sharing your current
+location - all is happening from your device only. The sharing happens either simply by emailing or the app can
+frequently send your location to a custom URL in a given format. Once the location has been sent to such a URL is beyond
+the control of the app - use this feature wisely.
+
+The _HappyPartner - HappyLife_ is an extension of the regular share-current-location functionality that was build into
+GPSLogger almost since the first day. Initially called _HappyWife-HappyLife_, the function has been renamed in 2022. The
+intention of this function is to let a recipient (or multiple) know your current location after a certain amount of
+time.
+
+> When I am on solo cycling tours then my wife knows that I usually return after 2 hours. When I am not back at home
+> after a certain time Gaby is going to start to get a bit nervous. Of course, she can give me a call or check otherwise
+> where the heck I am, or she's simply going to receive frequent emails from GPSLogger when I am not back home for
+> 2 hours, letting her know my current location (so she can judge, if I will return shortly - or if it's going to
+> take another 4 hours).
+
+# Requirement 
+- App needs to be able to send eMails
+<br/>**or**<br/> 
+- App need to be online otherwise in order to complete a URL request
+ 
+# Sharing your location
+
+In order to be able to share you location you need to **start the recording process** - the sharing will continue when
+you are pausing the recording.
+
+You have the option to share your location in three different ways: 
+- Sharing by email
+- Sharing via an own backend / generate custom URL requests
+- Sharing by executing a TASKER-TASK
+
+<i class="fa-solid fa-hand-point-up fa-fw"></i> All these three options can be combined with each other.
+
+## Start sharing your location after a delay
+
+As described above you might not want to instantly share your location once you start with your activity - therefore you
+can specify in the application settings an initial delay. Only if your activity takes longer then this initial delay the
+sharing process will be started.
+
+You can specify such a delay via: Application Settings > Sharing Location Information > HappyPartner HappyLife
+
+## Share via eMail
+
+Specify a recipient (or multiple recipients), specify a subject that should be used and additionally specify the content
+of the email that will be sent by the application. Additionally, to your text the app will add (example):
+
+```mail
+
+Current Location: https://maps.google.com/?q=HERE_2022-01-21T12:19:56.167Z@47.39553088,11.22492661&z=12
+Lat: 47.39553088
+Lon: 11.22492661
+Course: 234°
+Speed: 3.2 km/h
+
+Sent via GPSLogger II - https://www.emacberry.com/gpslogger.html
+```
+
+## Share your location via TASKER
+
+Please [see the dedicated TASKER Integration section of this manual](../3900-tasker/#share).
+
+## Share your location via a custom URL
+
+You can specify a custom URL to which GPSLogger going to send a simple GET-Request including our current position (as
+lat & lon values) as well as your Android Device ID (if you want to be able to distinguish between multiple GPSLogger
+instances on your backend) as URL parameters, all as plain text, not encoded & **not encrypted**.
+
+The App is using a Timout of 5 seconds for the request, so if your backend is not available the app will not spend much
+time with hammering the request though your server.
+
+The GET-REQUEST will have the following format:
+
+`[YOUR_SERVER_URL]?lat=[LATITUDE_AS_DECIMAL_NUMBER]&lon=[LONGITUDE_AS_DECIMAL_NUMBER]&id=[YOUR_DEVICE_ID]`
+
+For example, if you have an own server/domain, and you want to collect your locations sent by GPSLogger, then you have
+to write your request processing code yourself. Assuming your domain is called _www.anyfancydoma.in_, and you have
+written a PHP script called _incoming_ that going to process the requests, then you should specify in the GPSLogger
+application settings the URL _https://www.anyfancydoma.in/incoming.php_.
+
+The resulting requests the app generate will look then like this (just as example - of course lat, lon and id values
+will be different): 
+
+`https://www.anyfancydoma.in/incoming.php?lat=47.39553088&lon=11.22492661&id=FA4F044F7321DBF4`
