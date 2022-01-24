@@ -2,13 +2,14 @@
 title: "<span class='material-icons fa-fw' style='width: 1.042em;'>rowing</span>&nbsp;Rowing Machine"
 menu-mobile: Rowing Machine
 ---
-At the 28'th of July finally my Concept2/PM5[^3] rowing machine arrived - so I had to start with implementing the
+At the 28'th of July 2021 finally my Concept2/PM5[^3] rowing machine arrived - so I had to start with implementing the
 Fitness Machine Service (FTMS) Rowing Data Support in my GPSLogger application. Additionally, to this general BTLE
 standard the PM5 supporting a lot of additional data fields \[like DriveLength, DriveTime or for each stroke an
 individual force curve\] which is pretty cool. All this additionally available data will be captured & logged with the
 App.
 
 # Requirements
+
 - GPSLogger Version 2.0.0.186 (or higher)
 - enabled Bluetooth
 - Rowing Machine supporting BluetoothLE FTMS[^1] that provide Rower-Data[^2]
@@ -18,6 +19,7 @@ App.
 - \[_Optional_\] bound ANT+/Bluetooth(LE) <i class="fa-solid fa-heart-pulse"></i> HR Sensor with GPSLogger 
 
 # Overview
+
 In order to make the initial setup and installation process as easy as possible the existing setup wizard have been
 extended in order to setup/configure your rowing machine. Once you start the wizard you need to turn on your PM5 and go
 to the 'connection' menu. Once the display reports "waiting for connections" you can press the "Search for BT-Devices"
@@ -60,6 +62,7 @@ As soon as I will receive some feedback, I will start with the implementation of
 curve data).
 
 # How to start ?
+
 - Select your workout (or "Just Row") on the PM5 and start to row...
 - As soon as GPSLogger will receive the first Message from the PM5 the app will automatically start recording...
 - Once you finished your workout and the PM5 send the WorkoutEnd Message the app will stop the recording process and

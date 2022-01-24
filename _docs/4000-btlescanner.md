@@ -3,7 +3,9 @@ title: <i class="fa-brands fa-bluetooth"></i> Build in UUID Beacon Scanner
 sub-title: Don't call this UUID0xFD6FTracer!
 menu-title: <i class="fa-brands fa-bluetooth fa-fw"></i>&nbsp;Beacon Scanner
 ---
+
 # Overview
+
 Google is extremely restrictive when it comes to apps in PlayStore that use the words 'COVID19' or 'pandemic' - I have
 tried multiple times to release the little [UUID0xFD6FTracer](https://github.com/marq24/UUID0xFD6FTracer) app in the
 PlayStore - but it has always been removed after a short while for (IMHO) silly reasons. So I gave up and release the
@@ -15,6 +17,7 @@ of visible BluetoothLE beacons (with a specific UUID) around you over time. This
 BluetoothLE Beacon Scanner feature of GPSLogger II.
 
 # Requirement
+
 - Enabled Bluetooth
 - Using Bluetooth you need to grand the permission to access the device location
 - General Settings > UUID Beacon Scanner <i class="fa-solid fa-toggle-on"></i>
@@ -24,10 +27,12 @@ BluetoothLE Beacon Scanner feature of GPSLogger II.
 - [_Optional_] Appearance & Startup > Map & Path View Settings... > Show BTE-Beacons <i class="fa-solid fa-square-check"></i>   
 
 # BTLE-Beacon View
+
 The build in UUID Beacon Scanner have a dedicated view in order to display the number of beacons in range over time.
 See [View Documentation](../1200-views/#btle-beacon-view) for details.
 
 # Stored location information
+
 <span class="shot">![btle-beacons-on-map](/assets/img/gpsl/btle-beacons-on-map.png)</span> For GPSLogger II it's not
 possible to detect the exact position of a BluetoothLE beacon - so each time GPSLogger detects a new BTLE beacon
 **your** current position will be associated with the beacon. So just to be precise: the app does not store the location
@@ -39,6 +44,7 @@ be updated for this specific beacon!
 When there are more than a single beacon at a location the app will render an additional number on the map-marker 
 
 # Export of recorded beacon data {#export}
+
 When you record beacon data you probably want to do something with it - Since none of the standard file formats is
 supporting this type of data (at least I am not aware of) - the app offers a simple CSV Export.
 

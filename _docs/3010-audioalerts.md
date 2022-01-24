@@ -2,7 +2,9 @@
 title: <i class="fa-solid fa-volume-high"></i> Audio Announcements
 menu-title: <i class="fa-solid fa-volume-high fa-fw"></i>&nbsp;Audio Announcements
 ---
+
 # Overview
+
 Personally I am a big fan of being able to use GPSLogger _hands free_ - a big part of this experience comes from the
 fact that the app has implemented multiple so-called text to speech (tts) functionalities. Instead of checking my phone
 every kilometer yourself (in order to look up your pace, overall distance or time) the app can automatically give you
@@ -50,6 +52,7 @@ been completed. You can additionally select the duration of the playback - You h
 time' and 'looping for 2-30 seconds'.
 
 ## Text-to-Speech Mode
+
 In order to use this feature you need to specify your sector distance. As described above it can be any value larger
 than 0. Once you have completed the specified distance you will hear a voice (generated via speech synthesis) that will
 provide you with the following information:
@@ -98,6 +101,7 @@ extraction requirements and process can be found in the corresponding Climb-View
   the turn. Also, the events will be pre-announced at least 300 m before the actual point.
 
 ## TurnByTurn Instructions
+
 If TurnByTurn instructions are present in navigation path they will be announced once you are approaching the next
 navigation waypoint. 
 
@@ -112,6 +116,7 @@ Please find below some possible Turn instructions/parts as examples:
 > - reached Finish
 
 ## Climb-ahead Information
+
 If climbs are present in your loaded navigation path they will be announced once you are approaching them. Even if
 GPSLogger is support multiple units (like meter, feet or yard) currently **all the climb information** will be announced
 in **(height) meter** (welcome to the metric system).
@@ -126,6 +131,7 @@ All these announcements also exist with an additional _Climb Category_ informati
 
 # Event Announcements {#events}
 ## Low Battery
+
 Are you constantly checking the remaining battery of your mobile device? Or have you ever been caught by an unexpected
 high power consumption for what ever reason? So you can let GPSLogger II inform you about the current battery level of
 your device. When enabled you will hear one of:
@@ -136,6 +142,7 @@ your device. When enabled you will hear one of:
 >  - Battery level at 2 percent - hey dude! - just two percent left
 
 ## GPS Status
+
 At the early stage of the application development it had happened, that when I kept my phone in the pocket, that I
 turned _Airplane-Mode_ ON or turned _Location_ OFF by accident. So the app is able to inform you, when it does not
 receive a GPS location in a certain amount of time, so you are aware that the current location recording process can't
@@ -146,6 +153,7 @@ enable/reset a device setting). In case of an issue with the GPS signal you will
 > - GPS Signal recovered
 
 ## Recording Started / Paused / Resumed / Stopped 
+
 When you make use of the AutoSTART / AutoSTOP or AutoPAUSE function of the app you might find it convenient to get an
 audio notification once one of these function was triggered. In case of on of the events you will hear:
 
@@ -161,10 +169,12 @@ audio notification once one of these function was triggered. In case of on of th
 > - Recording Stopped
 
 ## Summary after Recording
+
 Additionally, to the _Recording Stopped_ it's possible to get a announcement of a summary (total distance & total time)
 for your finished activity.
 
 ## More than 50 m offside / Back on track
+
 When you are following a navigation path it might, can happen, that you leave the planed route by accident - when this
 happens you can let you inform about this fact that you are not on the planed route any longer.
 

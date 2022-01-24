@@ -43,4 +43,4 @@ Alert eMail Subject
 
 ### Content
 
-Additionally to this custom message the eMail will include a link to your last known position
+Additionally, to this custom message the eMail will include a link to your last known position

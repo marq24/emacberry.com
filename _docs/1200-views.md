@@ -36,8 +36,11 @@ profile name instead of _GPSLogger II_.
 - Can be configured to be rendered as overlay or as own screen part
 - Fields are fully customizable (including the option to toggle between the use of Emojis or Text)
   <br/>[Appearance & Startup Settings](../8020-apperance/#statusbar)
+- Showing the recording status as first entry:
+  - \[L\]: logging/recording
+  - \[P\]: paused (lower case \[p\] indicates that the pause was triggered by the AutoPAUSE feature)
 
-# The Main View(s)
+# The Main View(s) {#views}
 
 The application supports up to three different views be visible at the same time - the main view and two additional
 sub-views. You can:

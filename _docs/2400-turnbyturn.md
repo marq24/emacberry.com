@@ -2,7 +2,9 @@
 title: <i class="fa-solid fa-route"></i> Turn-by-Turn Navigation
 menu-title: <i class="fa-solid fa-route fa-fw"></i>&nbsp;Navigation
 ---
+
 # Overview
+
 GPSLogger supports different input formats for navigation turn-by-turn Information...  
 
 The app makes use of the **online** routing engine [openrouteservice.org](https://openrouteservice.org/) (HeiGIT gGmbH /
@@ -22,6 +24,7 @@ You have multiple options to start the TurnByTurn navigation function in GPSLogg
 Details about [how to plan a route can be found in the Plan a Route Section](../2600-routeplan/)
 
 # Requirements
+
 - Temporary online connection to request routing data from the routing-service.
 <br/>**or**<br/> 
 - A Path in PathManager that is marked with the **has TurnInfo** addon

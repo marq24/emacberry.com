@@ -2,6 +2,7 @@
 title: <i class="fa-solid fa-arrows-rotate"></i> Auto-START / Auto-STOP logging
 menu-title: <i class="fa-solid fa-arrows-rotate fa-fw"></i>&nbsp;Auto START/STOP
 ---
+
 # Overview
 
 With GPSLogger II it is possible to automatically start and end logging based on the current location - The simple use
@@ -17,6 +18,7 @@ locations.
 The open question for you as user is, WHEN does logging start - and when does logging end.
 
 # Requirements
+
 - Enabled & active GPS
 - GPSLogger app must be started (can be sent into the background - you might like to activate the **AutoStart on boot**
   option)
@@ -31,6 +33,7 @@ The open question for you as user is, WHEN does logging start - and when does lo
   you will terminate the app by selecting **EXIT** from the menu (or use the **EXIT** action of the sticky notification).
 
 # Configure  AUTO-Start & AUTO-Stop Locations
+
 The central point of add/enable AUTO-Logging locations is the 'LocationManager' - you can select any existing location
 and press the <i class="fa-solid fa-circle-chevron-down"></i> **more** icon and then choose the 
 **Use for AutoStart/Stop** from the context menu. Please note that once a location have been selected as AutoStart/Stop
@@ -52,6 +55,7 @@ of GPSLogger II I have implemented some new/additional ways to add new locations
    LocationManager should list you the new location within GPSLogger II.
 
 # Theory of operation
+
 Once enabled in the General-Settings-Section the AUTO.Start & AUTO Stop locations will be rendered with different
 colored cycles on the map screens where each cycle have a certain meaning:
 
@@ -71,6 +75,7 @@ colored cycles on the map screens where each cycle have a certain meaning:
 <br class="shot-end"/>
 
 ## So to sum it up
+
 1. Be in range of the blue cycle (activate)
 2. Move out of the green cycle to start logging
 3. Entering the red cycle (of any configured auto start/stop location) to stop logging.

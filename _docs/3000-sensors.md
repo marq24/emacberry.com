@@ -29,6 +29,7 @@ too.
 > with me - TIA!
 
 ## <i class="fa-solid fa-heart-pulse fa-fw"></i> Heartrate<br/>
+
 Make sure your sensor is supporting transfer of pulse data as described in the
 [Bluetooth Heartrate Service Specification](https://www.bluetooth.com/wp-content/uploads/Sitecore-Media-Library/Gatt/Xml/Services/org.bluetooth.service.heart_rate.xml).
 There exist some **old** chest straps that make use of an old/deprecated Bluetooth standard which is quite energy

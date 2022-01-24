@@ -5,12 +5,14 @@ menu-title: <i class="fa-solid fa-paper-plane fa-fw"></i>&nbsp;Planing (Website)
 > (forked from [openrouteservice.org](openrouteservice.org))
 
 # Overview
+
 Since a couple of month GPSLogger allow you to follow a previously planed route with TurnByTurn instructions. The
 planing & transfer process of these routes have been sub-optimal in the past, and so I am very happy to let you know
 that I can provide now a separate site that is dedicated to route planing that should give you all the needed features
 and is easy to use.
 
 # Requirements
+
 - PC/Mac to use the website (not optimized for mobile usage)
 - Temporary online connection (to transfer the route to GPSLogger)
 
@@ -21,6 +23,7 @@ be confusing but are related to the data source - some optimizations are applied
 recommended checking the final route, before you start your trip.
 
 ## Save a created Route on the website
+
 Typically, all route services and websites I am aware of require registering and create an account - GPSLogger II route
 service is different! - **No registration** - **no login** - **no personal data is stored**. If you want to save/store
 a created route, simply create a browser bookmark of the site, and you are done. You simply can restore the route by
@@ -29,6 +32,7 @@ opening the bookmark any time later.
 Here is a example route link: [https://route.emacberry.com/directions?n1=52.033868&n2=8.853757&n3=15&a=52.038178,8.834279,52.035162,8.864551,52.026251,8.861246,52.024944,8.847771,52.027809,8.831999,52.037987,8.834236&b=1c&c=0&g1=-1&g2=0&h2=3&k1=en-US&k2=km](https://route.emacberry.com/directions?n1=52.033868&n2=8.853757&n3=15&a=52.038178,8.834279,52.035162,8.864551,52.026251,8.861246,52.024944,8.847771,52.027809,8.831999,52.037987,8.834236&b=1c&c=0&g1=-1&g2=0&h2=3&k1=en-US&k2=km)
 
 ## Transfer a route to your mobile device
+
 I have decided to use a very simply way to connect the website with your mobile device - during the planing phase your
 web browser and your mobile phone have something in common: **your current location**! It's true that this is not
 highly secure - but since GPSLogger is not used by 10 million people the location is some sort of unique id. Please also
@@ -50,6 +54,7 @@ So in order to use this feature, make sure, that your browser running on your PC
 same location information.<br class="shot-end"/>
 
 ## Export as GPSLogger II Route JSON file
+
 If you don't like to transfer the route via the emacberry.com backend to your mobile device you can always use the
 <i class="fa-solid fa-download"></i> export function as alternative and transfer the route JSON file manually over to
 your mobile device. Once the file is copied to your mobile you can import the created route JSON file as any other GPX,

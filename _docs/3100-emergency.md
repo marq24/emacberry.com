@@ -3,6 +3,7 @@ title: <i class="fa-solid fa-truck-medical"></i> Emergency Alerting
 menu-title: <i class="fa-solid fa-truck-medical fa-fw"></i>&nbsp;Emergency Alert
 ---
 # Overview
+
 GPSLogger can automatically send an eMail notification when you do not move a specified distance in a certain time. In
 order to use this feature you need to authorize GPSLogger to use an eMail account (since the eMail will be sent from
 this account to the recipient(s).
@@ -14,6 +15,7 @@ this account to the recipient(s).
 > the GPSLogger II Emergency Alert function applies: the device needs to be online (a network connection is mandatory).
 
 # Requirements
+
 - [Configured eMail account](../8140-email/)
 - [Emergency Alert Settings](../8150-emergency/)
   - A time delay (that is not **OFF**) specified
@@ -25,6 +27,7 @@ this account to the recipient(s).
 - Device needs to be **Online** (since eMails can be only send, if the device is online)
 
 # Theory of Operation
+
 When you are using GPSLogger to record your movement, then it seems to be some sort of natural that the app is able to 
 realized when you have stopped moving. This currently be archived by using your settings - if you **do not move** the
 specified distance in the specified time, then the app assumes something (serious) has happened and going to send the
@@ -80,6 +83,7 @@ send out the alert email without further notice.<br class="shot-end">
 So by enabling the _Show intercept Dialog_ the Emergency Alert will be delayed by one additional minute.
 
 ## Select an Intercept-Alert Sound
+
 The audio notification will use the configured sound for the 'Pace'-Notification. If you haven't configured on, the
 sound used for the _WayPoint Reached_ Notification will be used.
 
@@ -94,6 +98,7 @@ So the complete fallback chain is
 - Device Settings: DEFAULT RINGTONE Sound
 
 # What you should do, when you have received an Emergency Alert eMail from GPSLogger {#incaseofanemergency}
+
 OK - you received an Emergency Alert eMail from GPSLogger - this means, somebody you know is currently not able to move
 or respond to an alert on his mobile device. The eMail you have received was sent automatically - it's quite reasonable
 that the person is unconscious and could not make any call for help by himself.
