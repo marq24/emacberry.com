@@ -16,9 +16,9 @@ GPSLogger almost since the first day. Initially called _HappyWife-HappyLife_, th
 intention of this function is to let a recipient (or multiple) know your current location after a certain amount of
 time.
 
-> When I am on solo cycling tours then my wife knows that I usually return after 2 hours. When I am not back at home
+> When I am on a solo cycling tour, then my wife knows, I usually return after 2 hours. When I am not back at home
 > after a certain time Gaby is going to start to get a bit nervous. Of course, she can give me a call or check otherwise
-> where the heck I am, or she's simply going to receive frequent emails from GPSLogger when I am not back home for
+> where the heck I am, **or** she's simply going to receive frequent emails from GPSLogger when I am not back home after
 > 2 hours, letting her know my current location (so she can judge, if I will return shortly - or if it's going to
 > take another 4 hours).
 
@@ -50,7 +50,8 @@ You can specify such a delay via: Application Settings > Sharing Location Inform
 ## Share via eMail
 
 Specify a recipient (or multiple recipients), specify a subject that should be used and additionally specify the content
-of the email that will be sent by the application. Additionally, to your text the app will add (example):
+of the email that will be sent by the application. Additionally, to your custom body the app will add (used location
+values are just example):
 
 ```mail
 
@@ -69,23 +70,76 @@ Please [see the dedicated TASKER Integration section of this manual](../3900-tas
 
 ## Share your location via a custom URL
 
-You can specify a custom URL to which GPSLogger going to send a simple GET-Request including our current position (as
-lat & lon values) as well as your Android Device ID (if you want to be able to distinguish between multiple GPSLogger
-instances on your backend) as URL parameters, all as plain text, not encoded & **not encrypted**.
-
-The App is using a Timout of 5 seconds for the request, so if your backend is not available the app will not spend much
-time with hammering the request though your server.
+You can specify a custom URL to which GPSLogger going to send a simple GET-Request including our current position as
+decimal latitude & longitude values, as well as your Android Device ID (in case you want to be able to distinguish
+between multiple GPSLogger instances on your backend) as URL parameters, all as plain text, not encoded & **not
+encrypted**. A timout of 5 seconds for the request will be used.
 
 The GET-REQUEST will have the following format:
 
 `[YOUR_SERVER_URL]?lat=[LATITUDE_AS_DECIMAL_NUMBER]&lon=[LONGITUDE_AS_DECIMAL_NUMBER]&id=[YOUR_DEVICE_ID]`
 
-For example, if you have an own server/domain, and you want to collect your locations sent by GPSLogger, then you have
-to write your request processing code yourself. Assuming your domain is called _www.anyfancydoma.in_, and you have
-written a PHP script called _incoming_ that going to process the requests, then you should specify in the GPSLogger
+As example, if you have an own server/domain and you want to collect your locations there, then you can write some small
+request processing code yourself and deploy it on your server. Assuming your domain is called _www.anyfancydoma.in_, and
+you have written a PHP script called _incoming_ that going to process the requests, then you should specify in the
 application settings the URL _https://www.anyfancydoma.in/incoming.php_.
 
 The resulting requests the app generate will look then like this (just as example - of course lat, lon and id values
 will be different): 
 
 `https://www.anyfancydoma.in/incoming.php?lat=47.39553088&lon=11.22492661&id=FA4F044F7321DBF4`
+
+Please note that there is no backend available @ emacberry.com that would handle live location requests - simply cause
+of privacy concerns that would come with hosting this kind of data.
+
+Here is some example PHP code that is able to process GPSLogger live location sharing requests and store this data into
+a local mysql database table with the name _gpslogger_live_ (the config.php have to contain your database credentials):
+
+```php
+<?php
+    header("Pragma: public"); 
+    header("Expires: " . gmdate("D, d M Y H:i:s", time() + 60) . " GMT");
+    header("Cache-Control: must-revalidate, post-check=0, pre-check=0"); 
+    header("Content-Type: image/png");
+
+    if(!empty($_REQUEST["lat"]) && !empty($_REQUEST["lon"])){
+        require('./config.php');
+        if (defined('ALL_DBOK')){
+            $con = mysqli_connect($dbhost, $dbuser, $dbpasswd);
+            if (!$con){
+                //die('Could not connect: ' . mysql_error());
+            } else{
+                mysqli_select_db($con, $dbname);
+            
+                // logging the incomming live location...
+                $id = $_REQUEST["id"];
+                $lon = $_REQUEST["lon"];
+                $lat = $_REQUEST["lat"];
+    
+                $insert = sprintf("INSERT INTO gpslogger_live (id, lon, lat) VALUES ('%s', '%s', '%s');",
+                    mysqli_real_escape_string($con, $id),
+                    mysqli_real_escape_string($con, $lon),
+                    mysqli_real_escape_string($con, $lat));
+                    
+                mysqli_query($con, $insert);									
+
+                mysqli_close($con);
+            }
+        }
+    }else{
+        http_response_code(404);
+    }
+?>
+```
+
+A config.php template - _???_ have to be replaced with your mysql db values
+```php
+<?php
+    $dbhost = '???';
+    $dbport = '???';
+    $dbname = '???';
+    $dbuser = '???';
+    $dbpasswd = '???';
+    @define('ALL_DBOK', true);
+?>
+```
