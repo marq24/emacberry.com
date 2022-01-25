@@ -96,7 +96,7 @@ extraction requirements and process can be found in the corresponding Climb-View
   Settings)
 
 - Of course the announcement will be made, before the actual location is reached. The distance how many meters before
-  the waypoint the event-announcement will be made, depends on your current speed, as faster you are, as more meters
+  the waypoint the event-announcement will be made, depends on your current speed. As faster you are, as more meters
   ahead the announcement will take place. The core idea is, that it's always some seconds ahead so that you have time to
   prepare yourself for the turn. In addition, the events will be pre-announced at least 300 m before the actual
   location - so you should know something is coming.
