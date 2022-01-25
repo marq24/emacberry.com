@@ -16,10 +16,10 @@ elevation.
 Few things I would like to explain additionally:
 
 - The app stores the barometer sensor value - from that stored pressure value the elevation value will be calculated
-  during display/export time - To calculate the actual elevation you can base it on the yearly avg pressure at 15 °C at
-  sea level - with this formula you can calculate with a given pressure the current altitude - but of course this will
-  be not quite correct since the pressure is changing weather wise - and we do not have a constant temp of 15 °C (so I
-  decided against that)... What I do is that I calculate the elevation based on the actual pressure change - this
+  during display/export time - To calculate the actual elevation you can base it on the yearly avg pressure at 15 °C
+  at sea level - with this formula you can calculate with a given pressure the current altitude - but of course this
+  will be not quite correct since the pressure is changing weather wise - and we do not have a constant temp of 15 °C
+  (so I decided against that)... What I do is that I calculate the elevation based on the actual pressure change - this
   generates a two small additional challenges: what is the base pressure? what is your starting elevation?
 
 - I decided a simple approach to calculate the base pressure and base elevation - When you start the application the app
@@ -45,12 +45,13 @@ Few things I would like to explain additionally:
 
 **Before you start with the recording, its recommended being stationary for at least 30sec**. Best you can do is, to put
 your device on something solid/stable, like a table, the ground or the roof of your car. Allow the Barometer sensor to
-calibrate itself. Starting the recording while moving up- or downhill will result in none-plausible BaseElevation &
-BasePressure values.
+calibrate itself.
 
-Then the calculated pressure based elevation values will be also not correct - BUT there is no reason to jump out of the
-window in this case - when you correct after the recording the both base values you should also get finally good
-elevation values. This _adjustment_ is not an easy task, but you don't have to be a hacker.
+When you start the app while moving up- or downhill and then start the recording, this will result in none-plausible
+BaseElevation & BasePressure values. Then the calculated pressure based elevation values will be also not correct. BUT
+there is no reason to jump out of the window in this case - when you correct after the recording the both base values
+you should also get finally good elevation values. This _adjustment_ is not an easy task, but you don't have to be a
+hacker.
 
 1. Export the Path as JSON
 2. Open the JSON file in a text editor like Notepad
