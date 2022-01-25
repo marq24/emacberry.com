@@ -5,6 +5,8 @@ menu-title: "<span class='material-icons fa-fw' style='width: 1.042em;'>show_cha
 menu-mobile: Elevation Data
 ---
 
+> need revision
+
 # Using Barometer based Elevation - Theory of operation {#too}
 
 With GPSLogger it's possible to capture the barometer data - from the arriving barometer sensor data the app can

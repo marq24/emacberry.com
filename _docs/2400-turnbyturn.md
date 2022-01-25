@@ -34,3 +34,5 @@ But if you leave the planed route by (50 m), then the application will try to f
 initial planed route - for this type of _Detour-Routing-Requests_ GPSLogger requires an online connection.
 
 # Show next TurnInfo as embedded image
+
+> need revision

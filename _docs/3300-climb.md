@@ -2,8 +2,10 @@
 title: <i class="fa-solid fa-mountain"></i> Climbing
 menu-title: <i class="fa-solid fa-mountain fa-fw"></i>&nbsp;Climb View
 ---
-# 
 
+> need revision
+
+#
 
 ````java
 long secondsInClimb = (curActiveClimbObj.vamEndCalcRecord.tStamp - curActiveClimbObj.vamStartCalcRecord.tStamp - curActiveClimbObj.vamTotalDecentDuration) / 1000;

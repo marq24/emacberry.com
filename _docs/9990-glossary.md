@@ -21,6 +21,7 @@ menu-title: <i class="fa-solid fa-book fa-fw"></i>&nbsp;Glossary
 | OMD | [OpenMapData Provider](../2200-openmapdata/) |
 | OSM | OpenStreetMap |
 | SDK | Software Development Kit |
+| SMTP | Simple Mail Transfer Protocol |
 | TIA | Thanks in advance | 
 | TTS | Text To Speech - Speech Synthesis / Generated Speech (different engines available based on your model & manufacturer) - can be configured in the OS Settings |
 | VAM | [_velocità ascensionale media_](https://en.wikipedia.org/wiki/VAM_(bicycling)) (translated in English to mean _average ascent speed_) |

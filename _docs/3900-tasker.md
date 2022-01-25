@@ -2,7 +2,8 @@
 title: <i class="fa-solid fa-bolt fa-fw"></i>&nbsp;Tasker Integration
 menu-mobile: Tasker Integration
 ---
-# 
+ 
+> need revision
 
 ## Send current Location Event {#share}
 - need to be enabled in the Location Sharing

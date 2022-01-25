@@ -1,5 +1,5 @@
 ---
-title: <i class="fa-brands fa-bluetooth"></i> Build in UUID Beacon Scanner
+title: <i class="fa-brands fa-bluetooth"></i> Build in BluetoothLowEnergy Beacon Scanner
 sub-title: Don't call this UUID0xFD6FTracer!
 menu-title: <i class="fa-brands fa-bluetooth fa-fw"></i>&nbsp;Beacon Scanner
 ---

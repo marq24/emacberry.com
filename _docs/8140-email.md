@@ -3,6 +3,8 @@ title: Connect your eMail Account
 sub-title: "Required for features like <b>Emergency Alert</b>,  <b>Export via eMail</b> or <b>HappyPartner</b>"
 ---
 
+> need revision
+
 # Overview {#email}
 
 GPSLogger II can make use of different authorisation types (OAuth or SMTP) in order to send emails from your mobile

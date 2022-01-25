@@ -3,6 +3,37 @@
 @import "fa/solid";
 @import "fa/brands";
 
+.post-title {
+  page-break-before: always;
+}
+
+@media print {
+  * {
+    font-size: 0.95em;
+  }
+  h1 {
+    font-size: 1.5em;
+  }
+  h2 {
+    font-size: 1.4em;
+  }
+  h3 {
+    font-size: 1.3em;
+  }
+  h4 {
+    font-size: 1.2em;
+  }
+  h5 {
+    font-size: 1.1em;
+  }
+  .post-title {
+    font-size: 1.6em;
+  }
+  blockquote {
+    font-size: 0.9em;
+  }
+}
+
 .right { float: right; }
 .left { float: left; }
 

@@ -12,8 +12,8 @@ frequently send your location to a custom URL in a given format. Once the locati
 the control of the app - use this feature wisely.
 
 The _HappyPartner - HappyLife_ is an extension of the regular share-current-location functionality that was build into
-GPSLogger almost since the first day. Initially called _HappyWife-HappyLife_, the function has been renamed in 2022. The
-intention of this function is to let a recipient (or multiple) know your current location after a certain amount of
+GPSLogger almost since the first day. Initially called _HappyWife - HappyLife_, the function has been renamed in 2022.
+The intention of this function is to let a recipient (or multiple) know your current location after a certain amount of
 time.
 
 > When I am on a solo cycling tour, then my wife knows, I usually return after 2 hours. When I am not back at home
@@ -115,12 +115,25 @@ a local mysql database table with the name _gpslogger_live_ (the config.php have
                 $id = $_REQUEST["id"];
                 $lon = $_REQUEST["lon"];
                 $lat = $_REQUEST["lat"];
-    
-                $insert = sprintf("INSERT INTO gpslogger_live (id, lon, lat) VALUES ('%s', '%s', '%s');",
+
+                // only required when you do in-range queries later..    
+                $sin_lat_rad = sin($lat * 180 / M_PI );
+                $sin_lng_rad = sin($lng * 180 / M_PI );
+                $cos_lat_rad = cos($lat * 180 / M_PI );
+                $cos_lng_rad = cos($lng * 180 / M_PI );
+			
+                $insert = sprintf("INSERT INTO routelist (id, lat, lng,
+                        sin_lat_rad, sin_lng_rad, cos_lat_rad, cos_lng_rad)
+                        VALUES ('%s', '%s', '%s', '%s', '%s', '%s', '%s');",
                     mysqli_real_escape_string($con, $id),
-                    mysqli_real_escape_string($con, $lon),
-                    mysqli_real_escape_string($con, $lat));
-                    
+                    mysqli_real_escape_string($con, $lat),
+                    mysqli_real_escape_string($con, $lng),
+                    mysqli_real_escape_string($con, $sin_lat_rad),
+                    mysqli_real_escape_string($con, $sin_lng_rad),
+                    mysqli_real_escape_string($con, $cos_lat_rad),
+                    mysqli_real_escape_string($con, $cos_lng_rad)
+                );    
+    
                 mysqli_query($con, $insert);									
 
                 mysqli_close($con);
@@ -142,4 +155,21 @@ A config.php template - _???_ have to be replaced with your mysql db values
     $dbpasswd = '???';
     @define('ALL_DBOK', true);
 ?>
+```
+
+Creating the MySQL db with the possibility to create in-rage queries 
+```sql
+CREATE TABLE `your_location_live_data` (
+    `id` char(40) COLLATE utf8_bin NOT NULL,
+    `lat` double NOT NULL,
+    `lng` double NOT NULL,
+    `sin_lat_rad` decimal(10,10) DEFAULT NULL,
+    `sin_lng_rad` decimal(10,10) DEFAULT NULL,
+    `cos_lat_rad` decimal(10,10) DEFAULT NULL,
+    `cos_lng_rad` decimal(10,10) DEFAULT NULL,
+    `ts` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+    PRIMARY KEY (`id`, `ts`),
+    KEY `sin_lat_rad` (`sin_lat_rad`,`sin_lng_rad`,`cos_lat_rad`,`cos_lng_rad`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
+COMMIT;
 ```

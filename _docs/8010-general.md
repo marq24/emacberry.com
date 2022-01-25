@@ -2,6 +2,9 @@
 title: General Settings
 sub-title: GPS-Sensor Settings, Additional Sensors & Recording Settings
 ---
+
+> need revision
+
 # Prioritized Background Activity <i class="fa-solid fa-toggle-off">
 
 # GPS-Sensor & Smoothing Settings... {#gps-settings}

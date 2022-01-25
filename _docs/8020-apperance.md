@@ -2,6 +2,9 @@
 title: Appearance & Startup
 sub-title: Sizes, Units, Start View Configuration, StatusBar and display customization
 ---
+
+> need revision
+
 # Autostart App after Reboot <i class="fa-solid fa-toggle-off">
 # Unit & Format Options
 # Available View configuration

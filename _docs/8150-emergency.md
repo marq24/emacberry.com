@@ -3,6 +3,8 @@ title: Emergency Alert Settings
 sub-title: Automatically send an emergency Alert if you stop moving
 ---
 
+> need revision
+
 # Overview
 
 GPSLogger can automatically send an eMail notification when you do not move a specified distance in a certain time. In

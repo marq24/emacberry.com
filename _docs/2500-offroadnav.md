@@ -5,7 +5,7 @@ menu-title:  <i class="fa-solid fa-diamond-turn-right fa-fw"></i>&nbsp;Offroad
 
 # Overview
 
-> THIS HAS TO BE REVIEWED...
+> need revision
 
 First you have to know, that GPSLogger II supports two different ways to guide you to a certain place. In one of the
 modes you will be guided directly into the direction of a previously recorded location (Location-Mode) in the second one

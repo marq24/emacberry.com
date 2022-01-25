@@ -3,6 +3,8 @@ title: <i class="fa-solid fa-gears"></i> Di2 Settings
 sub-title: Pandora's Box
 ---
 
+> need revision
+
 # D-Fly Configuration
 You find details about the different available actions in the [Shimano Di2 Support section of this Manual](../3600-di2/#actions) 
 ## D-Fly SHORT Click Configuration
