@@ -122,7 +122,7 @@ a local mysql database table with the name _gpslogger_live_ (the config.php have
                 $cos_lat_rad = cos($lat * 180 / M_PI );
                 $cos_lng_rad = cos($lng * 180 / M_PI );
 			
-                $insert = sprintf("INSERT INTO routelist (id, lat, lng,
+                $insert = sprintf("INSERT INTO your_location_live_data (id, lat, lng,
                         sin_lat_rad, sin_lng_rad, cos_lat_rad, cos_lng_rad)
                         VALUES ('%s', '%s', '%s', '%s', '%s', '%s', '%s');",
                     mysqli_real_escape_string($con, $id),
