@@ -272,7 +272,7 @@ recipient or will be sent vie the internet to the server URL you have specified.
 using the Share Path functionality, the complete path (date, location) will be transferred via the internet to
 emacberry.com server and will be made available to the PUBLIC. Everyone that know the provided share URL (which contains
 no encryption or key) can see this location data over the internet. When you share a path, there will be no connection
-between you (the user) or the device used for the upload - so the upload does oot contain any additional personalized
+between you (the user) or the device used for the upload - so the upload does not contain any additional personalized
 data. When using this functionality, the emacberry.com privacy policy applies.
 
 [https://www.emacberry.com/pp/pp1.html](https://www.emacberry.com/pp/pp1.html)
