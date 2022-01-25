@@ -40,9 +40,10 @@ menu-mobile: Introduction & initial Setup
 
 # Initial Setup
 
-When you install the app the first time you will be presented with some general information and the link to the
-[Privacy Policy of the application](https://www.emacberry.com/pp/pp2.html). Please read it carefully, but since this is
-_legal stuff_ you might find [How GPSLogger II will process your data](#dataprocessing) easier to read & understand.
+When you install the app and launch it for the first time you will be presented with a welcome dialog, containing some
+general information and the link to the [Privacy Policy of the application](https://www.emacberry.com/pp/pp2.html).
+Please read it carefully, but since this _legal stuff_ is a bit difficult you read, you might find [How GPSLogger II
+will process your data](#dataprocessing) easier to understand.
 
 <span class="shot">![welcome](/assets/img/gpsl/welcome.png)</span>
 In the case of an update, the app will start with the latest change log information which always includes the option to
