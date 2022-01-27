@@ -5,7 +5,30 @@ menu-title: "<span class='material-icons fa-fw' style='width: 1.042em;'>show_cha
 menu-mobile: Elevation Data
 ---
 
-> need revision
+# Improving Elevation data
+The app have implemented two independent functionalities to improve the elevation data provided from the GPS signal.   
+
+- Use a Mean Sea level altitude reference - correction of WGS84 elevation information to EGM2008
+- Make use of Barometer data in order to detect altitude changes (if sensor is available) 
+
+# WGS84 vs. EGM2008
+
+TLDR; The elevation information provided via GPS is actually not want you want. I don't want to waste you time with all
+the details & reasons why it is what it is - and also I don't want to discuss, if there are better alternatives to
+EGM2008 or not.
+
+What's important to know is, that [GPSLogger will record a _GeoIdHeight_](../1100-data/#gps) (and if this data is not
+available, the app will post-calculate it). This _GeoIdHeight_ will be used, to correct the WGS84 elevation data to
+something that comes quite close to elevation information we use here on our planet earth.
+
+As already described in the [How GPSLogger will log your data Section](../1100-data/#core), all GPS data will be
+recorded as it is, and the MSL correction (when enabled) will be applied when the data will be displayed.
+
+If you want to read the full story, use the following Wikipedia links as a good start point:
+- [The 'Earth Gravitational Model' article](https://en.wikipedia.org/wiki/Earth_Gravitational_Model)
+
+The use of the Mean Sea level altitude reference is enabled by default - you can disable it in the Application
+Settings > General Settings > Altitude Reference Model <i class="fa-solid fa-toggle-off fa-fw"></i>
 
 # Using Barometer based Elevation - Theory of operation {#too}
 
