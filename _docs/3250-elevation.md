@@ -49,9 +49,8 @@ calibrate itself.
 
 When you start the app while moving up- or downhill and then start the recording, this will result in none-plausible
 BaseElevation & BasePressure values. Then the calculated pressure based elevation values will be also not correct. BUT
-there is no reason to jump out of the window in this case - when you correct after the recording the both base values
-you should also get finally good elevation values. This _adjustment_ is not an easy task, but you don't have to be a
-hacker.
+there is no reason to jump out of the window in this case. It's possible to correct both base values after the recording
+in oder to get finally good elevation values. This _adjustment_ is not an easy task, but you don't have to be a hacker.
 
 1. Export the Path as JSON
 2. Open the JSON file in a text editor like Notepad

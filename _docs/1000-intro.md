@@ -46,8 +46,16 @@ Please read it carefully, but since this _legal stuff_ can be a bit difficult to
 will process your data](#dataprocessing) a bit easier to understand.
 
 <span class="shot">![welcome](/assets/img/gpsl/welcome.png)</span>
-In the case of an update, the app will start with the latest change log information which always includes the option to
-read the Privacy Policy.
+The bottom line is - location information **is** sensitive data and you as the user having the full control what will be
+happening with this data. Of course, you are able to share recordings or live locations via the app, but all these
+additional features requires your consent, and you need to actively configure/enable them. So **you are in full
+control** what is happening - the app is a tool in your hands - use it wisely.
+
+> I do eran my money with something completely different - GPSLogger II is just a hobby, and I am happy to provide the
+> app for free. Even this website here does not use any tracking or even cookies.
+
+In the case of an update of GPSLogger (and there have been quite some updates in the past), the app will start with the
+latest change log information which always includes the option to read the Privacy Policy.
 
 The ChangeLog (which is quite long now) can be also accessed any time later from the application settings via the _App
 Changelog_. (I'll guess I have to add the log also to this manual at some day)<br class="shot-end"/>
@@ -58,7 +66,7 @@ going to need in order to work as designed.
 <span class="shot">![permission-request](/assets/img/gpsl/permission-request.png)</span>
 Asking for the permission to read the device location is the **only** core permission the app actually needs - If you
 feel uncomfortable with allowing the app to access the device location, you **don't have to** - but in such a case you
-don't have to be surprised that the app will not have that big value.
+don't have to be surprised that the app does not provide great value.
 
 You can deny the request for the start - but you should grant the app the permission to access the device location later
 via the application permission settings of your Android OS.
@@ -81,20 +89,20 @@ So you can select one of the four available wizards, or simply select _No Thanks
 any time later from the  <i class="fa-solid fa-ellipsis-vertical"></i>  main menu).
 
 **[<i class="fa-brands fa-bluetooth fa-fw"></i> BTLE Beacon Scanner...](../4000-btlescanner/)**<br/>
-The Beacon Scanner constantly looking for BluetoothLowEnergy Beacons in your environment and is able to constantly
-record the found beacons (you need to start the record process).
+The Beacon Scanner constantly looking for BluetoothLowEnergy Beacons in your environment and is able to record the found
+beacons (you need to start the record process).
 
 **[<i class="fa-solid fa-person-running fa-fw"></i> Treadmill Setup...](../3700-treadmill/)**<br/>
 If you own a Treadmill supporting the Bluetooth FitnessMachineStandard you can simulate and record any outdoor run with
 GPSLogger.
 
 **[<span class='material-icons fa-fw' style='width: 1.042em;'>rowing</span> Rowing Machine Setup...](../3800-rowing/)**<br/>
-If your Rowing Machine supporting the Bluetooth FitnessMachineStandard you can simulate and record different outdoor
-rowing sessions.
+If your Rowing Machine supporting the Bluetooth FitnessMachineStandard you can simulate and record different (currently
+hard coded) outdoor rowing sessions.
 
 **[<i class="fa-solid fa-gears fa-fw"></i> Shimano Di2 Setup...](../3600-di2/)**<br/>
-If you own a Wi-Fi module (EW-WU101 or EW-WU111) for your Di2 you can connect GPSLogger with your shifting and remote
-control your device from the shifting levers. 
+If you own a Wi-Fi module (EW-WU101 or EW-WU111) for your Di2, you can connect GPSLogger with your shifting system and
+remote control your device from your left & right shifting levers. 
 <br class="shot-end"/>
 
 ## <span class="material-icons">info</span> Staring GPSLogger for the first time - on Android 7 (or later)
@@ -147,7 +155,7 @@ You can recognize via a fixed (permanent) notification that the  'background loc
 therefore always transparent for you when the application has access to your location and record data (if you have
 requested to do so).
 
-The recorded location data remain on your device and are not processed further.
+The recorded location data remain on your device and is not processed any further.
 
 ## Connectivity related
 
@@ -158,7 +166,7 @@ The recorded location data remain on your device and are not processed further.
 To be able to download any data (like online map information) the app needs to be able to access the internet - if you
 do not use any of the online features (the app is designed to work strictly OFFLINE), you do not have to grant these
 permissions. Accessing Wi-Fi & Network state is used in order to detect, if the app could establish an online
-connection and might use a fallback if not available.
+connection and might use a fallback if the device is currently offline.
 
 ## GUI related
 
@@ -185,9 +193,9 @@ in the [Export & eMail Section](../5000-export/).
 - **USE_CREDENTIALS**
 
 Some GPSLogger features allowing to send eMails to recipients you have specified in the application settings. The
-configuration of a secure SMTP connection can be quite complicated depending on from your eMail provider. In order to
-allow the app to make use of installed email accounts on your device (e.g. your Google-Account), to simplify the email
-account SMTP Setup process.
+configuration of a secure SMTP connection can be quite complicated (depending on from your eMail provider). In order to
+allow the app to make use of installed email accounts on your device (e.g. your Google-Account) these both permissions
+are required. This will be only used to simplify the email account SMTP Setup process.
 
 ## Background/Service/functional related
 
@@ -206,7 +214,7 @@ required, when you want to enable the autostart options of the application.
 
 When you want to connect any [External Sensors](../3000-sensors/) or want to use the build in [BluetoothLowEnergy Beacon
 Scanner](../4000-btlescanner/) the app requires the permission to access your Bluetooth hardware. The admin right is
-used in order to restart bluetooth (turn it off & on again). 
+used in order to restart bluetooth on your device (turn it off & on again). 
 
 ## Other
 
@@ -216,7 +224,9 @@ When you have connected your Shimano Di2 with GPSLogger, then you can configure 
 your phone (when a call arrives). Obviously this specific permission is **only** related to this specific function and
 **obviously** only used when you want to do so.
 
-# Registered Weblinks (need revision) {#reg-weblinks}
+# Registered Weblinks {#reg-weblinks}
+
+> need revision
 
 Support for direct download of *.map files (zips) from openandromaps.org
 
@@ -243,12 +253,12 @@ features like _EmergencyAlerts_, _HappyPartner_ or _(SimplifiedExportVia)Email_.
 
 ## My motivation
 
-I started my career in the 90' as developer - over time I moved into a management role. Developing is really just a
-hobby for me, and it's that _back to your roots_ feeling that drives me. Also, I don't want to lose the connection to
-the craftsmanship of software development & architecture. So I do earn my money with something different from trying to
-sell your data, and I do not rely on a large user base. For me, it's enough when some people around the globe find
-GPSLogger useful. And as already stated - _I am happy to give something back to the world (since life have been very
-generous to me)_.
+I started my career in the 90' as developer - over time I moved into a management role. Software-Development is really
+just a hobby for me, and it's that _back to your roots_ feeling that drives me. Also, I don't want to lose the
+connection to the craftsmanship of software development & architecture. So I do earn my money with something different
+from trying to sell your data, and I do not rely on a large user base. For me, it's enough when some people around the
+globe find GPSLogger useful. And as already stated - _I am happy to give something back to the world (since life have
+been very generous to me)_.
 
 # How GPSLogger II will process your data? {#dataprocessing}
 
