@@ -24,7 +24,7 @@ something that comes quite close to elevation information we use here on our pla
 As already described in the [How GPSLogger will log your data Section](../1100-data/#core), all GPS data will be
 recorded as it is, and the MSL correction (when enabled) will be applied when the data will be displayed.
 
-If you want to read the full story, use the following Wikipedia links as a good start point:
+If you want to read the full story, use the following Wikipedia link as a good start point:
 - [The 'Earth Gravitational Model' article](https://en.wikipedia.org/wiki/Earth_Gravitational_Model)
 
 The use of the Mean Sea level altitude reference is enabled by default - you can disable it in the Application
