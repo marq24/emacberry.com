@@ -5,7 +5,7 @@ menu-title: "<span class='material-icons fa-fw' style='width: 1.042em;'>show_cha
 menu-mobile: Elevation Data
 ---
 
-# Improving Elevation data
+# Overview - Improving Elevation data
 The app have implemented two independent functionalities to improve the elevation data provided from the GPS signal.   
 
 - Use a Mean Sea level altitude reference - correction of WGS84 elevation information to EGM2008

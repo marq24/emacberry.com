@@ -3,7 +3,7 @@ title: <i class="fa-solid fa-location-arrow"></i> Live Location Sharing
 sub-title: + <i class="fa-solid fa-face-smile-beam"></i> HappyPartner - HappyLife
 menu-title: <i class="fa-solid fa-location-arrow fa-fw"></i>&nbsp;Live Sharing
 ---
-# Introduction
+# Overview
 
 With GPSLogger it's possible to frequently share your live location with others. Who is going to be able to access your
 location is totally up to you. The app does **not offer an additional backend-service** which is sharing your current

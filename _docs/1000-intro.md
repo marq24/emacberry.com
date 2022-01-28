@@ -34,6 +34,7 @@ menu-mobile: Introduction & initial Setup
 | <i class="fa-solid fa-toggle-off fa-fw"></i> | Indicates a setting/option in the application settings has to be disabled |
 | <i class="fa-solid fa-square-check fa-fw"> | Indicates a setting/option in the application settings has to be checked |
 | <i class="fa-solid fa-square fa-fw"></i> | Indicates a setting/option in the application settings has to be un-checked |
+| <i class="fa-solid fa-square-pen fa-fw"> | Indicated a setting/option in the application settings that requires a number or text input |
 | ABC > XYZ | In the application settings/section with the name **_ABC_** select item/section/setting **_XYZ_** |
 
 ## Use of metric system for Units
@@ -90,7 +91,7 @@ Shimano Di2 Shifting - or something completely different - you want to use the a
 environment.
 
 So you can select one of the four available wizards, or simply select _No Thanks, not now..._ (you can start the wizards
-any time later from the  <i class="fa-solid fa-ellipsis-vertical"></i>  main menu).
+any time later from the  <i class="fa-solid fa-ellipsis-vertical"></i>  main menu).
 
 **[<i class="fa-brands fa-bluetooth fa-fw"></i> BTLE Beacon Scanner...](../4000-btlescanner/)**<br/>
 The Beacon Scanner constantly looking for BluetoothLowEnergy Beacons in your environment and is able to record the found
@@ -320,7 +321,7 @@ Strava privacy policy applies.
 
 ## Right of revocation
 
-By revoking this privacy policy, GPSLogger II is not functional and therefore cannot be used. Deletion of your personal
-data GPSLogger II stores your data exclusively on the mobile device. this data can be deleted by uninstalling GPSLogger
-II. You must delete created backups or export files. This backup data can be found on the device in the _GPSLogger II_
-folder of your Downloads.
+By revoking the privacy policy of GPSLogger II, the app is not functional and therefore cannot be used. Deletion of your
+personal data GPSLogger II stores your data exclusively on the mobile device. this data can be deleted by uninstalling
+GPSLogger II. You must delete created backups or export files. This backup data can be found on the device in the 
+_GPSLogger II_ folder of your Downloads.
