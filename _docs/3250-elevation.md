@@ -13,9 +13,11 @@ The app have implemented two independent functionalities to improve the elevatio
 
 # WGS84 vs. EGM2008
 
-TLDR; The elevation information provided via GPS is actually not want you want. I don't want to waste you time with all
-the details & reasons why it is what it is - and also I don't want to discuss, if there are better alternatives to
-EGM2008 or not.
+TLDR; The elevation information provided via GPS is actually not want you want.
+
+> I don't want to waste you time with all the details & reasons why it is what it is - and also I don't want to
+> start here & now a discussion, if there are better alternatives to EGM2008 or not (you are invited to start one in
+> the [forum](https://forum.emacberry.com/viewforum.php?f=207)).
 
 What's important to know is, that [GPSLogger will record a _GeoIdHeight_](../1100-data/#gps) (and if this data is not
 available, the app will post-calculate it). This _GeoIdHeight_ will be used, to correct the WGS84 elevation data to
