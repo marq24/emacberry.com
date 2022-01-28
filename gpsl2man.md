@@ -35,7 +35,3 @@ In the past I have used a total different approach to create & work on websites 
 [Jekyll](https://github.com/jekyll/jekyll) I hope it will become easier to participate in the creation process of this
 manual. You will find on top of every page a _<i class="fa-solid fa-pen-to-square"></i>&nbsp;Improve this page_ link that will bring you
 to the public GitHub repository.
-
-## Current Limitations
-Please understand, that this documentation is currently (01/2022) WIP. I'll do my best in order to update the manual
-over time - we will see how long I am motivated - the good news is, that everybody has the possibility

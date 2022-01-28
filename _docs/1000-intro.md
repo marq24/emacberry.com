@@ -258,12 +258,62 @@ features like _EmergencyAlerts_, _HappyPartner_ or _(SimplifiedExportVia)Email_.
 
 ## My motivation
 
-I started my career in the 90' as developer - over time I moved into a management role. Software-Development is really
-just a hobby for me, and it's that _back to your roots_ feeling that drives me. Also, I don't want to lose the
-connection to the craftsmanship of software development & architecture. So I do earn my money with something different
-from trying to sell your data, and I do not rely on a large user base. For me, it's enough when some people around the
-globe find GPSLogger useful. And as already stated - _I am happy to give something back to the world (since life have
-been very generous to me)_.
+> I started my career in the 90' as developer - over time I moved into a management role. Software-Development is really
+> just a hobby for me, and it's that _back to your roots_ feeling that drives me. Also, I don't want to lose the
+> connection to the craftsmanship of software development & architecture. So I do earn my money with something different
+> from trying to sell your data, and I do not rely on a large user base. For me, it's enough when some people around the
+> globe find GPSLogger useful. And as already stated - _I am happy to give something back to the world (since life have
+> been very generous to me)_.
+
+## My personal Use Cases 
+### Primary
+> Automated logging of my casual road bike cycle activities following a planed route (including multiple climbs) or just
+> keep track of the commute sessions using:
+- AutoSTART when I am leaving home/work
+- Make use of the Barometer Sensor to capture realistic elevation profiles
+- Recording additionally to my position my heartrate, cadence, left & right power and shifting events
+- Using OFFLINE OpenStreetMap data (*.map files)
+- Announcements of Turn Instructions and upcoming climbs
+- Interval Text to speech announcements for total distance, total time, sector time, average speed and remaining
+  distance and climb-meters every 5 km 
+- Automatically switch to ClimbView when approaching a climb on my route
+- Requesting "when and what's the next turn" via my Di2
+- Enjoying real MSL elevation information
+- Keep my wife happy by letting her know where I am (when my ride takes longer then 2 hours)
+- Controlling via my Di2 shifting levers the playback of my music I am sometimes listening (on my bone conduction
+  headphones) 
+- In case of a closed/blocked street: using the detour functionality
+- Intense usage of the _ShutUp_ function
+- When I am cycling alone: capture BTLE Beacons
+- AutoSTOP when arriving at home/work
+- Text to Speech Summary
+- AutoUpload to Strava
+
+### Secondary
+> Automated logging my local hiking activities - quickly change the profile to 'hiking' & enjoying functionalities:
+- AutoSTART when I am leaving home
+- Make use of the Barometer Sensor to capture realistic elevation profiles
+- Using OFFLINE OpenStreetMap data (*.map files)
+- Interval Text to speech announcements for sector time & average speed every kilometer
+- When I am walking alone: capture BTLE Beacons
+- AutoSTOP when I am arriving at home
+- Text to Speech Summary
+- AutoUpload to Strava
+> From time to time I also use the navigation features when hiking
+
+### Tertiary
+> Manual Indoor-Run or Indoor-Rowing Sessions - quickly change to the corresponding profile and use:
+- Simulate the run of any real-outdoor route
+- Interval Text to speech announcements for sector time & average speed every kilometer
+- Text to Speech Summary
+- AutoUpload to Strava
+
+### Quaternary
+> Manual logging of flights (when it was possible to travel) or long travel by train or car (obviously also with a
+> different profile) and enjoy:
+- Make use of the Barometer Sensor to capture realistic elevation profiles
+- Using OFFLINE OpenStreetMap data (*.map files)
+- NO AutoUpload to Strava cause I am exeeding the maximum average speed
 
 # How GPSLogger II will process your data? {#dataprocessing}
 

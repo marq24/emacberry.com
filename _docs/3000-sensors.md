@@ -13,6 +13,14 @@ there might a limitation when it comes to support of specific sensor brands or t
 The implementation base 1:1 on the Protocol specifications (either ANT+ or BluetoothLowEnergy/Bluetooth) - so if your
 sensor is supporting the standard implementation of the protocol, it should work 🤞 (I'll keep my fingers crossed).
 
+Once you paired a Sensor with GPSLogger, the app will always (try to) connect the sensor during the startup. So it's
+**_pair once - use forever_**. Of course, you can remove previously paired sensors vie the application settings. You have
+also the possibility to select from the list of paired sensors which you actually want to use (this specially applies to
+multi profiles).
+
+You can make use of the audio announcement feature in order to get feedback about the connection state of each of your
+sensors. Additionally, you can enable the display of connection status information via the Application Settings.
+
 # <i class="fa-brands fa-bluetooth"></i> BluetoothLowEnergy / Bluetooth
 
 In the year 2022 we mainly talk about Bluetooth**LowEnergy** (als known as BluetoothLE, BTLE or just BLE) Sensors. The
