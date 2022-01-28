@@ -36,6 +36,10 @@ menu-mobile: Introduction & initial Setup
 | <i class="fa-solid fa-square fa-fw"></i> | Indicates a setting/option in the application settings has to be un-checked |
 | ABC > XYZ | In the application settings/section with the name **_ABC_** select item/section/setting **_XYZ_** |
 
+## Use of metric system for Units
+This manual use the metric system in all descriptive texts and examples. The app supporting different unit formats like:
+_Metric_, _Imperial_ (feet & yard) or _Nautical_ and will adopt its behavior to your selection.  
+
 ---
 
 # Initial Setup
