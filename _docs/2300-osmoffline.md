@@ -44,7 +44,7 @@ of complicated.
 - download.openandromaps.org
 - ftp.gwdg.de
 > 
-> see [FAQ: Using Weblinks in Android 11](../1900-faq/#weblinks-sdk30) for details
+> see [FAQ: Using Weblinks in Android 11](../9999-faq/#weblinks-sdk30) for details
 
 On your android device - open the following link
 [https://www.openandromaps.org/downloads](https://www.openandromaps.org/downloads) **or** select one more specific
@@ -76,7 +76,7 @@ GPSLogger is already coming with two (build-in) themes.
 
 IF your device does not show a dialog (to let you select the app that should process the download) after the
 download-button on the openandromaps website, please see this
-[FAQ: Troubleshoot opening openandromaps.org web links...](../1900-faq/#openopenandro).
+[FAQ: Troubleshoot opening openandromaps.org web links...](../9999-faq/#openopenandro).
 
 # Download *.map files elsewhere
 You can of course download the *.map files on any other device (including your PC or Mac) - the Links are the same - but

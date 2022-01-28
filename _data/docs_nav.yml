@@ -5,7 +5,6 @@
     - link: /gpsl/docs/1200-views/
     - link: /gpsl/docs/1500-pathman/
     - link: /gpsl/docs/1600-locman/
-    - link: /gpsl/docs/1900-faq/
 
 - title: <i class="fa-solid fa-map fa-fw"></i> Maps & Routing
   docs:
@@ -53,3 +52,4 @@
 - title: <i class="fa-solid fa-circle-info fa-fw"></i> Appendix
   docs:
     - link: /gpsl/docs/9990-glossary/
+    - link: /gpsl/docs/9999-faq/

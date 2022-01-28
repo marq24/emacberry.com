@@ -118,7 +118,7 @@ running-as-background-service capabilities. Such a restriction is counterproduct
 <span class="shot">![disable-battery-optimization](/assets/img/gpsl/backg001.png)</span>
 <span class="shot">![os-info-battery-optimization](/assets/img/gpsl/backg002.png)</span>
 So the app is requesting you to **disable the OS battery optimization for GPSLogger** in multiple ways. For details see
-the FAQ: [How to disable OS battery optimization](../1900-faq/#how2-battery-optimization).
+the FAQ: [How to disable OS battery optimization](../9999-faq/#how2-battery-optimization).
 
 Details about this core feature can be found in
 the [Running as Android-Background Service Section](../1100-data/#service).
