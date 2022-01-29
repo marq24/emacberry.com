@@ -76,7 +76,7 @@ bold, gray line (only visible in the path- & map-view)
 
 ## <i class="fa-solid fa-share-nodes fa-fw"></i> Upload to Strava
 only present if your account is connected
-[see the <i class="fa-brands fa-strava fa-fw"></i> Strava Section of this manual](/../5200-strava/)
+[see the <i class="fa-brands fa-strava fa-fw"></i> Strava Section of this manual](../5200-strava/)
 
 ## <i class="fa-solid fa-floppy-disk fa-fw"></i> Export
 When selecting the **Export** menu Item a sub-menu will appear that allow you to select one of:

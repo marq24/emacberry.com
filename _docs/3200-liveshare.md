@@ -23,9 +23,9 @@ time.
 > take another 4 hours).
 
 # Requirement 
-- App needs to be able to send eMails
+- App needs to be able to send eMails (be online)
 <br/>**or**<br/> 
-- App need to be online otherwise in order to complete a URL request
+- The app must be able to complete a URL request in some other way
  
 # Sharing your location
 
