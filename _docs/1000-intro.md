@@ -265,5 +265,5 @@ features like _EmergencyAlerts_, _HappyPartner_ or _(SimplifiedExportVia)Email_.
 > globe find GPSLogger useful. And as already stated - _I am happy to give something back to the world (since life have
 > been very generous to me)_.
 >
-> Additional I am probably my most loyal heavy user - if you are interested I have briefly described my main use cased    
-> on [the main app page](/gpslogger.html#myusage)
+> Just a last remark on all this. I am probably my most loyal heavy user - if you are interested, I have briefly
+> described my main use cases on [the main app page of GPSLogger](/gpslogger.html#myusage).
