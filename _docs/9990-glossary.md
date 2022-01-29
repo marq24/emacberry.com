@@ -4,6 +4,7 @@ sub-title: Used acronyms in this manual
 menu-title: <i class="fa-solid fa-book fa-fw"></i>&nbsp;Glossary
 ---
 
+| API | Application Programming Interface |
 | beacon | BluetoothLE beacon |
 | BLE, BTLE or BluetoothLE | Bluetooth**LowEnergy** - don't mix that up with _just_ Bluetooth |
 | BT | Bluetooth |

@@ -1,6 +1,6 @@
 ---
 title: <i class="fa-solid fa-star-of-life fa-fw"></i>&nbsp;Introduction & Initial Setup
-menu-title: <i class="fa-solid fa-star-of-life fa-fw"></i>&nbsp;Start
+menu-title: <i class="fa-solid fa-star-of-life fa-fw"></i>&nbsp;Setup
 menu-mobile: Introduction & initial Setup
 ---
 
@@ -24,22 +24,6 @@ menu-mobile: Introduction & initial Setup
 >
 > I don't have a single clue how many bike computers I could have bought, if I had just worked in my regular job,
 > instead of investing my time into the development of GPSLogger.
-
-## Used Symbols
-
-| <span class="material-icons fa-fw">info</span> | Information |
-| <i class="fa-solid fa-hand-point-up fa-fw"></i> | Hint / Tip |
-| <i class="fa-solid fa-warning fa-fw"></i> | Warning \| Caution \| Danger |
-| <i class="fa-solid fa-toggle-on fa-fw"></i> | Indicates a setting/option in the application settings has to be enabled |
-| <i class="fa-solid fa-toggle-off fa-fw"></i> | Indicates a setting/option in the application settings has to be disabled |
-| <i class="fa-solid fa-square-check fa-fw"> | Indicates a setting/option in the application settings has to be checked |
-| <i class="fa-solid fa-square fa-fw"></i> | Indicates a setting/option in the application settings has to be un-checked |
-| <i class="fa-solid fa-square-pen fa-fw"> | Indicated a setting/option in the application settings that requires a number or text input |
-| ABC > XYZ | In the application settings/section with the name **_ABC_** select item/section/setting **_XYZ_** |
-
-## Use of metric system for Units
-This manual use the metric system in all descriptive texts and examples. The app supporting different unit formats like:
-_Metric_, _Imperial_ (feet & yard) or _Nautical_ and will adopt its behavior to your selection.  
 
 ---
 

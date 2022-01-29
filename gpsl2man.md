@@ -12,7 +12,7 @@ permalink: gpsl/manual.html
 
 ---
 
-# DISCLAIMER
+## DISCLAIMER
 This software is provided **AS IS**, without a warranty of any kind. ALL EXPRESS OR IMPLIED CONDITIONS, REPRESENTATIONS
 AND WARRANTIES, INCLUDING ANY IMPLIED WARRANTY OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE OR NON-INFRINGEMENT,
 ARE HEREBY EXCLUDED. emacberry.com AND ITS LICENSORS SHALL NOT BE LIABLE FOR ANY DAMAGES SUFFERED BY LICENSEE AS A
@@ -35,6 +35,24 @@ In the past I have used a total different approach to create & work on websites 
 [Jekyll](https://github.com/jekyll/jekyll) I hope it will become easier to participate in the creation process of this
 manual. You will find on top of every page a _<i class="fa-solid fa-pen-to-square"></i>&nbsp;Improve this page_ link that will bring you
 to the public GitHub repository.
+
+---
+
+## Used Symbols
+
+| <span class="material-icons fa-fw">info</span> | Information |
+| <i class="fa-solid fa-hand-point-up fa-fw"></i> | Hint / Tip |
+| <i class="fa-solid fa-warning fa-fw"></i> | Warning \| Caution \| Danger |
+| <i class="fa-solid fa-toggle-on fa-fw"></i> | Indicates a setting/option in the application settings has to be enabled |
+| <i class="fa-solid fa-toggle-off fa-fw"></i> | Indicates a setting/option in the application settings has to be disabled |
+| <i class="fa-solid fa-square-check fa-fw"> | Indicates a setting/option in the application settings has to be checked |
+| <i class="fa-solid fa-square fa-fw"></i> | Indicates a setting/option in the application settings has to be un-checked |
+| <i class="fa-solid fa-square-pen fa-fw"> | Indicated a setting/option in the application settings that requires a number or text input |
+| ABC > XYZ | In the application settings/section with the name **_ABC_** select item/section/setting **_XYZ_** |
+
+## Use of metric system for Units
+This manual use the metric system in all descriptive texts and examples. The app supporting different unit formats like:
+_Metric_, _Imperial_ (feet & yard) or _Nautical_ and will adopt its behavior to your selection.
 
 ---
 

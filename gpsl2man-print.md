@@ -26,6 +26,24 @@ No guarantee is made for accuracy or reliability for any purpose whatsoever.
 
 ---
 
+# Used Symbols
+
+| <span class="material-icons fa-fw">info</span> | Information |
+| <i class="fa-solid fa-hand-point-up fa-fw"></i> | Hint / Tip |
+| <i class="fa-solid fa-warning fa-fw"></i> | Warning \| Caution \| Danger |
+| <i class="fa-solid fa-toggle-on fa-fw"></i> | Indicates a setting/option in the application settings has to be enabled |
+| <i class="fa-solid fa-toggle-off fa-fw"></i> | Indicates a setting/option in the application settings has to be disabled |
+| <i class="fa-solid fa-square-check fa-fw"> | Indicates a setting/option in the application settings has to be checked |
+| <i class="fa-solid fa-square fa-fw"></i> | Indicates a setting/option in the application settings has to be un-checked |
+| <i class="fa-solid fa-square-pen fa-fw"> | Indicated a setting/option in the application settings that requires a number or text input |
+| ABC > XYZ | In the application settings/section with the name **_ABC_** select item/section/setting **_XYZ_** |
+
+# Use of metric system for Units
+This manual use the metric system in all descriptive texts and examples. The app supporting different unit formats like:
+_Metric_, _Imperial_ (feet & yard) or _Nautical_ and will adopt its behavior to your selection.
+
+---
+
 {% for doc in site.docs -%}
     {%- if doc.sub-title -%}
 <h1 class="post-title">{{ doc.title }}<br/><span style="font-size: 50%">{{ doc.sub-title }}</span></h1>
