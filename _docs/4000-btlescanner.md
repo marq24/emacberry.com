@@ -43,6 +43,19 @@ be updated for this specific beacon!
 
 When there are more than a single beacon at a location the app will render an additional number on the map-marker 
 
+# How GPSLogger II is counting Beacons<br/><sup>(in contrast to the UUID0xFD6FTracer App)</sup>
+
+In contrast to the _UUID0xFD6DTracer_, GPSLogger is counting the unique Beacon IDs that are discoverable from your
+current location. Imagine the following scenario:
+
+When your location is static and there is a single beacon in your area the _UUID0xFD6DTracer_ keeps showing you _0_ or
+_1_ (depending on the range). If the ID of the single beacon will change this will have no effect for _UUID0xFD6DTracer_,
+the app will show you still _0_ or _1_.
+
+On the other hand GPSLogger II counts every single beacon ID that is reported by the scanner - so if the ID is going
+to change the counter will be increased by one. I.e. if 10 beacons pass you, the number 10 is also displayed in
+GPSLogger II (at the location you encountered a total of 10 beacon IDs).
+
 # Export of recorded beacon data {#export}
 
 When you record beacon data you probably want to do something with it - Since none of the standard file formats is
