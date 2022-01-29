@@ -33,38 +33,38 @@ If you have any remarks or suggestions for improvements (yes - more features!) -
 
 # Main Application Features
   - <i class="fa-solid fa-shield-blank fa-fw"></i> **Your privacy drives everything** 
-  - <i class="fa-solid fa-mobile-screen-button fa-fw"></i> [Build in 18 different Default Views + 4 fully customizable Multi-Views](./gpsl/docs/1200-views/)
+  - <i class="fa-solid fa-mobile-screen-button fa-fw"></i> [Build in 18 different Default Views + 4 fully customizable Multi-Views](./gpsl/docs/1200-views.html)
   - <i class="fa-solid fa-globe fa-fw"></i> Supporting imperial (feet or yard), metric or nautical units. 
-  - <i class="fa-solid fa-battery-three-quarters fa-fw"></i> [Designed to be Battery friendly](./gpsl/docs/1100-data/#battery)
-  - <i class="fa-solid fa-file-code fa-fw"></i> [Data is stored ‘as it is’](./gpsl/docs/1100-data/#raw)
-  - <span class="material-icons fa-fw" style="width: 1.042em;">high_quality</span> [Recording with a resolution of one millisecond](./gpsl/docs/1100-data/#highres)
-  - <i class="fa-brands fa-bluetooth fa-fw"></i> [Build in BTLE Beacon Scanner](./gpsl/docs/4000-btlescanner/)
-  - <i class="fa-solid fa-chart-line fa-fw"></i> [Logging <i class="fa-solid fa-satellite fa-fw"></i> GPS (incl. NMEA), <i class="fa-solid fa-compass fa-fw"></i> Magnetic & <i class="fa-solid fa-cloud-sun-rain fa-fw"></i> Barometer Sensor Data](./gpsl/docs/1100-data/#gps)
+  - <i class="fa-solid fa-battery-three-quarters fa-fw"></i> [Designed to be Battery friendly](./gpsl/docs/1100-data.html#battery)
+  - <i class="fa-solid fa-file-code fa-fw"></i> [Data is stored ‘as it is’](./gpsl/docs/1100-data.html#raw)
+  - <span class="material-icons fa-fw" style="width: 1.042em;">high_quality</span> [Recording with a resolution of one millisecond](./gpsl/docs/1100-data.html#highres)
+  - <i class="fa-brands fa-bluetooth fa-fw"></i> [Build in BTLE Beacon Scanner](./gpsl/docs/4000-btlescanner.html)
+  - <i class="fa-solid fa-chart-line fa-fw"></i> [Logging <i class="fa-solid fa-satellite fa-fw"></i> GPS (incl. NMEA), <i class="fa-solid fa-compass fa-fw"></i> Magnetic & <i class="fa-solid fa-cloud-sun-rain fa-fw"></i> Barometer Sensor Data](./gpsl/docs/1100-data.html#gps)
   - <span class="material-icons fa-fw" style="width: 1.042em;">sensors</span> [Supporting additional external Bluetooth & ANT+ Sensor](./gpsl/docs/3000-sensors)
     - <i class="fa-solid fa-heart-pulse fa-fw"></i> Pulse / Heart rate
     - <i class="fa-solid fa-arrow-rotate-left fa-fw"></i> Cycling Cadence
     - <i class="fa-solid fa-bolt fa-fw"></i> Cycling Power Meter
-    - <i class="fa-solid fa-gears fa-fw"></i> [Shifting information (Shimano Di2)](./gpsl/docs/3600-di2/)
-    - <i class="fa-solid fa-person-running fa-fw"></i> [Bluetooth-FTMS Treadmill (supporting speed & incline control)](./gpsl/docs/3700-treadmill/)
-    - <span class='material-icons fa-fw' style='width: 1.042em;'>rowing</span> [Concept2 and other Bluetooth-FTMS Indoor Rower](./gpsl/docs/3800-rowing/)
+    - <i class="fa-solid fa-gears fa-fw"></i> [Shifting information (Shimano Di2)](./gpsl/docs/3600-di2.html)
+    - <i class="fa-solid fa-person-running fa-fw"></i> [Bluetooth-FTMS Treadmill (supporting speed & incline control)](./gpsl/docs/3700-treadmill.html)
+    - <span class='material-icons fa-fw' style='width: 1.042em;'>rowing</span> [Concept2 and other Bluetooth-FTMS Indoor Rower](./gpsl/docs/3800-rowing.html)
   - <i class="fa-solid fa-map fa-fw"></i> Integrated Maps & Routing functionalities
-    - <i class="fa-solid fa-earth-europe"></i> [Open Map Data (OMD) - allow the use of multiple map providers](./gpsl/docs/2200-openmapdata/)
-    - <i class="fa-solid fa-layer-group"></i> [Offline OpenStreetMap Data Support](./gpsl/docs/2300-osmoffline/)
-    - <i class="fa-solid fa-route"></i> [Turn-by-Turn &](./gpsl/docs/2400-turnbyturn/) <i class="fa-solid fa-diamond-turn-right"></i> [Off-road Navigation](./gpsl/docs/2500-offroadnav/)
+    - <i class="fa-solid fa-earth-europe"></i> [Open Map Data (OMD) - allow the use of multiple map providers](./gpsl/docs/2200-openmapdata.html)
+    - <i class="fa-solid fa-layer-group"></i> [Offline OpenStreetMap Data Support](./gpsl/docs/2300-osmoffline.html)
+    - <i class="fa-solid fa-route"></i> [Turn-by-Turn &](./gpsl/docs/2400-turnbyturn.html) <i class="fa-solid fa-diamond-turn-right"></i> [Off-road Navigation](./gpsl/docs/2500-offroadnav.html)
   - <i class="fa-solid fa-hand-spock fa-fw"></i> Extended Functions (all for **free**)
-    - <i class="fa-solid fa-volume-high fa-fw"></i> [Audio Announcements](./gpsl/docs/3010-audioalerts/)
-    - <i class="fa-solid fa-arrows-rotate fa-fw"></i> [START/STOP recording automations](./gpsl/docs/3050-autostart/)
-    - <span class="material-icons fa-fw" style="width: 1.042em;">show_chart</span> [Elevation Data optimizations](./gpsl/docs/3250-elevation/)
-    - <i class="fa-solid fa-truck-medical fa-fw"></i> [Crash Detection & Emergency Alerting](./gpsl/docs/3100-emergency/)
-    - <i class="fa-solid fa-moon fa-fw"></i> [Integrated Dark/Night Mode](./gpsl/docs/3190-nightmode/)
-    - <i class="fa-solid fa-mountain fa-fw"></i> [Climb-Detection & Handling](./gpsl/docs/3300-climb/)
-    - <i class="fa-solid fa-sliders fa-fw"></i> [Multi Preferences & Activity Profiles](./gpsl/docs/3950-multipref/)
-    - <i class="fa-solid fa-location-arrow fa-fw"></i> [Live Location Sharing options](./gpsl/docs/3200-liveshare/)
-    - <i class="fa-brands fa-strava fa-fw"></i> [Strava Integration options](./gpsl/docs/5200-strava/)
-    - <i class="fa-solid fa-bolt fa-fw"></i> [Tasker Integration options](./gpsl/docs/3900-tasker/)
-  - <i class="fa-solid fa-floppy-disk fa-fw"></i> [Backup & Restore of all Data & Settings](./gpsl/docs/5300-backup/)
-  - <i class="fa-solid fa-download fa-fw"></i> [Multiple Export formats (incl. GPX, KML, FIT or JSON)](./gpsl/docs/5000-export/)
-  - <i class="fa-solid fa-share-nodes fa-fw"></i> [Sharing your activities with others when you feel comfortable to do so](./gpsl/docs/5100-share/)
+    - <i class="fa-solid fa-volume-high fa-fw"></i> [Audio Announcements](./gpsl/docs/3010-audioalerts.html)
+    - <i class="fa-solid fa-arrows-rotate fa-fw"></i> [START/STOP recording automations](./gpsl/docs/3050-autostart.html)
+    - <span class="material-icons fa-fw" style="width: 1.042em;">show_chart</span> [Elevation Data optimizations](./gpsl/docs/3250-elevation.html)
+    - <i class="fa-solid fa-truck-medical fa-fw"></i> [Crash Detection & Emergency Alerting](./gpsl/docs/3100-emergency.html)
+    - <i class="fa-solid fa-moon fa-fw"></i> [Integrated Dark/Night Mode](./gpsl/docs/3190-nightmode.html)
+    - <i class="fa-solid fa-mountain fa-fw"></i> [Climb-Detection & Handling](./gpsl/docs/3300-climb.html)
+    - <i class="fa-solid fa-sliders fa-fw"></i> [Multi Preferences & Activity Profiles](./gpsl/docs/3950-multipref.html)
+    - <i class="fa-solid fa-location-arrow fa-fw"></i> [Live Location Sharing options](./gpsl/docs/3200-liveshare.html)
+    - <i class="fa-brands fa-strava fa-fw"></i> [Strava Integration options](./gpsl/docs/5200-strava.html)
+    - <i class="fa-solid fa-bolt fa-fw"></i> [Tasker Integration options](./gpsl/docs/3900-tasker.html)
+  - <i class="fa-solid fa-floppy-disk fa-fw"></i> [Backup & Restore of all Data & Settings](./gpsl/docs/5300-backup.html)
+  - <i class="fa-solid fa-download fa-fw"></i> [Multiple Export formats (incl. GPX, KML, FIT or JSON)](./gpsl/docs/5000-export.html)
+  - <i class="fa-solid fa-share-nodes fa-fw"></i> [Sharing your activities with others when you feel comfortable to do so](./gpsl/docs/5100-share.html)
 
 One final remark: As you notice the list of functionalities is quite long. Since each function can also be adjusted to
 your personal preferences, the application settings list is really long and can look very complex for the start. The
@@ -92,7 +92,7 @@ Why GPSLogger is build in the way it is?
 > of them offered the features I wanted to have (yes You can argue that I did not search hard enough).
 > 
 > Please find below my four main use cases, with a brief feature list. You will find detailed descriptions about each of
-> the functionalities in the [corresponding manual sections](/gpsl/docs/1000-intro/). Of course this are just **my
+> the functionalities in the [corresponding manual sections](/gpsl/docs/1000-intro.html). Of course this are just **my
 > personal** use cases - you can use it for much more - there is plenty of feedback what users do with GPSLogger and I
 > would be very happy to hear form your use cases too!
  

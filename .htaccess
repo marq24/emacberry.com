@@ -5,12 +5,12 @@ RewriteEngine on
 redirect 301 /map.html https://maps.emac.de/
 redirect 301 /forum.html https://forum.emacberry.com/viewforum.php?f=206
 
-redirect 301 /gpsl/faq.html /gpsl/docs/9999-faq/
+redirect 301 /gpsl/faq.html /gpsl/docs/9999-faq.html
 redirect 301 /gpsl/gpslogger_05user_manual.html /gpsl/manual.html
-redirect 301 /gpsl/app-permissions.html /gpsl/docs/1000-intro/#permissions
-redirect 301 /gpsl/emergency.html /gpsl/docs/3100-emergency/#incaseofanemergency
-redirect 301 /gpsl/nav/nav001.html /gpsl/docs/2500-offroadnav/#-intro
-redirect 301 /gpsl/nav/nav002.html /gpsl/docs/2500-offroadnav/#-best-practise
+redirect 301 /gpsl/app-permissions.html /gpsl/docs/1000-intro.html#permissions
+redirect 301 /gpsl/emergency.html /gpsl/docs/3100-emergency.html#incaseofanemergency
+redirect 301 /gpsl/nav/nav001.html /gpsl/docs/2500-offroadnav.html#-intro
+redirect 301 /gpsl/nav/nav002.html /gpsl/docs/2500-offroadnav.html#-best-practise
 
 RewriteCond %{SERVER_PORT} !^443$
 RewriteCond %{REQUEST_URI} !^/\.well-known/acme-challenge/[0-9a-zA-Z_-]+$

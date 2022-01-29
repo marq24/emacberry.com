@@ -50,6 +50,6 @@ _Metric_, _Imperial_ (feet & yard) or _Nautical_ and will adopt its behavior to 
     {%- else if doc.title -%}
 <h1 class="post-title">{{ doc.title }}</h1>
     {%- endif -%}
-<p>{{ doc.content | markdownify | replace: 'href="..', 'noref="..' | replace: 'href="#', 'noref="#' }}</p>
+<p>{{ doc.content | markdownify | replace: 'href="./', 'noref="./' | replace: 'href="#', 'noref="#' }}</p>
 ---
 {% endfor -%}

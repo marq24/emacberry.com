@@ -1,6 +1,6 @@
 ---
 title: Connect your eMail Account
-sub-title: "Required for features like <b>Emergency Alert</b>,  <b>Export via eMail</b> or <b>HappyPartner</b>"
+sub-title: "Required for features like <b>Emergency Alert</b>, <b>Export via eMail</b> or <b>Live Location sharing</b> & <b>HappyPartner</b>"
 ---
 
 > need revision
