@@ -4,8 +4,8 @@ title: GPSLogger II
 permalink: /gpslogger.html
 app-icon: /assets/img/gpsl/app-icon.png
 ---
-An App-Project that started as small & simple hobby has developed to an All-In-One solution in a period of more than
-10 years (all started at the beginning of the year 2009).
+An App-Project that started as small & simple hobby (in early 2009) has developed into an All-In-One solution in a
+period of more than 10 years.
 
 <span class="shot">![shot1](/assets/img/gpsl/Screenshot_1642149089_50.png)</span>
 
@@ -45,7 +45,7 @@ If you have any remarks or suggestions for improvements (yes - more features!) -
     - <i class="fa-solid fa-arrow-rotate-left fa-fw"></i> Cycling Cadence
     - <i class="fa-solid fa-bolt fa-fw"></i> Cycling Power Meter
     - <i class="fa-solid fa-gears fa-fw"></i> Shifting information (Shimano Di2)
-    - <i class="fa-solid fa-person-running fa-fw"></i> Bluetooth-FTMS Treadmill
+    - <i class="fa-solid fa-person-running fa-fw"></i> Bluetooth-FTMS Treadmill (supporting speed & incline control)
     - <span class='material-icons fa-fw' style='width: 1.042em;'>rowing</span> Concept2 and other Bluetooth-FTMS Indoor Rower
   - <i class="fa-solid fa-map fa-fw"></i> Integrated Maps & Routing functionalities
     - <i class="fa-solid fa-earth-europe"></i> Open Map Data (OMD) - allow the use of multiple map providers
