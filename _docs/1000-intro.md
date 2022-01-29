@@ -48,7 +48,7 @@ _Metric_, _Imperial_ (feet & yard) or _Nautical_ and will adopt its behavior to 
 When you install the app and launch it for the first time you will be presented with a welcome dialog, containing some
 general information and the link to the [Privacy Policy of the application](https://www.emacberry.com/pp/pp2.html).
 Please read it carefully, but since this _legal stuff_ can be a bit difficult to read, you might find [How GPSLogger II
-will process your data](#dataprocessing) a bit easier to understand.
+will process your data](/gpsl/manual.html#dataprocessing) a bit easier to understand.
 
 <span class="shot">![welcome](/assets/img/gpsl/welcome.png)</span>
 The bottom line is - location information **is** sensitive data and you as the user having the full control what will be
@@ -264,114 +264,6 @@ features like _EmergencyAlerts_, _HappyPartner_ or _(SimplifiedExportVia)Email_.
 > from trying to sell your data, and I do not rely on a large user base. For me, it's enough when some people around the
 > globe find GPSLogger useful. And as already stated - _I am happy to give something back to the world (since life have
 > been very generous to me)_.
-
-## My personal Use Cases 
-### Primary
-> Automated logging of my casual road bike cycle activities following a planed route (including multiple climbs) or just
-> keep track of the commute sessions using:
-- AutoSTART when I am leaving home/work
-- Make use of the Barometer Sensor to capture realistic elevation profiles
-- Recording additionally to my position my heartrate, cadence, left & right power and shifting events
-- Using OFFLINE OpenStreetMap data (*.map files)
-- Announcements of Turn Instructions and upcoming climbs
-- Interval Text to speech announcements for total distance, total time, sector time, average speed and remaining
-  distance and climb-meters every 5 km 
-- Automatically switch to ClimbView when approaching a climb on my route
-- Requesting "when and what's the next turn" via my Di2
-- Enjoying real MSL elevation information
-- Keep my wife happy by letting her know where I am (when my ride takes longer then 2 hours)
-- Controlling via my Di2 shifting levers the playback of my music I am sometimes listening (on my bone conduction
-  headphones) 
-- In case of a closed/blocked street: using the detour functionality
-- Intense usage of the _ShutUp_ function
-- When I am cycling alone: capture BTLE Beacons
-- AutoSTOP when arriving at home/work
-- Text to Speech Summary
-- AutoUpload to Strava
-
-### Secondary
-> Automated logging my local hiking activities - quickly change the profile to 'hiking' & enjoying functionalities:
-- AutoSTART when I am leaving home
-- Make use of the Barometer Sensor to capture realistic elevation profiles
-- Using OFFLINE OpenStreetMap data (*.map files)
-- Interval Text to speech announcements for sector time & average speed every kilometer
-- When I am walking alone: capture BTLE Beacons
-- AutoSTOP when I am arriving at home
-- Text to Speech Summary
-- AutoUpload to Strava
-> From time to time I also use the navigation features when hiking
-
-### Tertiary
-> Manual Indoor-Run or Indoor-Rowing Sessions - quickly change to the corresponding profile and use:
-- Simulate the run of any real-outdoor route
-- Interval Text to speech announcements for sector time & average speed every kilometer
-- Text to Speech Summary
-- AutoUpload to Strava
-
-### Quaternary
-> Manual logging of flights (when it was possible to travel) or long travel by train or car (obviously also with a
-> different profile) and enjoy:
-- Make use of the Barometer Sensor to capture realistic elevation profiles
-- Using OFFLINE OpenStreetMap data (*.map files)
-- NO AutoUpload to Strava cause I am exeeding the maximum average speed
-
-# How GPSLogger II will process your data? {#dataprocessing}
-
-## Principle
-
-I take the protection of your personal data **very seriously** and treat personal data with the utmost care,
-confidentiality and in accordance with the legal data protection regulations and this data protection declaration.
-
-## Processing operations
-
-GPSLogger II processes personal data only if they are necessary for the app functions. The data will be saved on your
-**mobile device only**.
-
-## Transfer of data to third parties
-
-When using the export options (KML, FIT, GPX or CSV), the location (and additional sensor) data will be stored in the
-selected format on your local device only. Please use these export files wisely. When using the Emergency Alert
-function, your current location (and path) will be transferred as eMail via the internet to the selected eMail
-recipient. Please note, that eMails are in general imperceptible & read by 3'rd party. When using the Sharing Location
-Information function, your current location will be transferred either as eMail via the internet to the selected eMail
-recipient or will be sent vie the internet to the server URL you have specified. Please use with appropriate care. When
-using the Share Path functionality, the complete path (date, location) will be transferred via the internet to
-emacberry.com server and will be made available to the PUBLIC. Everyone that know the provided share URL (which contains
-no encryption or key) can see this location data over the internet. When you share a path, there will be no connection
-between you (the user) or the device used for the upload - so the upload does not contain any additional personalized
-data. When using this functionality, the emacberry.com privacy policy applies.
-
-[https://www.emacberry.com/pp/pp1.html](https://www.emacberry.com/pp/pp1.html)
-
-When using the On the fly navigation/detour functionality, your current & target location will be transferred via the
-internet to the openrouteservice.org server. When using the Openrouteservice, the openrouteservice.org privacy policy
-applies.
-
-[https://openrouteservice.org/privacy-policy/](https://openrouteservice.org/privacy-policy/)
-
-When using the Import from Routing Server functionality, your current location will be transferred via the internet to
-emacberry.com server in order to search for routes that have been created in the last 5min in your area. The sent
-location data will not be stored on emacberry.com server and be only used for processing the request. When using the
-Push-Route functionality from the https://route.emacberry.com website, the emacberry.com privacy policy applies.
-
-[https://www.emacberry.com/pp/pp1.html](https://www.emacberry.com/pp/pp1.html)
-
-When you update the list of available OpenMapData provides GPSLogger II will connect to emacberry.com server in order to
-download the list of currently supported map providers. This update can be triggered manually, or it will be
-automatically executed with every update of the application. The request will contain your device model, the os version
-and app version and a user independent generated random id. This data will be used for internal statistics only. This is
-the only price you pay. Your current ID: %s Generate a new random ID When using the OpenMapData functionality (basically
-_the Map View_), the corresponding privacy policies of the selected map data providers applies. GPSLogger II will
-request map tiles from the selected providers and this implies that this requests contain area information (BoundingBox)
-which might be (but don't have to be) in relation to your location. When using the Upload to Strava function, the
-location (and additional sensor) data is transferred via the internet to the Strava servers. When using Strava, the
-Strava privacy policy applies.
-
-[https://www.strava.com/legal/privacy](https://www.strava.com/legal/privacy)
-
-## Right of revocation
-
-By revoking the privacy policy of GPSLogger II, the app is not functional and therefore cannot be used. Deletion of your
-personal data GPSLogger II stores your data exclusively on the mobile device. this data can be deleted by uninstalling
-GPSLogger II. You must delete created backups or export files. This backup data can be found on the device in the 
-_GPSLogger II_ folder of your Downloads.
+>
+> Additional I am probably my most loyal heavy user - if you are interested I have briefly described my main use cased    
+> on [the main app page](/gpslogger.html#myusage)

@@ -1,6 +1,6 @@
 ---
 title: Outdoor Navigation Settings
-sub-title: For offroad guiding direction information
+sub-title: For Off-road guiding direction information
 ---
 
 > need revision 

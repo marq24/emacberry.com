@@ -85,7 +85,7 @@ select a different record type (see [How GPSLogger will log your data?](../1100-
 | <span class="btn">![button-rec](/assets/img/gpsl/button-mflag.png)</span> | Center map on next (navigation) target (only active when a navigation path is loaded) |
 | <span class="btn">![button-rec](/assets/img/gpsl/button-zoomin.png)</span> | Zoom IN (only visible if one of the visible views supporting zoom function) <i class="fa-solid fa-hand-point-up fa-fw"></i> Pinch-to-zoom is also supported |
 | <span class="btn">![button-rec](/assets/img/gpsl/button-zoomout.png)</span> | Zoom OUT (only visible if one of the visible views supporting zoom function) <i class="fa-solid fa-hand-point-up fa-fw"></i> Pinch-to-zoom is also supported |
-| <span class="btn">![button-rec](/assets/img/gpsl/button-resetnav.png)</span> | Reset Offroad Navigation (only available if a navigation path is loaded that does not contain TurnByTurn instructions) |
+| <span class="btn">![button-rec](/assets/img/gpsl/button-resetnav.png)</span> | Reset Off-road Navigation (only available if a navigation path is loaded that does not contain TurnByTurn instructions) |
 | <span class="btn">![button-rec](/assets/img/gpsl/button-nextwp.png)</span> | [Calculate new next Waypoint](../2500-offroadnav/#nextwaypoint) (only available if a navigation path is loaded that does not contain TurnByTurn instructions) |
 
 # The available Views
@@ -102,6 +102,7 @@ select a different record type (see [How GPSLogger will log your data?](../1100-
 ## Navigation Speed View
 ## Heartrate View (ANT+/BTLE)
 ## Cadence View (ANT+/BTLE)
+
 ## Shifting View (Di2) {#shifting}
 <span class="shot">![view-shifting](/assets/img/gpsl/view-shifting-di2.png)</span>
 - Large Font Top: Number of front-gear teeth - number of rear-gear teeth
@@ -109,6 +110,7 @@ select a different record type (see [How GPSLogger will log your data?](../1100-
 - Upper right corner: Schematic gear positions
 - Graph: Showing ratio over time
 <br class="shot-end">
+ 
 ## Power View (BTLE)
 ## Barometer View
 ## TargetSpeed View

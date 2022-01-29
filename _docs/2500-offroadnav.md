@@ -1,6 +1,6 @@
 ---
-title: <i class="fa-solid fa-diamond-turn-right"></i> Offroad Navigation
-menu-title:  <i class="fa-solid fa-diamond-turn-right fa-fw"></i>&nbsp;Offroad
+title: <i class="fa-solid fa-diamond-turn-right"></i> Off-road Navigation
+menu-title:  <i class="fa-solid fa-diamond-turn-right fa-fw"></i>&nbsp;Off-road
 ---
 
 # Overview
@@ -8,7 +8,7 @@ menu-title:  <i class="fa-solid fa-diamond-turn-right fa-fw"></i>&nbsp;Offroad
 It's not always possible to extract TurnByTurn instructions for a previous recorded path (or a path that you have
 downloaded from another source) \[e.g. a cycling or hiking (round)trip that you have downloaded in GPX or KML format\].
 The reason for this missing TurnByTurn information is mainly, that there is no OpenStreetMap data available in the given
-region - or even simpler - there are no roads, path's or tracks - it's really just all OFFROAD terrain.
+region - or even simpler - there are no roads, path's or tracks - it's really just all OFF-ROAD terrain.
 
 When you want to follow a path without TurnByTurn instructions, then it's impossible for the app to know if there are
 any junctions on your route. The app will always point into the direction of the _next calculated waypoint_ on the
