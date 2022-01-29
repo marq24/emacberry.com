@@ -5,7 +5,7 @@ menu-title: Docs
 layout: doc
 permalink: gpsl/manual.html
 ---
-> Please be so kind and have in mind that GPSLogger II have a long history - features that have been initially developed
+> Please be so kind and have in mind that GPSLogger II have a long history - features that have been initially developed
 > have been adjusted over time - so there is always the chance that this documentation is outdated at certain areas - if
 > you come across such a section please let us know (or simply fork the project on GitHub, make the adjustments and
 > create a pull request - TIA!).
@@ -56,7 +56,7 @@ _Metric_, _Imperial_ (feet & yard) or _Nautical_ and will adopt its behavior to 
 
 ---
 
-# Simplified Privacy Policy<br/>How GPSLogger II will process your data? {#dataprocessing}
+# Simplified Privacy Policy<br/>How GPSLogger II will process your data? {#dataprocessing}
 
 ## Principle
 
@@ -65,7 +65,7 @@ _Metric_, _Imperial_ (feet & yard) or _Nautical_ and will adopt its behavior to 
 
 ## Processing operations
 
-GPSLogger II processes personal data only if they are necessary for the app functions. The data will be saved on your
+GPSLogger II processes personal data only if they are necessary for the app functions. The data will be saved on your
 **mobile device only**.
 
 ## Transfer of data to third parties
@@ -97,12 +97,12 @@ Push-Route functionality from the https://route.emacberry.com website, the emacb
 
 [https://www.emacberry.com/pp/pp1.html](https://www.emacberry.com/pp/pp1.html)
 
-When you update the list of available OpenMapData provides GPSLogger II will connect to emacberry.com server in order to
+When you update the list of available OpenMapData provides GPSLogger II will connect to emacberry.com server in order to
 download the list of currently supported map providers. This update can be triggered manually, or it will be
 automatically executed with every update of the application. The request will contain your device model, the os version
 and app version and a user independent generated random id. This data will be used for internal statistics only. This is
 the only price you pay. Your current ID: %s Generate a new random ID When using the OpenMapData functionality (basically
-_the Map View_), the corresponding privacy policies of the selected map data providers applies. GPSLogger II will
+_the Map View_), the corresponding privacy policies of the selected map data providers applies. GPSLogger II will
 request map tiles from the selected providers and this implies that this requests contain area information (BoundingBox)
 which might be (but don't have to be) in relation to your location. When using the Upload to Strava function, the
 location (and additional sensor) data is transferred via the internet to the Strava servers. When using Strava, the
@@ -112,7 +112,7 @@ Strava privacy policy applies.
 
 ## Right of revocation
 
-By revoking the privacy policy of GPSLogger II, the app is not functional and therefore cannot be used. Deletion of your
-personal data GPSLogger II stores your data exclusively on the mobile device. this data can be deleted by uninstalling
-GPSLogger II. You must delete created backups or export files. This backup data can be found on the device in the
-_GPSLogger II_ folder of your Downloads.
+By revoking the privacy policy of GPSLogger II, the app is not functional and therefore cannot be used. Deletion of your
+personal data GPSLogger II stores your data exclusively on the mobile device. this data can be deleted by uninstalling
+GPSLogger II. You must delete created backups or export files. This backup data can be found on the device in the
+_GPSLogger II_ folder of your Downloads.

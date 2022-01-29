@@ -5,7 +5,7 @@ menu-title: <i class="fa-solid fa-arrows-rotate fa-fw"></i>&nbsp;Auto START/STOP
 
 # Overview
 
-With GPSLogger II it is possible to automatically start and end logging based on the current location - The simple use
+With GPSLogger II it is possible to automatically start and end logging based on the current location - The simple use
 case is, that when I am leaving my home typically I don't want to start the recording manually every single time - and
 same applies when I am returning - GPSLogger 'knows' where I am and that I am at home - so then simply stop logging
 cause the changes that I want to log any further are IMHO very limited.
@@ -42,7 +42,7 @@ have to remove it from the AutoStart/Stop Location list first. This can be simpl
 AutoStart/Stop' from the context menu in the LocationManager.
 
 I am fully aware, that adding new locations in the LocationManager itself can be quite a hassle - so with the new build
-of GPSLogger II I have implemented some new/additional ways to add new locations:
+of GPSLogger II I have implemented some new/additional ways to add new locations:
 
 1. Open any previously recorded path - navigate to the location you want to save via the regular navigation arrows -
    open the context menu and select **Save Location**
@@ -51,8 +51,8 @@ of GPSLogger II I have implemented some new/additional ways to add new locations
 3. Open the GoogleMaps application - place a marker "anywhere" by tap and hold at the position till a marker appears -
    by tabbing again on the marker itself some details for this marker will be shown - including some actions like 
    _save_, _label_, _download_ or _share_ - select the **share** action and from the list of available
-   apps select GPSLogger II - after this is done it takes a short while (you need to be online btw) and the
-   LocationManager should list you the new location within GPSLogger II.
+   apps select GPSLogger II - after this is done it takes a short while (you need to be online btw) and the
+   LocationManager should list you the new location within GPSLogger II.
 
 # Theory of operation
 

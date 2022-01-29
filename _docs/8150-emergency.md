@@ -11,7 +11,7 @@ GPSLogger can automatically send an eMail notification when you do not move a sp
 order to use this feature you need to authorize GPSLogger to use your eMail account (since the eMail will be sent from
 this account to the recipient(s).
 
-Please note that the notifications will be **only send when GPSLogger II is in logging mode** - if you stop logging (or
+Please note that the notifications will be **only send when GPSLogger II is in logging mode** - if you stop logging (or
 enter the pause mode) **no notifications will be sent**.
 
 ## Time period (delay)

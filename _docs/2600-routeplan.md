@@ -24,7 +24,7 @@ recommended checking the final route, before you start your trip.
 
 ## Save a created Route on the website
 
-Typically, all route services and websites I am aware of require registering and create an account - GPSLogger II route
+Typically, all route services and websites I am aware of require registering and create an account - GPSLogger II route
 service is different! - **No registration** - **no login** - **no personal data is stored**. If you want to save/store
 a created route, simply create a browser bookmark of the site, and you are done. You simply can restore the route by
 opening the bookmark any time later.
@@ -46,14 +46,14 @@ this will open an dialog with some additional information - press there the **PU
 current route to the emacberry.com backend.<br class="shot-end"/>
 
 <span class="shot">![web-routing-import](/assets/img/gpsl/web-routing-import.png)</span>
-Once the route is submitted to the backend you can open the GPSLogger II PathManager and select there from the Menu
+Once the route is submitted to the backend you can open the GPSLogger II PathManager and select there from the Menu
 the **Import Route from Server...** function. This will request (based on your current location) the latest route that
 was submitted to the backend within the last 15min and in the range of 5km of your current location.
 
 So in order to use this feature, make sure, that your browser running on your PC/mac and your mobile device show the
 same location information.<br class="shot-end"/>
 
-## Export as GPSLogger II Route JSON file
+## Export as GPSLogger II Route JSON file
 
 If you don't like to transfer the route via the emacberry.com backend to your mobile device you can always use the
 <i class="fa-solid fa-download"></i> export function as alternative and transfer the route JSON file manually over to

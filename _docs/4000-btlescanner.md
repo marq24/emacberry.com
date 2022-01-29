@@ -14,7 +14,7 @@ via app the [FDroid-Store](https://f-droid.org/app/com.emacberry.uuid0xfd6fscan)
 
 While the UUID0xFD6FTracer app is showing you the current situation you might like to be able to record the number
 of visible BluetoothLE beacons (with a specific UUID) around you over time. This can be archived by enabling the
-BluetoothLE Beacon Scanner feature of GPSLogger II.
+BluetoothLE Beacon Scanner feature of GPSLogger II.
 
 # Requirement
 
@@ -33,7 +33,7 @@ See [View Documentation](../1200-views/#btle-beacon-view) for details.
 
 # Stored location information
 
-<span class="shot">![btle-beacons-on-map](/assets/img/gpsl/btle-beacons-on-map.png)</span> For GPSLogger II it's not
+<span class="shot">![btle-beacons-on-map](/assets/img/gpsl/btle-beacons-on-map.png)</span> For GPSLogger II it's not
 possible to detect the exact position of a BluetoothLE beacon - so each time GPSLogger detects a new BTLE beacon
 **your** current position will be associated with the beacon. So just to be precise: the app does not store the location
 of any BTLE beacon - the app stores your location where a beacon was detected for the first time!

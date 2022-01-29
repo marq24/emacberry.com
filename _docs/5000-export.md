@@ -123,7 +123,7 @@ why it was so convenient to use.
 
 ### JSON (GPSlogger2)
 
-### Original GPSLogger II GPL
+### Original GPSLogger II GPL
 
 ---
 [^1]: The actual location on your device of the _storage_root_ can vary from device to device - please find here some 

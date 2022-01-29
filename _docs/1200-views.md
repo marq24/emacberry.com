@@ -29,7 +29,7 @@ main-view. Please note that the TabBar will be only shown if the main view is ac
 the application settings.
 
 When you make use of the [Multi-Preferences feature](../3950-multipref/) the ActionBar will show the current active
-profile name instead of _GPSLogger II_.
+profile name instead of _GPSLogger II_.
 
 # The StatusBar
 

@@ -12,7 +12,7 @@ this account to the recipient(s).
 > new** feature of an automated emergency call where the latitude and longitude coordinates will be submitted as
 > text-to-speech seams to be ridiculous. Yes it's nice, that you watch will make an automated call (if you are not able
 > to do so) - but the watch needs either an eSIM or a paired phone (in range) and obviously the same restriction as for
-> the GPSLogger II Emergency Alert function applies: the device needs to be online (a network connection is mandatory).
+> the GPSLogger II Emergency Alert function applies: the device needs to be online (a network connection is mandatory).
 
 # Requirements
 
@@ -34,7 +34,7 @@ specified distance in the specified time, then the app assumes something (seriou
 previously configured email to the recipient(s) - the eMail also include the current position, a link to GoogleMap, as
 well as the complete KML file of your activity (so the recipient can see what path you have followed).
 
-Please note that the notifications will be **only send when GPSLogger II is in logging mode** - if you stop logging (or
+Please note that the notifications will be **only send when GPSLogger II is in logging mode** - if you stop logging (or
 enter the pause mode) **no alert's will be sent**.
 
 > It makes a lot of sense to inform the person who is going to receive this email in advance, that you have configured

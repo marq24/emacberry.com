@@ -1,7 +1,7 @@
 ---
-title: <i class="fa-solid fa-mountain"></i> Mountain/Climb handling
+title: <i class="fa-solid fa-mountain"></i> Climb-Detection & Handling
 sub-title: Not only for Hiking and Biking enthusiasts
-menu-title: <i class="fa-solid fa-mountain fa-fw"></i>&nbsp;Climbing
+menu-title: <i class="fa-solid fa-mountain fa-fw"></i>&nbsp;Climb-Detection
 ---
 
 # Overview

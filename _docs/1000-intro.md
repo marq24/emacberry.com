@@ -31,7 +31,7 @@ menu-mobile: Introduction & initial Setup
 
 When you install the app and launch it for the first time you will be presented with a welcome dialog, containing some
 general information and the link to the [Privacy Policy of the application](https://www.emacberry.com/pp/pp2.html).
-Please read it carefully, but since this _legal stuff_ can be a bit difficult to read, you might find [How GPSLogger II
+Please read it carefully, but since this _legal stuff_ can be a bit difficult to read, you might find [How GPSLogger II
 will process your data](/gpsl/manual.html#dataprocessing) a bit easier to understand.
 
 <span class="shot">![welcome](/assets/img/gpsl/welcome.png)</span>
@@ -40,7 +40,7 @@ happening with this data. Of course, you are able to share recordings or live lo
 additional features requires your consent, and you need to actively configure/enable them. So **you are in full
 control** what is happening - the app is a tool in your hands - use it wisely.
 
-> I do eran my money with something completely different - GPSLogger II is just a hobby, and I am happy to provide the
+> I do eran my money with something completely different - GPSLogger II is just a hobby, and I am happy to provide the
 > app for free. Even this website here does not use any tracking or even cookies.
 
 In the case of an update of GPSLogger (and there have been quite some updates in the past), the app will start with the
@@ -121,7 +121,7 @@ corresponding permission.
 - **ACCESS_FINE_LOCATION**
 - **ACCESS_LOCATION_EXTRA_COMMANDS**
 
-GPSLogger II stores this location data only locally (on your device) and uses this data for local displaying purpose
+GPSLogger II stores this location data only locally (on your device) and uses this data for local displaying purpose
 exclusively. The data will not be processed in any way further or even processed by backend systems (servers). The
 recorded data only leave your device when you trigger an export. In any case, you remain in control of whom you hand
 over this exported data to.
@@ -135,10 +135,10 @@ settings.
 
 - **ACCESS_BACKGROUND_LOCATION**
 
-To ensure a smooth recording of your location history (and the subsequent display in the app), please allow GPSLogger II
+To ensure a smooth recording of your location history (and the subsequent display in the app), please allow GPSLogger II
 to track your location all the time (even when running in the background).
 
-GPSLogger II will use location in the background to show you your activities (walks, runs or bike rides) on a map.
+GPSLogger II will use location in the background to show you your activities (walks, runs or bike rides) on a map.
 
 You can recognize via a fixed (permanent) notification that the  'background location tracking service' is in use. It is
 therefore always transparent for you when the application has access to your location and record data (if you have
@@ -230,13 +230,13 @@ Probably you are right - Google started a long time ago with the _don't be evil_
 while ago and hopefully in the meantime we are all aware, that we are paying for all the _free_ Google services with our
 privacy.
 
-> **I, as developer take your privacy extremely seriously, GPSLogger II is not collecting any data from you (not in the
+> **I, as developer take your privacy extremely seriously, GPSLogger II is not collecting any data from you (not in the
 > background nor in the foreground). Of course the app logs your location and save this data on your device.**
 >
 > **YOU ARE THE ONLY ONE who has the full control what will happen with this data. Of course when you make use of the
 > export/share functionality this data will be exposed to 3'rd party - but that's always YOUR decision.**
 
-[See also the formal Privacy Policy of GPSLogger II](https://www.emacberry.com/pp/pp2.html) - Please note, that the only
+[See also the formal Privacy Policy of GPSLogger II](https://www.emacberry.com/pp/pp2.html) - Please note, that the only
 reason why _Personal data_ is accessed by the app is in order to be able to send eMails (in your name) for supporting
 features like _EmergencyAlerts_, _HappyPartner_ or _(SimplifiedExportVia)Email_.
 

@@ -14,7 +14,7 @@ menu-title: <i class="fa-solid fa-book fa-fw"></i>&nbsp;Glossary
 | ETA | Estimated Time of Arrival |
 | FIT | File format - Flexible and Interoperable data Transfer (a file format from Garmin)
 | FTMS | [Fitness-Machine-Service Bluetooth Specification](https://www.bluetooth.com/specifications/specs/fitness-machine-service-1-0/) |
-| GPL | GPSLogger II _or_ File format - file extension for path files |
+| GPL | GPSLogger II _or_ File format - file extension for path files |
 | GPP | File format - File extension for positions / locations |
 | GPX | File format - GPS exchange format (v1.0 & v1.1) |
 | MSL | Mean Sea Level |

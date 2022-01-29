@@ -137,7 +137,7 @@ All these announcements also exist with an additional _Climb Category_ informati
 ## Low Battery
 
 Are you constantly checking the remaining battery of your mobile device? Or have you ever been caught by an unexpected
-high power consumption for what ever reason? So you can let GPSLogger II inform you about the current battery level of
+high power consumption for what ever reason? So you can let GPSLogger II inform you about the current battery level of
 your device. When enabled you will hear one of:
 
 > Attention please your battery is low

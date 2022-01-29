@@ -3,7 +3,7 @@ title: <i class="fa-solid fa-earth-europe"></i> Open Map Data (OMD)
 menu-title: <i class="fa-solid fa-earth-europe fa-fw"></i>&nbsp;Open Map Data
 ---
 # Overview
-Understanding the different map sources that are available in GPSLogger II can be quite irritating at the start - as
+Understanding the different map sources that are available in GPSLogger II can be quite irritating at the start - as
 excuse: map support have a long history (in the app) and a lot of changes have been implemented - which might make
 things a bit more complicated - including all the different Settings/options.
 
@@ -37,7 +37,7 @@ own tile server provider when you know the URL's \[e.g. to use Google maps ;-)\]
 ## II) Vector-tile-based _Online_ Map
 > a single online source (mapzen) - with a single/hardcoded (limited) theme
 
-Since a couple of releases GPSLogger II also supports a online OpenStreetMap Vector based map data
+Since a couple of releases GPSLogger II also supports a online OpenStreetMap Vector based map data
 provider \[in contrast to the map tiles (images)\] - this will reduce the amount of data that need to be transferred and
 which is also zoom level independent. This vector data will be also cached locally, once it has been requested from the
 online source.
@@ -45,7 +45,7 @@ online source.
 ## III) Vector-tile-based _Offline_ Map
 > a single offline source (your *.map files) - with multiple & configurable themes
 
-In order to make you totally independent of previously downloaded/cached map data GPSLogger II offers a third kind of
+In order to make you totally independent of previously downloaded/cached map data GPSLogger II offers a third kind of
 OpenMapData provider - which is called **OpenStreetmap (Offline)**. The big difference between II) and III) is, that in
 the offline variant you need to download & store *.map files (in the mapsforge format) e.g. from openandromaps.org on
 your device.
@@ -56,7 +56,7 @@ Some important things you should remember for offline *.map files:
 
 - You need *.map files in the V4+ format (with multi-language support)
 - *.map files can be downloaded directly with your mobile device e.g. from
-  [openandromaps.org](https://www.openandromaps.org/) (open the download link with GPSLogger II in order to get
+  [openandromaps.org](https://www.openandromaps.org/) (open the download link with GPSLogger II in order to get
   everything automatically extracted at the right place)
 - You need a valid RenderTheme in order to display Offline OSM-Map data (GPSLogger comes with at least two preinstalled
   ones)

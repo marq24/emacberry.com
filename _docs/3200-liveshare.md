@@ -61,7 +61,7 @@ Lon: 11.22492661
 Course: 234°
 Speed: 3.2 km/h
 
-Sent via GPSLogger II - https://www.emacberry.com/gpslogger.html
+Sent via GPSLogger II - https://www.emacberry.com/gpslogger.html
 ```
 
 ## Share your location via TASKER

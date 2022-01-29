@@ -6,12 +6,12 @@ Welcome to the year 2022 - Blackberry&copy; legacy apps are finally history - so
 FileScout, LittleBrother, Iconify or TOMPlayer) are history as well... really all apps? No of course **not** all! -
 There is one that have survived...
 
-# [![GPSLogger II Icon](/assets/img/gpsl/app-icon.png) GPSLogger II - your AIO solution](/gpslogger.html)
+# [![GPSLogger II Icon](/assets/img/gpsl/app-icon.png) GPSLogger II - your AIO solution](/gpslogger.html)
 
 > 100% free - **no** in app advertisements, **no** pro version, **no server side tracking** of any data
 
-GPSLogger II is a pretty straightforward app that can record your GPS based location over the time... but there is
-plenty more that the app can do for you get all details at the [GPSLogger II](/gpslogger.html) app page - including the docs
+GPSLogger II is a pretty straightforward app that can record your GPS based location over the time... but there is
+plenty more that the app can do for you get all details at the [GPSLogger II](/gpslogger.html) app page - including the docs
 and a FAQ.
 
 ## Download via Google Play

@@ -9,12 +9,12 @@ period of more than 10 years.
 
 <span class="shot">![shot1](/assets/img/gpsl/Screenshot_1642149089_50.png)</span>
 
-GPSLogger II does what you can guess quite simple by its ordinary name. The application can record the physical movement
+GPSLogger II does what you can guess quite simple by its ordinary name. The application can record the physical movement
 of your Android Device over time. What you probably might not be able to guess are the additional features GPSLogger can
 offer to you.
 
 But before going into further details - location information is very sensitive information - nobody **excepts you**
-should know where you are (or where you have been). GPSLogger II is fully respecting your privacy. All data the app is
+should know where you are (or where you have been). GPSLogger II is fully respecting your privacy. All data the app is
 recording will remain **on the device only** and you are the **only person who decides what is going to happen with your
 data**. As Developer of the app I do all I can in order to be as transparent as possible what the app is doing.
 
@@ -26,7 +26,7 @@ found at [https://www.emacberry.com/gpsl/app-permissions.html](https://www.emacb
 read more details about the permission requests. Only grant the permission if you feel comfortable to do so.
 
 The list of application features is quite long, and it is impossible to describe in detail all the functionalities here
-in the overview. You can find a detailed description of every aspect in the GPSLogger II manual that is located at
+in the overview. You can find a detailed description of every aspect in the GPSLogger II manual that is located at
 [https://www.emacberry.com/gpsl/manual.html](https://www.emacberry.com/gpsl/manual.html).
 
 If you have any remarks or suggestions for improvements (yes - more features!) - I am very happy to hear from you.
@@ -57,7 +57,7 @@ If you have any remarks or suggestions for improvements (yes - more features!) -
     - <span class="material-icons fa-fw" style="width: 1.042em;">show_chart</span> [Elevation Data optimizations](./gpsl/docs/3250-elevation/)
     - <i class="fa-solid fa-truck-medical fa-fw"></i> [Crash Detection & Emergency Alerting](./gpsl/docs/3100-emergency/)
     - <i class="fa-solid fa-moon fa-fw"></i> [Integrated Dark/Night Mode](./gpsl/docs/3190-nightmode/)
-    - <i class="fa-solid fa-mountain fa-fw"></i> [Climb Detection & dedicated functionality](./gpsl/docs/3300-climb/)
+    - <i class="fa-solid fa-mountain fa-fw"></i> [Climb-Detection & Handling](./gpsl/docs/3300-climb/)
     - <i class="fa-solid fa-sliders fa-fw"></i> [Multi Preferences & Activity Profiles](./gpsl/docs/3950-multipref/)
     - <i class="fa-solid fa-location-arrow fa-fw"></i> [Live Location Sharing options](./gpsl/docs/3200-liveshare/)
     - <i class="fa-brands fa-strava fa-fw"></i> [Strava Integration options](./gpsl/docs/5200-strava/)
@@ -78,10 +78,10 @@ Why GPSLogger is build in the way it is?
 > own solution. When I moved over to Android there has been plenty of other apps available, but you might guess it, none
 > of them offered the features I wanted to have (yes You can argue that I did not search hard enough).
 > 
-> Please fine below my four main use cases, with a brief feature list. You will find detailed descriptions about each of
+> Please find below my four main use cases, with a brief feature list. You will find detailed descriptions about each of
 > the functionalities in the [corresponding manual sections](/gpsl/docs/1000-intro/). Of course this are just **my
 > personal** use cases - you can use it for much more - there is plenty of feedback what users do with GPSLogger and I
-> would be very happy to hear your use cases!
+> would be very happy to hear form your use cases too!
  
 ### Primary
 Automated logging of my casual road bike cycle activities following a planed route (including multiple climbs) or just
@@ -148,23 +148,23 @@ different profile) and enjoy:
 > For what ever reason I could not throw it all over board
 > <br/>**THIS INFORMATION IS OUTDATED**
 
-GPSLogger II is a pretty straightforward application – it records your physical movement on your BlackBerry® device over
+GPSLogger II is a pretty straightforward application – it records your physical movement on your BlackBerry® device over
 time. The recorded information includes, beside your actual location data in WGS84, the elevation, your speed and some
 additional data. You can select between imperial, metric or nautical units.
 
-The location information can be displayed on a plain canvas or GPSLogger II can make use of BlackBerryMaps (if
+The location information can be displayed on a plain canvas or GPSLogger II can make use of BlackBerryMaps (if
 installed) to display your movement on a map. Please note when you make use of BlackBerry Maps that this can imply
 additional data charges.
 
-Additionally, GPSLogger II can direct you to a location that you either entered manually or have previously recorded (
+Additionally, GPSLogger II can direct you to a location that you either entered manually or have previously recorded (
 via the "Guide Me Home" function). This can be quite useful whether you want to locate your car in a big parking lot or
 you are in the wilderness and have lost your orientation.
 
 As extended functionality to the "Guide Me Home" feature a very easy to use outdoor navigation is integrated into
-GPSLogger II also. As latest addon you can use GPSLogger II also as LapTimer - a very powerful feature for all who need
+GPSLogger II also. As latest addon you can use GPSLogger II also as LapTimer - a very powerful feature for all who need
 to keep track of intermediate timings.
 
-The most important aspect of GPSLogger II is that it will work 100% offline - no data will be transferred while you use
+The most important aspect of GPSLogger II is that it will work 100% offline - no data will be transferred while you use
 it (except when the BlackBerryMap view is used).
 
 ### Features
@@ -190,7 +190,7 @@ it (except when the BlackBerryMap view is used).
 - "Guide me Home"-Function for people who easily loose orientation like myself ;-) (see 'Direction View')
   To reach the destination you have stored, travel in the direction of the arrow on the device. If the arrow is pointing
   up, you are traveling in the correct direction to reach your selected destination. If the arrow is pointing down, you
-  are traveling away from the selected destination. This makes GPSLogger II also suitable for Geocaching! [^3] [^4] [^5]
+  are traveling away from the selected destination. This makes GPSLogger II also suitable for Geocaching! [^3] [^4] [^5]
   [^6]
 - Lap Timer functionality
 - Zoom IN & Zoom OUT for path, elevation and speed views
