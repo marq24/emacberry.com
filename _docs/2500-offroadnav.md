@@ -28,7 +28,7 @@ given route.
 > Use this function **ONLY** if you are aware of the risk of injury, if you feel sufficiently physically fit and trust
 > the application.
 
-# Outdoor Navigation - Theory of Operation
+# Outdoor Navigation - Theory of Operation {#intro}
 
 Having in mind that a path is nothing more than a list of locations which follow each other the concept of outdoor
 navigation is working in GPSLogger II is quite easy to understand.
@@ -116,7 +116,7 @@ menu items that could be used to get back on your way.
 | <span class="btn">![button-rec](/assets/img/gpsl/button-resetnav.png)</span> | **Reset Navigation**<br/>When you press space GPSLogger II falls back to it's start procedure of the outdoor navigation The nearest location in the path will be calculated and the nearest by location will be your next target. You will notice, that the color of the path is changing again to light grey and GPSLogger II will consider all locations in the path again as possible next waypoints. |
 | <span class="btn">![button-rec](/assets/img/gpsl/button-nextwp.png)</span> | **Next Waypoint (+)**<br />Calculating the next possible waypoint based on your current location. |
 
-# Outdoor navigation challenges
+# Outdoor navigation challenges {#challanges}
 
 When you are using outdoor navigation there is a big difference compared to street navigation or also called Turn by
 Turn navigation. In street navigation you can rely on edge calculations and relations. Outdoors you do not have any kind
