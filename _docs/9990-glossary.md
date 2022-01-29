@@ -19,7 +19,7 @@ menu-title: <i class="fa-solid fa-book fa-fw"></i>&nbsp;Glossary
 | GPX | File format - GPS exchange format (v1.0 & v1.1) |
 | MSL | Mean Sea Level |
 | NMEA | National Marine Electronics Association [see NMEA 0183](https://en.wikipedia.org/wiki/NMEA_0183) |
-| OMD | [OpenMapData Provider](../2200-openmapdata/) |
+| OMD | [OpenMapData Provider](./2200-openmapdata.html) |
 | OSM | OpenStreetMap |
 | SDK | Software Development Kit |
 | SMTP | Simple Mail Transfer Protocol |

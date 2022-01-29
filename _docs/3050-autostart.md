@@ -29,7 +29,7 @@ The open question for you as user is, WHEN does logging start - and when does lo
 <br/>**or**<br/>
 - A loaded navigation path
 - **If** you have configured an Auto-START/STOP location GPSLogger will always launch it's
-  [Background-Service](../1100-data/#service) when you start the application and keep the service up and running till
+  [Background-Service](./1100-data.html#service) when you start the application and keep the service up and running till
   you will terminate the app by selecting **EXIT** from the menu (or use the **EXIT** action of the sticky notification).
 
 # Configure  AUTO-Start & AUTO-Stop Locations
@@ -82,4 +82,4 @@ colored cycles on the map screens where each cycle have a certain meaning:
 
 > Personally I make additionally use of the start logging & stop logging event Audio Notifications to be 100% sure that
 > my cycling tours will be automatically recorded as soon as I leave my home or work.
-> [see Audio Notifications](../3010-audioalerts/#events) 
+> [see Audio Notifications](./3010-audioalerts.html#events) 

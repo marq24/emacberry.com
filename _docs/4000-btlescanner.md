@@ -29,7 +29,7 @@ BluetoothLE Beacon Scanner feature of GPSLogger II.
 # BTLE-Beacon View
 
 The build in UUID Beacon Scanner have a dedicated view in order to display the number of beacons in range over time.
-See [View Documentation](../1200-views/#btle-beacon-view) for details.
+See [View Documentation](./1200-views.html#btle-beacon-view) for details.
 
 # Stored location information
 
@@ -68,4 +68,4 @@ You find this Export in the PathManager.
 4. select **UUID 0x' as CSV**
 
 The file will then be stored in the default **share** folder of the app - if you need help accessing exported data on
-your device please see: [access GPSLogger files](../5000-export/#access-exported-files-in-the-share-folder)
+your device please see: [access GPSLogger files](./5000-export.html#access-exported-files-in-the-share-folder)

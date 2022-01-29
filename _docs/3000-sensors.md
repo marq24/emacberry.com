@@ -6,7 +6,7 @@ menu-mobile: External Sensors
 
 # Overview
 
-As already initially mentioned in the [Logged Data Section](../1100-data/#external) GPSLogger supports some additional
+As already initially mentioned in the [Logged Data Section](./1100-data.html#external) GPSLogger supports some additional
 external sensors. Mainly this feature has been added for my own cycling & running activities, so please understand that
 there might a limitation when it comes to support of specific sensor brands or types.
 
@@ -158,16 +158,16 @@ a Cycling Power sensor intended for sports and fitness applications. The Service
 ## <i class="fa-solid fa-person-running fa-fw"></i> FTMS Treadmill Service providing Treadmill Data
 
 The data available from the various characteristics will be used to a) simulate your current location and b) control
-your treadmill speed and incline. [see Treadmill Section of this manual](../3700-treadmill/)
+your treadmill speed and incline. [see Treadmill Section of this manual](./3700-treadmill.html)
 
 ## <span class="material-icons fa-fw" style="width: 1.042em;">rowing</span> FTMS Rowing-Machine providing Rowing-Machine Data
 
-[see Rowing-Machine Section of this manual](../3800-rowing/)
+[see Rowing-Machine Section of this manual](./3800-rowing.html)
 
 ## Additional _none-standard_ BluetoothLE Sensors/Devices supported by GPSLogger
 
-- [<i class="fa-solid fa-gears fa-fw"></i> Shimano Di2 Shifting Information via EW-WU101 or EW-WU111](../3600-di2/)
-- [<span class="material-icons fa-fw" style="width: 1.042em;">rowing</span> Concept2 PM2+ extended Rowing-Machine Data](../3800-rowing/)
+- [<i class="fa-solid fa-gears fa-fw"></i> Shimano Di2 Shifting Information via EW-WU101 or EW-WU111](./3600-di2.html)
+- [<span class="material-icons fa-fw" style="width: 1.042em;">rowing</span> Concept2 PM2+ extended Rowing-Machine Data](./3800-rowing.html)
 
 # ANT+
 

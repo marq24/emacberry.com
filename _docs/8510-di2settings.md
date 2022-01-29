@@ -6,7 +6,7 @@ sub-title: Pandora's Box
 > need revision
 
 # D-Fly Configuration
-You find details about the different available actions in the [Shimano Di2 Support section of this Manual](../3600-di2/#actions) 
+You find details about the different available actions in the [Shimano Di2 Support section of this Manual](./3600-di2.html#actions) 
 ## D-Fly SHORT Click Configuration
 Configure for each of the four D-Fly Channels an _SHORT Click_ action 
 ## D-Fly Double Click Configuration

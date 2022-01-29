@@ -50,7 +50,7 @@ OpenMapData provider - which is called **OpenStreetmap (Offline)**. The big diff
 the offline variant you need to download & store *.map files (in the mapsforge format) e.g. from openandromaps.org on
 your device.
 
-[Please continue reading the OpenStreetMap Offline Section for more details](../2300-osmoffline/)
+[Please continue reading the OpenStreetMap Offline Section for more details](./2300-osmoffline.html)
 
 Some important things you should remember for offline *.map files:
 

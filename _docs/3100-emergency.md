@@ -16,12 +16,12 @@ this account to the recipient(s).
 
 # Requirements
 
-- [Configured eMail account](../8140-email/)
-- [Emergency Alert Settings](../8150-emergency/)
+- [Configured eMail account](./8140-email.html)
+- [Emergency Alert Settings](./8150-emergency.html)
   - A time delay (that is not **OFF**) specified
   - A minimum distance > 0 specified
   - At least one valid recipient specified
-- <i class="fa-solid fa-toggle-off"></i> [AutoPause feature](../8010-general/#autopause) 
+- <i class="fa-solid fa-toggle-off"></i> [AutoPause feature](./8010-general.html#autopause) 
 - GPSLogger is actually recording (not **STOPPED** or **PAUSED**)
 - If previously canceled: You have to be traveled more than the _minimum distance_ in the configured _time_ again
 - Device needs to be **Online** (since eMails can be only send, if the device is online)
@@ -44,7 +44,7 @@ enter the pause mode) **no alert's will be sent**.
 
 So e.g. when you are hiking, then you have an approximated average speed of 2-3 km/h (0.5 - 0.8 meter per second) - 
 also assuming you make short rests of 2-5minutes in between, then selecting as **time delta** 5 minutes and select a
-**minimum distance** of 150 m - 240 m (in the [Emergency Alert Settings](../8150-emergency/)) would be fine.
+**minimum distance** of 150 m - 240 m (in the [Emergency Alert Settings](./8150-emergency.html)) would be fine.
 
 <i class="fa-solid fa-hand-point-up"></i> You don't have to focus on calculating your average speed. When not
 moving, your GPS position is jumping around (sometimes just a few meters - sometimes it can be 25 m or more - this
@@ -72,7 +72,7 @@ cause you make a longer rest and forgot to pause/stop the recording - or you are
 cause of a steep climb.
 
 <span class="shot">![shot1](/assets/img/gpsl/emergency-cancel.png)</span> When
-[<i class="fa-solid fa-toggle-on"></i> Show intercept Dialog](../8150-emergency/), then the app is going to show you for
+[<i class="fa-solid fa-toggle-on"></i> Show intercept Dialog](./8150-emergency.html), then the app is going to show you for
 **one minute** an additional dialog and will **play an alert sound** (in an endless loop) in order to make you aware
 that the app is going to send out an Emergency Alert email to your configured recipient(s) shortly.
 

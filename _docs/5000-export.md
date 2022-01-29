@@ -46,7 +46,7 @@ It's correct that when you are user grant EXTERNAL_STORAGE read & write access t
 to scan the complete content of the external storage and use it for _what-ever-you-might-think-of_.
 
 **YES** that thought is correct - the app would have this possibility. But this is **not the case** - the app does not
-anything like that, please see also [my motivation to develop this app and provide it for free](../1000-intro/#motivation).
+anything like that, please see also [my motivation to develop this app and provide it for free](./1000-intro.html#motivation).
 
 The fear that the app could be a potential, hidden data collector is anyhow minimized with Android11 / SDK30, since
 then the OS restrict the access drastically as described above.

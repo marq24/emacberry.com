@@ -70,7 +70,20 @@ One final remark: As you notice the list of functionalities is quite long. Since
 your personal preferences, the application settings list is really long and can look very complex for the start. The
 GPSLogger Manual will guide you through the different settings sections that can be adjusted for a specific feature.
 
-## My personal GPSLogger Use Cases {#myusage}
+# Download
+## via Google Play
+
+[![GooglePlay](/assets/img/google-play-badge_en.png)](https://play.google.com/store/apps/details?id=com.emacberry.gpslogger)
+
+[https://play.google.com/store/apps/details?id=com.emacberry.gpslogger](https://play.google.com/store/apps/details?id=com.emacberry.gpslogger)
+
+## via amazon appstore
+
+[![amazon appstore](/assets/img/amazon-appstore-badge-en-black.png)](https://www.amazon.com/gp/product/B00L9GLGGQ)
+
+[https://www.amazon.com/gp/product/B00L9GLGGQ](https://www.amazon.com/gp/product/B00L9GLGGQ)
+
+# My personal GPSLogger Use Cases {#myusage}
 Why GPSLogger is build in the way it is?
 
 > I truly believe that you should use the software that you build by yourself on a daily basis. Actually I started with
@@ -83,7 +96,7 @@ Why GPSLogger is build in the way it is?
 > personal** use cases - you can use it for much more - there is plenty of feedback what users do with GPSLogger and I
 > would be very happy to hear form your use cases too!
  
-### Primary
+## Primary
 Automated logging of my casual road bike cycle activities following a planed route (including multiple climbs) or just
 keep track of the commute sessions using:
 - AutoSTART when I am leaving home/work
@@ -106,7 +119,7 @@ keep track of the commute sessions using:
 - Text to Speech Summary
 - AutoUpload to Strava
 
-### Secondary
+## Secondary
 Automated logging my local hiking activities - quickly change the profile to 'hiking' & enjoying functionalities:
 - AutoSTART when I am leaving home
 - Make use of the Barometer Sensor to capture realistic elevation profiles
@@ -118,21 +131,21 @@ Automated logging my local hiking activities - quickly change the profile to 'hi
 - AutoUpload to Strava
 From time to time I also use the navigation features when hiking
 
-### Tertiary
+## Tertiary
 Manual Indoor-Run or Indoor-Rowing Sessions - quickly change to the corresponding profile and use:
 - Simulate the run of any real-outdoor route
 - Interval Text to speech announcements for sector time & average speed every kilometer
 - Text to Speech Summary
 - AutoUpload to Strava
 
-### Quaternary
+## Quaternary
 Manual logging of flights (when it was possible to travel) or long travel by train or car (obviously also with a
 different profile) and enjoy:
 - Make use of the Barometer Sensor to capture realistic elevation profiles
 - Using OFFLINE OpenStreetMap data (*.map files)
 - NO AutoUpload to Strava because I am exceeding the maximum average speed
 
-## Other sample use cases from GPSLogger Users around the world
+# Other sample use cases from GPSLogger Users around the world
 
 - Bike Computer replacement
 - Motorcycle touring

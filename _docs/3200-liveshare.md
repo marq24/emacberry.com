@@ -66,7 +66,7 @@ Sent via GPSLogger II - https://www.emacberry.com/gpslogger.html
 
 ## Share your location via TASKER
 
-Please [see the dedicated TASKER Integration section of this manual](../3900-tasker/#share).
+Please [see the dedicated TASKER Integration section of this manual](./3900-tasker.html#share).
 
 ## Share your location via a custom URL
 

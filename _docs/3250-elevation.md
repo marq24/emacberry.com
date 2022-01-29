@@ -19,11 +19,11 @@ TLDR; The elevation information provided via GPS is actually not want you want.
 > start here & now a discussion, if there are better alternatives to EGM2008 or not (you are invited to start one in
 > the [forum](https://forum.emacberry.com/viewforum.php?f=207)).
 
-What's important to know is, that [GPSLogger will record a _GeoIdHeight_](../1100-data/#gps) (and if this data is not
+What's important to know is, that [GPSLogger will record a _GeoIdHeight_](./1100-data.html#gps) (and if this data is not
 available, the app will post-calculate it). This _GeoIdHeight_ will be used, to correct the WGS84 elevation data to
 something that comes quite close to elevation information we use here on our planet earth.
 
-As already described in the [How GPSLogger will log your data Section](../1100-data/#core), all GPS data will be
+As already described in the [How GPSLogger will log your data Section](./1100-data.html#core), all GPS data will be
 recorded as it is, and the MSL correction (when enabled) will be applied when the data will be displayed.
 
 If you want to read the full story, use the following Wikipedia link as a good start point:

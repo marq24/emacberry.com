@@ -79,13 +79,13 @@ Few more things you should be aware of:
    identical).
 3. _Distance to Finish_ will be only announced if you have loaded a navigation path.
 4. _Elevation climb to Finish_ (remaining meters to climb) will be only announced if you have loaded a navigation path
-   from which the app could extract climb information ([see also Climb View Section](../3300-climb/)).
+   from which the app could extract climb information ([see also Climb View Section](./3300-climb.html)).
 
 # TurnByTurn Instructions & Climb-ahead Information {#turnbyturn}
 
 I hope it's reasonable for you, that the TurnByTurn instructions require that you have loaded a navigation path. And
 further: Climb-ahead information is only available if climb data could be extracted. [More information about the climb
-extraction requirements and process can be found in the corresponding Climb-View Section](../3300-climb/#extraction).
+extraction requirements and process can be found in the corresponding Climb-View Section](./3300-climb.html#extraction).
 
 ## Additional Options / Functions
 

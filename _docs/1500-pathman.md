@@ -13,7 +13,7 @@ menu-title: <i class="fa-solid fa-folder fa-fw"></i>&nbsp;PathManager
 
 ## Recreate all Thumbnails
 The thumbnails shown in Pathmanager will be created based on the current active
-[OpenMapDataProvider](../2200-openmapdata/). If you frequently change the provider or yu have any other reason why you
+[OpenMapDataProvider](./2200-openmapdata.html). If you frequently change the provider or yu have any other reason why you
 do not like the current displayed thumbnails, you can start a background process to recreate all thumbnails of your
 present paths.
 
@@ -76,7 +76,7 @@ bold, gray line (only visible in the path- & map-view)
 
 ## <i class="fa-solid fa-share-nodes fa-fw"></i> Upload to Strava
 only present if your account is connected
-[see the <i class="fa-brands fa-strava fa-fw"></i> Strava Section of this manual](../5200-strava/)
+[see the <i class="fa-brands fa-strava fa-fw"></i> Strava Section of this manual](./5200-strava.html)
 
 ## <i class="fa-solid fa-floppy-disk fa-fw"></i> Export
 When selecting the **Export** menu Item a sub-menu will appear that allow you to select one of:
@@ -90,7 +90,7 @@ When selecting the **Export** menu Item a sub-menu will appear that allow you to
 - JSON (GPSlogger2)
 - Original GPSLogger II GPL
 
-[Details about the different file formats can be found in the Export & eMail Section](../5000-export/#formats)
+[Details about the different file formats can be found in the Export & eMail Section](./5000-export.html#formats)
 
 ## <i class="fa-solid fa-paper-plane fa-fw"></i> Email
 When selecting the **Email** menu Item a sub-menu will appear that allow you to select one of:
@@ -102,7 +102,7 @@ When selecting the **Email** menu Item a sub-menu will appear that allow you to 
 - JSON (GPSlogger2)
 - Original GPSLogger II GPL
 
-[Details about the different file formats can be found in the Export & eMail Section](../5000-export/#formats)
+[Details about the different file formats can be found in the Export & eMail Section](./5000-export.html#formats)
 
 ## <i class="fa-solid fa-arrow-rotate-right fa-fw"></i> Refresh Thumbnail & Data
 Synchronize a single path with the information displayed in PathManager (including re-rendering the thumbnail) - see

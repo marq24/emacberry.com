@@ -65,7 +65,7 @@ header_pages:
 
 collections:
   docs:
-    permalink: "/gpsl/:collection/:path/"
+    permalink: "/gpsl/:collection/:path.html"
     output: true
 
 defaults:

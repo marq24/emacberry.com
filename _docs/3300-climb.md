@@ -159,7 +159,7 @@ original view once the climb have been completed).
 > need revision
 
 When you record a activity where you have loaded a navigation path **and** the app could extract climb data
-([see Climb View for details](../3300-climb/)) GPSLogger will store (while you are in such a detected climb section)
+([see Climb View for details](./3300-climb.html)) GPSLogger will store (while you are in such a detected climb section)
 multiple VAM data records in order to be able to show your _velocità ascensionale media_ (translated in English to
 mean _average ascent speed_) performance after your activity.
 

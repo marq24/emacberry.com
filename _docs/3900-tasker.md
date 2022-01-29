@@ -16,7 +16,7 @@ GPSLogger. So for the following events you can define Tasker tasks that will be 
 - Stop Logging
 - Pause Logging
 - Resume Logging
-- Live Location Share Event<br/>([see Live Location Sharing & HappyPartner for details](../3200-liveshare/))
+- Live Location Share Event<br/>([see Live Location Sharing & HappyPartner for details](./3200-liveshare.html))
 
 The Tasker Tasks for Start, Stop, Pause & Resume can be configured in the Application Settings > General Settings >
 Tasker-Integration, the _Location Event_ Tasker Task have to be enabled and configured in the Application Settings >

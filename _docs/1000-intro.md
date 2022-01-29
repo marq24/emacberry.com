@@ -27,6 +27,19 @@ menu-mobile: Introduction & initial Setup
 
 ---
 
+# Download
+## via Google Play
+
+[![GooglePlay](/assets/img/google-play-badge_en.png)](https://play.google.com/store/apps/details?id=com.emacberry.gpslogger)
+
+[https://play.google.com/store/apps/details?id=com.emacberry.gpslogger](https://play.google.com/store/apps/details?id=com.emacberry.gpslogger)
+
+## via amazon appstore
+
+[![amazon appstore](/assets/img/amazon-appstore-badge-en-black.png)](https://www.amazon.com/gp/product/B00L9GLGGQ)
+
+[https://www.amazon.com/gp/product/B00L9GLGGQ](https://www.amazon.com/gp/product/B00L9GLGGQ)
+
 # Initial Setup
 
 When you install the app and launch it for the first time you will be presented with a welcome dialog, containing some
@@ -77,19 +90,19 @@ environment.
 So you can select one of the four available wizards, or simply select _No Thanks, not now..._ (you can start the wizards
 any time later from the  <i class="fa-solid fa-ellipsis-vertical"></i>  main menu).
 
-**[<i class="fa-brands fa-bluetooth fa-fw"></i> BTLE Beacon Scanner...](../4000-btlescanner/)**<br/>
+**[<i class="fa-brands fa-bluetooth fa-fw"></i> BTLE Beacon Scanner...](./4000-btlescanner.html)**<br/>
 The Beacon Scanner constantly looking for BluetoothLowEnergy Beacons in your environment and is able to record the found
 beacons (you need to start the record process).
 
-**[<i class="fa-solid fa-person-running fa-fw"></i> Treadmill Setup...](../3700-treadmill/)**<br/>
+**[<i class="fa-solid fa-person-running fa-fw"></i> Treadmill Setup...](./3700-treadmill.html)**<br/>
 If you own a Treadmill supporting the Bluetooth FitnessMachineStandard you can simulate and record any outdoor run with
 GPSLogger.
 
-**[<span class='material-icons fa-fw' style='width: 1.042em;'>rowing</span> Rowing Machine Setup...](../3800-rowing/)**<br/>
+**[<span class='material-icons fa-fw' style='width: 1.042em;'>rowing</span> Rowing Machine Setup...](./3800-rowing.html)**<br/>
 If your Rowing Machine supporting the Bluetooth FitnessMachineStandard you can simulate and record different (currently
 hard coded) outdoor rowing sessions.
 
-**[<i class="fa-solid fa-gears fa-fw"></i> Shimano Di2 Setup...](../3600-di2/)**<br/>
+**[<i class="fa-solid fa-gears fa-fw"></i> Shimano Di2 Setup...](./3600-di2.html)**<br/>
 If you own a Wi-Fi module (EW-WU101 or EW-WU111) for your Di2, you can connect GPSLogger with your shifting system and
 remote control your device from your left & right shifting levers. 
 <br class="shot-end"/>
@@ -102,10 +115,10 @@ running-as-background-service capabilities. Such a restriction is counterproduct
 <span class="shot">![disable-battery-optimization](/assets/img/gpsl/backg001.png)</span>
 <span class="shot">![os-info-battery-optimization](/assets/img/gpsl/backg002.png)</span>
 So the app is requesting you to **disable the OS battery optimization for GPSLogger** in multiple ways. For details see
-the FAQ: [How to disable OS battery optimization](../9999-faq/#how2-battery-optimization).
+the FAQ: [How to disable OS battery optimization](./9999-faq.html#how2-battery-optimization).
 
 Details about this core feature can be found in
-the [Running as Android-Background Service Section](../1100-data/#service).
+the [Running as Android-Background Service Section](./1100-data.html#service).
 <br class="shot-end"/>
 
 # Information about requested Application Permissions {#permissions}
@@ -174,7 +187,7 @@ When you want to be able to create a backup of your data & settings (that would 
 uninstalling the application), the app need the permission to WRITE and READ from the external storage.
 
 This also applies when you want to export some data/recorded paths. Details about the export functionality can be found
-in the [Export & eMail Section](../5000-export/).
+in the [Export & eMail Section](./5000-export.html).
 
 ## Sending eMail related
 
@@ -201,8 +214,8 @@ required, when you want to enable the autostart options of the application.
 - **BLUETOOTH**
 - **BLUETOOTH_ADMIN**
 
-When you want to connect any [External Sensors](../3000-sensors/) or want to use the build in [BluetoothLowEnergy Beacon
-Scanner](../4000-btlescanner/) the app requires the permission to access your Bluetooth hardware. The admin right is
+When you want to connect any [External Sensors](./3000-sensors.html) or want to use the build in [BluetoothLowEnergy Beacon
+Scanner](./4000-btlescanner.html) the app requires the permission to access your Bluetooth hardware. The admin right is
 used in order to restart bluetooth on your device (turn it off & on again). 
 
 ## Other

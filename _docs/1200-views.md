@@ -21,21 +21,21 @@ corresponding overlay button.
 If enough space on your display the ActionBar will show (beside the
  <i class="fa-solid fa-ellipsis-vertical"></i>  menu) the
 <span class="btn">![button-rec](/assets/img/gpsl/button-rec.png)</span> _Start Recording_ Button & the
-<span class="btn">![button-pathman](/assets/img/gpsl/button-pathman.png)</span> [_Open PathManager_](../1500-pathman/)
+<span class="btn">![button-pathman](/assets/img/gpsl/button-pathman.png)</span> [_Open PathManager_](./1500-pathman.html)
 ActionButtons. 
 
 Additionally, the action bar show a Tab(ulator)Bar that allow you to quickly switch between the current active
 main-view. Please note that the TabBar will be only shown if the main view is active only and can also be disabled via
 the application settings.
 
-When you make use of the [Multi-Preferences feature](../3950-multipref/) the ActionBar will show the current active
+When you make use of the [Multi-Preferences feature](./3950-multipref.html) the ActionBar will show the current active
 profile name instead of _GPSLogger II_.
 
 # The StatusBar
 
 - Can be configured to be rendered as overlay or as own screen part
 - Fields are fully customizable (including the option to toggle between the use of Emojis or Text)
-  <br/>[Appearance & Startup Settings](../8020-apperance/#statusbar)
+  <br/>[Appearance & Startup Settings](./8020-apperance.html#statusbar)
 - Showing the recording status as first entry:
   - \[L\]: logging/recording
   - \[P\]: paused (lower case \[p\] indicates that the pause was triggered by the AutoPAUSE feature)
@@ -51,7 +51,7 @@ sub-views. You can:
 - Define, if a sub views should be locked (disable view switching)
 - The two additional views can be enabled/disabled via the main menu (_Show/Hide View 1/2_)
 
-All the view configurations can be adjusted in the [Appearance & Startup Settings](../8020-apperance/#statup),
+All the view configurations can be adjusted in the [Appearance & Startup Settings](./8020-apperance.html#statup),
 so that the application will start with the screen layout you prefer.
 
 # The NavigationBar
@@ -70,7 +70,7 @@ media-control-buttons:<br class="shot-end"/>
 | <span class="btn">![button-end](/assets/img/gpsl/button-nav06.png)</span> | Jump to the END of the path |
 
 Please note, that not all records have to be location records - so moving one record backwards/forwards might just
-select a different record type (see [How GPSLogger will log your data?](../1100-data/#independant))
+select a different record type (see [How GPSLogger will log your data?](./1100-data.html#independant))
 
 # Additional Overlay Buttons
 
@@ -80,13 +80,13 @@ select a different record type (see [How GPSLogger will log your data?](../1100-
 | <span class="btn">![button-rec](/assets/img/gpsl/button-rotation-small.png)</span> | The compass, in the upper left corner of the map, can be used in order to toggle the map orientation: _Always North_ or _Current Heading_ |
 | <span class="btn">![button-rec](/assets/img/gpsl/button-pause.png)</span> | Pause the current recording (when the recording is paused the overlay button will slightly pulse) |
 | <span class="btn">![button-rec](/assets/img/gpsl/button-stop.png)</span> | Stop the current recording (only visible if device is not in <i class="fa-solid fa-lock"></i> lock state) |
-| <span class="btn">![button-rec](/assets/img/gpsl/button-omd.png)</span> | Iterate between the different configured [OpenMapData Providers](../2200-openmapdata/) |
+| <span class="btn">![button-rec](/assets/img/gpsl/button-omd.png)</span> | Iterate between the different configured [OpenMapData Providers](./2200-openmapdata.html) |
 | <span class="btn">![button-rec](/assets/img/gpsl/button-resetpan.png)</span> | Center map on current position (only visible if map view is paned) |
 | <span class="btn">![button-rec](/assets/img/gpsl/button-mflag.png)</span> | Center map on next (navigation) target (only active when a navigation path is loaded) |
 | <span class="btn">![button-rec](/assets/img/gpsl/button-zoomin.png)</span> | Zoom IN (only visible if one of the visible views supporting zoom function) <i class="fa-solid fa-hand-point-up fa-fw"></i> Pinch-to-zoom is also supported |
 | <span class="btn">![button-rec](/assets/img/gpsl/button-zoomout.png)</span> | Zoom OUT (only visible if one of the visible views supporting zoom function) <i class="fa-solid fa-hand-point-up fa-fw"></i> Pinch-to-zoom is also supported |
 | <span class="btn">![button-rec](/assets/img/gpsl/button-resetnav.png)</span> | Reset Off-road Navigation (only available if a navigation path is loaded that does not contain TurnByTurn instructions) |
-| <span class="btn">![button-rec](/assets/img/gpsl/button-nextwp.png)</span> | [Calculate new next Waypoint](../2500-offroadnav/#nextwaypoint) (only available if a navigation path is loaded that does not contain TurnByTurn instructions) |
+| <span class="btn">![button-rec](/assets/img/gpsl/button-nextwp.png)</span> | [Calculate new next Waypoint](./2500-offroadnav.html#nextwaypoint) (only available if a navigation path is loaded that does not contain TurnByTurn instructions) |
 
 # The available Views
 
@@ -118,13 +118,13 @@ select a different record type (see [How GPSLogger will log your data?](../1100-
 ## Climb View
 
 <span class="shot">![view-climb](/assets/img/gpsl/view-climb02.png)</span>
-The Details about the [Climb are described in a separate section of this manual](../3300-climb/#view)  
+The Details about the [Climb are described in a separate section of this manual](./3300-climb.html#view)  
 <br class="shot-end">
 
 ## MultiView I-IV
 
 <span class="shot">![view-multiview](/assets/img/gpsl/view-multiview.png)</span>
-The Details about the [Multi View I - Multi View IV are described in a separate section of this manual](../3150-multiviews/)  
+The Details about the [Multi View I - Multi View IV are described in a separate section of this manual](./3150-multiviews.html)  
 <br class="shot-end">
 
 ## BTLE-Beacon View
