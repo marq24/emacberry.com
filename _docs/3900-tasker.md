@@ -118,9 +118,11 @@ keyValues.add(new String[]{"hr", hrVal});
 --> 
 
 ## Start & Stop GPSLogger from TASKER 
+
 Please use the following intent details if you want to launch GPSLogger from Tasker
 
 ### Start Recording Intent 
+
 ```xml
 <intent
     android:action="intent.action.STARTREC"
@@ -130,6 +132,7 @@ Please use the following intent details if you want to launch GPSLogger from Tas
 ```
 
 ### Stop Recording Intent
+
 ```xml
 <intent
     android:action="intent.action.STOPREC"
@@ -146,9 +149,8 @@ So as example, when you want to start logging via Tasker you have to specify in 
 | Package | com.emacberry.gpslogger |
 | Class | com.emacberry.gpslogger.GPSLoggerActivity |
 
-
-
 ## A Example Tasker Script from GPSLogger User _napalmfires_
+
 See [Forum Post: "Tasker integration basics" (by napalmfires)](https://forum.emacberry.com/viewtopic.php?f=207&t=7692)
 
 [Direct download link to the Scripted provided by napalmfires - use it at your own RISK](https://taskernet.com/shares/?user=AS35m8lkibFqQo6nZByAHUnAtcdNn3YXeA3XkJ5sdJ72c%2B8zNuBxn0wVP5enA2DbkS3%2FkIuR&id=Project%3AGPS+Logger+II#)

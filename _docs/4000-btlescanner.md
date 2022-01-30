@@ -13,7 +13,7 @@ via app the [FDroid-Store](https://f-droid.org/app/com.emacberry.uuid0xfd6fscan)
 [Amazon AppStore](https://www.amazon.com/gp/product/B08CY7JY1P).
 
 While the UUID0xFD6FTracer app is showing you the current situation you might like to be able to record the number
-of visible BluetoothLE beacons (with a specific UUID) around you over time. This can be archived by enabling the
+of visible BluetoothLE beacons <!-- (with a specific UUID) --> around you over time. This can be archived by enabling the
 BluetoothLE Beacon Scanner feature of GPSLogger II.
 
 # Requirement
