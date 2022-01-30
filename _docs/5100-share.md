@@ -39,8 +39,8 @@ Please check out the current website that will show your shared path by followin
 link [https://www.emacberry.com/appsrv/gpsl/index.html?uuid=7E84A3D9-9517-4A09-9CB0-FF5C36F9C472](https://www.emacberry.com/appsrv/gpsl/index.html?uuid=7E84A3D9-9517-4A09-9CB0-FF5C36F9C472).
 
 This is how a share-link-url is going to look like, when you will use <i class="fa-solid fa-share-nodes fa-fw"></i>
-_Share_ from the PathManager's more-menu. The resulting link will look like the above one - but obviously **with a
-different UUID**.
+_Share via emacberry.com_ from the PathManager's <i class="fa-solid fa-circle-chevron-down"></i> more-menu. The
+resulting link will look like the above one - but obviously **with a different UUID**.
 
 <span class="shot">![web-share-example](/assets/img/gpsl/web-share.png)</span>
 The page itself display some meta-data of you path like distance, duration and start & end time (in GMT), a speed and
@@ -52,7 +52,16 @@ in the map will get an additional popup with the location meta-data (distance, t
 It's not the most fancy page in the world - but have in mind it's all for **free** (this does not imply that you have to
 accept every crap). If you have any improvements - I am happy to hear from you.<br class="shot-end"/>
 
-## Request to delete a path from Server
+# End Sharing & Remove the path from the emacberry.com Server
+
+If you want to remove a previously shared path from the emacberry.com server you can open PathManager, scroll to the
+corresponding path, open the <i class="fa-solid fa-circle-chevron-down"></i> more-menu and then select the
+<i class="fa-solid fa-trash"></i> _Remove Share from emacberry.com_ entry.
+
+**Please note that the device have to be able to establish a online connection to perform a server request to fulfill
+your deletion request**.
+
+## Fallback - Request the manual path deletion from the emacberry.com Server 
 
 Since there is no connection between a user (or device) and a shared path - the only existing reference is the UUID. The
 only person who have access to the UUID of a path is you (and the people you provided the share-link of the path).

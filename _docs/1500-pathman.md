@@ -72,7 +72,9 @@ in order to force a synchronization of the database with the filesystem.
 This is quite a history function, from a time when no navigation was implemented - his will load the path and add it as
 bold, gray line (only visible in the path- & map-view)
 
-## <i class="fa-solid fa-share-nodes fa-fw"></i> Share
+## <i class="fa-solid fa-share-nodes fa-fw"></i> Share via emacberry.com
+
+## <i class="fa-solid fa-trash fa-fw"></i> Remove Share from emacberry.com
 
 ## <i class="fa-solid fa-share-nodes fa-fw"></i> Upload to Strava
 only present if your account is connected
