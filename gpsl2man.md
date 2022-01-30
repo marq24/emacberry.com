@@ -10,6 +10,9 @@ permalink: gpsl/manual.html
 > areas - if you come across such a section please let us know (or simply fork the project on GitHub, make the
 > adjustments and create a pull request - TIA!).
 
+{:style="text-align:center;"}
+![shot1](/assets/img/gpsl/Screenshot_1642149089_50.png){:style="width:33%; display:block; margin-left:auto; margin-right:auto"}
+
 ---
 
 ## DISCLAIMER

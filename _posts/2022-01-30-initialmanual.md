@@ -15,9 +15,7 @@ With the beginning of 2022 (that has not been a _New Year's resolution_) I have 
 GPSLogger Manual, and today I have completed the initial (aka draft) version.
 
 Let's [jump directly <i class="fa-solid fa-arrow-up-right-from-square"></i> into the manual](/gpsl/manual.html)... or
-continue reading about the details.
-
-<br class="shot-end"/><!--more-->
+continue reading about the details.<br class="shot-end"/><!--more-->
 
 ### <i class="fa-solid fa-circle-check"></i> What is currently done
 All the main application use cases and features are documented in different sections. Each section will start with a
