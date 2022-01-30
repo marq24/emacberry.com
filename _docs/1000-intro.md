@@ -186,8 +186,9 @@ catch your attention the app might **wake up** from locked state and/or **vibrat
 When you want to be able to create a backup of your data & settings (that would remain on your device even when
 uninstalling the application), the app need the permission to WRITE and READ from the external storage.
 
-This also applies when you want to export some data/recorded paths. Details about the export functionality can be found
-in the [Export & eMail Section](./5000-export.html).
+This also applies when you want to export some data/recorded paths. Details about the export functionality and more
+details about external storages and the need for the READ/WRITE_EXTERNAL_STORAGE permission can be found in the [Export
+& eMail Section](./5000-export.html#storage).
 
 ## Sending eMail related
 

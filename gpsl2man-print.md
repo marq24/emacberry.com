@@ -35,6 +35,7 @@ No guarantee is made for accuracy or reliability for any purpose whatsoever.
 | <i class="fa-solid fa-toggle-off fa-fw"></i> | Indicates a setting/option in the application settings has to be disabled |
 | <i class="fa-solid fa-square-check fa-fw"> | Indicates a setting/option in the application settings has to be checked |
 | <i class="fa-solid fa-square fa-fw"></i> | Indicates a setting/option in the application settings has to be un-checked |
+| <i class="fa-solid fa-list fa-fw"></i> | Indicated a setting/option in the application settings where you can select a value from a given list |
 | <i class="fa-solid fa-square-pen fa-fw"> | Indicated a setting/option in the application settings that requires a number or text input |
 | ABC > XYZ | In the application settings/section with the name **_ABC_** select item/section/setting **_XYZ_** |
 

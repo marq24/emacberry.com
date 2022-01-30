@@ -21,7 +21,7 @@ quite similar to iOS - with the only difference that the iOS users are used to t
 Nevertheless, I stop whining here - I just felt the need to explain the reasons behind the exporting/importing changes -
 and that I did not had the intention to ruin your life when I released GPSLogger 2.0.0.195.
 
-# Access exported files in the **share** folder
+# Access exported files in the **share** folder {#storage}
 As just stated in the general notes it had become quite difficult for a normal app like GPSLogger to get read/write
 access on _none default application folders_.
 

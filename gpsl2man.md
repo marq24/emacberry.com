@@ -1,14 +1,14 @@
 ---
 title: GPSLogger II Manual
-sub-title: An introduction to the features that have been implemented since 2009
+sub-title: An App-Project that started as small hobby (in early 2009) has developed into an All-In-One solution ofer the time
 menu-title: Docs
 layout: doc
 permalink: gpsl/manual.html
 ---
-> Please be so kind and have in mind that GPSLogger II have a long history - features that have been initially developed
-> have been adjusted over time - so there is always the chance that this documentation is outdated at certain areas - if
-> you come across such a section please let us know (or simply fork the project on GitHub, make the adjustments and
-> create a pull request - TIA!).
+> Please be so kind and have in mind that GPSLogger II have a long history - features that have been initially
+> developed have been adjusted over time - so there is always the chance that this documentation is outdated at certain
+> areas - if you come across such a section please let us know (or simply fork the project on GitHub, make the
+> adjustments and create a pull request - TIA!).
 
 ---
 
@@ -47,6 +47,7 @@ to the public GitHub repository.
 | <i class="fa-solid fa-toggle-off fa-fw"></i> | Indicates a setting/option in the application settings has to be disabled |
 | <i class="fa-solid fa-square-check fa-fw"> | Indicates a setting/option in the application settings has to be checked |
 | <i class="fa-solid fa-square fa-fw"></i> | Indicates a setting/option in the application settings has to be un-checked |
+| <i class="fa-solid fa-list fa-fw"></i> | Indicated a setting/option in the application settings where you can select a value from a given list |
 | <i class="fa-solid fa-square-pen fa-fw"> | Indicated a setting/option in the application settings that requires a number or text input |
 | ABC > XYZ | In the application settings/section with the name **_ABC_** select item/section/setting **_XYZ_** |
 

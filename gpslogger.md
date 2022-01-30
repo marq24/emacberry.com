@@ -67,8 +67,9 @@ If you have any remarks or suggestions for improvements (yes - more features!) -
   - <i class="fa-solid fa-share-nodes fa-fw"></i> [Sharing your activities with others when you feel comfortable to do so](./gpsl/docs/5100-share.html)
 
 One final remark: As you notice the list of functionalities is quite long. Since each function can also be adjusted to
-your personal preferences, the application settings list is really long and can look very complex for the start. The
-GPSLogger Manual will guide you through the different settings sections that can be adjusted for a specific feature.
+your personal preferences, the application settings list is really long and can look very complex for the start. There
+are **over 400 different settings** you can adjust. The GPSLogger Manual will guide you through the different settings
+sections that can be adjusted for a specific feature.
 
 # Download
 ## via Google Play
