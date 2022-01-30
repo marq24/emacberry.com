@@ -6,7 +6,7 @@ permalink: gpsl/docs/9998-print.html
 ---
 > Before you going to print this manual - please considered if this is necessary - save our environment!  
 
-![shot1](/assets/img/gpsl/Screenshot_1642149089_50.png){:style="width:35%; display:block; margin-left:auto; margin-right:auto"}
+![shot1](/assets/img/gpsl/app-icon-xxl.png){:style="width:55%; display:block; margin-left:auto; margin-right:auto"}
 
 ---
 

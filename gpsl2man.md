@@ -1,6 +1,6 @@
 ---
 title: GPSLogger II Manual
-sub-title: An App-Project that started as small hobby (in early 2009) has developed into an All-In-One solution ofer the time
+sub-title: An App-Project that started as small hobby (in early 2009) has developed into an All-In-One solution over the time
 menu-title: Docs
 layout: doc
 permalink: gpsl/manual.html
@@ -11,7 +11,7 @@ permalink: gpsl/manual.html
 > adjustments and create a pull request - TIA!).
 
 {:style="text-align:center;"}
-![shot1](/assets/img/gpsl/Screenshot_1642149089_50.png){:style="width:33%; display:block; margin-left:auto; margin-right:auto"}
+![shot1](/assets/img/gpsl/app-icon-xxl.png){:style="width:50%; display:block; margin-left:auto; margin-right:auto"}
 
 ---
 
