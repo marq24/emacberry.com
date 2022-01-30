@@ -33,18 +33,31 @@ please use a different service that allow you to upload one of the given export 
 - Internet connection to upload the path data to emacberry.com
 - **Willingness to make your data public** only protected by a kind of cryptic link-url
 
+# Share a path via emacberry.com
+
+The start point for sharing a path via the emacberry.com server is the PathManager. Once you have opened it, scroll to
+the path you would like to share and open the <i class="fa-solid fa-circle-chevron-down"></i> more-menu. In the Menu
+select the <i class="fa-solid fa-share-nodes"></i> _Share via emacberry.com_ entry.
+
+Now it will take a short while - the path will be loaded and check if previously shared, if this is not the case the app
+will upload the required data to emacberry.com. In any case the app will continue by showing the default Android share
+dialog, which allow you to select from multiple target apps the final share destination.
+
+**Please note that the device have to be able to establish a online connection to perform a server request to fulfill
+your share request**.
+
 # Example ShareLink-URL
 
 Please check out the current website that will show your shared path by following the
 link [https://www.emacberry.com/appsrv/gpsl/index.html?uuid=7E84A3D9-9517-4A09-9CB0-FF5C36F9C472](https://www.emacberry.com/appsrv/gpsl/index.html?uuid=7E84A3D9-9517-4A09-9CB0-FF5C36F9C472).
 
-This is how a share-link-url is going to look like, when you will use <i class="fa-solid fa-share-nodes fa-fw"></i>
-_Share via emacberry.com_ from the PathManager's <i class="fa-solid fa-circle-chevron-down"></i> more-menu. The
-resulting link will look like the above one - but obviously **with a different UUID**.
+This is how a share-link-url is going to look like, when you will use <i class="fa-solid fa-share-nodes"></i>
+_Share via emacberry.com_ from the PathManager - but obviously **with a different UUID**.
 
 <span class="shot">![web-share-example](/assets/img/gpsl/web-share.png)</span>
 The page itself display some meta-data of you path like distance, duration and start & end time (in GMT), a speed and
-elevation profile and the most important part: the map with your path.
+elevation profile and the most important part: the map with your path. The current page is not really suitable to be
+used on a mobile device - this will hopefully change in the future.
 
 You can select a different map type, zoom and when you hover with your mouse over the profile the corresponding location
 in the map will get an additional popup with the location meta-data (distance, time, speed & elevation).
