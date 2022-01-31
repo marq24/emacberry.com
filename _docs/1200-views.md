@@ -1,7 +1,7 @@
 ---
 title: <i class="fa-solid fa-mobile-screen-button"></i> User Interface & Views
 menu-title: <i class="fa-solid fa-mobile-screen-button fa-fw"></i>&nbsp;GUI & Views
-menu-mobile: GUI & Views
+menu-mobile: User Interface & Views
 ---
 # GUI - Graphical User Interface
 The main application screen consist of:

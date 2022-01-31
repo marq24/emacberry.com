@@ -1,6 +1,5 @@
 ---
 title: <span class="material-icons" style='margin-top:0.1em;'>sensors</span> External Sensors
-search-title: External Sensors
 menu-title: "<span class='material-icons fa-fw' style='width: 1.042em;'>sensors</span>&nbsp;External Sensors"
 menu-mobile: External Sensors
 ---

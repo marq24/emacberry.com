@@ -1,5 +1,11 @@
 <div class="hide-on-mobiles unit one-fifth">
   <aside>
+    <!--section class="docs"-->
+    <input type="text" id="search-input" placeholder="Search this manual">
+    <ul id="results-container" style="margin-left:unset"></ul>
+    <script src="{{ "/assets/js/simple-jekyll-search.min.js" | relative_url }}"></script>
+    <script>let sjs = SimpleJekyllSearch({searchInput: document.getElementById('search-input'), resultsContainer: document.getElementById('results-container'), json: '{{ "/search.json" | relative_url }}'})</script>
+
     {% for section in site.data.docs_nav -%}
       <h4>{{ section.title }}</h4>
       <ul>

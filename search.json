@@ -4,8 +4,8 @@ layout: none
 [
   {%- for doc in site.docs -%}
   {
-    {%- if doc.search-title %}
-    "title"    : "{{ doc.search-title | replace: '&nbsp;', ' ' | strip_html | escape | strip }}",
+    {%- if doc.menu-mobile %}
+    "title"    : "{{ doc.menu-mobile | strip_html | escape | strip }}",
     {%- else %}
     "title"    : "{{ doc.title | replace: '&nbsp;', ' ' | strip_html | escape | strip }}",
     {%- endif %}
