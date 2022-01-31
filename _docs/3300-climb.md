@@ -112,7 +112,7 @@ The climb view will only show data if you have loaded a navigation path, that co
 data has to contain elevation changes that qualify for **one** or **multiple climbs** [see climb detection](#algo).
 
 The Climb view shows always the climb that is the closest to your current position (but in the climbs are ordered by the
-sequence of their occurrence in the loaded navigation path. So please don't get confused when you start your activity
+sequence of their occurrence in the loaded navigation path). So please don't get confused when you start your activity
 and the Climb View will show you not the first climb in the sequence.
 
 ## Before or after a Climb
@@ -158,7 +158,7 @@ original view once the climb have been completed).
 
 > need revision
 
-When you record a activity where you have loaded a navigation path **and** the app could extract climb data
+When you record an activity where you have loaded a navigation path **and** the app could extract climb data
 ([see Climb View for details](./3300-climb.html)) GPSLogger will store (while you are in such a detected climb section)
 multiple VAM data records in order to be able to show your _velocità ascensionale media_ (translated in English to
 mean _average ascent speed_) performance after your activity.

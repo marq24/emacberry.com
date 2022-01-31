@@ -20,7 +20,7 @@ given route.
 > OF THE POSSIBILITY OF SUCH DAMAGES.
 
 # <span class="material-icons">warning</span> DANGER
-> The app is **JUST** pointing into the direction of the next calculated Waypoint. There does not ahve to be a direct
+> The app is **JUST** pointing into the direction of the next calculated Waypoint. There does not have to be a direct
 > link from your current location to the target the app is pointing to.
 >
 > **YOU HAVE TO REVIEW ALWAYS the TERRAIN and the WAY AHEAD of YOU**
@@ -39,14 +39,14 @@ or counterclockwise for round-trips). This is a very important aspect for &quot;
 want to take. In this documentation it is assumed that you have a path that is going from point A to point B and you
 want to follow it in the same direction (so you are currently at location A and want to arrive at location B).
 
-For the proper functionality of the outdoor navigation in GPSLogger II two settings in the options dialog have been
+For the proper functionality of the outdoor navigation in GPSLogger II two settings in the option's dialog have been
 introduced which have a major influence on the behaviour of the navigation software. If you have understood the concept
 how outdoor navigation is working in GPSLogger II you can adjust these two values 'When Waypoint is reached' &
 'Distance to next Waypoint' to your likings. In this documentation it is assumed the following (default) values are
 present:
 
-- When Waypoint is reached: 15m/50&nbsp;ft
-- Distance to next Waypoint: 250m/820&nbsp;ft
+- When Waypoint is reached: 15 m/50&nbsp;ft
+- Distance to next Waypoint: 250 m/820&nbsp;ft
 
 Please note that you do not have to be in logging mode in order to use the outdoor navigation function of GPSLogger II.
 
@@ -58,7 +58,7 @@ Please note that you do not have to be in logging mode in order to use the outdo
    **or** (if you are at location B and want to go to location A, then you have to select)<br/>
    **Load inverted NaviPath**
 
-4. GPSlogger will now calculate the nearest Waypoint (on the loaded Path) from your current location – this Waypoint
+4. GPSLogger will now calculate the nearest Waypoint (on the loaded Path) from your current location – this Waypoint
    becomes the first location, to which GPSLogger II will be guiding you (pointing towards the direction in the
    direction view).<br/><br/>
    Please note, that the direction view is highly dependent based on your current course. In order that your
@@ -68,15 +68,15 @@ Please note that you do not have to be in logging mode in order to use the outdo
    direction you have to go (use also the ZOOM IN function in this case).<br/><br/>
    Please note additionally that it could happen, that the next waypoint will not be calculated correctly (reported by a
    user) in this case please make use of the <span class="btn">![button-rec](/assets/img/gpsl/button-resetnav.png)</span>
-   **Reset Navigation** overlay button. in order to rerun the "find the closest point on the path to your current
-   location and calculate the next waypoint.
+   **Reset Navigation** overlay button. in order to rerun the _find the closest point on the path to your current
+   location_ and calculate the next waypoint.
 
 6. Now you should move towards the direction GPSLogger II is pointing to. Please have in mind (depending on your
    physical start location) that GPSLogger II cannot take any natural barriers like buildings or rivers into account. It
    will be assumed you are already quite close to one of the locations that are along the path.
 
 7. When the distance between your current location and the point to which GPSLogger II is pointing at the moment is less
-   than 15m/50&nbsp;ft (depending on your 'When Waypoint is reached' setting) the current waypoint is considered as
+   than 15 m/50&nbsp;ft (depending on your 'When Waypoint is reached' setting) the current waypoint is considered as
    reached and the next waypoint to reach will be automatically calculated and will be set as the new location to reach.
 
 8. Now you are in a loop of step 6) until you reach the final/last location (waypoint) that is recorded on the path, and
@@ -91,7 +91,7 @@ Please note that you do not have to be in logging mode in order to use the outdo
 
 Once you have reached (or are close to) the location to which GPSLogger II has guided you, the _next_ waypoint will be
 calculated automatically. Therefore, GPSLogger II will "look ahead" in the loaded navigation path and calculates to each
-waypoint the distance from your current location – once the distance of a waypoint is greater than 250m/820&nbsp;ft
+waypoint the distance from your current location – once the distance of a waypoint is greater than 250 m/820&nbsp;ft
 (depending on your 'Distance to next Waypoint' setting) it is qualified to be the _next_ waypoint to which GPSLogger II
 will guide you. Each location on your navigation path could become potentially a waypoint during the outdoor navigation.
 
@@ -128,7 +128,7 @@ The image to the left is showing a typical round trip start situation. The start
 same waypoint. The green line in this diagram is the starting path while the red one is the end of the round tip.
 
 At the start of the navigation (or if the application failed to detect the arrival at a waypoint) GPSLogger II is
-calculating the distance of the current location to all points of the path. GPSlogger then assumes that the point with
+calculating the distance of the current location to all points of the path. GPSLogger then assumes that the point with
 the closest distance to your current location is the best that can be chosen to start/continue with the navigation. Most
 of the time this works quite rock solid – but in the illustrated situation once you start at location X<sub>3</sub> you
 will realize, that this approach could lead to the wrong conclusion.

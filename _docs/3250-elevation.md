@@ -1,5 +1,6 @@
 ---
 title: <span class='material-icons'>show_chart</span> Elevation Data optimizations
+search-title: Elevation Data optimizations
 sub-title: GPS based elevation information can be so bad
 menu-title: "<span class='material-icons fa-fw' style='width: 1.042em;'>show_chart</span>&nbsp;Elevation Data"
 menu-mobile: Elevation Data

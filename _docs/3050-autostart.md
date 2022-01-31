@@ -11,7 +11,7 @@ same applies when I am returning - GPSLogger 'knows' where I am and that I am at
 cause the changes that I want to log any further are IMHO very limited.
 
 Another use case is a loaded navigation path - so there are reasons WHY you have loaded a path? - right? - Yes -
-typically you want to follow this path and it's IMHO pretty reasonable to record this as well - so once you load a
+typically you want to follow this path, and it's IMHO pretty reasonable to record this as well - so once you load a
 navigation path the start and end location of this navigation path will be also considered as auto START and END
 locations.
 
@@ -61,16 +61,16 @@ colored cycles on the map screens where each cycle have a certain meaning:
 
 <span class="shot">![auto-start-stop-ranges](/assets/img/gpsl/auto-start-stop-ranges.png)</span>
 
-- The RED-colored cycle (20m radius) is the AUTO-STOP cycle - as soon as you are in the red cycle the logging (if it's
+- The RED-colored cycle (20 m radius) is the AUTO-STOP cycle - as soon as you are in the red cycle the logging (if it's
   running) will be stopped. Please note that there are some additional restrictions for the auto stop logging: a) when
   you are auto logging a navigation path, then the logging distance have to be at least 75% of the navigation path b)
-  when you make use of a AutoStart/Log location the logging distance have to be at least 1km.
+  when you make use of a AutoStart/Log location the logging distance have to be at least 1 km.
 
-- The BLUE-colored cycle (15m radius) is the initial trigger of the AUTO-START process - the logging will **only**
+- The BLUE-colored cycle (15 m radius) is the initial trigger of the AUTO-START process - the logging will **only**
   automatically start when you are in the blue cycle. With other words you need to be inside the blue cycle in order
   that the auto start logging code for this location will be activated.
 
-- The GREEN-colored cycle (50m radius) is the AUTO-Start range - once you are outside of the green cycle (and this
+- The GREEN-colored cycle (50 m radius) is the AUTO-Start range - once you are outside the green cycle (and this
   location have been activated by being in the blue cycle before) the recording will be automatically started.
 <br class="shot-end"/>
 

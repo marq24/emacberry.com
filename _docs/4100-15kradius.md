@@ -20,7 +20,7 @@ visible cycle around any location that you load into the application.
 - **Load a Location via the LocationManager**
 - Map View: Appearance & Startup > Available View configuration... > OpenMapData View <i class="fa-solid fa-toggle-on"></i>
 - The Map have to be displayed as the **main view** (15 km radius will not be rendered in Secondary View I or II)
-- Appearance & Startup > Map & Path View Settings... > Render 15km radius <i class="fa-solid fa-square-check"></i>   
+- Appearance & Startup > Map & Path View Settings... > Render 15 km radius <i class="fa-solid fa-square-check"></i>   
 
 # Example Screenshots
 <span class="shot">![15km-radius-on-map](/assets/img/gpsl/view-map15k01.png)</span>

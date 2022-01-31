@@ -89,7 +89,7 @@ When selecting the **Export** menu Item a sub-menu will appear that allow you to
 - CSV
 - GPS NMEA-Sentences as TXT
 - UUID 0x's as CSV
-- JSON (GPSlogger2)
+- JSON (GPSLogger2)
 - Original GPSLogger II GPL
 
 [Details about the different file formats can be found in the Export & eMail Section](./5000-export.html#formats)
@@ -101,7 +101,7 @@ When selecting the **Email** menu Item a sub-menu will appear that allow you to 
 - GPX (v1.0) \[GPS exchange format\]
 - GPX (v1.1) \[GPS exchange format\]
 - UUID 0x's as CSV
-- JSON (GPSlogger2)
+- JSON (GPSLogger2)
 - Original GPSLogger II GPL
 
 [Details about the different file formats can be found in the Export & eMail Section](./5000-export.html#formats)

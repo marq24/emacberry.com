@@ -80,7 +80,7 @@ The last step of the initial setup is the Setup-Wizard selection dialog. You mig
 GPSLogger have many options and is highly configurable. The downside of this flexibility is, that it can be quite
 complicated for a new user to find the right place where certain features have to be enabled or configured.
 
-<span class="shot">![wizzards](/assets/img/gpsl/wizzard.png)</span>
+<span class="shot">![wizards](/assets/img/gpsl/wizzard.png)</span>
 
 In order to address this challenge the app have current four different wizards guiding you though the setup process of a
 certain functionality. Probably you have read/heard somewhere about the app, and you want to use it e.g. for your

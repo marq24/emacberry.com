@@ -37,11 +37,11 @@ settings - when restoring a backup that contains a larger number of previously r
 the internal database. This Process can take quite a while, and you might terminate the app (while it's still recreating
 the database entries). When in your have configured in your previous installation of GPSLogger that the app should use
 an alternative storage location, and you restore such a backup to a fresh installed GPSLogger, then after the restoring
-process has been completed an additional data movement have to be performed. This add extra complexity to the restore
+process has been completed an additional data movement have to be performed. This adds extra complexity to the restore
 process and add additional processing time.
 
 In any case when after a restore (for whatever reason) your PathManager does not show you all your previously existing
-paths, then please: a) Select '**Sync Data...**' and wait a while (the sync process needs to reopen all existing gpl
+paths, then please: First, select '**Sync Data...**' and wait a while (the sync process needs to reopen all existing gpl
 files on your device and check the metadata with the data that is currently stored in the database - depending on the
 IO performance of your device and the number of path this can take up to 30min or even longer). The second thing you can
 do is, after the data sync is completed you can regenerate all thumbnails also via the PathManager Menu 'Recreate all

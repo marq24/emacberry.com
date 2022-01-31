@@ -17,7 +17,7 @@ if the app should inform you with overall and interval based information.
 > the overall distance, the time for the last 5 km and the remaining distance (when I was following a previously
 > planed route) - Of course when I am following a planed route, the turn instructions will be also given via audio
 > commands - In combination to be able to control my phone via my Di2 shifting levers this has become extremely 
-> convenient to use \[e.g to request details about the upcoming turn (specially the distance)\]. 
+> convenient to use \[e.g. to request details about the upcoming turn (specially the distance)\]. 
  
 There are the following types of audio announcements available (alphabetical order):
 - [Event Announcements](#events)
@@ -96,7 +96,7 @@ extraction requirements and process can be found in the corresponding Climb-View
   Settings)
 
 - Of course the announcement will be made, before the actual location is reached. The distance how many meters before
-  the waypoint the event-announcement will be made, depends on your current speed. As faster you are, as more meters
+  the waypoint the event-announcement will be made, depends on your current speed. As faster, you are, as more meters
   ahead the announcement will take place. The core idea is, that it's always some seconds ahead so that you have time to
   prepare yourself for the turn. In addition, the events will be pre-announced at least 300 m before the actual
   location - so you should know something is coming.
@@ -174,7 +174,7 @@ audio notification once one of these function was triggered. In case of on of th
 
 ## Summary after Recording
 
-Additionally, to the _Recording Stopped_ it's possible to get a announcement of a summary (total distance & total time)
+Additionally, to the _Recording Stopped_ it's possible to get an announcement of a summary (total distance & total time)
 for your finished activity.
 
 ## More than 50 m offside / Back on track

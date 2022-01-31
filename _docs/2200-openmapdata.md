@@ -13,7 +13,7 @@ if the source is online or offline...
 # Requirements
 - App-Permission to access the internet
 - App-Permission to access/store data on shared volume (pre Android 11)
-- Online connection to be able to initially download map tiles from a Open Map Data providers that then later can be
+- Online connection to be able to initially download map tiles from an Open Map Data providers that then later can be
   used offline
 - Online connection to be able to download map vector data (from mapzen) and use this data later offline (this is not 
   recommended since you don't know exactly **if** you have already all required map data locally on your device)
@@ -26,18 +26,18 @@ if the source is online or offline...
 ## I) Image-tile-based _Online_ Maps
 > multiple different map sources are available - including the possibility to specify your own tile server URL
 
-By default, all maps requires an online connection - in order to download so called "map tiles" to you local device -
+By default, all maps requires an online connection - in order to download so-called "map tiles" to you local device -
 once a tile have been downloaded to the device it will be cached locally and will not be requested again. Please note
 that each zoom level requires another map tile to be downloaded.
 
 GPSLogger offers support for different provides of such online map tiles - this list will be frequently updated and will
 be checked with every app update (currently used are Bing, esri, Mapbox and few others) - you can also configure your
-own tile server provider when you know the URL's \[e.g. to use Google maps ;-)\]
+own tile server provider when you know the URL's \[e.g. to use Google Maps ;-)\]
 
 ## II) Vector-tile-based _Online_ Map
 > a single online source (mapzen) - with a single/hardcoded (limited) theme
 
-Since a couple of releases GPSLogger II also supports a online OpenStreetMap Vector based map data
+Since a couple of releases GPSLogger II also supports an online OpenStreetMap Vector based map data
 provider \[in contrast to the map tiles (images)\] - this will reduce the amount of data that need to be transferred and
 which is also zoom level independent. This vector data will be also cached locally, once it has been requested from the
 online source.
@@ -46,7 +46,7 @@ online source.
 > a single offline source (your *.map files) - with multiple & configurable themes
 
 In order to make you totally independent of previously downloaded/cached map data GPSLogger II offers a third kind of
-OpenMapData provider - which is called **OpenStreetmap (Offline)**. The big difference between II) and III) is, that in
+OpenMapData provider - which is called **OpenStreetMap (Offline)**. The big difference between II) and III) is, that in
 the offline variant you need to download & store *.map files (in the mapsforge format) e.g. from openandromaps.org on
 your device.
 
@@ -67,7 +67,7 @@ Some important things you should remember for offline *.map files:
 # Summary
 There exist **three** different types of map providers in GPSLogger:
 - there are the online map tile-based providers (the map tiles are basically just images)
-- two additional OpenSteetMap vector-data-based ones - one for online use and the other one for strict offline usage
+- two additional OpenStreetMap vector-data-based ones - one for online use and the other one for strict offline usage
 
 ## More to know
 - Basic Map configuration (no matter if online or offline) will be done in the application settings: **Open Map Data
@@ -84,8 +84,8 @@ There exist **three** different types of map providers in GPSLogger:
   been already downloaded and stored in the internal cached.
 - To update map tiles in the cache or to free disk space you can/need to delete single cache files via the **Open Map
   Data (online maps)** settings section and there via the **Manage local Cache files...**
-- When you select the OpenMapData Provider **OpenStreetMap (Offiline)** then you need:
+- When you select the OpenMapData Provider **OpenStreetMap (Offline)** then you need:
     - Additional *.map files (V4.0)
     - Select a matching render theme (GPSLogger have two build in)
-    - The complete configuration of the OMD Provider 'OpenStreetMap (Offiline)' have to be done in the separate
+    - The complete configuration of the OMD Provider 'OpenStreetMap (Offline)' have to be done in the separate
       settings section called **OpenStreetMap Settings (offline map)**

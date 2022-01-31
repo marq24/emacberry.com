@@ -1,5 +1,6 @@
 ---
 title: <span class="material-icons" style='margin-top:0.1em;'>sensors</span> External Sensors
+search-title: External Sensors
 menu-title: "<span class='material-icons fa-fw' style='width: 1.042em;'>sensors</span>&nbsp;External Sensors"
 menu-mobile: External Sensors
 ---
@@ -188,7 +189,7 @@ Before you be able to connect any ANT+Sensor with GPSLogger need:
 - [ANT+ Plugins Service from PlayStore](https://play.google.com/store/apps/details?id=com.dsi.ant.plugins.antplus)
 - [ANT Radio Service from PlayStore](https://play.google.com/store/apps/details?id=com.dsi.ant.service.socket)
 
-> Just a another side note: When I used ANT+ on my phone I ran into serious Wi-Fi-connection issues while my phone was
+> Just another side note: When I used ANT+ on my phone I ran into serious Wi-Fi-connection issues while my phone was
 > on **roaming** (on vacation) and try to connect to my ANT+ HR Sensor (each time Wi-Fi was turned off). So I have my
 > opinion about the quality concerning the ANT+ drivers (build in Canada) but make your own experience.
 

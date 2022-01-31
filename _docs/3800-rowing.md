@@ -21,7 +21,7 @@ App.
 # Overview
 
 In order to make the initial setup and installation process as easy as possible the existing setup wizard have been
-extended in order to setup/configure your rowing machine. Once you start the wizard you need to turn on your PM5 and go
+extended in order to set up/configure your rowing machine. Once you start the wizard you need to turn on your PM5 and go
 to the 'connection' menu. Once the display reports "waiting for connections" you can press the "Search for BT-Devices"
 in the GPSLogger settings screen (to which the wizard have directed you).
 
@@ -42,7 +42,7 @@ the start: the map and two additional multi-views like you can see it here on th
 A map? Yes - a map - that's probably just a personal thing - for all my indoor activities (so far cycling & running) I
 prefer to simulate a real outdoor activity - so instead of following a strict workout plan I enjoy the surrounding
 scenery ;-) Initially you can select between three different rowing locations (via the Rowing Machine Settings): the Ems
-river (365km), the Rhine river (1167km) and the Amsterdam Amstel Marathon 2022 (55km).
+river (365 km), the Rhine river (1167 km) and the Amsterdam Amstel Marathon 2022 (55 km).
 
 Obviously these build rowing locations distances are slightly too long to complete them in a single workout (except
 Amstel Marathon). Each time you stop the recording the app will store the last position in the simulated rowing path and

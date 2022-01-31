@@ -43,7 +43,7 @@ Now it will take a short while - the path will be loaded and check if previously
 will upload the required data to emacberry.com. In any case the app will continue by showing the default Android share
 dialog, which allow you to select from multiple target apps the final share destination.
 
-**Please note that the device have to be able to establish a online connection to perform a server request to fulfill
+**Please note that the device have to be able to establish an online connection to perform a server request to fulfill
 your share request**.
 
 # Example ShareLink-URL
@@ -71,7 +71,7 @@ If you want to remove a previously shared path from the emacberry.com server you
 corresponding path, open the <i class="fa-solid fa-circle-chevron-down"></i> more-menu and then select the
 <i class="fa-solid fa-trash"></i> _Remove Share from emacberry.com_ entry.
 
-**Please note that the device have to be able to establish a online connection to perform a server request to fulfill
+**Please note that the device have to be able to establish an online connection to perform a server request to fulfill
 your deletion request**.
 
 ## Fallback - Request the manual path deletion from the emacberry.com Server 

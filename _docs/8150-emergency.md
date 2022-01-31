@@ -9,7 +9,7 @@ sub-title: Automatically send an emergency Alert if you stop moving
 
 GPSLogger can automatically send an eMail notification when you do not move a specified distance in a certain time. In
 order to use this feature you need to authorize GPSLogger to use your eMail account (since the eMail will be sent from
-this account to the recipient(s).
+this account to the recipient(s)).
 
 Please note that the notifications will be **only send when GPSLogger II is in logging mode** - if you stop logging (or
 enter the pause mode) **no notifications will be sent**.

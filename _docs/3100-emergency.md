@@ -6,7 +6,7 @@ menu-title: <i class="fa-solid fa-truck-medical fa-fw"></i>&nbsp;Emergency Alert
 
 GPSLogger can automatically send an eMail notification when you do not move a specified distance in a certain time. In
 order to use this feature you need to authorize GPSLogger to use an eMail account (since the eMail will be sent from
-this account to the recipient(s).
+this account) to the recipient(s).
 
 > This feature was introduced around 2012 - seeing in the year 2022 Apple Watch 7 ads in TV, advertising the **brand
 > new** feature of an automated emergency call where the latitude and longitude coordinates will be submitted as
@@ -60,7 +60,7 @@ Emergency Alert that is based on a minimal movement calculation.
 # Information that an Emergency Alert was sent
 
 <span class="shot">![shot1](/assets/img/gpsl/emergency-sent.png)</span> No matter if you have selected to be able to
-intercept a Emergency Alert or not - once the application have triggered the send process of an Emergency alert to the
+intercept an Emergency Alert or not - once the application have triggered the send process of an Emergency alert to the
 configured recipient(s) that app will show you a none-cancelable dialog like this one here.
 
 **<i class="fa-solid fa-hand-point-up"></i> So when ever you see this dialog it's strongly recommended getting in contact

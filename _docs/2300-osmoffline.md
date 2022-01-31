@@ -25,10 +25,10 @@ is not included in GPSLogger II - you need to download one or multiple *.map fi
 new feature of GPSLogger II.
 
 At the following URL's you can download Mapsforge *.map files:
-- [http://www.openandromaps.org/downloads](http://www.openandromaps.org/downloads)
+- [https://www.openandromaps.org/downloads](https://www.openandromaps.org/downloads)
   <br/>An excellent source for enriched OSM data - included altitudes - great for hiking or mountain-biking
  
-- [http://download.mapsforge.org/](http://download.mapsforge.org/)
+- [https://download.mapsforge.org/](https://download.mapsforge.org/)
 
 # Download *.map files with your Android device/browser
 > Direct download link support for openandromaps *.map files in GPSLogger
@@ -80,7 +80,7 @@ download-button on the openandromaps website, please see this
 
 # Download *.map files elsewhere
 You can of course download the *.map files on any other device (including your PC or Mac) - the Links are the same - but
-you need to extract the maps manually and copy the files over to your andpriod device and place them at a location that
+you need to extract the maps manually and copy the files over to your android device and place them at a location that
 is readable for GPSLogger.
 
 With the latest changes in Android 11 this process can get quite complicated - since there are only a few places where
@@ -90,7 +90,7 @@ share *.map files across multiple applications.
 ## Map & Theme file location on your mobile device
 > NEED TO be REVISED (cause of Android 11 restrictions)
 
-By default, GPSLogger II create a subdirectory '**osm**' on your external Strorage (typically the internal emulated
+By default, GPSLogger II create a subdirectory '**osm**' on your external Storage (typically the internal emulated
 SD-Card) and create two sub folders '**maps**' and '**themes**'.
 _On BlackBerry10 this folder typically can be found here: '/misc/android' - when you access your BB10 via the
 WiFi-Share function then the folder should be: /media/misc/android/osm_
@@ -105,7 +105,7 @@ additional resources are also located in the appropriate sub folders.
 
 By default, GPSLogger II includes the two themes from the **Elevate theme family** (v 4.1.7 10/07/17) created by Tobias
 Kuehn
-[see elevate-mountain-hike-theme @ openandromaps.org](http://www.openandromaps.org/en/legend/elevate-mountain-hike-theme)
+[see elevate-mountain-hike-theme @ openandromaps.org](https://www.openandromaps.org/en/legend/elevate-mountain-hike-theme)
 - Elevate
 - Elements
 
@@ -118,7 +118,7 @@ adjusted (enlarged) - but this is a very small modification and all credits goes
 >not recommended on Android 11 and higher
  
 As 'always' - GPSLogger II allows you to specify alternative locations for the 'maps' and 'themes' - to change the
-folders you need to open the '**Offline OpenStreenMapping Settings**' from the applications Settings menu and press
+folders you need to open the '**Offline OpenStreetMapping Settings**' from the applications Settings menu and press
 the **Browse...** button and navigate to the folder that is containing your *.map files (or theme xml files). E.g. when
 you have a removable SDCard it can make sense to download the map data via a PC/MAC and then copy the data over to the
 SD-Card (instead of downloading the *.map files via your mobile device)

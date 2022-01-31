@@ -1,0 +1,20 @@
+---
+layout: none
+---
+[
+  {%- for doc in site.docs -%}
+  {
+    {%- if doc.search-title %}
+    "title"    : "{{ doc.search-title | replace: '&nbsp;', ' ' | strip_html | escape | strip }}",
+    {%- else %}
+    "title"    : "{{ doc.title | replace: '&nbsp;', ' ' | strip_html | escape | strip }}",
+    {%- endif %}
+    "url"      : "{{ site.baseurl }}{{ doc.url }}",
+    "category" : "{{doc.categories | join: ', '}}",
+    "date"     : "{{ doc.date }}",
+    "discription" : "{{doc.description | strip_html | strip_newlines | escape }}",
+    "content": "{{ doc.content | replace: '"', "'" | replace: '’', "'" | replace: '`', "'" | replace: '\', "/" | strip_html | strip_newlines | strip }}"
+    }{% unless forloop.last %},{% endunless %}
+  {% endfor %}
+]
+

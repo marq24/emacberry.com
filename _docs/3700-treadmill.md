@@ -100,4 +100,4 @@ enabled the auto upload activities option, your virtual run will be instantly sh
 [^2]: [Treadmill-Data Specification XML](https://www.bluetooth.com/wp-content/uploads/Sitecore-Media-Library/Gatt/Xml/Characteristics/org.bluetooth.characteristic.treadmill_data.xml)
 
 [^3]: FTMS-ControlPoint: [FTMS-ControlPoint Specification XML]( https://www.bluetooth.com/wp-content/uploads/Sitecore-Media-Library/Gatt/Xml/Characteristics/org.bluetooth.characteristic.fitness_machine_control_point.xml)
-    ([defind inside the Fitness Machine Service Specification XML](https://www.bluetooth.com/wp-content/uploads/Sitecore-Media-Library/Gatt/Xml/Services/org.bluetooth.service.fitness_machine.xml))
+    ([defined inside the Fitness Machine Service Specification XML](https://www.bluetooth.com/wp-content/uploads/Sitecore-Media-Library/Gatt/Xml/Services/org.bluetooth.service.fitness_machine.xml))

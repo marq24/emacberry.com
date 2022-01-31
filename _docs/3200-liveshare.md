@@ -79,7 +79,7 @@ The GET-REQUEST will have the following format:
 
 `[YOUR_SERVER_URL]?lat=[LATITUDE_AS_DECIMAL_NUMBER]&lon=[LONGITUDE_AS_DECIMAL_NUMBER]&id=[YOUR_DEVICE_ID]`
 
-As example, if you have an own server/domain and you want to collect your locations there, then you can write some small
+As example, if you have an own server/domain, and you want to collect your locations there, then you can write some small
 request processing code yourself and deploy it on your server. Assuming your domain is called _www.anyfancydoma.in_, and
 you have written a PHP script called _incoming_ that going to process the requests, then you should specify in the
 application settings the URL _https://www.anyfancydoma.in/incoming.php_.
@@ -120,8 +120,7 @@ a local mysql database table with the name _gpslogger_live_ (the config.php have
                 $sin_lat_rad = sin($lat * 180 / M_PI );
                 $sin_lng_rad = sin($lng * 180 / M_PI );
                 $cos_lat_rad = cos($lat * 180 / M_PI );
-                $cos_lng_rad = cos($lng * 180 / M_PI );
-			
+                $cos_lng_rad = cos($lng * 180 / M_PI );                
                 $insert = sprintf("INSERT INTO your_location_live_data (id, lat, lng,
                         sin_lat_rad, sin_lng_rad, cos_lat_rad, cos_lng_rad)
                         VALUES ('%s', '%s', '%s', '%s', '%s', '%s', '%s');",
@@ -134,8 +133,7 @@ a local mysql database table with the name _gpslogger_live_ (the config.php have
                     mysqli_real_escape_string($con, $cos_lng_rad)
                 );    
     
-                mysqli_query($con, $insert);									
-
+                mysqli_query($con, $insert);
                 mysqli_close($con);
             }
         }

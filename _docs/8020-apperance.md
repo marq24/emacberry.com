@@ -26,9 +26,9 @@ sub-title: Sizes, Units, Start View Configuration, StatusBar and display customi
 - Shiftinginfo (Di2) [When a Di2 is connected via D-Fly(BTLE)]
 
 Elapsed Time/Distance
-Climb in % &amp; gained height [(over last Minute)]
+Climb in % & gained height \[(over last Minute)\]
 
-Clock	
+Clock
 Include seconds in clock
 GPS-LocationFix Count
 

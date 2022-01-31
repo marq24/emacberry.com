@@ -6,7 +6,7 @@ menu-title: <i class="fa-brands fa-bluetooth fa-fw"></i>&nbsp;Beacon Scanner
 
 # Overview
 
-Google is extremely restrictive when it comes to apps in PlayStore that use the words 'COVID19' or 'pandemic' - I have
+Google is extremely restrictive when it comes to apps in PlayStore that use the words 'COVID-19' or 'pandemic' - I have
 tried multiple times to release the little [UUID0xFD6FTracer](https://github.com/marq24/UUID0xFD6FTracer) app in the
 PlayStore - but it has always been removed after a short while for (IMHO) silly reasons. So I gave up and release the
 via app the [FDroid-Store](https://f-droid.org/app/com.emacberry.uuid0xfd6fscan) and
