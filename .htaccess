@@ -8,7 +8,7 @@ RewriteEngine on
 redirect 301 /map.html https://maps.emac.de/
 redirect 301 /forum.html https://forum.emacberry.com/viewforum.php?f=206
 
-redirect 301 /gpsl/faq.html /gpsl/docs/9999-faq.html
+redirect 301 /gpsl/faq.html /gpsl/docs/9990-faq.html
 redirect 301 /gpsl/gpslogger_05user_manual.html /gpsl/manual.html
 redirect 301 /gpsl/app-permissions.html /gpsl/docs/1000-intro.html#permissions
 redirect 301 /gpsl/emergency.html /gpsl/docs/3100-emergency.html#incaseofanemergency

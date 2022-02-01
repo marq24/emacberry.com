@@ -45,7 +45,7 @@ menu-mobile: Introduction & initial Setup
 When you install the app and launch it for the first time you will be presented with a welcome dialog, containing some
 general information and the link to the [Privacy Policy of the application](https://www.emacberry.com/pp/pp2.html).
 Please read it carefully, but since this _legal stuff_ can be a bit difficult to read, you might find [How GPSLogger II
-will process your data](/gpsl/manual.html#dataprocessing) a bit easier to understand.
+will process your data](./9992-privacy.html#dataprocessing) a bit easier to understand.
 
 <span class="shot">![welcome](/assets/img/gpsl/welcome.png)</span>
 The bottom line is - location information **is** sensitive data and you as the user having the full control what will be
@@ -115,7 +115,7 @@ running-as-background-service capabilities. Such a restriction is counterproduct
 <span class="shot">![disable-battery-optimization](/assets/img/gpsl/backg001.png)</span>
 <span class="shot">![os-info-battery-optimization](/assets/img/gpsl/backg002.png)</span>
 So the app is requesting you to **disable the OS battery optimization for GPSLogger** in multiple ways. For details see
-the FAQ: [How to disable OS battery optimization](./9999-faq.html#how2-battery-optimization).
+the FAQ: [How to disable OS battery optimization](./9990-faq.html#how2-battery-optimization).
 
 Details about this core feature can be found in
 the [Running as Android-Background Service Section](./1100-data.html#service).

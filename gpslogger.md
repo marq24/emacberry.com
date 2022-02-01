@@ -102,7 +102,7 @@ Automated logging of my casual road bike cycle activities following a planed rou
 keep track of the commute sessions using:
 - AutoSTART when I am leaving home/work
 - Make use of the Barometer Sensor to capture realistic elevation profiles
-- Recording additionally to my position my heartrate, cadence, left & right power and shifting events
+- Recording additionally to my position my heart rate, cadence, left & right power and shifting events
 - Using OFFLINE OpenStreetMap data (*.map files)
 - Announcements of Turn Instructions and upcoming climbs
 - Interval Text to speech announcements for total distance, total time, sector time, average speed and remaining
@@ -192,7 +192,7 @@ it (except when the BlackBerryMap view is used).
   - current speed
   - name of location (if specified)
 - Display of the current data in various views:
-  - Path View: Displays the traveled path in a x/y coordinate system (2D-View) [^1]
+  - Path View: Displays the traveled path in an x/y coordinate system (2D-View) [^1]
   - Elevation View: Displays the change of altitude over time [^1]
   - Speed View: Displays the change of speed over time [^1]
   - GPS View: Displays longitude, latitude, heading and speed in a large font (e.g. for your own navigation)
@@ -212,7 +212,7 @@ it (except when the BlackBerryMap view is used).
   traveled (especially useful for runners & bikers)
 - Night Mode in 4 different colors (yellow, blue, red and green)
 - Save current location to use it later with the "Guide me..."-Function
-- Store current location on the Clipboard (e.g. to paste it into a SMS or eMail)
+- Store current location on the Clipboard (e.g. to paste it into an SMS or eMail)
 - Support for wildlife tracking/recording (with the option to select from predefined location names)
 - Load and display a previously recorded path
 - Summarize information about a previously recorded path
@@ -238,7 +238,7 @@ it (except when the BlackBerryMap view is used).
 >
 >Emacf1 released another free/donationware application recently called GPSLogger. It is a simple offline GPS logging
 >application that records your movements using GPS. The nice part is that unlike other applications it stores it on your
->BlackBerry so it does not have an online component. This appeals to my security conscious side that just wants to track
+>BlackBerry, so it does not have an online component. This appeals to my security conscious side that just wants to track
 >my trip or hike without sharing…
 
 ---

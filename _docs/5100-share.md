@@ -65,7 +65,7 @@ in the map will get an additional popup with the location meta-data (distance, t
 It's not the most fancy page in the world - but have in mind it's all for **free** (this does not imply that you have to
 accept every crap). If you have any improvements - I am happy to hear from you.<br class="shot-end"/>
 
-# End Sharing & Remove the path from the emacberry.com Server
+# End Sharing & Remove the path from the emacberry.com Server {#remove}
 
 If you want to remove a previously shared path from the emacberry.com server you can open PathManager, scroll to the
 corresponding path, open the <i class="fa-solid fa-circle-chevron-down"></i> more-menu and then select the

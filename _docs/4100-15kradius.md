@@ -1,6 +1,6 @@
 ---
-title: <i class="fa-solid fa-circle-dot"></i> Show your 15km Radius
-menu-title: <i class="fa-solid fa-circle-dot fa-fw"></i>&nbsp;15km Radius
+title: <i class="fa-solid fa-circle-dot"></i> Show your 15 km Radius
+menu-title: <i class="fa-solid fa-circle-dot fa-fw"></i>&nbsp;15 km Radius
 ---
 
 # Overview
@@ -9,7 +9,7 @@ This functionality might be only related to Germany - nevertheless it might be u
 first Corona-related-lockdown there was a restriction, that you should stay in your local area in a radius of 15 km
 around your home.
 
-In order to hive users a hint how far this 15 km would be from a specific location, GPSLogger is able to render a well
+In order to give users a hint how far this 15 km would be from a specific location, GPSLogger is able to render a well
 visible cycle around any location that you load into the application.
 
 > In order to make this feature more useful also for other regions, I have added _Implement custom radius settings_ on

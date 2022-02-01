@@ -30,7 +30,7 @@ and a FAQ.
 
 # [![UUID0xFD6FTracerIcon](/assets/img/uuid/app-icon.png) UUID0xFD6FTracer](https://github.com/marq24/UUID0xFD6FTracer)
 
-> My personal little humble contribution to contain the COVID 19 pandemic <i class="fa-solid fa-shield-virus"></i>
+> My personal little humble contribution to contain the COVID-19 pandemic <i class="fa-solid fa-shield-virus"></i>
 
 The main purpose of the app is to scan your current environment for active devices running an application that make use
 of Google's & Apple's Exposure Notification Framework (like the German CoronaWarnApp) or the TousAntiCovid (France)

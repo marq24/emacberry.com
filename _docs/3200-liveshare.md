@@ -68,26 +68,35 @@ Sent via GPSLogger II - https://www.emacberry.com/gpslogger.html
 
 Please [see the dedicated TASKER Integration section of this manual](./3900-tasker.html#share).
 
-## Share your location via a custom URL
+## Share your location via a custom URL {#customurl}
 
 You can specify a custom URL to which GPSLogger going to send a simple GET-Request including our current position as
-decimal latitude & longitude values, as well as your Android Device ID (in case you want to be able to distinguish
-between multiple GPSLogger instances on your backend) as URL parameters, all as plain text, not encoded & **not
+decimal latitude & longitude values, ~~as well as your Android Device ID (in case you want to be able to distinguish
+between multiple GPSLogger instances on your backend)~~ as URL parameters, all as plain text, not encoded & **not
 encrypted**. A timout of 5 seconds for the request will be used.
+
+<i class="fa-solid fa-hand-point-up fa-fw"></i> You might like to add some sort of ID to your URL, if you want to be
+able to distinguish between multiple GPSLogger installations on your backend.
+
+<i class="fa-solid fa-warning fa-fw"></i> **It's strongly recommend that you use HTTPS in your custom URL to protect
+your data** 
 
 The GET-REQUEST will have the following format:
 
-`[YOUR_SERVER_URL]?lat=[LATITUDE_AS_DECIMAL_NUMBER]&lon=[LONGITUDE_AS_DECIMAL_NUMBER]&id=[YOUR_DEVICE_ID]`
+`[YOUR_SERVER_URL]?lat=[LATITUDE_AS_DECIMAL_NUMBER]&lon=[LONGITUDE_AS_DECIMAL_NUMBER]`
 
 As example, if you have an own server/domain, and you want to collect your locations there, then you can write some small
 request processing code yourself and deploy it on your server. Assuming your domain is called _www.anyfancydoma.in_, and
 you have written a PHP script called _incoming_ that going to process the requests, then you should specify in the
 application settings the URL _https://www.anyfancydoma.in/incoming.php_.
 
+If your server URL contain an additional custom device-likeID parameter and therefore already including a `?`, the app
+will add an `&` instead of the `?` after the given `[YOUR_SERVER_URL]`.
+
 The resulting requests the app generate will look then like this (just as example - of course lat, lon and id values
 will be different): 
 
-`https://www.anyfancydoma.in/incoming.php?lat=47.39553088&lon=11.22492661&id=FA4F044F7321DBF4`
+`https://www.anyfancydoma.in/incoming.php?lat=47.39553088&lon=11.22492661`
 
 Please note that there is no backend available @ emacberry.com that would handle live location requests - simply cause
 of privacy concerns that would come with hosting this kind of data.
@@ -112,7 +121,7 @@ a local mysql database table with the name _gpslogger_live_ (the config.php have
                 mysqli_select_db($con, $dbname);
             
                 // logging the incomming live location...
-                $id = $_REQUEST["id"];
+                // $id = $_REQUEST["yourCustomIdField"];
                 $lon = $_REQUEST["lon"];
                 $lat = $_REQUEST["lat"];
 
@@ -121,10 +130,12 @@ a local mysql database table with the name _gpslogger_live_ (the config.php have
                 $sin_lng_rad = sin($lng * 180 / M_PI );
                 $cos_lat_rad = cos($lat * 180 / M_PI );
                 $cos_lng_rad = cos($lng * 180 / M_PI );                
-                $insert = sprintf("INSERT INTO your_location_live_data (id, lat, lng,
+                $insert = sprintf("INSERT INTO your_location_live_data (
+                        /* id, */
+                        lat, lng,
                         sin_lat_rad, sin_lng_rad, cos_lat_rad, cos_lng_rad)
                         VALUES ('%s', '%s', '%s', '%s', '%s', '%s', '%s');",
-                    mysqli_real_escape_string($con, $id),
+                    //mysqli_real_escape_string($con, $id),
                     mysqli_real_escape_string($con, $lat),
                     mysqli_real_escape_string($con, $lng),
                     mysqli_real_escape_string($con, $sin_lat_rad),
@@ -158,7 +169,7 @@ A config.php template - _???_ have to be replaced with your mysql db values
 Creating the MySQL db with the possibility to create in-rage queries 
 ```sql
 CREATE TABLE `your_location_live_data` (
-    `id` char(40) COLLATE utf8_bin NOT NULL,
+    --`id` char(40) COLLATE utf8_bin NOT NULL,
     `lat` double NOT NULL,
     `lng` double NOT NULL,
     `sin_lat_rad` decimal(10,10) DEFAULT NULL,

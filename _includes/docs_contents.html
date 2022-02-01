@@ -1,7 +1,7 @@
 <div class="hide-on-mobiles unit one-fifth">
   <aside>
     <!--section class="docs"-->
-    <input type="text" id="search-input" placeholder="Search this manual">
+    <input type="text" id="search-input" style="color: currentColor; background: transparent;border-style: dotted;" placeholder="Search this manual">
     <ul id="results-container" style="margin-left:unset"></ul>
     <script src="{{ "/assets/js/simple-jekyll-search.min.js" | relative_url }}"></script>
     <script>let sjs = SimpleJekyllSearch({searchInput: document.getElementById('search-input'), resultsContainer: document.getElementById('results-container'), json: '{{ "/search.json" | relative_url }}'})</script>
@@ -14,7 +14,7 @@
         <li {%- if page.url == p.url %} class="current" {%- endif -%}><a href="{{ p.url | relative_url }}">{{- p.menu-title | default: p.title -}}</a></li>
       {%- endfor %}
       {%- if section.title contains 'Appendix' %}
-        <li {%- if page.url == '/gpsl/docs/9998-print.html' %} class="current" {%- endif -%}><a href="/gpsl/docs/9998-print.html"><i class="fa-solid fa-print fa-fw"></i>&nbsp;Print Version
+        <li {%- if page.url == '/gpsl/docs/9999-print.html' %} class="current" {%- endif -%}><a href="/gpsl/docs/9999-print.html"><i class="fa-solid fa-print fa-fw"></i>&nbsp;Print Version
         </a></li>
       {%- endif %}
       </ul>
