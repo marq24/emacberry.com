@@ -16,12 +16,12 @@ GPSLogger II processes personal data only if they are necessary for the app fun
 
 # How credible is this statement?
 
-> On the one side I claim as developer that I take your privacy as highest priority and that all date will be stored
-> only on your device. On the other hand the _Data Safety declaration at GooglePlay_ list, that location information
+> On the one side I claim as developer that I take your privacy as highest priority and that all data will be stored
+> **only** on your device. On the other hand the _Data Safety declaration at GooglePlay_ list that location information
 > (and more) will be collected and processed.
 > 
-> I totally understand that this can raise concerns, and I would like to explain in detail the reasons why I have
-> selected, what I have selected at Google's Data Safty declaration form. 
+> I totally understand that this raise concerns, and I would like to explain in detail the reasons why I have selected,
+> what I have selected at Google's Data Safty declaration form. 
 > 
 > Just as reference - here is the currently GooglePlay Data safety declaration of GPSLogger II:
 > 
@@ -75,8 +75,8 @@ it's flagged by a machine as suspicious the app will be removed from the store. 
 informed that _your app is not compliant with **something**_ and that you should **_fix it_** and submit your app again.
 
 Here is the key problem, you're either dealing with bots/machines and/or low paid (and _as consequence_ low trained &
-skilled) support staff. It's impossible to get qualified information what part of the app code has been identified as _
-suspicious_.
+skilled) support staff. It's impossible to get qualified information what part of the app code has been identified as
+_suspicious_.
 
 In such a case you as developer has to guess, if there should be additional information provided to the users, if there
 is anything in the application description that have to be adjusted or if it's really a functionality (code) that need
