@@ -17,8 +17,8 @@ GPSLogger II processes personal data only if they are necessary for the app fun
 # How credible is this statement when...
 
 > I claim that I take your privacy as priority No1, that then the _Data Safety declaration in GooglePlay_ list that 
-> location information will be processed (and more). I totally understand that this will raise concerns, and I would
-> like to eplxplain in detail the reasons for this declaration.
+> location information (and more) will be processed. I totally understand that this will raise concerns, and I would
+> like to explain in detail the reasons for this declaration.
 > 
 > Just as reference the currently GooglePlay Data safety declaration of GPSLogger II:
 > 
@@ -71,7 +71,7 @@ We are dealing with Google here. They are analysing the code of the app for pote
 flagged by a machine as suspicious the app will be removed from the store.
 
 Once that happened, the Developer gets informed, that _your app is not compliant with **something**_ and that you
-should **_fix_** it and submit your app again. The key problem is here, that you're either dealing with bots/machines
+should **_fix_** it and submit your app again. Here the key problem is, that you're either dealing with bots/machines
 and/or low paid (and _as consequence_ low trained & skilled) support staff.
 
 It's impossible to get qualified information what part of the app code has been identified as _suspicious_ (that has

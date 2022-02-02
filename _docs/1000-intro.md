@@ -213,11 +213,12 @@ required, when you want to enable the autostart options of the application.
 ## External Sensor / BluetoothLE Beacon Scanner related
 
 - **BLUETOOTH**
+- **BLUETOOTH_CONNECT**
 - **BLUETOOTH_ADMIN**
 
 When you want to connect any [External Sensors](./3000-sensors.html) or want to use the build in [BluetoothLowEnergy Beacon
-Scanner](./4000-btlescanner.html) the app requires the permission to access your Bluetooth hardware. The admin right is
-used in order to restart bluetooth on your device (turn it off & on again). 
+Scanner](./4000-btlescanner.html) the app requires the permission to access your Bluetooth hardware. The connect and/or
+admin right is used in order to restart bluetooth on your device (turn it off & on again). 
 
 ## Other
 
