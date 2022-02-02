@@ -1,6 +1,6 @@
 ---
 title: <i class="fa-solid fa-shield-blank"></i> Data Safety & Privacy Declaration
-sub-title: Why Privacy Declaration @ GooglePlay is what it is
+sub-title: Why Privacy Declaration at GooglePlay is what it is
 menu-title: <i class="fa-solid fa-shield-blank fa-fw"></i></i>&nbsp;Data Safety & Privacy
 ---
 
@@ -14,13 +14,16 @@ menu-title: <i class="fa-solid fa-shield-blank fa-fw"></i></i>&nbsp;Data Safety 
 GPSLogger II processes personal data only if they are necessary for the app functions. The data will be saved on your
 **mobile device only**.
 
-# How credible is this statement when...
+# How credible is this statement?
 
-> I claim that I take your privacy as priority No1, that then the _Data Safety declaration in GooglePlay_ list that 
-> location information (and more) will be processed. I totally understand that this will raise concerns, and I would
-> like to explain in detail the reasons for this declaration.
+> On the one side I claim as developer that I take your privacy as highest priority and that all date will be stored
+> only on your device. On the other hand the _Data Safety declaration at GooglePlay_ list, that location information
+> (and more) will be collected and processed.
 > 
-> Just as reference the currently GooglePlay Data safety declaration of GPSLogger II:
+> I totally understand that this can raise concerns, and I would like to explain in detail the reasons why I have
+> selected, what I have selected at Google's Data Safty declaration form. 
+> 
+> Just as reference - here is the currently GooglePlay Data safety declaration of GPSLogger II:
 > 
 > ![data-safety-as_shown_in_playstore](/assets/img/gpsl/pp-datasafety.png)
 
@@ -60,24 +63,24 @@ https://emacberry.com/pp/ppGPSLApp.html
 
 # GPSLogger Data safety Declaration at Google Play explained
 
-How does that match with the statement, that GPSLogger will just record the location **only** on the device?
+How does this declaration match with the statement, that GPSLogger will just record the location **only** on the device?
 
 > taking a deep breath
 
-**None of the points that are listed in the Data Safety Declaration at GooglePlay qualify for the core use case of
+**None of the points that are listed in the Data Safety Declaration at GooglePlay are relevant for the core use case of
 GPSLogger**
 
-We are dealing with Google here. They are analysing the code of the app for potential issues and once the code is
-flagged by a machine as suspicious the app will be removed from the store.
+The problem is, we are dealing with Google here. They are analysing the code of your app for potential issues and once
+it's flagged by a machine as suspicious the app will be removed from the store. Once that happened, the Developer gets
+informed that _your app is not compliant with **something**_ and that you should **_fix it_** and submit your app again.
 
-Once that happened, the Developer gets informed, that _your app is not compliant with **something**_ and that you
-should **_fix_** it and submit your app again. Here the key problem is, that you're either dealing with bots/machines
-and/or low paid (and _as consequence_ low trained & skilled) support staff.
+Here is the key problem, you're either dealing with bots/machines and/or low paid (and _as consequence_ low trained &
+skilled) support staff. It's impossible to get qualified information what part of the app code has been identified as _
+suspicious_.
 
-It's impossible to get qualified information what part of the app code has been identified as _suspicious_ (that has
-caused the ban). In such a case a developer has to guess, if there should be additional information be provided to the
-users of the app or if there is anything in the application description that have to be adjusted - or if it's really a
-functionality (code) that needs to be adjusted.
+In such a case you as developer has to guess, if there should be additional information provided to the users, if there
+is anything in the application description that have to be adjusted or if it's really a functionality (code) that need
+to be adjusted.
 
 > I have a long history trying to communicate with the Google Developer support, and I don't want to waste my life any
 > further with them. GooglePlay Store has a de facto monopole for Android app distribution and that there is no neutral
@@ -85,14 +88,15 @@ functionality (code) that needs to be adjusted.
 > going to decide what apps will be available and which will not.
 
 So the approach of the Data Safety Declaration of GPSLogger is, to be as open as possible. As soon as there is a tiny
-little section in the app that might be detected as _data will be transferred from the app to a server to be processed_ - it's
-it is better to declare it, instead of just _hoping_ to have luck with _the monkeys_.
+little section in the app that might be detected as _data will be transferred from the app to a server to be processed_ - it
+is better to declare it, instead of _hoping_ to have luck with _the monkey army_. Since once, you get caught, it's
+impossible to get out of Google's claw. 
 
 As quick example - when you use the TurnByTurn Navigation and you are leaving for what ever reason the initial planed
 route. The app is able to find a detour for you. Therefore, the app is using your _current (precise) location_ and send
 a request to openrouteservice.org in order to be able to guide you back to your initially planed route. Will
-openrouteservice store your current location - NO - will it process your location data - well - YES it does some sort
-of.
+openrouteservice store your current location - NO - will it process your location data - well - YES it does. So it has
+to be declared.
 
 > For me, it's almost impossible to judged what _processing_ means in the legal context for Google. For sure, your
 > location information have to be used in order to find a possible way from A to B. Your location will not be stored,
@@ -119,16 +123,17 @@ data, and I did not declare it, I feel much more comfortable by just declaring i
 
 # <span class="material-icons">place</span> Collected data - Approximate & Precise location
 
-Ok let's start that when the app dealing with your _Precise location_ than IMHO this implies that the app also have
-access to your _Approximate location_. So in the declaration for the collected data both has been selected, since you
-never know, what Google will consider as difference?! - GPSLogger using always your _precise location_ except when the
-gps signal is quite bad the location can be considered only as approximated - so better to declare it, then to be
-banned.
+> Let's start with the fact that I don't understand, why an app that is processing _Precise location_ data can declare
+> additionally, that _Approximate location_ data will be processed. My understanding is, that when I process
+> _Precise location_ data this implies that I process also _Approximate location_ information. So at the end of the day
+> I have selected both - simply because I don't have a single clue what's going on in Google's lawyers minds.
+> 
+> So the bottom line here is, **GPSLogger is processing always _Precise location_ data**. 
 
 In general - the location information recorded by GPSLogger will remain on the device **ONLY**. Nevertheless, when you
 use of the following functions, your location (does not have to be your current location) will leave your device and
 **can** be processed by 3'rd party. In some cases it is impossible to say if the data will be processed or not - in some
-cases you can be sure.
+cases you can be sure (e.g. when uploading to Strava).
 
 ## Live Location Sharing (including custom URL & TASKER)
 
@@ -149,8 +154,11 @@ the internet to the selected eMail recipient. **It's recommended to use encrypte
 ## Exports (as eMail)
 
 When using the export options (KML, FIT, GPX or CSV), the location (and additional sensor) data will be stored in the
-selected format on your local device only. Please use these export files wisely.  **It's recommended to use encrypted
-eMail transfer**.
+selected format on your local device only. Once the data is stored in the file system it's beyond the control of the app
+what will happen with this data - Please use these export files wisely.
+
+When you make use of the eMail Export options the data will be directly send over the internet to your configured eMail
+account. **It's recommended to use encrypted eMail transfer**.
 
 [See also: <i class="fa-solid fa-floppy-disk"></i> _Export &_ <i class="fa-solid fa-envelope"></i> _eMail_ manual section](./5000-export.html)
 
@@ -235,5 +243,5 @@ uninstalling GPSLogger II. You must delete created backups or export files. Thi
 device in the _GPSLogger II_ folder of your Downloads.
 
 ---
-[^1]: In previous versions of GPSLogger the app has used a _random internal UUID_ - but this has been removed since
-      v2.0.0.206 completely (any existing data has been deleted from the device).
+[^1]: In the past the app has used a _random internal UUID_ - this ID has been removed with the update to v2.0.0.206
+      (any existing UUID data has been deleted from the device during the update).
