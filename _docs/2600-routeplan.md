@@ -6,7 +6,7 @@ menu-title: <i class="fa-solid fa-paper-plane fa-fw"></i>&nbsp;Planing (Website)
 
 # Overview
 
-Since a couple of month GPSLogger allow you to follow a previously planed route with TurnByTurn instructions. The
+Since a couple of month GPSLogger allow you to follow a previously planed route with turn-by-turn instructions. The
 planing & transfer process of these routes have been sub-optimal in the past, and so I am very happy to let you know
 that I can provide now a separate site that is dedicated to route planing that should give you all the needed features
 and is easy to use.

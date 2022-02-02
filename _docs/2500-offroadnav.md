@@ -5,12 +5,12 @@ menu-title:  <i class="fa-solid fa-diamond-turn-right fa-fw"></i>&nbsp;Off-road
 
 # Overview
 
-It's not always possible to extract TurnByTurn instructions for a previous recorded path (or a path that you have
+It's not always possible to extract turn-by-turn instructions for a previous recorded path (or a path that you have
 downloaded from another source) \[e.g. a cycling or hiking (round)trip that you have downloaded in GPX or KML format\].
-The reason for this missing TurnByTurn information is mainly, that there is no OpenStreetMap data available in the given
+The reason for this missing turn-by-turn information is mainly, that there is no OpenStreetMap data available in the given
 region - or even simpler - there are no roads, path's or tracks - it's really just all OFF-ROAD terrain.
 
-When you want to follow a path without TurnByTurn instructions, then it's impossible for the app to know if there are
+When you want to follow a path without turn-by-turn instructions, then it's impossible for the app to know if there are
 any junctions on your route. The app will always point into the direction of the _next calculated waypoint_ on the
 given route.
 

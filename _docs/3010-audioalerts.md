@@ -23,7 +23,7 @@ There are the following types of audio announcements available (alphabetical ord
 - [Event Announcements](#events)
 - [Gained Height](#height)
 - [Sector Announcements](#sector)
-- [TurnByTurn Instructions & Climb-ahead announcements](#turnbyturn)
+- [Turn-by-Turn Instructions & Climb-ahead announcements](#turnbyturn)
 
 <i class="fa-solid fa-hand-point-up fa-fw"></i> You can specify the output channel on which the audio information will
 be submitted. Also, you should know, that if you are listening to music or an audiobook this playback will be temporary
@@ -81,9 +81,9 @@ Few more things you should be aware of:
 4. _Elevation climb to Finish_ (remaining meters to climb) will be only announced if you have loaded a navigation path
    from which the app could extract climb information ([see also Climb View Section](./3300-climb.html)).
 
-# TurnByTurn Instructions & Climb-ahead Information {#turnbyturn}
+# Turn-by-Turn Instructions & Climb-ahead Information {#turnbyturn}
 
-I hope it's reasonable for you, that the TurnByTurn instructions require that you have loaded a navigation path. And
+I hope it's reasonable for you, that the turn-by-turn instructions require that you have loaded a navigation path. And
 further: Climb-ahead information is only available if climb data could be extracted. [More information about the climb
 extraction requirements and process can be found in the corresponding Climb-View Section](./3300-climb.html#extraction).
 
@@ -92,7 +92,7 @@ extraction requirements and process can be found in the corresponding Climb-View
 - You can enable, that each announcement can have an introduction (either a simple 'Attention' or any notification sound
   that is present on your device)
 
-- TurnByTurn announcements can be repeated for one time (<i class="fa-solid fa-toggle-on"></i> via the Application
+- Turn-by-Turn announcements can be repeated for one time (<i class="fa-solid fa-toggle-on"></i> via the Application
   Settings)
 
 - Of course the announcement will be made, before the actual location is reached. The distance how many meters before
@@ -106,7 +106,7 @@ Climb-ahead Information Section.
 
 ## TurnByTurn Instructions
 
-If TurnByTurn instructions are present in navigation path they will be announced once you are approaching the next
+If turn-by-turn instructions are present in navigation path they will be announced once you are approaching the next
 navigation waypoint. 
 
 Please find below some possible Turn instructions/parts as examples: 

@@ -85,8 +85,8 @@ select a different record type (see [How GPSLogger will log your data?](./1100-d
 | <span class="btn">![button-rec](/assets/img/gpsl/button-mflag.png)</span> | Center map on next (navigation) target (only active when a navigation path is loaded) |
 | <span class="btn">![button-rec](/assets/img/gpsl/button-zoomin.png)</span> | Zoom IN (only visible if one of the visible views supporting zoom function) <i class="fa-solid fa-hand-point-up fa-fw"></i> Pinch-to-zoom is also supported |
 | <span class="btn">![button-rec](/assets/img/gpsl/button-zoomout.png)</span> | Zoom OUT (only visible if one of the visible views supporting zoom function) <i class="fa-solid fa-hand-point-up fa-fw"></i> Pinch-to-zoom is also supported |
-| <span class="btn">![button-rec](/assets/img/gpsl/button-resetnav.png)</span> | Reset Off-road Navigation (only available if a navigation path is loaded that does not contain TurnByTurn instructions) |
-| <span class="btn">![button-rec](/assets/img/gpsl/button-nextwp.png)</span> | [Calculate new next Waypoint](./2500-offroadnav.html#nextwaypoint) (only available if a navigation path is loaded that does not contain TurnByTurn instructions) |
+| <span class="btn">![button-rec](/assets/img/gpsl/button-resetnav.png)</span> | Reset Off-road Navigation (only available if a navigation path is loaded that does not contain turn-by-turn instructions) |
+| <span class="btn">![button-rec](/assets/img/gpsl/button-nextwp.png)</span> | [Calculate new next Waypoint](./2500-offroadnav.html#nextwaypoint) (only available if a navigation path is loaded that does not contain turn-by-turn instructions) |
 
 # The available Views
 

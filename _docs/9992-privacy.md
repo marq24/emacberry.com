@@ -1,5 +1,5 @@
 ---
-title: <i class="fa-solid fa-shield-blank"></i> Data Safety & Privacy 
+title: <i class="fa-solid fa-shield-blank"></i> Data Safety & Privacy Declaration
 sub-title: Why Privacy Declaration @ GooglePlay is what it is
 menu-title: <i class="fa-solid fa-shield-blank fa-fw"></i></i>&nbsp;Data Safety & Privacy
 ---
@@ -16,8 +16,11 @@ GPSLogger II processes personal data only if they are necessary for the app fun
 
 # How credible is this statement when...
 
-> I claim that I take your privacy serious - how the F*** it then can be that the Data Safety declaration in GooglePlay
-> Store list GPSLogger as:
+> I claim that I take your privacy as priority No1, that then the _Data Safety declaration in GooglePlay_ list that 
+> location information will be processed (and more). I totally understand that this will raise concerns, and I would
+> like to eplxplain in detail the reasons for this declaration.
+> 
+> Just as reference the currently GooglePlay Data safety declaration of GPSLogger II:
 > 
 > ![data-safety-as_shown_in_playstore](/assets/img/gpsl/pp-datasafety.png)
 
@@ -55,29 +58,33 @@ https://emacberry.com/pp/ppGPSLApp.html
 ---
 -->
 
-# Why the heck all this information about data collection & processing, if it's true, that GPSLogger will just record the location **only** on the device?
+# GPSLogger Data safety Declaration at Google Play explained
+
+How does that match with the statement, that GPSLogger will just record the location **only** on the device?
 
 > taking a deep breath
 
-**None of the items that are listed in the Data Safety Declaration @ GooglePlay qualify for the core use case of
-GPSLogger** - But we are dealing with Google here. Google is analysing the source code of the app for potential issues
-and once the code is flagged by a machine as suspicious the app will be removed from PlayStore.
+**None of the points that are listed in the Data Safety Declaration at GooglePlay qualify for the core use case of
+GPSLogger**
+
+We are dealing with Google here. They are analysing the code of the app for potential issues and once the code is
+flagged by a machine as suspicious the app will be removed from the store.
 
 Once that happened, the Developer gets informed, that _your app is not compliant with **something**_ and that you
-should **_fix_** it and then submit your app again. The key problem is here, that you're either dealing with
-bots/machines and/or low paid (and _as consequence_ low trained & skilled) support staff.
+should **_fix_** it and submit your app again. The key problem is here, that you're either dealing with bots/machines
+and/or low paid (and _as consequence_ low trained & skilled) support staff.
 
-It's impossible to get some sort of qualified information what part of the app code has been identified as
-_suspicious_ (that has caused the ban). In such a case a developer has to guess, if there should be additional
-information be provided to the app users or if there is anything in the application description that have to be
-adjusted - or if it's really a functionality (code) that's the root cause.
+It's impossible to get qualified information what part of the app code has been identified as _suspicious_ (that has
+caused the ban). In such a case a developer has to guess, if there should be additional information be provided to the
+users of the app or if there is anything in the application description that have to be adjusted - or if it's really a
+functionality (code) that needs to be adjusted.
 
-> I have a long history trying to communicate with the Google Developer Support and I don't want to waste my life any
+> I have a long history trying to communicate with the Google Developer support, and I don't want to waste my life any
 > further with them. GooglePlay Store has a de facto monopole for Android app distribution and that there is no neutral
 > control instance (that you can call in the case of a dispute) is IMHO a serious issue for us all. At the end Google is
 > going to decide what apps will be available and which will not.
 
-So the approach in the Data Safety Declaration of GPSLogger is, to be as open as possible. As soon as there is a tiny
+So the approach of the Data Safety Declaration of GPSLogger is, to be as open as possible. As soon as there is a tiny
 little section in the app that might be detected as _data will be transferred from the app to a server to be processed_ - it's
 it is better to declare it, instead of just _hoping_ to have luck with _the monkeys_.
 

@@ -48,7 +48,7 @@ So for each of your activities you can define a different set of multi-view fiel
 | Ascent | ⛰ | the total sum of altitude that was gained over time |
 | Grade | 📐 |  the current slope (based in the previous und current elevation) |
 | VAM | ↗ | The current VAM value ([see Climb View for details](./3300-climb.html#vam)) |
-| Next Turn | | when a navigation path that contains TurnByTurn information is loaded - additional the distance to the next waypoint will be shown |
+| Next Turn | | when a navigation path that contains turn-by-turn information is loaded - additional the distance to the next waypoint will be shown |
 | Relative Speed | | This is the speed you approaching to the current active waypoint (next navigation target). E.g. when you are sailing, it can be very interesting to know your relative speed to the target |
 | Distance to Finish | 🏁 | when a navigation path is loaded the remaining distance till the end of this navigation path |
 | # BTLE | | Number of currently detected BTLE Beacons with a specific UUID |

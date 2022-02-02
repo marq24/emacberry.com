@@ -12,7 +12,7 @@ University of Heidelberg). One of the reasons why GPSLogger makes use of openrou
 the change to be part of the development team and contributed the current active road bike profile (beside some other
 internal core things).
 
-You have multiple options to start the TurnByTurn navigation function in GPSLogger:
+You have multiple options to start the turn-by-turn navigation function in GPSLogger:
 - When creating a route with openrouteservice.org the route could be exported as JSON and then directly imported into 
   GPSLogger (as alternative you can 'beam' the route to emacberry.com backend and import the route from PathManager)
 - A path that **has TurnInfo** could be [loaded as (reverse) navigation path (from PathManager)](./1500-pathman.html#navipath)
