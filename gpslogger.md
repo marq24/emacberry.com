@@ -84,6 +84,14 @@ sections that can be adjusted for a specific feature.
 
 [https://www.amazon.com/gp/product/B00L9GLGGQ](https://www.amazon.com/gp/product/B00L9GLGGQ)
 
+## Download via F-Droid
+**You need to add a custom repository in order to be able to install GPSLogger II** All details can be found in the
+[short F-Droid Tutorial](/gpsl/docs/8910-fdroid.html) - Thanks Johann!
+
+![F-Droid appstore](/assets/img/get_it_on_f-droid.png)
+
+https://f-droid.org/packages/com.emacberry.gpslogger
+
 # My personal GPSLogger Use Cases {#myusage}
 Why GPSLogger is build in the way it is?
 

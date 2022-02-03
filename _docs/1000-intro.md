@@ -40,6 +40,14 @@ menu-mobile: Introduction & initial Setup
 
 [https://www.amazon.com/gp/product/B00L9GLGGQ](https://www.amazon.com/gp/product/B00L9GLGGQ)
 
+## Download via F-Droid
+**You need to add a custom repository in order to be able to install GPSLogger II** All details can be found in the
+[short F-Droid Tutorial](/gpsl/docs/8910-fdroid.html) - Thanks Johann!
+
+![F-Droid appstore](/assets/img/get_it_on_f-droid.png)
+
+https://f-droid.org/packages/com.emacberry.gpslogger
+
 # Initial Setup
 
 When you install the app and launch it for the first time you will be presented with a welcome dialog, containing some

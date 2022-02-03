@@ -26,6 +26,14 @@ and a FAQ.
 
 [https://www.amazon.com/gp/product/B00L9GLGGQ](https://www.amazon.com/gp/product/B00L9GLGGQ)
 
+## Download via F-Droid
+**You need to add a custom repository in order to be able to install GPSLogger II** All details can be found in the
+[short F-Droid Tutorial](/gpsl/docs/8910-fdroid.html) - Thanks Johann!
+
+![F-Droid appstore](/assets/img/get_it_on_f-droid.png)
+
+https://f-droid.org/packages/com.emacberry.gpslogger
+
 ---
 
 # [![UUID0xFD6FTracerIcon](/assets/img/uuid/app-icon.png) UUID0xFD6FTracer](https://github.com/marq24/UUID0xFD6FTracer)
