@@ -68,7 +68,7 @@ How does this declaration match with the statement, that GPSLogger will just rec
 > taking a deep breath
 
 **None of the points that are listed in the Data Safety Declaration at GooglePlay are relevant for the core use case of
-GPSLogger**
+GPSLogger**.
 
 The problem is, we are dealing with Google here. They are analysing the code of your app for potential issues and once
 it's flagged by a machine as suspicious the app will be removed from the store. Once that happened, the Developer gets

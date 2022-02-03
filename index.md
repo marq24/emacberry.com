@@ -14,25 +14,29 @@ GPSLogger II is a pretty straightforward app that can record your GPS based loc
 plenty more that the app can do for you get all details at the [GPSLogger II](/gpslogger.html) app page - including the docs
 and a FAQ.
 
-## Download via Google Play
+# Download
+
+## via Google Play
 
 [![GooglePlay](/assets/img/google-play-badge_en.png)](https://play.google.com/store/apps/details?id=com.emacberry.gpslogger)
 
 [https://play.google.com/store/apps/details?id=com.emacberry.gpslogger](https://play.google.com/store/apps/details?id=com.emacberry.gpslogger)
 
-## Download via amazon appstore
-
-[![amazon appstore](/assets/img/amazon-appstore-badge-en-black.png)](https://www.amazon.com/gp/product/B00L9GLGGQ)
-
-[https://www.amazon.com/gp/product/B00L9GLGGQ](https://www.amazon.com/gp/product/B00L9GLGGQ)
-
 ## Download via F-Droid
+
 **You need to add a custom repository in order to be able to install GPSLogger II** All details can be found in the
 [short F-Droid Tutorial](/gpsl/docs/8910-fdroid.html) - Thanks Johann!
 
 ![F-Droid appstore](/assets/img/get_it_on_f-droid.png)
 
 https://f-droid.org/packages/com.emacberry.gpslogger
+
+## via amazon appstore
+
+**Recommended for BlackBerry 10 Users (yes the app will still work on your BlackBerry 10 device)!**
+[![amazon appstore](/assets/img/amazon-appstore-badge-en-black.png)](https://www.amazon.com/gp/product/B00L9GLGGQ)
+
+[https://www.amazon.com/gp/product/B00L9GLGGQ](https://www.amazon.com/gp/product/B00L9GLGGQ)
 
 ---
 

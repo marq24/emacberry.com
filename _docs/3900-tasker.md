@@ -8,9 +8,12 @@ Tasker is an extremely powerful tool to automate _things_ on your Android device
 - [https://tasker.joaoapps.com/](https://tasker.joaoapps.com/)
 - [https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm](https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm)
 
-GPSLogger have build in location based autostart capability's by itself - so you don't have to use tasker for that. The
-integration works the other way around: you might want to do additional things, once certain events have happened inside
-GPSLogger. So for the following events you can define Tasker tasks that will be executed:
+GPSLogger have build in location based autostart capability's by itself - so you don't have to use Tasker for that, but
+of course if you want to give Tasker the control, you can do so. Please see [launching GPSLogger with an additional
+START or STOP logging command](#startstop) for details.
+
+What ever you choose, GPSLogger have the option to define Tasker tasks that should be called, once certain events occur
+while your recording. The following events allow you to define Tasker Tasks:
 
 - Start Logging
 - Stop Logging
@@ -117,9 +120,9 @@ keyValues.add(new String[]{"hr", hrVal});
 }
 --> 
 
-## Start & Stop GPSLogger from TASKER 
+## Start & Stop GPSLogger recording from TASKER {#startstop}
 
-Please use the following intent details if you want to launch GPSLogger from Tasker
+Please use the following intent details if you want to launch GPSLogger and trigger START or STOP from Tasker:
 
 ### Start Recording Intent 
 

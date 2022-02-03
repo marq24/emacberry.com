@@ -1,5 +1,5 @@
 ---
-title: <i class="fa-solid fa-gears"></i> FDroid Tutorial
+title: <i class="fa-solid fa-gears"></i> F-Droid Tutorial
 sub-title: Add the GPSLogger II repository to F-Droid (hosted by Johann's https://fdroid.sinyax.net/)
 ---
 
