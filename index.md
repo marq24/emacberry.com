@@ -4,7 +4,7 @@ layout: default
 
 Welcome to the year 2022 - Blackberry&copy; legacy apps are finally history - so all the emacberry apps you might know (
 FileScout, LittleBrother, Iconify or TOMPlayer) are history as well... really all apps? No of course **not** all! -
-There is one that have survived...
+There is one that has survived... even running on BlackBerry 10!
 
 # [![GPSLogger II Icon](/assets/img/gpsl/app-icon.png) GPSLogger II - your AIO solution](/gpslogger.html)
 

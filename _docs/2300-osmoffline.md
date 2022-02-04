@@ -5,13 +5,14 @@ menu-title: <i class="fa-solid fa-layer-group fa-fw"></i>&nbsp;OpenStreetMap
 >supported by [Mapsforge & VTM](http://mapsforge.org/)
 
 # Overview
-With the new build of GPSLogger II you will find a new "OpenMapData Provider" called **OpenStreetMap (Offline)** - you
-will find it at the end of the map provider list. Once you have selected the OpenStreetMap Offline provider the new map
-source is active... **but** you could/should configure it.
 
-As always in GPSLogger II a new feature will bring some additional options via the Settings - for the OpenStreetMap
-Offline maps you will find the new section **Offline OpenStreetMap Settings** which allows you to adjust the rendering
-of the offline OpenStreetMap data... **but** before you will be able to use the full power of the new feature you will
+In GPSLogger II you will find a "OpenMapData Provider" called **OpenStreetMap (Offline)** in the map provider list. Once
+you have selected the OpenStreetMap Offline provider the new map source is active... **but** you could/should configure
+it.
+
+As always in GPSLogger II a function bring some additional options via the Settings - for the OpenStreetMap Offline maps
+you will find the own section **Offline OpenStreetMap Settings** which allows you to adjust the rendering of the offline
+OpenStreetMap data... **but** before you will be able to use the full power of the new feature you will
 **need** to download *.map data files **to your device first!**.
 
 # OSM Mapsforge Format
@@ -33,18 +34,19 @@ At the following URL's you can download Mapsforge *.map files:
 # Download *.map files with your Android device/browser
 > Direct download link support for openandromaps *.map files in GPSLogger
 
-## <span class="material-icons">info</span> Important if you use Android 11 (or higher)
-I really love Google for all the changes that have been introduced with Android 11 (SDK 30). Not only that you are no
-longer able to read/save data in the file system - also using your app with web-links have been massively limited. 
-Even if I understand the reasons for these changes - it making things that has been convenient for the users some sort
-of complicated.
-> In order to be able to open download links from openandromaps with GPSLogger (using Android 11 or higher) you **need
+## <span class="material-icons">info</span> Important if you use Android 12 (or higher)
+
+I really love Google for all the changes that have been introduced with Android 11 and 12 (SDK 30/31). Not only that you
+are no longer able to read/save data in the file system (SDK30) - also using your app with web-links have been massively
+limited. Even if I understand the reasons for these changes - it making things that has been convenient for the users
+some sort of complicated.
+> In order to be able to open download links from openandromaps with GPSLogger (using Android 12 or higher) you **need
 > to enable the link URL's in the OS application Settings section**. (Open by default > Links to open in this app) So
 > please enable/add:
 - download.openandromaps.org
 - ftp.gwdg.de
 > 
-> see [FAQ: Using Weblinks in Android 11](./9990-faq.html#weblinks-sdk30) for details
+> see [FAQ: Opening Web Links with GPSLogger using Android 12 (or later)](./9990-faq.html#weblinks-sdk31) for details
 
 On your android device - open the following link
 [https://www.openandromaps.org/downloads](https://www.openandromaps.org/downloads) **or** select one more specific
@@ -103,7 +105,7 @@ that the new maps will be included for rendering the map tiles
 If you want to use additional/external rendering themes store them in the 'osm/themes' folder - make sure that all
 additional resources are also located in the appropriate sub folders.
 
-By default, GPSLogger II includes the two themes from the **Elevate theme family** (v 4.1.7 10/07/17) created by Tobias
+By default, GPSLogger II includes the two themes from the **Elevate theme family** (v 5.0 05/12/21) created by Tobias
 Kuehn
 [see elevate-mountain-hike-theme @ openandromaps.org](https://www.openandromaps.org/en/legend/elevate-mountain-hike-theme)
 - Elevate
