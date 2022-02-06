@@ -22,7 +22,7 @@ if the source is online or offline...
   to your android device to a place where GPSLogger have read access (this can be quite tricky on Android 11 and higher
   cause of the introduced file system restrictions
 
-# Supporting three different Map types 
+# Supporting three different Map types {#map-types}
 ## I) Image-tile-based _Online_ Maps
 > multiple different map sources are available - including the possibility to specify your own tile server URL
 

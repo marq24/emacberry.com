@@ -95,11 +95,41 @@ appearance of the overlay buttons can depend on the visibility of a certain view
 following sections the overlay buttons will not be described - since they might not belong necessarily to the view.
 
 ## OpenMapData View
-### VTM
-<span class="shot">![a](/assets/img/gpsl/view-map-vtm.png)</span>
-<br class="shot-end"/>
 
-### Other
+GPSLogger have implemented two different Map views - depending on your Android Version and your device you can use the
+vector data based map rendering or an image based map rendering.
+
+### Vector tile based (using native   OpenGL)
+
+GPSLogger makes use of the VTM (Vector Tile Map), that was developed within the OpenScienceMap project. VTM makes use of 
+OpenGL which implies that it is extremely fast. The [VTM library is provided by mapsforge](https://github.com/mapsforge/vtm).
+
+<span class="shot">![a](/assets/img/gpsl/view-map-vtm.png)</span>
+- The map image will be generated on the fly using OpenGL
+- The map can be zoomed seamless  
+- The map can be rotated (textual information will be aligned based on the rotation)
+- The map can be tilted (touch & hold with two fingers & move fingers up or down)
+- Buildings will be rendered in 3D
+- Supporting also image tiles \[of course with the limits of image based map data (zoom steps, suboptimal text display
+  and other things)\]
+
+**To use the full power of the VTM map should use an open map data provider that will deliver vector tile data. This is
+either the _OSM OpenMapVectorTiles (online)_ provider (mapzen) or the _OpenStreetMap (Offline)_ *.map files.** [Details
+about the different map tiles provider can be found in the OMD Section of this manual.](./2200-openmapdata.html#map-types)
+
+<span class="material-icons fa-fw">info</span> The VTM Map is only usable as the _Main View_ of GPSLogger. The Secondary
+View I+II use the second type of the map view.<br class="shot-end"/>
+
+> I did not manage to implement 3 different VTM maps on a single screen, running simultaneously without any
+> stability issues. That's the reason why I decided for this workaround (VTM Map only in the Main View).
+
+The simplest way to distinguish between the two different map versions is the compass in the upper left corner - if it's
+the complex compass image then it's the VTM map, if it's the simpler _black arrow_, then you are dealing with the image
+tile based map version.
+
+### Image Tile based
+
+
 #### Image Tile Server based
 <span class="shot">![a](/assets/img/gpsl/view-map-def01.png)</span>
 Here on this screenshot OSM Carto Style
