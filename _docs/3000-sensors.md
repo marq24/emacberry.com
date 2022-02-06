@@ -36,7 +36,7 @@ too.
 > If _nRF Connect_ shows your sensor in the list, but GPSLogger is not able to connect to it - please get in contact
 > with me - TIA!
 
-## <i class="fa-solid fa-heart-pulse fa-fw"></i> Heartrate<br/>
+## <i class="fa-solid fa-heart-pulse fa-fw"></i> Heartrate {#hr}
 
 Make sure your sensor is supporting transfer of pulse data as described in the
 [Bluetooth Heartrate Service Specification](https://www.bluetooth.com/wp-content/uploads/Sitecore-Media-Library/Gatt/Xml/Services/org.bluetooth.service.heart_rate.xml).
@@ -61,7 +61,7 @@ applications.
 > Sensors from Polar, Garmin or Wahoo will work for sure. And thanks to Holger we also solved an issue with the
 > G.PULSE 3 in 1.
 
-## <i class="fa-solid fa-arrow-rotate-left fa-fw"></i> Cadence / (Speed &) Cadence<br/>
+## <i class="fa-solid fa-arrow-rotate-left fa-fw"></i> Cadence / (Speed &) Cadence< {#cad}
 
 The Cycling Speed and Cadence (CSC) Service exposes speed-related data and/or cadence-related data while using the
 Cycling Speed and Cadence sensor (Server). The Service provides:
@@ -92,7 +92,7 @@ based on your GPS).
 > brand) and the CAD-Sensor from Wahoo (which I can't recommend since it has not provided any values below 20 rpm during
 > my testings)[^1]
 
-## <i class="fa-solid fa-bolt fa-fw"></i> Cycling Power-meter<br/>
+## <i class="fa-solid fa-bolt fa-fw"></i> Cycling Power-meter {#pow}
 
 The Cycling Power (CP) Service exposes power- and force-related data and optionally speed- and cadence-related data from
 a Cycling Power sensor intended for sports and fitness applications. The Service provides:
