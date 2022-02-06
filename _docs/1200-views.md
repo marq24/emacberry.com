@@ -91,17 +91,67 @@ select a different record type (see [How GPSLogger will log your data?](./1100-d
 # The available Views
 
 ## OpenMapData View
+### VTM
+<span class="shot">![a](/assets/img/gpsl/view-map-vtm.png)</span>
+<br class="shot-end"/>
+
+### Other
+#### Image Tile Server based
+<span class="shot">![a](/assets/img/gpsl/view-map-def01.png)</span>
+Here on this screenshot OSM Carto Style
+<br class="shot-end"/>
+
+#### Mapsforge (OSM Offline *.map files)
+<span class="shot">![a](/assets/img/gpsl/view-map-def02.png)</span>
+
+<br class="shot-end"/>
+
 ## Path View
-## Direction View
-## Speed View
-## Elevation View
+<span class="shot">![a](/assets/img/gpsl/view-path.png)</span>
+<br class="shot-end"/>
+
 ## Compass View
+<span class="shot">![a](/assets/img/gpsl/view-compass.png)</span>
+<br class="shot-end"/>
+
+## Speed View
+<span class="shot">![a](/assets/img/gpsl/view-speed.png)</span>
+<br class="shot-end"/>
+
+<span class="shot">![a](/assets/img/gpsl/view-speed-zoom.png)</span>
+<br class="shot-end"/>
+
+## Elevation View
+<span class="shot">![a](/assets/img/gpsl/view-alt.png)</span>
+<br class="shot-end"/>
+
+## Direction View
+<span class="shot">![a](/assets/img/gpsl/view-dir.png)</span>
+<br class="shot-end"/>
+
 ## GPS-Data View
+<span class="shot">![a](/assets/img/gpsl/view-gps.png)</span>
+<br class="shot-end"/>
+
 ## Navigation Direction View
+<span class="shot">![a](/assets/img/gpsl/view-nav-dir.png)</span>
+<br class="shot-end"/>
+
 ## Navigation Distance & Timing View
+<span class="shot">![a](/assets/img/gpsl/view-nav-dist.png)</span>
+<br class="shot-end"/>
+
 ## Navigation Speed View
+<span class="shot">![a](/assets/img/gpsl/view-nav-speed.png)</span>
+<br class="shot-end"/>
+
 ## Heartrate View (ANT+/BTLE)
+<span class="shot">![a](/assets/img/gpsl/view-hr.png)</span>
+<br class="shot-end"/>
+
 ## Cadence View (ANT+/BTLE)
+<span class="shot">![a](/assets/img/gpsl/view-cad.png)</span>
+<br class="shot-end"/>
 
 ## Shifting View (Di2) {#shifting}
 <span class="shot">![view-shifting](/assets/img/gpsl/view-shifting-di2.png)</span>
@@ -109,27 +159,31 @@ select a different record type (see [How GPSLogger will log your data?](./1100-d
 - Large Font Bottom: resulting gear-ratio
 - Upper right corner: Schematic gear positions
 - Graph: Showing ratio over time
-<br class="shot-end">
+<br class="shot-end"/>
  
 ## Power View (BTLE)
+<span class="shot">![a](/assets/img/gpsl/view-pow.png)</span>
+<br class="shot-end"/>
+
 ## Barometer View
+<span class="shot">![a](/assets/img/gpsl/view-baro.png)</span>
+<br class="shot-end"/>
+
 ## TargetSpeed View
+Implemented for a specific use case of a friend - mainly give you a target speed based on the current slope. 
 
 ## Climb View
-
 <span class="shot">![view-climb](/assets/img/gpsl/view-climb02.png)</span>
 The Details about the [Climb are described in a separate section of this manual](./3300-climb.html#view)  
-<br class="shot-end">
+<br class="shot-end"/>
 
 ## MultiView I-IV
-
 <span class="shot">![view-multiview](/assets/img/gpsl/view-multiview.png)</span>
 The Details about the [Multi View I - Multi View IV are described in a separate section of this manual](./3150-multiviews.html)  
-<br class="shot-end">
+<br class="shot-end"/>
 
 ## BTLE-Beacon View
-
 <span class="shot">![view-btle-beacons](/assets/img/gpsl/view-btle-beacons.png)</span>
 - Large Font: Showing current visible beacons 
 - Graph: Showing number of visible beacons over time
-<br class="shot-end">
+<br class="shot-end"/>

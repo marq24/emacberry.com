@@ -131,11 +131,9 @@ a local mysql database table with the name _gpslogger_live_ (the config.php have
                 $cos_lat_rad = cos($lat * 180 / M_PI );
                 $cos_lng_rad = cos($lng * 180 / M_PI );                
                 $insert = sprintf("INSERT INTO your_location_live_data (
-                        /* id, */
                         lat, lng,
                         sin_lat_rad, sin_lng_rad, cos_lat_rad, cos_lng_rad)
                         VALUES ('%s', '%s', '%s', '%s', '%s', '%s', '%s');",
-                    //mysqli_real_escape_string($con, $id),
                     mysqli_real_escape_string($con, $lat),
                     mysqli_real_escape_string($con, $lng),
                     mysqli_real_escape_string($con, $sin_lat_rad),
@@ -169,7 +167,6 @@ A config.php template - _???_ have to be replaced with your mysql db values
 Creating the MySQL db with the possibility to create in-rage queries 
 ```sql
 CREATE TABLE `your_location_live_data` (
-    --`id` char(40) COLLATE utf8_bin NOT NULL,
     `lat` double NOT NULL,
     `lng` double NOT NULL,
     `sin_lat_rad` decimal(10,10) DEFAULT NULL,
@@ -177,7 +174,7 @@ CREATE TABLE `your_location_live_data` (
     `cos_lat_rad` decimal(10,10) DEFAULT NULL,
     `cos_lng_rad` decimal(10,10) DEFAULT NULL,
     `ts` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
-    PRIMARY KEY (`id`, `ts`),
+    PRIMARY KEY (`lat`, `ts`),
     KEY `sin_lat_rad` (`sin_lat_rad`,`sin_lng_rad`,`cos_lat_rad`,`cos_lng_rad`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
 COMMIT;

@@ -99,9 +99,11 @@ https://f-droid.org/packages/com.emacberry.gpslogger
 Why GPSLogger is build in the way it is?
 
 > I truly believe that you should use the software that you build by yourself on a daily basis. Actually I started with
-> the app because there was nothing that I wanted on the Blackberry Platform (in the year 2009) - so I started with my
-> own solution. When I moved over to Android there has been plenty of other apps available, but you might guess it, none
-> of them offered the features I wanted to have (yes You can argue that I did not search hard enough).
+> the app because on the Blackberry Platform there was nothing that I wanted (in the year 2009) - so I began with my
+> own solution. When RIM decided to drop the Java based platform (and moved over to BlackBerry OS10 (the beginning of
+> the end), I moved over to Android. There has been plenty of other apps available already, but you might guess it, none
+> of them offered the features I wanted to have (or I simply did not searched hard enough). GPSLogger for Android was
+> released in Aug. 2016 for the first time via Google Play Store.
 > 
 > Please find below my four main use cases, with a brief feature list. You will find detailed descriptions about each of
 > the functionalities in the [corresponding manual sections](/gpsl/docs/1000-intro.html). Of course this are just **my

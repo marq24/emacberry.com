@@ -32,7 +32,7 @@ new one and restore your backup.
 
 1. Open your F-Droid client.
 2. Go to <i class="fa-solid fa-gear"></i> settings and click `Repositories`.
-3. Click the <i class="fa-solid fa-plus"></i> to add GPSLogger II's repository.
+3. Click the <i class="fa-solid fa-plus"></i> to add GPSLogger II's Sinyax repository.
 4. In the pop-up, after `https://` paste the following
    link: [copy me!](https://fdroid.sinyax.net/fdroid/repo/?fingerprint=86BF9C523081C3BDCE94FE38E9FEE11EB587EFC5E05C2734DF015460DAA1FB8D)
    You don't need to add to the fingerprint field as the link provided will automatically fill it.
