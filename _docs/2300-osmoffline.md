@@ -31,6 +31,10 @@ At the following URL's you can download Mapsforge *.map files:
  
 - [https://download.mapsforge.org/](https://download.mapsforge.org/)
 
+# Render Themes {#themes}
+
+> need revision
+
 # Download *.map files with your Android device/browser
 > Direct download link support for openandromaps *.map files in GPSLogger
 

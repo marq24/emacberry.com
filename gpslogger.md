@@ -159,7 +159,7 @@ different profile) and enjoy:
 - Using OFFLINE OpenStreetMap data (*.map files)
 - NO AutoUpload to Strava because I am exceeding the maximum average speed
 
-Since I mentioned it already multiple times - If you like you can [follow me on <i class="fa-brands fa-strava"></i> Strava](https://www.strava.com/athletes/6147866).
+> Since I mentioned it already multiple times - If you like you can [follow me on <i class="fa-brands fa-strava"></i> Strava](https://www.strava.com/athletes/6147866).
 
 # Other sample use cases from GPSLogger Users around the world
 
