@@ -125,6 +125,7 @@ OpenGL which implies that it is extremely fast. The [VTM library is provided by 
 - Supporting also image tiles \[of course with the limits of image based map data (zoom steps, suboptimal text display
   and other things)\]
 
+<br class="shot-end"/>
 **To use the full power of the VTM map should use an open map data provider that will deliver vector tile data. This is
 either the _OSM OpenMapVectorTiles (online)_ provider (mapzen) or the _OpenStreetMap (Offline)_ provider (working with
 local *.map files).** [Details about the different map tiles provider can be found in the OMD Section of this manual.](./2200-openmapdata.html#map-types)
@@ -135,7 +136,7 @@ tunnels, land usage, etc...). A Render Theme can have own options that would all
 even language preferences that should be visible on your map (see [Render Themes for details](./2300-osmoffline.html#themes)).
 
 <span class="material-icons fa-fw">info</span> The VTM Map is only usable as the _Main View_ of GPSLogger. The Secondary
-View I+II use the second type of the map view.<br class="shot-end"/>
+View I+II use the second type of the map view.
 
 > I did not manage to implement 3 different VTM maps on a single screen, running simultaneously without any
 > stability issues. That's the reason why I decided for this workaround (VTM Map only in the Main View).
@@ -219,11 +220,31 @@ but when you start to zoom in, you can see the difference (it's very typical tha
 up & down).<br class="shot-end"/>
 
 ## Elevation View
+
+Elevation information from the GPS signal can have multiple issues. The challenges are different compared to speed data,
+but the overall challenge remains the same: the original data is not really suitable to be displayed 1:1. Details about
+the possibilities to enhance elevation data can be found in the [<span class='material-icons'>show_chart</span>
+Elevation Data optimizations section](./3250-elevation.html#too).
+
 <span class="shot">![a](/assets/img/gpsl/view-alt.png)</span>
-<br class="shot-end"/>
+- Graph: Showing elevation data over time
+- Graph red: Showing slope/grade over time (min/max -/+33%)
+- Graph blue: **If** present, then showing the original elevation data from the GPS Sensor. This is the case, if in the
+  Barometer Sensor settings _Use as Elevation provider_ <i class="fa-solid fa-toggle-on fa-fw"></i> or if additional
+  smoothing will be applied after path loading<br class="shot-end"/>
 
 ## Direction View
 <span class="shot">![a](/assets/img/gpsl/view-dir.png)</span>
+- The compass rose <span style="color:red">**N**</span> is pointing into the direction of the magnetic north.
+- The compass needle is pointing into the direction (as the crow flies) of your target (assuming you hold the device
+  right in front of you)
+- Upper left corner: Total distance to destination
+- Upper right corner: Estimated time of arrival at destination
+- Lower left corner top: Course to target waypoint
+- Lower left corner bottom: Relative speed to target waypoint
+- Lower right corner top: Estimated time of arrival at target waypoint
+- Lower right corner bottom: Distance to target waypoint
+
 <br class="shot-end"/>
 
 ## GPS-Data View
@@ -234,8 +255,8 @@ that both values are completely displayable on the selected screen size.
 <span class="shot">![a](/assets/img/gpsl/view-gps.png)</span>
 - 1'st row (maximum possible font size): Current **Latitude**
 - 2'nd row (maximum possible font size): Current **Longitude**
-- lower left corner: Current Speed (without unit)
-- lower right corner: Current Course
+- Lower left corner: Current Speed (without unit)
+- Lower right corner: Current Course
 <br class="shot-end"/>
 
 <span class="shot">![a](/assets/img/gpsl/view-gps-landscape.png)</span>
@@ -321,6 +342,9 @@ Data for the Power View is only available if you have paired an BluetoothLE Powe
 <br class="shot-end"/>
 
 ## Barometer View
+Data for the Barometer View is only available if your device have build in a barometer sensor and if you have enabled
+the Barometer Sensor in the Application settings.
+
 <span class="shot">![a](/assets/img/gpsl/view-baro.png)</span>
 - Large Font: Showing current pressure in millibar
 - Graph: Showing pressure over time
@@ -333,13 +357,15 @@ based views. In this example the pause took 1 minute and 30 seconds.
 Implemented for a specific use case of a friend - mainly give you a target speed based on the current slope. 
 
 ## Climb View
+The Details about the [Climb are described in a separate section of this manual](./3300-climb.html#view)
+
 <span class="shot">![view-climb](/assets/img/gpsl/view-climb02.png)</span>
-The Details about the [Climb are described in a separate section of this manual](./3300-climb.html#view)  
 <br class="shot-end"/>
 
 ## MultiView I-IV
+The Details about the [Multi View I - Multi View IV are described in a separate section of this manual](./3150-multiviews.html)
+
 <span class="shot">![view-multiview](/assets/img/gpsl/view-multiview.png)</span>
-The Details about the [Multi View I - Multi View IV are described in a separate section of this manual](./3150-multiviews.html)  
 <br class="shot-end"/>
 
 ## BTLE-Beacon View

@@ -22,4 +22,5 @@ RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/(?:\ Ballot169)?
 RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
 
 RewriteCond %{REQUEST_URI} !/appsrv/map/getprovider_droid2020.php [NC]
+RewriteCond %{REQUEST_URI} !/appsrv/map/getprovider_droid2022.php [NC]
 RewriteRule ^(.*)$ https://%{SERVER_NAME}%{REQUEST_URI} [R=301,L]
