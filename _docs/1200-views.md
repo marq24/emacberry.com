@@ -202,17 +202,24 @@ Special Thanks to Rob Antonishen for the very nice compass svg file and granting
 
 ## Speed View
 
-Speed information based on the GPS signal ~~can be~~ is very flaky - in order to smooth out the noise in the GPS speed
-information GPSLogger applies an _average median calculation_ when displaying the speed information. The grey graph show
-you always the result of this internal calculation. \[Taking the set of the last max. 10 speed values, order them,
-remove the first and the last (so removing the min. & max.) and then calculate the average value of the  remaining set.\]
+Speed information based on the GPS signal ~~can be~~ is very flaky. In order to smooth out the noise in the GPS speed
+information GPSLogger applies by default an _average median calculation_ when displaying the speed information. The grey
+graph show you always the result of this internal calculation. \[Taking the set of the last max. 10 speed values, order
+them, remove the first and the last (so removing the min. & max.) and then calculate the average value of the remaining
+set.\]. You can disable the speed smoothing via Application Settings > General Settings > GPS-Sensor & Smoothing
+Settings > Smooth Speed <i class="fa-solid fa-toggle-off fa-fw"></i>
 
 <span class="shot">![a](/assets/img/gpsl/view-speed.png)</span>
-- Graph: Showing calculated median speed (of max. last 10sec) over time
-- Graph red: Showing average speed over time
-- Graph blue: Showing the original GPS speed or if _Overwrite GPS-Speed_ (using time & distance delta)
-  is <i class="fa-solid fa-toggle-on fa-fw"></i> the original calculated physical speed (not smoothed)
+- Graph red: Showing average speed over time (always calculated based on overall distance & overall duration)
+- other: depends on the combination of two application settings -> see table below
 <br class="shot-end"/>
+
+| Overwrite GPS-Speed | Smooth Speed | Graph: | Graph blue:
+| --- | --- | --- | --- |
+| <i class="fa-solid fa-toggle-off fa-fw"></i> | <i class="fa-solid fa-toggle-off fa-fw"></i> | Speed information from the GPS fix | -none- |
+| <i class="fa-solid fa-toggle-on fa-fw"></i> | <i class="fa-solid fa-toggle-off fa-fw"></i> | Speed information based on the distance & time | Speed information from the GPS fix |
+| <i class="fa-solid fa-toggle-off fa-fw"></i> | <i class="fa-solid fa-toggle-on fa-fw"></i> | Average median speed value (from GPS fix) of max. last 10 sec.| Speed information from the GPS fix |
+| <i class="fa-solid fa-toggle-on fa-fw"></i> | <i class="fa-solid fa-toggle-on fa-fw"></i> | Average median speed value (from distance & time) of max. last 10 sec.| Speed information based on the distance & time |
 
 <span class="shot">![a](/assets/img/gpsl/view-speed-zoom.png)</span>
 The difference between calculated median speed and the original GPS speed is not really noticeable in the overall view -
@@ -239,7 +246,10 @@ Elevation Data optimizations section](./3250-elevation.html#too).
 - The compass needle is pointing into the direction (as the crow flies) of your target (assuming you hold the device
   right in front of you)
 - Upper left corner: Total distance to destination
-- Upper right corner: Estimated time of arrival at destination
+- Upper right corner: Estimated time of arrival at destination (When you are currently moving faster than the
+  average speed you will see an arrow pointing down, indicating that the _estimated time of arrival_ might be lower, or
+  an arrow pointing upwards to indicate that the time might be higher when your speed continue to be less than the
+  overall average speed)
 - Lower left corner top: Course to target waypoint
 - Lower left corner bottom: Relative speed to target waypoint
 - Lower right corner top: Estimated time of arrival at target waypoint

@@ -66,6 +66,7 @@ dialog. The Profile Settings are structured into the following Sections:
 - <i class="fa-solid fa-toggle-on fa-fw"></i> GPS-Signal required
 - <i class="fa-solid fa-toggle-on fa-fw"></i> Save NMEA Data
 - <i class="fa-solid fa-toggle-on fa-fw"></i> Overwrite GPS-Speed
+- <i class="fa-solid fa-toggle-on fa-fw"></i> Smooth Speed
 - <i class="fa-solid fa-list fa-fw"></i> Path-Smoothing
 - <i class="fa-solid fa-list fa-fw"></i> GPS update interval
 - <i class="fa-solid fa-toggle-on fa-fw"></i> UUID Beacon Scanner

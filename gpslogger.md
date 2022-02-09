@@ -91,6 +91,7 @@ https://f-droid.org/packages/com.emacberry.gpslogger
 ## via amazon appstore
 
 **Recommended for BlackBerry 10 Users (yes the app will still work on your BlackBerry 10 device)!**
+
 [![amazon appstore](/assets/img/amazon-appstore-badge-en-black.png)](https://www.amazon.com/gp/product/B00L9GLGGQ)
 
 [https://www.amazon.com/gp/product/B00L9GLGGQ](https://www.amazon.com/gp/product/B00L9GLGGQ)

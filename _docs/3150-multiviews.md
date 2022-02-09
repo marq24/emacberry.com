@@ -56,31 +56,51 @@ So for each of your activities you can define a different set of multi-view fiel
 | Ratio | ⚙ | the resulting gear ratio (if Di2 is bound) |
 | Heartrate | ♥ | your current heartrate (in beats per minute or %) as provided via an external sensor |
 | Ø Heartrate | ♥ | if recording, this will show the average heartrate |
-| Heartrate Ø last 3sec | ♥ | if recording, this will show the average heartrate of the past 3 seconds |
-| Heartrate Ø last 10sec | ♥ | if recording, this will show the average heartrate of the past 10 seconds |
-| Heartrate Ø last 30sec | ♥ | if recording, this will show the average heartrate of the past 30 seconds |
+| last 3sec Ø Heartrate | ♥ | if recording, this will show the average heartrate of the past 3 seconds |
+| last 10sec Ø Heartrate | ♥ | if recording, this will show the average heartrate of the past 10 seconds |
+| last 30sec Ø Heartrate | ♥ | if recording, this will show the average heartrate of the past 30 seconds |
 | Cadence | 🚴 | your current cadence (in rotations per minute) as provided via an external sensor |
 | Ø Cadence | 🚴 | same as for ♥ |
-| Cadence Ø last 3sec | 🚴 | same as for ♥ |
-| Cadence Ø last 10sec | 🚴 | same as for ♥ |
-| Cadence Ø last 30sec | 🚴 | same as for ♥ |
+| last 3sec Ø Cadence | 🚴 | same as for ♥ |
+| last 10sec Ø Cadence | 🚴 | same as for ♥ |
+| last 30sec Ø Cadence | 🚴 | same as for ♥ |
 | Power | ⚡ | your current cycling power (in watt) as provided via an external sensor |
 | Ø Power | ⚡ | same as for ♥ |
-| Power Ø last 3sec | ⚡ | same as for ♥ |
-| Power Ø last 10sec | ⚡ | same as for ♥ |
-| Power Ø last 30sec | ⚡ | same as for ♥ |
-| Power Balance L/R in % | ⚡ |  balance between Left & Right leg from the cycling power when provided from the external sensor |
-| Ø Power Balance L/R in % | ⚡ | same as for ♥ |
-| Power Balance Ø last 3sec | ⚡ | same as for ♥ |
-| Power Balance Ø last 10sec | ⚡ | same as for ♥ |
-| Power Balance Ø last 30sec | ⚡ | same as for ♥ |
-| Stoke Rate | 🚣 | your current heartrate (in stokes per minute) as provided via an external sensor |
+|  last 3sec Ø Power | ⚡ | same as for ♥ |
+|  last 10sec Ø Power | ⚡ | same as for ♥ |
+|  last 30sec Ø Power | ⚡ | same asfor ♥ |
+| Power Balance L/R in % | ⚡‑Bal. |  balance between Left & Right leg from the cycling power when provided from the external sensor |
+| Ø Power Balance L/R in % | ⚡‑Bal. | same as for ♥ |
+| last 3sec Ø Power Balance | ⚡‑Bal. | same as for ♥ |
+| last 10sec Ø Power Balance | ⚡‑Bal. | same as for ♥ |
+| last 30sec Ø Power Balance | ⚡‑Bal. | same as for ♥ |
+| Stoke Rate | 🚣 | your current rowing stroke rate (in stokes per minute) as provided via an external sensor |
 | Ø Stoke Rate | 🚣 | same as for ♥ |
-| Stoke Rate Ø last 3sec | 🚣 | same as for ♥ |
-| Stoke Rate Ø last 10sec | 🚣 | same as for ♥ |
-| Stoke Rate Ø last 30sec | 🚣 | same as for ♥ |
-| Stoke Count | 🚣 | total stoke count of rowing session |
+| last 3sec Ø Stoke Rate | 🚣 | same as for ♥ |
+| last 10sec Ø Stoke Rate | 🚣 | same as for ♥ |
+| last 30sec Ø Stoke Rate | 🚣 | same as for ♥ |
+| Stoke Count | 🚣 | total Stoke count of rowing session |
 | Stoke Distance | 🚣 | total Stroke distance of rowing session |
+| Max Speed | V📈 | |
+| Max Grade | 📐 📈 | |
+| Max Heartrate | ♥ 📈 | |
+| Max Cadence | 🚴 📈 | |
+| Max Stroke Rate | 🚣 📈 | |
+| Max Power | ⚡ 📈 | |
+| Speed last 10sec Max | V📈 | |
+| Grade last 10sec Max | 📐 📈 | |
+| Heartrate last 10sec Max | ♥ 📈 | |
+| Cadence last 10sec Max | 🚴 📈 | |
+| Stroke Rate last 10sec Max | 🚣 📈 | |
+| Power last 10sec Max | ⚡ 📈 | |
+| Power Balance last 10sec Max | ⚡‑Bal. 📈 | |
+| Speed last 30sec Max | V📈 | |
+| Grade last 30sec Max | 📐 📈 | |
+| Heartrate last 30sec Max | ♥ 📈 | |
+| Cadence last 30sec Max | 🚴 📈 | |
+| Stroke Rate last 30sec Max | 🚣 📈 | |
+| Power last 30sec Max | ⚡ 📈 | |
+| Power Balance last 30sec Max | ⚡‑Bal. 📈 | |
 
 Is there any value you miss? Please let me know! 
 
