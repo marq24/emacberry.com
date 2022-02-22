@@ -81,26 +81,26 @@ So for each of your activities you can define a different set of multi-view fiel
 | last 30sec Ø Stoke Rate | 🚣 | same as for ♥ |
 | Stoke Count | 🚣 | total Stoke count of rowing session |
 | Stoke Distance | 🚣 | total Stroke distance of rowing session |
-| Max Speed | V📈 | |
-| Max Grade | 📐 📈 | |
-| Max Heartrate | ♥ 📈 | |
-| Max Cadence | 🚴 📈 | |
-| Max Stroke Rate | 🚣 📈 | |
-| Max Power | ⚡ 📈 | |
-| Speed last 10sec Max | V📈 | |
-| Grade last 10sec Max | 📐 📈 | |
-| Heartrate last 10sec Max | ♥ 📈 | |
-| Cadence last 10sec Max | 🚴 📈 | |
-| Stroke Rate last 10sec Max | 🚣 📈 | |
-| Power last 10sec Max | ⚡ 📈 | |
-| Power Balance last 10sec Max | ⚡‑Bal. 📈 | |
-| Speed last 30sec Max | V📈 | |
-| Grade last 30sec Max | 📐 📈 | |
-| Heartrate last 30sec Max | ♥ 📈 | |
-| Cadence last 30sec Max | 🚴 📈 | |
-| Stroke Rate last 30sec Max | 🚣 📈 | |
-| Power last 30sec Max | ⚡ 📈 | |
-| Power Balance last 30sec Max | ⚡‑Bal. 📈 | |
+| Max Speed | V 📈 | The maximum speed during your current activity |
+| Max Grade | 📐 📈 | The maximum grade during your current activity |
+| Max Heartrate | ♥ 📈 | The maximum heartrate during your current activity |
+| Max Cadence | 🚴 📈 | The maximum bike cadence during your current activity |
+| Max Stroke Rate | 🚣 📈 | The maximum rowing machine stroke rate during your current activity |
+| Max Power | ⚡ 📈 | The maximum bike power during your current activity - Please note it does not make sense to show a maximum bike power balance value, since it's probably always L100%/R100% |
+| Speed last 10sec Max | V 📈 | The maximum speed in the last 10 seconds |
+| Grade last 10sec Max | 📐 📈 | The maximum grade in the last 10 seconds |
+| Heartrate last 10sec Max | ♥ 📈 | The maximum heartrate in the last 10 seconds |
+| Cadence last 10sec Max | 🚴 📈 | The maximum bike cadence in the last 10 seconds |
+| Stroke Rate last 10sec Max | 🚣 📈 | The maximum rowing machine stroke rate in the last 10 seconds |
+| Power last 10sec Max | ⚡ 📈 | The maximum bike power in the last 10 seconds |
+| Power Balance last 10sec Max | ⚡‑Bal. 📈 | The maximum power balance (L/R) in the last 10 seconds |
+| Speed last 30sec Max | V📈 | The maximum speed in the last 30 seconds |
+| Grade last 30sec Max | 📐 📈 | The maximum grade in the last 30 seconds |
+| Heartrate last 30sec Max | ♥ 📈 | The maximum heartrate in the last 30 seconds |
+| Cadence last 30sec Max | 🚴 📈 | The maximum bike cadence in the last 30 seconds |
+| Stroke Rate last 30sec Max | 🚣 📈 | The maximum rowing machine stroke rate in the last 30 seconds |
+| Power last 30sec Max | ⚡ 📈 | The maximum bike power in the last 30 seconds |
+| Power Balance last 30sec Max | ⚡‑Bal. 📈 | The maximum maximum power balance (L/R) in the last 30 seconds |
 
 Is there any value you miss? Please let me know! 
 

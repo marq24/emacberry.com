@@ -61,7 +61,7 @@ applications.
 > Sensors from Polar, Garmin or Wahoo will work for sure. And thanks to Holger we also solved an issue with the
 > G.PULSE 3 in 1.
 
-## <i class="fa-solid fa-arrow-rotate-left fa-fw"></i> Cadence / (Speed &) Cadence< {#cad}
+## <i class="fa-solid fa-arrow-rotate-left fa-fw"></i> Cadence / (Speed &) Cadence {#cad}
 
 The Cycling Speed and Cadence (CSC) Service exposes speed-related data and/or cadence-related data while using the
 Cycling Speed and Cadence sensor (Server). The Service provides:

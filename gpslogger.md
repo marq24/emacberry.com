@@ -31,7 +31,7 @@ in the overview. You can find a detailed description of every aspect in the GPSL
 
 If you have any remarks or suggestions for improvements (yes - more features!) - I am very happy to hear from you.
 
-# Main Application Features
+# Main Application Features {#features}
   - <i class="fa-solid fa-shield-blank fa-fw"></i> **Your privacy drives everything** 
   - <i class="fa-solid fa-mobile-screen-button fa-fw"></i> [Build in 18 different Default Views + 4 fully customizable Multi-Views](./gpsl/docs/1200-views.html)
   - <i class="fa-solid fa-globe fa-fw"></i> Supporting imperial (feet or yard), metric or nautical units. 
@@ -197,7 +197,7 @@ to keep track of intermediate timings.
 The most important aspect of GPSLogger II is that it will work 100% offline - no data will be transferred while you use
 it (except when the BlackBerryMap view is used).
 
-### Features
+### Features {#bb-old-features}
 
 - Record your movement over time - the following values will be stored:
   - longitude / latitude

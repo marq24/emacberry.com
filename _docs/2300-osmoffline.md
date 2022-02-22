@@ -84,6 +84,9 @@ IF your device does not show a dialog (to let you select the app that should pro
 download-button on the openandromaps website, please see this
 [FAQ: Troubleshoot opening openandromaps.org web links...](./9990-faq.html#openopenandro).
 
+When you manually download the ZIP files from openandromaps and extract them manually: You only need to copy the *.map
+file (the *.db *.poi will not be used by GPSLogger).
+
 # Download *.map files elsewhere
 You can of course download the *.map files on any other device (including your PC or Mac) - the Links are the same - but
 you need to extract the maps manually and copy the files over to your android device and place them at a location that

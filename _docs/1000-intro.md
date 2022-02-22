@@ -225,6 +225,7 @@ required, when you want to enable the autostart options of the application.
 ## External Sensor / BluetoothLE Beacon Scanner related
 
 - **BLUETOOTH**
+- **BLUETOOTH_SCAN** 
 - **BLUETOOTH_CONNECT**
 - **BLUETOOTH_ADMIN**
 

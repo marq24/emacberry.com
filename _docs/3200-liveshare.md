@@ -71,9 +71,13 @@ Please [see the dedicated TASKER Integration section of this manual](./3900-task
 ## Share your location via a custom URL {#customurl}
 
 You can specify a custom URL to which GPSLogger going to send a simple GET-Request including our current position as
-decimal latitude & longitude values, ~~as well as your Android Device ID (in case you want to be able to distinguish
-between multiple GPSLogger instances on your backend)~~ as URL parameters, all as plain text, not encoded & **not
-encrypted**. A timout of 5 seconds for the request will be used.
+decimal latitude & longitude values, as URL parameters, all as plain text, not encoded & **not encrypted**. A timout of
+5 seconds for the request will be used.
+
+Additional to the defined time interval in which the app is going to send the current location of the device to your
+specified URL, the app will send on _Start/Stop recording_ and _Pause/Continue recording_ events additional requests
+that contains and additional parameter `cmd` (with the event type as value) in order to allow you further server side
+actions.
 
 <i class="fa-solid fa-hand-point-up fa-fw"></i> You might like to add some sort of ID to your URL, if you want to be
 able to distinguish between multiple GPSLogger installations on your backend.
@@ -83,7 +87,7 @@ your data**
 
 The GET-REQUEST will have the following format:
 
-`[YOUR_SERVER_URL]?lat=[LATITUDE_AS_DECIMAL_NUMBER]&lon=[LONGITUDE_AS_DECIMAL_NUMBER]`
+`{YOUR_SERVER_URL}?lat={LATITUDE_AS_DECIMAL_NUMBER}&lon={LONGITUDE_AS_DECIMAL_NUMBER}[&cmd={start|stop|pause|continue}]`
 
 As example, if you have an own server/domain, and you want to collect your locations there, then you can write some small
 request processing code yourself and deploy it on your server. Assuming your domain is called _www.anyfancydoma.in_, and
@@ -121,7 +125,10 @@ a local mysql database table with the name _gpslogger_live_ (the config.php have
                 mysqli_select_db($con, $dbname);
             
                 // logging the incomming live location...
-                // $id = $_REQUEST["yourCustomIdField"];
+                $cmd = $_REQUEST["cmd"];
+                if($cmd){
+                    // do something special with 'start/stop/pause/continue'
+                }
                 $lon = $_REQUEST["lon"];
                 $lat = $_REQUEST["lat"];
 

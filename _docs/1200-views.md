@@ -200,7 +200,7 @@ build in magnetic sensor then the app can behave like a physical compass.
 Special Thanks to Rob Antonishen for the very nice compass svg file and granting the permission to use it in the app.
 <br class="shot-end"/>
 
-## Speed View
+## Speed View {#speed}
 
 Speed information based on the GPS signal ~~can be~~ is very flaky. In order to smooth out the noise in the GPS speed
 information GPSLogger applies by default an _average median calculation_ when displaying the speed information. The grey
