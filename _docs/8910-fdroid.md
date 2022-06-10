@@ -15,8 +15,8 @@ to the official F-Droid app. There are two ways to add an F-Droid repository.
 
 ## The first of these is by scanning QR code or clicking link.
 
-![fdroid-repro](/assets/img/gpsl/fdroid.png)
-1. Scan the QR code or click [this link](https://fdroid.sinyax.net/fdroid/repo/?fingerprint=86BF9C523081C3BDCE94FE38E9FEE11EB587EFC5E05C2734DF015460DAA1FB8D).
+![fdroid-repo](/assets/img/gpsl/fdroid.png)
+1. Scan the QR code or click [this link](fdroidrepo://fdroid.sinyax.net/fdroid/repo/?fingerprint=86BF9C523081C3BDCE94FE38E9FEE11EB587EFC5E05C2734DF015460DAA1FB8D).
    <br/>After scanning, a FDroid Dialog will appear 
 3. Click `OK`. The Sinyax repository will be added.
 4. Go to F-Droid's search and search for `GPSLogger II`. Click the listing for GPSLogger II.
