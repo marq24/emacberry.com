@@ -36,71 +36,72 @@ So for each of your activities you can define a different set of multi-view fiel
 
 # Available Fields for Multi Views
 
-| Field | Icon | Description |
-| --- | --- | --- |
-| Clock | 🕒 | showing the current time |
-| Speed | | showing the current speed |
-| Ø Speed | | if recording, this will show the average speed |
-| Total Distance | 📏 | if recording, this will show the total distance |
-| Elapsed Time/Duration | ⏱ | if recording, this will show the total time (excluding breaks)  |
-| Altitude | ⬆ | current elevation (including corrections/adjustments) |
-| Course | 🧭 | current direction/heading |
-| Ascent | ⛰ | the total sum of altitude that was gained over time |
-| Grade | 📐 |  the current slope (based in the previous und current elevation) |
-| VAM | ↗ | The current VAM value ([see Climb View for details](./3300-climb.html#vam)) |
-| Next Turn | | when a navigation path that contains turn-by-turn information is loaded - additional the distance to the next waypoint will be shown |
-| Relative Speed | | This is the speed you approaching to the current active waypoint (next navigation target). E.g. when you are sailing, it can be very interesting to know your relative speed to the target |
-| Distance to Finish | 🏁 | when a navigation path is loaded the remaining distance till the end of this navigation path |
-| # BTLE | | Number of currently detected BTLE Beacons with a specific UUID |
-| Gear | ⚙ | front & rear gear information (if Di2 is bound) |
-| Ratio | ⚙ | the resulting gear ratio (if Di2 is bound) |
-| Heartrate | ♥ | your current heartrate (in beats per minute or %) as provided via an external sensor |
-| Ø Heartrate | ♥ | if recording, this will show the average heartrate |
-| last 3sec Ø Heartrate | ♥ | if recording, this will show the average heartrate of the past 3 seconds |
-| last 10sec Ø Heartrate | ♥ | if recording, this will show the average heartrate of the past 10 seconds |
-| last 30sec Ø Heartrate | ♥ | if recording, this will show the average heartrate of the past 30 seconds |
-| Cadence | 🚴 | your current cadence (in rotations per minute) as provided via an external sensor |
-| Ø Cadence | 🚴 | same as for ♥ |
-| last 3sec Ø Cadence | 🚴 | same as for ♥ |
-| last 10sec Ø Cadence | 🚴 | same as for ♥ |
-| last 30sec Ø Cadence | 🚴 | same as for ♥ |
-| Power | ⚡ | your current cycling power (in watt) as provided via an external sensor |
-| Ø Power | ⚡ | same as for ♥ |
-|  last 3sec Ø Power | ⚡ | same as for ♥ |
-|  last 10sec Ø Power | ⚡ | same as for ♥ |
-|  last 30sec Ø Power | ⚡ | same asfor ♥ |
-| Power Balance L/R in % | ⚡‑Bal. |  balance between Left & Right leg from the cycling power when provided from the external sensor |
-| Ø Power Balance L/R in % | ⚡‑Bal. | same as for ♥ |
-| last 3sec Ø Power Balance | ⚡‑Bal. | same as for ♥ |
-| last 10sec Ø Power Balance | ⚡‑Bal. | same as for ♥ |
-| last 30sec Ø Power Balance | ⚡‑Bal. | same as for ♥ |
-| Stoke Rate | 🚣 | your current rowing stroke rate (in stokes per minute) as provided via an external sensor |
-| Ø Stoke Rate | 🚣 | same as for ♥ |
-| last 3sec Ø Stoke Rate | 🚣 | same as for ♥ |
-| last 10sec Ø Stoke Rate | 🚣 | same as for ♥ |
-| last 30sec Ø Stoke Rate | 🚣 | same as for ♥ |
-| Stoke Count | 🚣 | total Stoke count of rowing session |
-| Stoke Distance | 🚣 | total Stroke distance of rowing session |
-| Max Speed | V 📈 | The maximum speed during your current activity |
-| Max Grade | 📐 📈 | The maximum grade during your current activity |
-| Max Heartrate | ♥ 📈 | The maximum heartrate during your current activity |
-| Max Cadence | 🚴 📈 | The maximum bike cadence during your current activity |
-| Max Stroke Rate | 🚣 📈 | The maximum rowing machine stroke rate during your current activity |
-| Max Power | ⚡ 📈 | The maximum bike power during your current activity - Please note it does not make sense to show a maximum bike power balance value, since it's probably always L100%/R100% |
-| Speed last 10sec Max | V 📈 | The maximum speed in the last 10 seconds |
-| Grade last 10sec Max | 📐 📈 | The maximum grade in the last 10 seconds |
-| Heartrate last 10sec Max | ♥ 📈 | The maximum heartrate in the last 10 seconds |
-| Cadence last 10sec Max | 🚴 📈 | The maximum bike cadence in the last 10 seconds |
-| Stroke Rate last 10sec Max | 🚣 📈 | The maximum rowing machine stroke rate in the last 10 seconds |
-| Power last 10sec Max | ⚡ 📈 | The maximum bike power in the last 10 seconds |
-| Power Balance last 10sec Max | ⚡‑Bal. 📈 | The maximum power balance (L/R) in the last 10 seconds |
-| Speed last 30sec Max | V📈 | The maximum speed in the last 30 seconds |
-| Grade last 30sec Max | 📐 📈 | The maximum grade in the last 30 seconds |
-| Heartrate last 30sec Max | ♥ 📈 | The maximum heartrate in the last 30 seconds |
-| Cadence last 30sec Max | 🚴 📈 | The maximum bike cadence in the last 30 seconds |
-| Stroke Rate last 30sec Max | 🚣 📈 | The maximum rowing machine stroke rate in the last 30 seconds |
-| Power last 30sec Max | ⚡ 📈 | The maximum bike power in the last 30 seconds |
-| Power Balance last 30sec Max | ⚡‑Bal. 📈 | The maximum maximum power balance (L/R) in the last 30 seconds |
+| Field                        | Icon | Description                                                                                                                                                                                |
+|------------------------------| --- |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Clock                        | 🕒 | showing the current time                                                                                                                                                                   |
+| Speed                        | | showing the current speed                                                                                                                                                                  |
+| Ø Speed                      | | if recording, this will show the average speed                                                                                                                                             |
+| Total Distance               | 📏 | if recording, this will show the total distance                                                                                                                                            |
+| Elapsed Time/Duration        | ⏱ | if recording, this will show the total time (excluding breaks)                                                                                                                             |
+| Altitude                     | ⬆ | current elevation (including corrections/adjustments)                                                                                                                                      |
+| Course                       | 🧭 | current direction/heading                                                                                                                                                                  |
+| Ascent                       | ⛰⬆ | the total sum of altitude that was gained over time                                                                                                                                        |
+| Descent                      | ⛰⬇ | the total sum of altitude that was lost over time                                                                                                                                           |
+| Grade                        | 📐 | the current slope (based in the previous und current elevation)                                                                                                                            |
+| VAM                          | ↗ | The current VAM value ([see Climb View for details](./3300-climb.html#vam))                                                                                                                |
+| Next Turn                    | | when a navigation path that contains turn-by-turn information is loaded - additional the distance to the next waypoint will be shown                                                       |
+| Relative Speed               | | This is the speed you approaching to the current active waypoint (next navigation target). E.g. when you are sailing, it can be very interesting to know your relative speed to the target |
+| Distance to Finish           | 🏁 | when a navigation path is loaded the remaining distance till the end of this navigation path                                                                                               |
+| # BTLE                       | | Number of currently detected BTLE Beacons with a specific UUID                                                                                                                             |
+| Gear                         | ⚙ | front & rear gear information (if Di2 is bound)                                                                                                                                            |
+| Ratio                        | ⚙ | the resulting gear ratio (if Di2 is bound)                                                                                                                                                 |
+| Heartrate                    | ♥ | your current heartrate (in beats per minute or %) as provided via an external sensor                                                                                                       |
+| Ø Heartrate                  | ♥ | if recording, this will show the average heartrate                                                                                                                                         |
+| last 3sec Ø Heartrate        | ♥ | if recording, this will show the average heartrate of the past 3 seconds                                                                                                                   |
+| last 10sec Ø Heartrate       | ♥ | if recording, this will show the average heartrate of the past 10 seconds                                                                                                                  |
+| last 30sec Ø Heartrate       | ♥ | if recording, this will show the average heartrate of the past 30 seconds                                                                                                                  |
+| Cadence                      | 🚴 | your current cadence (in rotations per minute) as provided via an external sensor                                                                                                          |
+| Ø Cadence                    | 🚴 | same as for ♥                                                                                                                                                                              |
+| last 3sec Ø Cadence          | 🚴 | same as for ♥                                                                                                                                                                              |
+| last 10sec Ø Cadence         | 🚴 | same as for ♥                                                                                                                                                                              |
+| last 30sec Ø Cadence         | 🚴 | same as for ♥                                                                                                                                                                              |
+| Power                        | ⚡ | your current cycling power (in watt) as provided via an external sensor                                                                                                                    |
+| Ø Power                      | ⚡ | same as for ♥                                                                                                                                                                              |
+|  last 3sec Ø Power           | ⚡ | same as for ♥                                                                                                                                                                              |
+|  last 10sec Ø Power          | ⚡ | same as for ♥                                                                                                                                                                              |
+|  last 30sec Ø Power          | ⚡ | same asfor ♥                                                                                                                                                                               |
+| Power Balance L/R in %       | ⚡‑Bal. | balance between Left & Right leg from the cycling power when provided from the external sensor                                                                                             |
+| Ø Power Balance L/R in %     | ⚡‑Bal. | same as for ♥                                                                                                                                                                              |
+| last 3sec Ø Power Balance    | ⚡‑Bal. | same as for ♥                                                                                                                                                                              |
+| last 10sec Ø Power Balance   | ⚡‑Bal. | same as for ♥                                                                                                                                                                              |
+| last 30sec Ø Power Balance   | ⚡‑Bal. | same as for ♥                                                                                                                                                                              |
+| Stoke Rate                   | 🚣 | your current rowing stroke rate (in stokes per minute) as provided via an external sensor                                                                                                  |
+| Ø Stoke Rate                 | 🚣 | same as for ♥                                                                                                                                                                              |
+| last 3sec Ø Stoke Rate       | 🚣 | same as for ♥                                                                                                                                                                              |
+| last 10sec Ø Stoke Rate      | 🚣 | same as for ♥                                                                                                                                                                              |
+| last 30sec Ø Stoke Rate      | 🚣 | same as for ♥                                                                                                                                                                              |
+| Stoke Count                  | 🚣 | total Stoke count of rowing session                                                                                                                                                        |
+| Stoke Distance               | 🚣 | total Stroke distance of rowing session                                                                                                                                                    |
+| Max Speed                    | V 📈 | The maximum speed during your current activity                                                                                                                                             |
+| Max Grade                    | 📐 📈 | The maximum grade during your current activity                                                                                                                                             |
+| Max Heartrate                | ♥ 📈 | The maximum heartrate during your current activity                                                                                                                                         |
+| Max Cadence                  | 🚴 📈 | The maximum bike cadence during your current activity                                                                                                                                      |
+| Max Stroke Rate              | 🚣 📈 | The maximum rowing machine stroke rate during your current activity                                                                                                                        |
+| Max Power                    | ⚡ 📈 | The maximum bike power during your current activity - Please note it does not make sense to show a maximum bike power balance value, since it's probably always L100%/R100%                |
+| Speed last 10sec Max         | V 📈 | The maximum speed in the last 10 seconds                                                                                                                                                   |
+| Grade last 10sec Max         | 📐 📈 | The maximum grade in the last 10 seconds                                                                                                                                                   |
+| Heartrate last 10sec Max     | ♥ 📈 | The maximum heartrate in the last 10 seconds                                                                                                                                               |
+| Cadence last 10sec Max       | 🚴 📈 | The maximum bike cadence in the last 10 seconds                                                                                                                                            |
+| Stroke Rate last 10sec Max   | 🚣 📈 | The maximum rowing machine stroke rate in the last 10 seconds                                                                                                                              |
+| Power last 10sec Max         | ⚡ 📈 | The maximum bike power in the last 10 seconds                                                                                                                                              |
+| Power Balance last 10sec Max | ⚡‑Bal. 📈 | The maximum power balance (L/R) in the last 10 seconds                                                                                                                                     |
+| Speed last 30sec Max         | V📈 | The maximum speed in the last 30 seconds                                                                                                                                                   |
+| Grade last 30sec Max         | 📐 📈 | The maximum grade in the last 30 seconds                                                                                                                                                   |
+| Heartrate last 30sec Max     | ♥ 📈 | The maximum heartrate in the last 30 seconds                                                                                                                                               |
+| Cadence last 30sec Max       | 🚴 📈 | The maximum bike cadence in the last 30 seconds                                                                                                                                            |
+| Stroke Rate last 30sec Max   | 🚣 📈 | The maximum rowing machine stroke rate in the last 30 seconds                                                                                                                              |
+| Power last 30sec Max         | ⚡ 📈 | The maximum bike power in the last 30 seconds                                                                                                                                              |
+| Power Balance last 30sec Max | ⚡‑Bal. 📈 | The maximum maximum power balance (L/R) in the last 30 seconds                                                                                                                             |
 
 Is there any value you miss? Please let me know! 
 

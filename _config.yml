@@ -22,9 +22,9 @@ minima:
 
   # generate social links in footer
   social_links:
-    twitter: marquardt24
-    github: marq24
-    facebook: marquardt24
+    - { platform: github,  user_url: "https://github.com/marq24" }
+    - { platform: twitter, user_url: "https://twitter.com/marquardt24" }
+    - { platform: facebook, user_url: "https://www.facebook.com/marquardt24" }
     # devto: jekyll
     # dribbble: jekyll
     # flickr:   jekyll
