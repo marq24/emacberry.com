@@ -1,6 +1,6 @@
 ---
 title: Maps
 ext-link: https://maps.emac.de
-layout: default
+layout: base
 ---
 <a href="https://maps.emac.de">https://maps.emac.de</a>

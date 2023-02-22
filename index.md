@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: base
 ---
 
 Welcome to the year 2022 - Blackberry&copy; legacy apps are finally history - so all the emacberry apps you might know (
