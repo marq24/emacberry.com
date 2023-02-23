@@ -6,8 +6,8 @@ menu-title: <i class="fa-solid fa-house fa-fw"></i>&nbsp;Home Assistant
 
 # Overview
 
-When you have a own Home Assistant instance running at you home and if this installation is reachable via a URL
-(__https__), then you can use GPSLogger II as a location sensor.
+When you have an own [Home Assistant](https://www.home-assistant.io/) instance running at you home and if this
+installation is reachable via a public URL (__https__), then you can use GPSLogger II as a location sensor.
 
 Once you have specified your Server URL and
 a [Long-lived access token](https://developers.home-assistant.io/docs/auth_api/#long-lived-access-token),
