@@ -8,9 +8,9 @@ menu-title: <i class="fa-solid fa-location-arrow fa-fw"></i>&nbsp;Live Sharing
 With GPSLogger it's possible to frequently share your live location with others. Who is going to be able to access your
 location is totally up to you. The app does **not offer an additional backend-service** which is sharing your current
 location - all is happening from your device only. The sharing happens either simply by emailing or the app can
-frequently send your location to a custom URL (including support for [Home Assistant](https://www.home-assistant.io/))
-in a given format. Once the location has been sent to such a URL is beyond the control of the app - use this feature
-wisely.
+frequently send your location to a custom URL in a given format (including support
+for [Home Assistant](https://www.home-assistant.io/)). Once the location has been sent to such a URL is beyond the
+control of the app - use this feature wisely.
 
 The _HappyPartner - HappyLife_ is an extension of the regular share-current-location functionality that was build into
 GPSLogger almost since the first day. Initially called _HappyWife - HappyLife_, the function has been renamed in 2022.
@@ -37,7 +37,7 @@ You have the option to share your location in three different ways:
 - Sharing by email
 - Sharing via an own backend / generate custom URL requests
 - Sharing by executing a TASKER-TASK
-- Sharing [via your Home Assistant instance - see Home Assistant section](./3210-homeassistant.md)
+- Sharing [via your Home Assistant instance - see Home Assistant section](./3210-homeassistant.html)
 
 <i class="fa-solid fa-hand-point-up fa-fw"></i> All these options can be combined with each other.
 
