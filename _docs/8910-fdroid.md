@@ -15,7 +15,7 @@ to the official F-Droid app. There are two ways to add an F-Droid repository.
 
 ## The first of these is by scanning QR code or clicking link.
 
-![fdroid-repo](/assets/img/gpsl/fdroid_sinyax.png)
+![fdroid-repo](/assets/img/gpsl/fdroid.png)
 1. Scan the QR code or click [this link](fdroidrepo://maps.emac.de/fdroid/repo?fingerprint=57073767C5CF374F0759CDD93685795D83CA0249D33E205C9D0E585629530976).
    <br/>After scanning, a FDroid Dialog will appear 
 3. Click `OK`. The emacberry repository will be added.
