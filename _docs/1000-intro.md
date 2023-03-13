@@ -115,8 +115,8 @@ If your Rowing Machine supporting the Bluetooth FitnessMachineStandard you can s
 hard coded) outdoor rowing sessions.
 
 **[<i class="fa-solid fa-gears fa-fw"></i> Shimano Di2 Setup...](./3600-di2.html)**<br/>
-If you own a Wi-Fi module (EW-WU111) for your Di2, you can connect GPSLogger with your shifting system and
-remote control your device from your left & right hood buttons. 
+If you own a Wi-Fi module (EW-WU101 or EW-WU111) for your Di2, you can connect GPSLogger with your shifting system and
+remote control your device via the left & right shifting lever buttons. 
 <br class="shot-end"/>
 
 ## <span class="material-icons">info</span> Staring GPSLogger for the first time - on Android 7 (or later)
