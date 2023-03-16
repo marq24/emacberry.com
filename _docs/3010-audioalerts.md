@@ -6,31 +6,31 @@ menu-title: <i class="fa-solid fa-volume-high fa-fw"></i>&nbsp;Audio Announcemen
 # Overview
 
 Personally I am a big fan of being able to use GPSLogger _hands free_ - a big part of this experience comes from the
-fact that the app has implemented multiple so-called text to speech (tts) functionalities. Instead of checking my phone
+fact that the app has implemented multiple so-called text to speech (tts) functionalities. Instead of checking your phone
 every kilometer yourself (in order to look up your pace, overall distance or time) the app can automatically give you
 this information (if a specified distance is traveled).
 
 You have the choice, if the app should just give you a short audio signal once a certain mileage have been completed or
 if the app should inform you with overall and interval based information.
 
-> In the past years I had my mobile phone just in the back pocket of my cycling jersey and let me announce every 5 km
+> In the past years I have just had my mobile phone in the back pocket of my cycling jersey and let it announce every 5 km
 > the overall distance, the time for the last 5 km and the remaining distance (when I was following a previously
 > planed route) - Of course when I am following a planed route, the turn instructions will be also given via audio
-> commands - In combination to be able to control my phone via my Di2 shifting levers this has become extremely 
-> convenient to use \[e.g. to request details about the upcoming turn (specially the distance)\]. 
+> commands - In combination with being able to control my phone via my Di2 shifting levers this has become extremely 
+> convenient to use \[e.g. to request details about the upcoming turn (especially the distance)\]. 
  
-There are the following types of audio announcements available (alphabetical order):
+These are the following types of audio announcements available (alphabetical order):
 - [Event Announcements](#events)
 - [Gained Height](#height)
 - [Sector Announcements](#sector)
 - [Turn-by-Turn Instructions & Climb-ahead announcements](#turnbyturn)
 
 <i class="fa-solid fa-hand-point-up fa-fw"></i> You can specify the output channel on which the audio information will
-be submitted. Also, you should know, that if you are listening to music or an audiobook this playback will be temporary
-pause and after the signal resumed.
+be submitted. Also, you should know, that if you are listening to music or an audiobook this playback will be temporarily
+paused and after the signal resumed.
 
 **When you <i class="fa-solid fa-toggle-off"></i>** in the Application Settings > Speech & Audio Notifications > **Make
-use of speech synthesis**, then most of the audio announcements features **are disabled**. In this case only the 
+use of speech synthesis**, then most of the audio announcement features **are disabled**. In this case only the 
 **Simple-Mode** of the **Sector announcements** will be available as audio notification.
 
 # Sector announcements {#sector}
@@ -48,7 +48,7 @@ When you specify a sector distance of _0_ the feature is disabled.
 ## Simple-Mode
 
 The simple mode will just trigger the playback of an audio signal of your choice once the configured sector distance has
-been completed. You can additionally select the duration of the playback - You have the option to choice between 'play 1
+been completed. You can additionally select the duration of the playback - You have the option to choose between 'play 1
 time' and 'looping for 2-30 seconds'.
 
 ## Text-to-Speech Mode
@@ -66,16 +66,16 @@ provide you with the following information:
 - Distance to Finish (Navigation Mode)
 - Elevation climb to Finish (Navigation Mode)
 
-<i class="fa-solid fa-hand-point-up fa-fw"></i> You can enable/disable each information separately via the application
+<i class="fa-solid fa-hand-point-up fa-fw"></i> You can enable/disable each piece of information separately via the application
 settings!
 
-Few more things you should be aware of:
+A few more things you should be aware of:
 
-1. When you have enabled Total & Sector Data, then for the first Sector you hear the Distance & Time only once - since
+1. If you have enabled Total & Sector Data, then for the first Sector you will hear the Distance & Time only once - since
    Sector and Total values are identical.
-2. When you make use of the _Speed as Pace_ feature, and you have configured the sector distance to the equal value then
+2. When you make use of the _Speed as Pace_ feature, and you have configured the sector distance to an equal value to
    your pace distance (1 km or 1 mile) then a sector announcement can be quite irritating when you have enabled _Sector
-   time_ **and** _sector average speed_ since then you will hear two times a time based information (which is hopefully
+   time_ **and** _sector average speed_ since you will then hear two time based information announcements (which are hopefully
    identical).
 3. _Distance to Finish_ will be only announced if you have loaded a navigation path.
 4. _Elevation climb to Finish_ (remaining meters to climb) will be only announced if you have loaded a navigation path
@@ -83,7 +83,7 @@ Few more things you should be aware of:
 
 # Turn-by-Turn Instructions & Climb-ahead Information {#turnbyturn}
 
-I hope it's reasonable for you, that the turn-by-turn instructions require that you have loaded a navigation path. And
+I hope it's reasonable to you, the turn-by-turn instructions require that you have loaded a navigation path. And
 further: Climb-ahead information is only available if climb data could be extracted. [More information about the climb
 extraction requirements and process can be found in the corresponding Climb-View Section](./3300-climb.html#extraction).
 
@@ -95,8 +95,8 @@ extraction requirements and process can be found in the corresponding Climb-View
 - Turn-by-Turn announcements can be repeated for one time (<i class="fa-solid fa-toggle-on"></i> via the Application
   Settings)
 
-- Of course the announcement will be made, before the actual location is reached. The distance how many meters before
-  the waypoint the event-announcement will be made, depends on your current speed. As faster, you are, as more meters
+- Of course the announcement will be made, before the actual location is reached. The distance of how many meters before
+  the waypoint the event-announcement will be made, depends on your current speed. As the faster you are, the more meters
   ahead the announcement will take place. The core idea is, that it's always some seconds ahead so that you have time to
   prepare yourself for the turn. In addition, the events will be pre-announced at least 300 m before the actual
   location - so you should know something is coming.
@@ -147,11 +147,11 @@ your device. When enabled you will hear one of:
 
 ## GPS Status
 
-At the early stage of the application development it had happened, that when I kept my phone in the pocket, that I
+At the early stage of the application development it happened, that when I kept a phone in my pocket, that I
 turned _Airplane-Mode_ ON or turned _Location_ OFF by accident. So the app is able to inform you, when it does not
-receive a GPS location in a certain amount of time, so you are aware that the current location recording process can't
-be continued till the signal recovers (sometimes this recovery happens automatically - sometimes it's required to
-enable/reset a device setting). In case of an issue with the GPS signal you will hear on of:
+receive a GPS location for a certain amount of time, so you are aware that the current location recording process can't
+be continued until the signal recovers (sometimes this recovery happens automatically - sometimes it's required to
+enable/reset a device setting). In case of an issue with the GPS signal you will hear one of:
 
 > - GPS Signal was lost
 > - GPS Signal recovered
@@ -159,7 +159,7 @@ enable/reset a device setting). In case of an issue with the GPS signal you will
 ## Recording Started / Paused / Resumed / Stopped 
 
 When you make use of the AutoSTART / AutoSTOP or AutoPAUSE function of the app you might find it convenient to get an
-audio notification once one of these function was triggered. In case of on of the events you will hear:
+audio notification once one of these function are triggered. In case of one of the events you will hear:
 
 > - Recording Started
 > 
@@ -167,7 +167,7 @@ audio notification once one of these function was triggered. In case of on of th
 > 
 >   Alert Recording was not started
 > 
->   <sub>(when there was a technical issue that prevent the app from creating a new file in the storage)</sub>
+>   <sub>(when there was a technical issue that prevents the app from creating a new file in the storage)</sub>
 > - Recording was Paused
 > - Continue Recording
 > - Recording Stopped
@@ -177,35 +177,35 @@ audio notification once one of these function was triggered. In case of on of th
 Additionally, to the _Recording Stopped_ it's possible to get an announcement of a summary (total distance & total time)
 for your finished activity.
 
-## More than 50 m offside / Back on track
+## More than 50 m Off / Back on track
 
-When you are following a navigation path it might, can happen, that you leave the planed route by accident - when this
-happens you can let you inform about this fact that you are not on the planed route any longer.
+When you are following a navigation path it might / can happen, that you leave the planed route by accident - when this
+happens you can let it inform you that you are not on the planned route any longer.
 
-When you are offsite the route and have an online connection the app is able to request a possible detour back to your
+When you are off the route and have an online connection the app is able to request a possible detour back to your
 initial planed route - the app can let you know, when such a detour was found and the app is going to change the
 next Turn Instructions accordingly.
 
 Finally, once you are back on the route GPSLogger can inform you again. 
 
-Obviously this kind of announcements are some sort of obsolete when you are able to look at the display of your device -
-but even then - take these announcements as additional indicator.
+Obviously these kind of announcements are sort of obsolete when you are able to look at the display of your device -
+but even then - take these announcements as an additional indicator.
 
-In case of on of the events you will hear:
+In case of one of these events you will hear:
 > - You have left the path
 > - You will be re-directed
 > - You are back on track
 
-The _You have left the path_ announcement will be playback as loop - but the pause between the loops will increase over
+The _You have left the path_ announcement will be playback as a loop - but the pause between the loops will increase over
 time. 
 
 ## ANT+/BluetoothLE device connection status
 
 If you don't like to check each time when starting GPSLogger, if the connection to the additional configured sensors
-(for the current active profile) have has been established - or you wanted to be informed when the connection to a
+(for the current active profile) have been established - or you want to be informed when the connection to a
 sensor has been lost, then you can enable the _device connection status_ announcements.
 
-In case of on of the events you will hear:
+In case of one of the events you will hear:
 > - Heartrate Sensor connected / connection lost
 > - Cadence Sensor connected / connection lost
 > - Speed Sensor connected / connection lost
@@ -216,8 +216,8 @@ In case of on of the events you will hear:
 
 ## Di2 Battery below 20%
 
-Did your Di2 ever run out of power during a ride since you forgot to check the battery status before you started? This
-never happens to me! Since I will always know in advance when my Di2 will run low on power, thanks to GPSLogger.
+Has your Di2 ever run out of power during a ride as you forgot to check the battery status before you started? This
+never happens to me! Since I always know in advance when my Di2 will run low on power, thanks to GPSLogger.
 
 This event announcement can be <i class="fa-solid fa-toggle-on"></i> in the Di2 Settings Section of the App
 
