@@ -6,7 +6,7 @@ menu-title: <i class="fa-solid fa-house fa-fw"></i>&nbsp;Home Assistant
 
 # Overview
 
-When you have an own [Home Assistant](https://www.home-assistant.io/) instance running at you home and if this
+When you have your own [Home Assistant](https://www.home-assistant.io/) instance running at home and if this
 installation is reachable via a public URL (__https__), then you can use GPSLogger II as a location sensor.
 
 Once you have specified your Server URL and
@@ -15,20 +15,18 @@ GPSLogger II can constantly send your current location to your home. You do not 
 behaviour can be configured).
 
 <i class="fa-solid fa-hand-point-up fa-fw"></i> There is a __minimal movement distance__ of aprox. 1m - this means that
-the app will not send new locations to your Home Assistant Server when latitude or longitude will not change the 4'th
+the app will not send new locations to your Home Assistant Server when latitude or longitude does not change the 4'th
 digit.
 
 # Requirement
 
 - Your Home Assistant installation is reachable via a public __https__ URL (Android Apps have to use https for
   communication)
-- The app must be able to complete a https URL request in some other way (with other words you need to have internet
+- The app must be able to complete a https URL request in some other way (in other words you need to have internet
   access)
-- You need to create a long-lived access
-  token [see Home Assistant Authentication documentation: long-lived-access-token](https://developers.home-assistant.io/docs/auth_api/#long-lived-access-token)
+- You need to create a long-lived access token [see Home Assistant Authentication documentation: long-lived-access-token](https://developers.home-assistant.io/docs/auth_api/#long-lived-access-token)
   
-  You can create such a token in
-  your [Home Assistant User Profile](https://www.home-assistant.io/docs/authentication/#your-account-profile)
+  You can create such a token in your [Home Assistant User Profile](https://www.home-assistant.io/docs/authentication/#your-account-profile)
   (scroll down to the bottom of your profile page).
 
   It is highly recommended to use the '_copy and paste_' function when entering your long-lived access token.
