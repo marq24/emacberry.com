@@ -8,11 +8,11 @@ Tasker is an extremely powerful tool to automate _things_ on your Android device
 - [https://tasker.joaoapps.com/](https://tasker.joaoapps.com/)
 - [https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm](https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm)
 
-GPSLogger have build in location based autostart capability's by itself - so you don't have to use Tasker for that, but
+GPSLogger has built in location based autostart capabilities by itself - so you don't have to use Tasker for that, but
 of course if you want to give Tasker the control, you can do so. Please see [launching GPSLogger with an additional
 START or STOP logging command](#startstop) for details.
 
-What ever you choose, GPSLogger have the option to define Tasker tasks that should be called, once certain events occur
+Whatever you choose, GPSLogger has the option to define Tasker tasks that should be called, once certain events occur
 while your recording. The following events allow you to define Tasker Tasks:
 
 - Start Logging
@@ -22,13 +22,13 @@ while your recording. The following events allow you to define Tasker Tasks:
 - Live Location Share Event<br/>([see Live Location Sharing & HappyPartner for details](./3200-liveshare.html))
 
 The Tasker Tasks for Start, Stop, Pause & Resume can be configured in the Application Settings > General Settings >
-Tasker-Integration, the _Location Event_ Tasker Task have to be enabled and configured in the Application Settings >
-Sharing Location Information Section. Each time the app would send an eMail also the selected TASKER-TASK will be
+Tasker-Integration, the _Location Event_ Tasker Task has to be enabled and configured in the Application Settings >
+Sharing Location Information Section. Each time the app would send an eMail the selected TASKER-TASK will also be
 executed.
 
 # Provided Variables
-When a Tasker task will be called there is the possibility to provide additional variables to the task. GPSLogger will
-provide currently the following:
+Whenever a Tasker task is called there is the possibility to provide additional variables to the task. GPSLogger will
+currently provide the following:
 
 ## The %action Variable
 
@@ -82,8 +82,8 @@ Additional variables from external sensors
 | --- | --- |
 | %raw_hr | if available & when using _HR as %_ |
 | %hr | if available / |
-| %cad | if available / Bike Cadence as integer number (in rpm) |
-| %pow | if available / Bike Power as integer number (in watt) |
+| %cad | if available / Bike Cadence as an integer number (in rpm) |
+| %pow | if available / Bike Power as an integer number (in watts) |
 
 <!--
 keyValues.add(new String[]{"raw_altitude", recToUse.getAlt()+"" });
@@ -144,7 +144,7 @@ Please use the following intent details if you want to launch GPSLogger and trig
 />
 ```
 
-So as example, when you want to start logging via Tasker you have to specify in the Tasker Action-Dialog:
+So as an example, when you want to start logging via Tasker you have to specify in the Tasker Action-Dialog:
 
 | Action | intent.action.STARTREC |
 | Cat | none |
