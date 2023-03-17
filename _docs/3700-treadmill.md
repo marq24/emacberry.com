@@ -7,12 +7,12 @@ title: <i class="fa-solid fa-person-running fa-fw"></i>&nbsp;Treadmill
 When you own a Treadmill with Bluetooth that supports the Fitness Machine Service (FTMS) standard then you can use
 GPSLogger to simulate a run anywhere in the world (including up- & downhill simulation).
 
-All what is need to know have been added into the Treadmill Setup Wizard that can be launched from the main menu.
+All that needs to be known has been added into the Treadmill Setup Wizard that can be launched from the main menu.
 
-The Wizard will end with a short introduction how to use GPSLogger with your treadmill once you have completed the
+The Wizard will end with a short introduction of how to use GPSLogger with your treadmill once you have completed the
 initial configuration.
 
-When you make use of the Wizard the Treadmill will be configured as own profile (that can be managed via the \'multi
+When you make use of the Wizard the Treadmill will be configured as it's own profile (that can be managed via the \'multi
 preferences\' settings) - so you can easily switch between the outdoor &amp; indoor usage without the need to alter any
 of your settings.
 
@@ -27,7 +27,7 @@ device). The app can automatically slow down as the incline increases (and vise 
 > OF THE POSSIBILITY OF SUCH DAMAGES.
 
 # <span class="material-icons">warning</span> DANGER - Allowing speed control can cause fatal injuries
-> Please understand that when GPSLogger takes the control over the speed & incline of your treadmill, it could cause
+> Please understand that when GPSLogger takes control over the speed & incline of your treadmill, it could cause
 > serious accidents. Remember the movie Terminator!
 >
 > Any speed & incline adjustment will be done within the limits of the capabilities of your treadmill.
@@ -52,22 +52,22 @@ device). The app can automatically slow down as the incline increases (and vise 
 
 GPSLogger comes with a short wizard that will help you to connect your Bluetooth supporting Treadmill with the App (and
 create an **Indoor Run** multi sport profile) - once you have completed the procedure you should hear a
-"Treadmill connected"... once you have heard this confirmation you can start recording by following this simple steps:
+"Treadmill connected"... once you have heard this confirmation you can start recording by following these simple steps:
 
 ## Step 1 - Select a start location
 
 <span class="shot">![tmill-tut001](/assets/img/gpsl/tmill-tut001.png)</span>
-Pan on the Map to any location you would like to start your treadmill activity - tab and hold on the map till the
-context menu will be displayed - from the menu select <span class="material-icons">my_location</span> **Set my location**
+Pan on the Map to any location you would like to start your treadmill activity - tab and hold on the map until the
+context menu is displayed - from the menu select <span class="material-icons">my_location</span> **Set my location**
 <br class="shot-end">
 
 ## Step 2 - Select your destination & navigation type
 
 <span class="shot">![tmill-tut002](/assets/img/gpsl/tmill-tut002.png)</span>
-Pan on the Map to any other location you would like to end your treadmill activity - tab and hold on the map again till
-the context menu will be displayed once more and select from the menu this time <span class="material-icons">directions</span>
+Pan on the Map to any other location you would like to end your treadmill activity - tab and hold on the map again until
+the context menu is displayed once more and select from the menu this time <span class="material-icons">directions</span>
 **Directions...** - please note, that you have to be online in order to use the "instant" navigation function of
-GPSLogger. If you are offline you can load any previously recorded activity as navigation path.
+GPSLogger. If you are offline you can load any previously recorded activity as a navigation path.
 <br class="shot-end">
 
 <span class="shot">![tmill-tut003](/assets/img/gpsl/tmill-tut003.png)</span>
@@ -80,13 +80,13 @@ OpenMapRouting service.
 
 <span class="shot">![tmill-tut004](/assets/img/gpsl/tmill-tut004.png)</span>
 Once a navigation path is present/loaded you can press the
-<span class="btn">![button-rec](/assets/img/gpsl/button-rec.png)</span> **REC** button in the to top bar of the
-application - this will send the start command to your treadmill that should shortly start (mine here have a delay of
+<span class="btn">![button-rec](/assets/img/gpsl/button-rec.png)</span> **REC** button in the top bar of the
+application - this will send the start command to your treadmill that should shortly start (mine here has a delay of
 5 sec) incl. a countdown. You will now follow the navigation path and depending on your additional GPSLogger treadmill
 configuration the app will simulate the slope of the terrain ahead.
 
 <span class="material-icons">warning</span> If you have enabled **speed & incline control** in the application
-setting, you need to confirm with every usage, that you are aware of the potential fatal injury risk!
+setting, you need to confirm with every use, that you are aware of the potential fatal injury risk!
 
 You can stop the treadmill via the <i class="fa-solid fa-circle-stop"></i> **Stop** recording symbol (or simply via the
 controls of your treadmill). When you have connected GPSLogger with <i class="fa-brands fa-strava"></i> Strava and
