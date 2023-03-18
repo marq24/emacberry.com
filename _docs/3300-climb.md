@@ -9,17 +9,17 @@ menu-title: <i class="fa-solid fa-mountain fa-fw"></i>&nbsp;Climb-Detection
 Being able to judge your walking, hiking or cycling performance in flat terrain is relatively easy (of course this
 depends on your overall fitness level & endurance).
 
-<!-- My personal experience (living in quite a flat area) is, that it will get quite challenging to judge the difficulty
+<!-- My personal experience (living in quite a flat area) is that it will get quite challenging to judge the difficulty
 > of a route when you move into hilly regions. -->
 
-When you ever planed (or going to plan) a tour in an alpine area, knowing the climbs ahead of you can become very
-essential. Additionally, being able to et some information while you are climbing like: how many meters you have already
+When you've ever planned (or are going to plan) a tour in an alpine area, knowing the climbs ahead of you can become very
+essential. Additionally, being able to gt some information while you are climbing like: how many meters you have already
 completed or how many meters you still have to go, can become quite a motivating factor.
 
 GPSLogger is trying to support you in this kind of challenges by offering a Climb-Detection algorithm and a dedicated
 view providing you with current climb information.
 
-Since GPSLogger obviously haven't implemented a cristal ball, it's required to load a navigation path that you would
+Since GPSLogger obviously hasn't implemented a crystal ball, it's required to load a navigation path that you would
 like to follow (so you have to have an already planed route/path).
 
 # Requirements
@@ -37,14 +37,14 @@ the user with key information about those climbs. This includes:
 - the distance to the next climb ahead of you
 - the length of each climb
 - the elevation gain left to complete on the current climb
-- the current grade
+- the current gradient
 
-## Essentials about grade (or slope)
+## Essentials about gradient (or slope)
 
-The _grade value_ is a critical part of how GPSLogger detects climbs, so it usefully to make sure that the concept is
+The _grade value_ is a critical part of how GPSLogger detects climbs, so it is useful to make sure that the concept is
 understood. GPSLogger uses **grade as a %** in its calculations. Garde or slope is the rise (gain in elevation) over the
-horizontal distance travelled. So when you're traveling 500 m and the gain 20 m of height, then the grade is 4%
-(20 m divided by 500 m, multiplied with 100 - or easier 20 divided by 5).
+horizontal distance travelled. So when you're travelling 500 m and you gain 20 m of height, then the grade is 4%
+(20 m divided by 500 m, multiplied by 100 - or easier 20 divided by 5).
 
 ## How does GPSLogger identify climbs?
 
@@ -53,7 +53,7 @@ in your navigation path - this value is called _climb score_ and will be calcula
 
 **Climb Score = length of the climb (in meters) x grade (in percent)**
 
-Additionally, to the climb detection the app uses the _climb score_ to classify the climbs. GPSLogger use an objective
+Additionally, in the climb detection the app uses the _climb score_ to classify the climbs. GPSLogger use an objective
 measure and treats each mountain isolated from each other by the following climb score value:
 
 - Category 4 > 8000
@@ -62,9 +62,9 @@ measure and treats each mountain isolated from each other by the following climb
 - Category 1 > 48000
 - HC (Hors Category) > 64000
 
-Please note, that the categorizations can differ from categorizations you know from professional road cycling, where the
-categorization of climbs is subjective and controlled by the race organizers who will take into consideration what the
-riders have already climbed a certain elevation when categorizing each climb.
+Please note, that the categorizations can differ from those you know from professional road cycling, where the
+categorization of climbs is subjective and controlled by the race organizers who will take into consideration what elevation
+the riders have already climbed when categorizing each climb.
 
 ### The rules for considering an _elevation change over time_ as a climb in GPSLogger
 All rules must be satisfied.
@@ -76,7 +76,7 @@ All rules must be satisfied.
 4. A climb must have a minimum elevation gain of 30 m
 
 ### Examples
-Here are some examples to illustrate how GPSLogger will apply the given rules to data in your navigation path. In this
+Here are some examples to illustrate how GPSLogger will apply the given rules to the data in your navigation path. In this
 example it's assumed you have configured a _climb score_ of 3100:
 
 1. A length of **850 m** with an average grade **3.1%** -> **not** detected as climb (Rule 3), _climb score_ not reached
@@ -90,30 +90,30 @@ example it's assumed you have configured a _climb score_ of 3100:
 5. A length of **490 m** with average grade **12.3%** -> **not** detected as climb (Rule 1), too short (even if _climb score_ = 6027)
 6. A total length of 18 kilometers, the first **5 km** with average grade **7.2%** and the remaining **13 km**
    with an average grade of **2.1%** -> **not** detected as (Rule 2).
-   <br/>Note: GPSLogger will identify a shorter climb, but not the full 20 km distance in this case.
+   <br/>Note: GPSLogger will identify the first shorter climb, but not the full 20 km distance in this case.
 
 The GPSLogger climb detection algorithm does not guarantee that the summit of a climb will be included in a climb, if it
 flattens out near the top - but the app always tries to end climbs at the highest detected point.
 
 ### What to do, when you do not see any Climbs in your loaded navigation path?
 
-First make sure that the path you are loaded as navigation path contains elevation data. If it does, then the elevation
+First make sure that the path you have loaded as navigation path contains elevation data. If it does, then the elevation
 profile is not meeting the requirements of GPSLoggers climb detection. For users in flat regions (like myself) this may
 be frustrating, but GPSLogger is designed to only report significant climbs. The minimum _climb score_ is 3000.
 
 ### Possibility of breaking up climbs in case of a descent?
 
-If the overall rule#2 (average grade >= 3%) is not broken the algorithm allow downhill sections within a certain
-range - as longer (distance wise) a climb is, as longer a flat/decent part can be. When the decent is more than 50% of
-the climb (elevation meter wise) the app will consider the climb as ended (at the highest point).
+If the overall rule#2 (average grade >= 3%) is not broken then the algorithm allows downhill sections within a certain
+range - as the longer (distance wise) a climb is, the longer a flat/decent part can be. When the decent is more than 50% of
+the climb (elevation meter wise) the app will consider the climb has ended (at the highest point).
 
 # Climb View {#view}
-The climb view will only show data if you have loaded a navigation path, that contains elevation data. Furthermore, this
+The climb view will only show data if you have loaded a navigation path that contains elevation data. Furthermore, this
 data has to contain elevation changes that qualify for **one** or **multiple climbs** [see climb detection](#algo).
 
-The Climb view shows always the climb that is the closest to your current position (but in the climbs are ordered by the
+The Climb view always shows the climb that is the closest to your current position (but in the climbs are ordered by the
 sequence of their occurrence in the loaded navigation path). So please don't get confused when you start your activity
-and the Climb View will show you not the first climb in the sequence.
+and the Climb View will doesn't show the first climb in the sequence.
 
 ## Before or after a Climb
 <span class="shot">![view-climb](/assets/img/gpsl/view-climb01.png)</span>
@@ -124,8 +124,8 @@ and the Climb View will show you not the first climb in the sequence.
 - Upper middle: ⛰ total elevation meters of the climb
 - Upper right: 📏 total distance of the climb
  
-So here in the example the climb is the only climb of the complete route. It has a length of 1,07 km, and you need to
-climb a total of 43,0 m. The Climb have a direct distance (as the crow flies) of 14,7 km to your current position
+So in this example the climb is the only climb of the complete route. It has a length of 1,07 km, and you need to
+climb a total of 43,0 m. The Climb has a direct distance (as the crow flies) of 14,7 km to your current position
 (not considering the planed route).
 <br class="shot-end">
 
@@ -135,23 +135,23 @@ climb a total of 43,0 m. The Climb have a direct distance (as the crow flies) o
 When you are in the climb the distance to the climb will change into two lines:
 - Large Font Top: completed elevation gain
 - Large Font Bottom: completed distance
-- Dot-Marker: your actual position in the climb profile showing (might be to small) the current grade
+- Dot-Marker: your actual position in the climb profile showing (might be too small) the current grade
 
-So here in this example you have completed already 25,5 m (of a total of 45.0 m) in elevation gain, and you have
+So here in this example you have already completed 25,5 m (of a total of 45.0 m) in elevation gain, and you have
 passed 675 m (of a total of 1,07 km) distance wise.   
 <br class="shot-end">
 
 # Auto enable Climb View when approaching a Climb
 
-When you select in the Application Settings > Speech & Audio Notifications > TurnByTurn Instructions & Climb-ahead > 
-Auto enable Climb View on of _Primary View_, _Secondary View I_ or _Secondary View II_ the app will automatically switch
+In the Application Settings when you select > Speech & Audio Notifications > TurnByTurn Instructions & Climb-ahead > 
+Auto enable Climb View in _Primary View_, _Secondary View I_ or _Secondary View II_ the app will automatically switch
 to the Climb View in the selected main screen area once you are approaching the next climb (and switch back to the
-original view once the climb have been completed).
+original view once the climb has been completed).
 
 > Even if I can use my Di2 Shifting levers to switch the current view while cycling - once I am approaching a climb I
 > want to switch my main map view automatically to the climb view - and once I have mastered the climb I find it
 > convenient that the map will be restored as main view - since while I am in a climb I will use the TextToSpeech
-> TurnInstructions anyhow (if there is one at all).
+> TurnInstructions anyhow (if there are any).
 
 
 # VAM {#vam}
