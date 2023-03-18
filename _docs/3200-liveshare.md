@@ -7,14 +7,14 @@ menu-title: <i class="fa-solid fa-location-arrow fa-fw"></i>&nbsp;Live Sharing
 
 With GPSLogger it's possible to frequently share your live location with others. Who is going to be able to access your
 location is totally up to you. The app does **not offer an additional backend-service** which is sharing your current
-location - all is happening from your device only. The sharing happens either simply by emailing or the app can
+location - all is happening from your device only. The sharing happens either by simply emailing or the app can
 frequently send your location to a custom URL in a given format (including support
-for [Home Assistant](https://www.home-assistant.io/)). Once the location has been sent to such a URL is beyond the
+for [Home Assistant](https://www.home-assistant.io/)). Once the location has been sent to such a URL it is beyond the
 control of the app - use this feature wisely.
 
-The _HappyPartner - HappyLife_ is an extension of the regular share-current-location functionality that was build into
-GPSLogger almost since the first day. Initially called _HappyWife - HappyLife_, the function has been renamed in 2022.
-The intention of this function is to let a recipient (or multiple) know your current location after a certain amount of
+The _HappyPartner - HappyLife_ is an extension of the regular share-current-location functionality that was built into
+GPSLogger almost from the first day. Initially called _HappyWife - HappyLife_, the function has been renamed in 2022.
+The intention of this function is to let a recipient (or multiple recipients) know your current location after a certain amount of
 time.
 
 > When I am on a solo cycling tour, then my wife knows, I usually return after 2 hours. When I am not back at home
@@ -44,16 +44,16 @@ You have the option to share your location in three different ways:
 ## Start sharing your location after a delay
 
 As described above you might not want to instantly share your location once you start with your activity - therefore you
-can specify in the application settings an initial delay. Only if your activity takes longer then this initial delay the
-sharing process will be started.
+can specify in the application settings an initial delay. Only if your activity takes longer then this initial delay will the
+sharing process be started.
 
 You can specify such a delay via: Application Settings > Sharing Location Information > HappyPartner HappyLife
 
 ## Share via eMail
 
 Specify a recipient (or multiple recipients), specify a subject that should be used and additionally specify the content
-of the email that will be sent by the application. Additionally, to your custom body the app will add (used location
-values are just example):
+of the email that will be sent by the application. Additionally, to your custom body the app will add other data (used location
+values are just an example):
 
 ```mail
 
@@ -72,13 +72,13 @@ Please [see the dedicated TASKER Integration section of this manual](./3900-task
 
 ## Share your location via a custom URL {#customurl}
 
-You can specify a custom URL to which GPSLogger going to send a simple GET-Request including our current position as
-decimal latitude & longitude values, as URL parameters, all as plain text, not encoded & **not encrypted**. A timout of
+You can specify a custom URL to which GPSLogger is going to send a simple GET-Request including your current position as
+decimal latitude & longitude values, as URL parameters, all as plain text, not encoded & **not encrypted**. A timeout of
 5 seconds for the request will be used.
 
 Additional to the defined time interval in which the app is going to send the current location of the device to your
 specified URL, the app will send on _Start/Stop recording_ and _Pause/Continue recording_ events additional requests
-that contains and additional parameter `cmd` (with the event type as value) in order to allow you further server side
+that contains an additional parameter `cmd` (with the event type as value) in order to allow you further server side
 actions.
 
 <i class="fa-solid fa-hand-point-up fa-fw"></i> You might like to add some sort of ID to your URL, if you want to be
@@ -91,24 +91,24 @@ The GET-REQUEST will have the following format:
 
 `{YOUR_SERVER_URL}?lat={LATITUDE_AS_DECIMAL_NUMBER}&lon={LONGITUDE_AS_DECIMAL_NUMBER}[&cmd={start|stop|pause|continue}]`
 
-As example, if you have an own server/domain, and you want to collect your locations there, then you can write some small
+As an example, if you have your own server/domain, and you want to collect your locations there, then you can write some small
 request processing code yourself and deploy it on your server. Assuming your domain is called _www.anyfancydoma.in_, and
-you have written a PHP script called _incoming_ that going to process the requests, then you should specify in the
+you have written a PHP script called _incoming_ that's going to process the requests, then you should specify in the
 application settings the URL _https://www.anyfancydoma.in/incoming.php_.
 
-If your server URL contain an additional custom device-likeID parameter and therefore already including a `?`, the app
+If your server URL contains an additional custom device-likeID parameter and therefore already including a `?`, the app
 will add an `&` instead of the `?` after the given `[YOUR_SERVER_URL]`.
 
-The resulting requests the app generate will look then like this (just as example - of course lat, lon and id values
+The resulting requests the app generates will then look like this (just as an example - of course lat, lon and id values
 will be different): 
 
 `https://www.anyfancydoma.in/incoming.php?lat=47.39553088&lon=11.22492661`
 
-Please note that there is no backend available @ emacberry.com that would handle live location requests - simply cause
+Please note that there is no backend available @ emacberry.com that would handle live location requests - simply because
 of privacy concerns that would come with hosting this kind of data.
 
 Here is some example PHP code that is able to process GPSLogger live location sharing requests and store this data into
-a local mysql database table with the name _gpslogger_live_ (the config.php have to contain your database credentials):
+a local mysql database table with the name _gpslogger_live_ (the config.php has to contain your database credentials):
 
 ```php
 <?php
@@ -173,7 +173,7 @@ A config.php template - _???_ have to be replaced with your mysql db values
 ?>
 ```
 
-Creating the MySQL db with the possibility to create in-rage queries 
+Creating the MySQL db with the possibility to create in-range queries 
 ```sql
 CREATE TABLE `your_location_live_data` (
     `lat` double NOT NULL,
