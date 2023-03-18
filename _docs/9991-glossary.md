@@ -1,6 +1,6 @@
 ---
 title: <i class="fa-solid fa-book"></i> Glossary
-sub-title: Used acronyms in this manual
+sub-title: Acronyms used in this manual
 menu-title: <i class="fa-solid fa-book fa-fw"></i>&nbsp;Glossary
 ---
 
