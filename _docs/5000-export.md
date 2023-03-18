@@ -10,7 +10,7 @@ Import & export  - exchange files - see also the integrated eMail options (for y
 - File System related Permissions: _WRITE_EXTERNAL_STORAGE_ & _READ_EXTERNAL_STORAGE_
 
 # Some General Notes
-With Android 11 / SDK30 (and the Google Play Stores requirement to support SDK30 since November 2021) it has become
+With Android 11 / SDK30 (and the Google Play Store requirement to support SDK30 since November 2021) it has become
 quite complicated to export files.
 
 I can fully understand the motivation from Google behind the changes with SDK30 - but it makes it quite complicated for
