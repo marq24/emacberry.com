@@ -120,11 +120,29 @@ keyValues.add(new String[]{"hr", hrVal});
 }
 --> 
 
+## Start & Stop GPSLogger recording from a shell command line
+
+To start or stop GPSLogger recording you can send the very simple shell command:
+`am start -n com.emacberry.gpslogger/.GPSLoggerActivity --ez stopLogging true -f 536870912`
+
+When the app is recoding, then the recording will be stopped - if the app is not recording (and ist not in the view-mode)
+then the recording will be started. Please note, that STOP-recording might be intercepted with a confirm dialog. The `-f`
+is the FLAG option and we will send the `FLAG_ACTIVITY_SINGLE_TOP` (which has the int value 536870912) - as alternative
+the `--activity-single-top` can be used.
+
+### Need more control?
+If you want to have more control over start/stop behaviour (and do not like to use the simple toggle) you can make use of
+this alternative shell command lines:
+#### Start logging
+`am start -a intent.action.STARTREC -n com.emacberry.gpslogger/.GPSLoggerActivity -f 536870912`
+#### Stop logging
+`am start -a intent.action.STOPREC -n com.emacberry.gpslogger/.GPSLoggerActivity -f 536870912`
+
 ## Start & Stop GPSLogger recording from TASKER {#startstop}
 
 Please use the following intent details if you want to launch GPSLogger and trigger START or STOP from Tasker:
 
-### Start Recording Intent 
+### Start Recording Intent
 
 ```xml
 <intent
@@ -168,4 +186,3 @@ See [Forum Post: "Tasker integration basics" (by napalmfires)](https://forum.ema
 </TaskerData>
 ```
 -->
-
