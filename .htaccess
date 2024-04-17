@@ -1,6 +1,7 @@
-Options -Indexes
+Options -MultiViews -Indexes
 
-AddHandler application/x-httpd-ea-php74 .php .html .htm
+#AddHandler application/x-httpd-ea-php74 .php .html .htm
+
 ErrorDocument 404 /404.html
 ErrorDocument 403 /403.html
 
@@ -24,3 +25,7 @@ RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ 
 RewriteCond %{REQUEST_URI} !/appsrv/map/getprovider_droid2020.php [NC]
 RewriteCond %{REQUEST_URI} !/appsrv/map/getprovider_droid2022.php [NC]
 RewriteRule ^(.*)$ https://%{SERVER_NAME}%{REQUEST_URI} [R=301,L]
+
+RewriteBase /
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^appsrv/gpsl/index\.html$ /appsrv/gpsl/index.php [NC,QSA,L]
